@@ -1,0 +1,12 @@
+bin/
+obj/
+*.user
+.vs/
+.claude/settings.local.json
+.claude/skills/*/evals/
+.claude.local.md
+plugin/mtg-archive/evals/results/
+
+# Local Untapped.gg exports and raw downloads; git does not hold them (data/README.md)
+data/popularity/
+data/brawl-stats/

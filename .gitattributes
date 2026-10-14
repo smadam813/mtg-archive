@@ -1,0 +1,19 @@
+# Shell scripts run under Linux sh (hooks, devcontainer); CRLF breaks them.
+*.sh text eol=lf
+# Dockerfile line continuations must not carry CR.
+Dockerfile text eol=lf
+tests/MtgArchive.Tests/fixtures/decks/*.json text eol=lf
+# A parity deck file's SHA-256 is its stale check: no CRLF conversion.
+eval/parity/**/*.json text eol=lf
+eval/parity/diagnosis/*.txt text eol=lf
+eval/parity/diagnosis/*.md text eol=lf
+eval/parity/cutover/diagnosis/*.txt text eol=lf
+eval/parity/cutover/diagnosis/*.md text eol=lf
+# The XMage patch series applies byte for byte: no line-ending conversion.
+engine/xmage/patches/*.patch -text
+engine/xmage/XMAGE_TAG text eol=lf
+# A local popularity export stays byte for byte as Untapped wrote it, also when
+# restored from history (data/README.md); its SHA-256 is a corpus-state stamp.
+data/popularity/**/*.csv -text
+# The generator copies this file into XMage, so its bytes are part of patch 0001.
+engine/xmage/tools/RandomUtil.java text eol=lf

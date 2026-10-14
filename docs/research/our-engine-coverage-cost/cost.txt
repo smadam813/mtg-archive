@@ -1,0 +1,50 @@
+== clause count, defined staples in the sample: 13 mean 1.38
+== today
+  slots by class: {'uncovered': 3981, 'inert_exact': 122, 'fetch_facet': 100, 'defined': 125, 'expressible': 104}
+  unique by class: {'uncovered': 2365, 'inert_exact': 22, 'fetch_facet': 14, 'defined': 13, 'expressible': 33}
+
+== greedy steps: new slots, new unique cards to author (all hand / lands by facet)
+  step 0: expressible today, unauthored: 33 cards, 104 slots, 44 clauses
+   1. Replacement and prevention effects: +287 slots -> 16.7%; +87 cards (85 lands, 84 facet lands, 28 in one slot, 2.15 clauses each, 187 clauses); cumulative to author 120 (facet route 36); top: Dragonskull Summit, Drowned Catacomb, Sunken Hollow, Cinder Glade, Smoldering Marsh, Sulfur Falls
+   2. Life total (gain, loss, payment): +209 slots -> 21.4%; +38 cards (22 lands, 21 facet lands, 10 in one slot, 2.42 clauses each, 92 clauses); cumulative to author 158 (facet route 53); top: Watery Grave, Blood Crypt, Steam Vents, Talisman of Dominance, Godless Shrine, Overgrown Tomb
+   3. Targets, opponents, and other players' objects: +80 slots -> 23.2%; +46 cards (10 lands, 0 facet lands, 29 in one slot, 1.72 clauses each, 79 clauses); cumulative to author 204 (facet route 99); top: Luxury Suite, Feed the Swarm, Morphic Pool, Training Center, Ruinous Ultimatum, Vault of Champions
+   4. Stack and responses: +114 slots -> 25.7%; +38 cards (1 lands, 0 facet lands, 17 in one slot, 1.79 clauses each, 68 clauses); cumulative to author 242 (facet route 137); top: Swords to Plowshares, Counterspell, Infernal Grasp, Arcane Denial, Anguished Unmaking, Lightning Bolt
+   5. mana_complex: +105 slots -> 28.1%; +33 cards (22 lands, 0 facet lands, 20 in one slot, 2.39 clauses each, 79 clauses); cumulative to author 275 (facet route 170); top: Exotic Orchard, Fellwar Stone, Commander's Sphere, Lotus Petal, Reflecting Pool, Secluded Courtyard
+   6. Trigger events beyond on_enter, at_step, on_draw: +119 slots -> 30.8%; +50 cards (4 lands, 0 facet lands, 30 in one slot, 1.54 clauses each, 77 clauses); cumulative to author 325 (facet route 220); top: Path of Ancestry, Rhystic Study, Mystic Remora, Archmage Emeritus, Authority of the Consuls, City of Brass
+   7. Combat: +192 slots -> 35.1%; +156 cards (4 lands, 0 facet lands, 131 in one slot, 2.19 clauses each, 342 clauses); cumulative to author 481 (facet route 376); top: Birds of Paradise, Baleful Strix, Bloom Tender, Noxious Gearhulk, Welcoming Vampire, Alpha Deathclaw
+   8. Continuous effects (layers): +307 slots -> 42.1%; +200 cards (32 lands, 0 facet lands, 158 in one slot, 2.40 clauses each, 480 clauses); cumulative to author 681 (facet route 576); top: Lightning Greaves, Swiftfoot Boots, Heroic Intervention, Chromatic Lantern, Skullclamp, Toxic Deluge
+   9. Counters (+1/+1, loyalty, other): +228 slots -> 47.2%; +164 cards (12 lands, 0 facet lands, 125 in one slot, 2.55 clauses each, 418 clauses); cumulative to author 845 (facet route 740); top: Nazgûl, Evolution Sage, Inexorable Tide, Deepglow Skate, Hardened Scales, Karn's Bastion
+  10. Tokens: +241 slots -> 52.6%; +169 cards (6 lands, 0 facet lands, 128 in one slot, 2.37 clauses each, 400 clauses); cumulative to author 1014 (facet route 909); top: An Offer You Can't Refuse, Swan Song, Beast Within, Generous Gift, Avenger of Zendikar, Bastion of Remembrance
+  11. Graveyard and exile as play zones: +247 slots -> 58.2%; +164 cards (15 lands, 0 facet lands, 116 in one slot, 2.66 clauses each, 436 clauses); cumulative to author 1178 (facet route 1073); top: Bojuka Bog, Deadly Rollick, Deflecting Swat, Fierce Guardianship, Anger, Dauthi Voidwalker
+  12. discard: +182 slots -> 62.3%; +120 cards (33 lands, 0 facet lands, 86 in one slot, 2.60 clauses each, 312 clauses); cumulative to author 1298 (facet route 1193); top: Ash Barrens, Canyon Slough, Fetid Pools, Angel of the Ruins, Faithless Looting, Festering Thicket
+  13. rule_restriction: +163 slots -> 66.0%; +84 cards (8 lands, 0 facet lands, 56 in one slot, 2.52 clauses each, 212 clauses); cumulative to author 1382 (facet route 1277); top: Reliquary Tower, Rogue's Passage, Putrefy, Teferi's Protection, Thought Vessel, Propaganda
+  14. put_onto_battlefield: +114 slots -> 68.6%; +53 cards (4 lands, 0 facet lands, 39 in one slot, 2.28 clauses each, 121 clauses); cumulative to author 1435 (facet route 1330); top: Cultivate, Chaos Warp, Reanimate, Kodama's Reach, Solemn Simulacrum, Sword of the Animist
+  15. tutor_complex: +115 slots -> 71.2%; +50 cards (13 lands, 0 facet lands, 34 in one slot, 2.06 clauses each, 103 clauses); cumulative to author 1485 (facet route 1380); top: Path to Exile, Farseek, Nature's Lore, Assassin's Trophy, Myriad Landscape, Three Visits
+  16. sacrifice_other: +121 slots -> 73.9%; +77 cards (7 lands, 0 facet lands, 49 in one slot, 2.52 clauses each, 194 clauses); cumulative to author 1562 (facet route 1457); top: Harrow, Springbloom Druid, Deadly Dispute, Braids, Arisen Nightmare, Crop Rotation, Liliana, Dreadhorde General
+  17. cost_other: +130 slots -> 76.8%; +100 cards (18 lands, 0 facet lands, 78 in one slot, 2.59 clauses each, 259 clauses); cumulative to author 1662 (facet route 1557); top: Viscera Seer, Fiery Islet, High Market, Mana Confluence, Relic of Legends, Scavenger Grounds
+  18. draw_complex: +114 slots -> 79.4%; +75 cards (1 lands, 0 facet lands, 59 in one slot, 2.36 clauses each, 177 clauses); cumulative to author 1737 (facet route 1632); top: Smothering Tithe, Orcish Bowmasters, Windfall, Faerie Mastermind, Sheoldred, the Apocalypse, Gleaming Splendor
+  19. cost_reduction: +113 slots -> 81.9%; +70 cards (6 lands, 0 facet lands, 51 in one slot, 2.60 clauses each, 182 clauses); cumulative to author 1807 (facet route 1702); top: Blasphemous Act, Lethal Scheme, Nightscape Familiar, Otawara, Soaring City, Clever Concealment, Herald's Horn
+  20. modal: +105 slots -> 84.3%; +69 cards (1 lands, 0 facet lands, 51 in one slot, 4.32 clauses each, 298 clauses); cumulative to author 1876 (facet route 1771); top: Casualties of War, Victimize, Abrade, Black Market Connections, Akroma's Will, Austere Command
+  21. alt_cost: +103 slots -> 86.6%; +70 cards (0 lands, 0 facet lands, 56 in one slot, 2.91 clauses each, 204 clauses); cumulative to author 1946 (facet route 1841); top: Cyclonic Rift, Vandalblast, Tear Asunder, Bolas's Citadel, Damn, Everflowing Chalice
+  22. mill: +83 slots -> 88.5%; +53 cards (1 lands, 0 facet lands, 31 in one slot, 2.72 clauses each, 144 clauses); cumulative to author 1999 (facet route 1894); top: Syr Konrad, the Grim, Aftermath Analyst, Colossal Grave-Reaver, Skull Prophet, Stitcher's Supplier, Ashiok, Dream Render
+  23. Copy effects: +67 slots -> 90.0%; +56 cards (4 lands, 0 facet lands, 46 in one slot, 2.79 clauses each, 156 clauses); cumulative to author 2055 (facet route 1950); top: Firebender Ascension, Dualcaster Mage, Echoing Deeps, Fire Lord Azula, Flusterstorm, Narset's Reversal
+  24. x_cost: +70 slots -> 91.6%; +53 cards (4 lands, 0 facet lands, 40 in one slot, 2.51 clauses each, 133 clauses); cumulative to author 2108 (facet route 2003); top: Kessig Wolf Run, Esper Sentinel, Pest Infestation, Astral Cornucopia, Dauntless Dismantler, Electrodominance
+  25. untap: +62 slots -> 93.0%; +43 cards (4 lands, 0 facet lands, 31 in one slot, 3.14 clauses each, 135 clauses); cumulative to author 2151 (facet route 2046); top: Frantic Search, Snap, Tamiyo, Field Researcher, Baloth Prime, Mana Vault, Patriar's Seal
+
+== frequency tail (nonbasic)
+  unique nonbasic 2447, cards in exactly one slot 1720
+  Good-Turing unseen mass n1/N = 1720/4432 = 38.8% of a new deck's nonbasic slots hold a card the sample never saw
+  unique cards, most frequent first, to hold a share of sample slots: {'50%': 479, '75%': 1339, '90%': 2004}
+
+== one-tag-away cards, unique counts
+  etb_tapped: 74 cards, 256 slots, lands 73
+     Dragonskull Summit x15; Drowned Catacomb x13; Sunken Hollow x13; Sulfur Falls x10; Smoldering Marsh x10; Cinder Glade x10; Isolated Chapel x8; Clifftop Retreat x8; Hinterland Harbor x8; Woodland Cemetery x8; Canopy Vista x7; Rootbound Crag x6; Vernal Fen x6; Glacial Fortress x5; Nomad Outpost x5; Opulent Palace x5; Crumbling Necropolis x5; Sunpetal Grove x5; Temple of Mystery x5; Jungle Shrine x5; Prairie Stream x4; Seaside Citadel x4; Stormcarved Coast x4; Golgari Rot Farm x4; Temple of Malady x4; Arcane Sanctum x3; Sandsteppe Citadel x3; Frontier Bivouac x3; Radiant Grove x3; Dreamroot Cascade x2; Temple of Deceit x2; Timeless Lotus x2; Gruul Turf x2; Temple of Epiphany x2; Temple of Abandon x2; Simic Guildgate x2; Rockfall Vale x2; Shipwreck Marsh x2; Sacred Peaks x2; Contaminated Aquifer x2
+  damage: 22 cards, 100 slots, lands 11
+     Talisman of Dominance x11; Talisman of Indulgence x9; Underground River x9; Talisman of Creativity x8; Sulfurous Springs x8; Battlefield Forge x7; Shivan Reef x6; Talisman of Hierarchy x6; Caves of Koilos x6; Llanowar Wastes x6; Talisman of Conviction x4; Brushland x4; Karplusan Forest x4; Talisman of Progress x2; Adarkar Wastes x2; Yavimaya Coast x2; Elves of Deep Shadow x1; Talisman of Curiosity x1; Talisman of Resilience x1; Ancient Tomb x1; Electrolyze x1; Talisman of Impulse x1
+
+  lands whose gaps are all in ['damage', 'enters_with', 'etb_tapped', 'life_loss', 'pay_life']: 105 cards, 433 slots (9.8%)
+    etb_tapped: 73 cards, 254 slots
+    damage: 11 cards, 55 slots
+    enters_with etb_tapped: 11 cards, 29 slots
+    enters_with etb_tapped pay_life: 10 cards, 95 slots
+  nonland one-tag damage: Talisman of Dominance x11; Talisman of Indulgence x9; Talisman of Creativity x8; Talisman of Hierarchy x6; Talisman of Conviction x4; Talisman of Progress x2; Elves of Deep Shadow x1; Talisman of Curiosity x1; Talisman of Resilience x1; Electrolyze x1; Talisman of Impulse x1

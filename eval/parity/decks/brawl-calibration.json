@@ -1,0 +1,185 @@
+{
+  "name": "brawl-calibration",
+  "source": "sources/brawl-calibration.txt",
+  "substitutions": [],
+  "decklist": {
+    "commanders": [
+      {
+        "name": "Karn, Legacy Reforged"
+      }
+    ],
+    "entries": [
+      {
+        "card": {
+          "name": "Ornithopter"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Field Creeper"
+        },
+        "quantity": 58
+      },
+      {
+        "card": {
+          "name": "Wastes"
+        },
+        "quantity": 40
+      }
+    ]
+  },
+  "deck": [
+    {
+      "id": 2,
+      "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+      "name": "Karn, Legacy Reforged",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Golem"
+      ],
+      "mana_value": 5.0,
+      "mana_cost": "{5}",
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 1,
+      "oracle_id": "e6584e39-099c-437f-9239-fa718cac85af",
+      "name": "Field Creeper",
+      "quantity": 58,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Scarecrow"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 3,
+      "oracle_id": "a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba",
+      "name": "Ornithopter",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Thopter"
+      ],
+      "mana_value": 0.0,
+      "mana_cost": "{0}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 4,
+      "oracle_id": "05d24b0c-904a-46b6-b42a-96a4d91a0dd4",
+      "name": "Wastes",
+      "quantity": 40,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    }
+  ],
+  "profiles": {
+    "Karn, Legacy Reforged": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Field Creeper": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Ornithopter": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Wastes": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    }
+  },
+  "unprofiled": [
+    "Karn, Legacy Reforged"
+  ]
+}

@@ -1,0 +1,1 @@
+{"type":"event","seq":8,"kind":"cast","view":{"turn":1,"step":"main","life":40,"land_drop_used":true,"pool":"","hand":[],"graveyard":[],"exile":[],"command_zone":[],"battlefield":[],"library_count":90,"mana_sources":[],"hand_mana":[],"resolved":[],"finds":{},"actions":[]},"spell":{"id":"s:1","card":"Pithing Needle","face":"front"},"outcome":"hit"}

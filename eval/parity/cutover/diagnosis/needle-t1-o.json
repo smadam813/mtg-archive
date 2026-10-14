@@ -1,0 +1,336 @@
+{
+  "label": "needle-t1-o",
+  "engine": "ours",
+  "case": "dq2-needle-t1",
+  "mulligan": "goal-aware",
+  "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+  "engine_version": "1.0.0\u002B1b85ea2a07e5d580e850521c6077b88168005cf6",
+  "ablations": [],
+  "runs": 10000,
+  "successes": 2162,
+  "engine_errors": 0,
+  "floor": 0.2162,
+  "lower": 0.20824155639188685,
+  "upper": 0.2243764010833092,
+  "etb": {},
+  "pay_life": {},
+  "lift": [
+    {
+      "land": "Windswept Heath",
+      "runs": 257,
+      "failures": 253,
+      "failure_rate": 0.9844357976653697
+    },
+    {
+      "land": "Sulfur Falls",
+      "runs": 252,
+      "failures": 207,
+      "failure_rate": 0.8214285714285714
+    },
+    {
+      "land": "Island",
+      "runs": 380,
+      "failures": 307,
+      "failure_rate": 0.8078947368421052
+    },
+    {
+      "land": "Riverpyre Verge",
+      "runs": 284,
+      "failures": 228,
+      "failure_rate": 0.8028169014084507
+    },
+    {
+      "land": "Fiery Islet",
+      "runs": 228,
+      "failures": 183,
+      "failure_rate": 0.8026315789473685
+    },
+    {
+      "land": "Reliquary Tower",
+      "runs": 255,
+      "failures": 204,
+      "failure_rate": 0.8
+    },
+    {
+      "land": "Urza\u0027s Saga",
+      "runs": 258,
+      "failures": 206,
+      "failure_rate": 0.7984496124031008
+    },
+    {
+      "land": "Wooded Foothills",
+      "runs": 258,
+      "failures": 206,
+      "failure_rate": 0.7984496124031008
+    },
+    {
+      "land": "Underground Sea",
+      "runs": 537,
+      "failures": 428,
+      "failure_rate": 0.7970204841713222
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 279,
+      "failures": 222,
+      "failure_rate": 0.7956989247311828
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 268,
+      "failures": 213,
+      "failure_rate": 0.7947761194029851
+    },
+    {
+      "land": "Takenuma, Abandoned Mire",
+      "runs": 268,
+      "failures": 213,
+      "failure_rate": 0.7947761194029851
+    },
+    {
+      "land": "City of Brass",
+      "runs": 227,
+      "failures": 180,
+      "failure_rate": 0.7929515418502202
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 521,
+      "failures": 413,
+      "failure_rate": 0.7927063339731286
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 261,
+      "failures": 206,
+      "failure_rate": 0.789272030651341
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 236,
+      "failures": 186,
+      "failure_rate": 0.788135593220339
+    },
+    {
+      "land": "Badlands",
+      "runs": 532,
+      "failures": 418,
+      "failure_rate": 0.7857142857142857
+    },
+    {
+      "land": "Vault of Whispers",
+      "runs": 270,
+      "failures": 212,
+      "failure_rate": 0.7851851851851852
+    },
+    {
+      "land": "Shivan Reef",
+      "runs": 256,
+      "failures": 201,
+      "failure_rate": 0.78515625
+    },
+    {
+      "land": "Sunken Hollow",
+      "runs": 527,
+      "failures": 413,
+      "failure_rate": 0.7836812144212524
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 269,
+      "failures": 210,
+      "failure_rate": 0.7806691449814126
+    },
+    {
+      "land": "Flooded Strand",
+      "runs": 262,
+      "failures": 204,
+      "failure_rate": 0.7786259541984732
+    },
+    {
+      "land": "Verdant Catacombs",
+      "runs": 271,
+      "failures": 210,
+      "failure_rate": 0.7749077490774908
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 259,
+      "failures": 200,
+      "failure_rate": 0.7722007722007722
+    },
+    {
+      "land": "Cascade Bluffs",
+      "runs": 289,
+      "failures": 223,
+      "failure_rate": 0.7716262975778547
+    },
+    {
+      "land": "Mountain",
+      "runs": 410,
+      "failures": 316,
+      "failure_rate": 0.7707317073170732
+    },
+    {
+      "land": "Watery Grave",
+      "runs": 499,
+      "failures": 384,
+      "failure_rate": 0.7695390781563126
+    },
+    {
+      "land": "Gloomlake Verge",
+      "runs": 256,
+      "failures": 196,
+      "failure_rate": 0.765625
+    },
+    {
+      "land": "Volcanic Island",
+      "runs": 543,
+      "failures": 413,
+      "failure_rate": 0.7605893186003683
+    },
+    {
+      "land": "Swamp",
+      "runs": 418,
+      "failures": 317,
+      "failure_rate": 0.7583732057416268
+    },
+    {
+      "land": "Dragonskull Summit",
+      "runs": 259,
+      "failures": 195,
+      "failure_rate": 0.752895752895753
+    },
+    {
+      "land": "Drowned Catacomb",
+      "runs": 251,
+      "failures": 188,
+      "failure_rate": 0.749003984063745
+    },
+    {
+      "land": "Command Tower",
+      "runs": 265,
+      "failures": 198,
+      "failure_rate": 0.7471698113207547
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 569,
+      "failures": 423,
+      "failure_rate": 0.7434094903339191
+    },
+    {
+      "land": "Underground River",
+      "runs": 277,
+      "failures": 205,
+      "failure_rate": 0.740072202166065
+    },
+    {
+      "land": "Sunken Ruins",
+      "runs": 239,
+      "failures": 174,
+      "failure_rate": 0.7280334728033473
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 255,
+      "failures": 185,
+      "failure_rate": 0.7254901960784313
+    },
+    {
+      "land": "Graven Cairns",
+      "runs": 244,
+      "failures": 170,
+      "failure_rate": 0.6967213114754098
+    }
+  ],
+  "paths": [
+    {
+      "path": "T1 land \u003E T1 cast Pithing Needle",
+      "runs": 1378
+    },
+    {
+      "path": "T1 land \u003E T1 cast Pithing Needle \u003E T1 cast Memnite",
+      "runs": 109
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T1 cast Pithing Needle",
+      "runs": 57
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land \u003E T1 cast Metallic Sliver",
+      "runs": 53
+    },
+    {
+      "path": "T1 land \u003E T1 activate Verdant Catacombs \u003E T1 cast Pithing Needle",
+      "runs": 53
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Pithing Needle",
+      "runs": 51
+    },
+    {
+      "path": "T1 land \u003E T1 activate Scalding Tarn \u003E T1 cast Pithing Needle",
+      "runs": 50
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Pithing Needle",
+      "runs": 49
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T1 cast Pithing Needle",
+      "runs": 49
+    },
+    {
+      "path": "T1 land \u003E T1 activate Misty Rainforest \u003E T1 cast Pithing Needle",
+      "runs": 45
+    },
+    {
+      "path": "T1 land \u003E T1 activate Polluted Delta \u003E T1 cast Pithing Needle",
+      "runs": 42
+    },
+    {
+      "path": "T1 land \u003E T1 activate Wooded Foothills \u003E T1 cast Pithing Needle",
+      "runs": 41
+    },
+    {
+      "path": "T1 land \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Pithing Needle",
+      "runs": 41
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land",
+      "runs": 19
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land \u003E T1 cast Preordain",
+      "runs": 6
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land \u003E T1 cast Opt",
+      "runs": 5
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Pithing Needle \u003E T1 cast Memnite",
+      "runs": 5
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Pithing Needle",
+      "runs": 5
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Metallic Sliver",
+      "runs": 4
+    },
+    {
+      "path": "T1 cast Pithing Needle \u003E T1 land \u003E T1 activate Windswept Heath",
+      "runs": 4
+    }
+  ],
+  "cannot_cast": 0,
+  "classes": {
+    "land_short": 0,
+    "color_short": 0,
+    "rules_short": 0,
+    "unknown": 7838
+  }
+}

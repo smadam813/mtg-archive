@@ -1,0 +1,37 @@
+xmage corpus: 32122 card classes, 32181 registered name keys, 57 unfinished name keys, 183 commented-out name keys
+  classes with a TODO note 104, with a 'not implemented' note 10, without rules code 350
+sample unique cards 2453 Counter({'present': 2446, 'missing': 4, 'unfinished': 2, 'commented_out': 1})
+all slots: xmage 5193/5200 (99.9%), xmage without a TODO or 'not implemented' note 5177/5200 (99.6%), forge 5200/5200 (100.0%)
+nonbasic slots: xmage 4425/4432 (99.8%), xmage without a TODO or 'not implemented' note 4409/4432 (99.5%), forge 4432/4432 (100.0%)
+nonbasic lands: xmage 1170/1170 (100.0%), xmage without a TODO or 'not implemented' note 1170/1170 (100.0%), forge 1170/1170 (100.0%)
+nonland slots: xmage 3255/3262 (99.8%), xmage without a TODO or 'not implemented' note 3239/3262 (99.3%), forge 3262/3262 (100.0%)
+unique nonbasic cards: xmage 2440/2447, with a TODO note 10, with a 'not implemented' note 0
+multi-face and special layouts: 75/77 present, {'modal_dfc': 20, 'saga': 14, 'split': 8, 'class': 4, 'transform': 15, 'adventure': 8, 'meld': 4, 'case': 2, 'prepare': 2}
+
+not present:
+  Ashling, the Limitless: missing  slots 1 decks 1 nonland normal
+  Dimension X Pizzasaur: missing  slots 1 decks 1 nonland normal
+  Eccentric Pestfinder // Turn Stones: unfinished SecretsOfStrixhavenCommander.java slots 1 decks 1 nonland prepare
+  Foot Chopper: missing  slots 1 decks 1 nonland normal
+  Path of the Animist: commented_out MarchOfTheMachineCommander.java slots 1 decks 1 nonland normal
+  Stensian Sanguinist // Exsanguinate: unfinished SecretsOfStrixhavenCommander.java slots 1 decks 1 nonland prepare
+  Wizard's Staff: missing  slots 1 decks 1 nonland normal
+  in deck edhrec-average/vivi-ornitier (EDHREC average deck: Vivi Ornitier (rank 6, 41032 decks)): Wizard's Staff
+  in deck archidekt/6780851 (Archidekt 6780851: Radha's Explosive Vegetables (180778 views, updated 2026-09-25)): Path of the Animist
+  in deck archidekt/18744843 (Archidekt 18744843: Dance of the Elements - Lorwyn Eclipsed Commander Deck (91474 views, updated 2026-09-09)): Ashling, the Limitless
+  in deck archidekt/20105223 (Archidekt 20105223: Turtle Power! - Teenage Mutant Ninja Turtles Commander Deck (89200 views, updated 2026-09-09)): Dimension X Pizzasaur
+  in deck archidekt/20105223 (Archidekt 20105223: Turtle Power! - Teenage Mutant Ninja Turtles Commander Deck (89200 views, updated 2026-09-09)): Foot Chopper
+  in deck archidekt/21319521 (Archidekt 21319521: Witherbloom Pestilence - Secrets of Strixhaven (86089 views, updated 2026-06-29)): Stensian Sanguinist // Exsanguinate
+  in deck archidekt/21319521 (Archidekt 21319521: Witherbloom Pestilence - Secrets of Strixhaven (86089 views, updated 2026-06-29)): Eccentric Pestfinder // Turn Stones
+
+present with a TODO or 'not implemented' note (by slots):
+  Doubling Season [3] cards/d/DoublingSeason.java: TODO: this should only apply to effects 
+  Crawling Sensation [2] cards/c/CrawlingSensation.java: TODO: Switch to handle this with a game watcher because this does not work correctly if control changes 
+  Selvala's Stampede [2] cards/s/SelvalasStampede.java: TODO: add AI hint logic in the choice method, see Tyrant's Choice as example 
+  Spark Double [2] cards/s/SparkDouble.java: TODO: Blood Moon problem, can't apply on type changing effects (same as TeferisTimeTwist) 
+  Strong, the Brutish Thespian [2] cards/s/StrongTheBrutishThespian.java: TODO: It doesn't interfere with anything else yet, but this should be restructured as a replacement, not continuous rule modifying 
+  Leyline Tyrant [1] cards/l/LeylineTyrant.java: TODO: add some AI hints by min/max values 
+  Scapeshift [1] cards/s/Scapeshift.java: TODO: replace example for #8254: 
+  The Great Henge [1] cards/t/TheGreatHenge.java: TODO: that abilityToModify should be source, but there is currently a bug with that #11166 
+  The Skullspore Nexus [1] cards/t/TheSkullsporeNexus.java: TODO: that abilityToModify should be source, but there is currently a bug with that #11166 
+  Valgavoth, Terror Eater [1] cards/v/ValgavothTerrorEater.java: TODO: part of #13594 refactor to replaceEvent (add exile zone info in ZoneChangeEvent?) 

@@ -1,0 +1,1 @@
+{"type":"scenario","commanders":[],"cards":[{"name":"Swamp","quantity":1}],"seed":1,"start":{"hand":[],"battlefield":[],"library":[],"graveyard":[]},"actions":[{"type":"attack","card":"Swamp"}]}

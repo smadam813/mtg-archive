@@ -1,0 +1,20 @@
+[
+  { "note": "P(>=1 of 38 lands in a 7-card opener from a 99-card deck)",
+    "k": 1, "successes": 38, "deck_size": 99, "cards_seen": 7, "expected": 0.9706945754289187 },
+  { "note": "same 38 lands, turn 1 (8 cards seen)",
+    "k": 1, "successes": 38, "deck_size": 99, "cards_seen": 8, "expected": 0.9827989899256697 },
+  { "note": "same 38 lands, turn 5 (12 cards seen)",
+    "k": 1, "successes": 38, "deck_size": 99, "cards_seen": 12, "expected": 0.9981154105164439 },
+  { "note": "P(>=1 of 10 ramp pieces in the opener, 99-card deck)",
+    "k": 1, "successes": 10, "deck_size": 99, "cards_seen": 7, "expected": 0.5371630300080191 },
+  { "note": "P(>=1 of 17 lands in the opener, mid-build 40-card list)",
+    "k": 1, "successes": 17, "deck_size": 40, "cards_seen": 7, "expected": 0.9868503118503118 },
+  { "note": "same mid-build list, turn 3 (10 cards seen)",
+    "k": 1, "successes": 17, "deck_size": 40, "cards_seen": 10, "expected": 0.9986503252632285 },
+  { "note": "k=2: P(>=2 of 38 lands in the opener, 99-card deck)",
+    "k": 2, "successes": 38, "deck_size": 99, "cards_seen": 7, "expected": 0.8289628856851436 },
+  { "note": "k=3: P(>=3 of 38 lands by turn 5, 99-card deck)",
+    "k": 3, "successes": 38, "deck_size": 99, "cards_seen": 12, "expected": 0.9123466345377584 },
+  { "note": "k=2: P(>=2 of a 4-of by 15 cards seen, 60-card deck)",
+    "k": 2, "successes": 4, "deck_size": 60, "cards_seen": 15, "expected": 0.2579593343381833 }
+]

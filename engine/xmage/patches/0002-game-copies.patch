@@ -1,0 +1,164 @@
+diff --git a/Mage/src/main/java/mage/game/GameImpl.java b/Mage/src/main/java/mage/game/GameImpl.java
+index 7fd0293a..1a5dfa75 100644
+--- a/Mage/src/main/java/mage/game/GameImpl.java
++++ b/Mage/src/main/java/mage/game/GameImpl.java
+@@ -119,6 +119,12 @@ public abstract class GameImpl implements Game {
+     protected transient TableEventSource tableEventSource = new TableEventSource();
+     protected transient PlayerQueryEventSource playerQueryEventSource = new PlayerQueryEventSource();
+ 
++    // mtg-archive patch 0002 (game copies): each switch is on unless its system property is "false"
++    public static final boolean PATCH_ONE_COPY = !"false".equals(System.getProperty("mtgarchive.copies.oneCopy"));
++    public static final boolean PATCH_SHARE_LIBRARY_CARDS = !"false".equals(System.getProperty("mtgarchive.copies.shareLibraryCards"));
++    public static final boolean PATCH_NO_PRIORITY_BOOKMARK = !"false".equals(System.getProperty("mtgarchive.copies.noPriorityBookmark"));
++    private static final ThreadLocal<Boolean> PATCH_PLAYABLE_COPY = ThreadLocal.withInitial(() -> Boolean.FALSE);
++
+     protected Map<UUID, Card> gameCards = new HashMap<>();
+     protected Map<UUID, MeldCard> meldCards = new HashMap<>(0);
+ 
+@@ -206,7 +212,16 @@ public abstract class GameImpl implements Game {
+         //this.tableEventSource = game.tableEventSource; // client-server part, not need on copy/simulations
+         //this.playerQueryEventSource = game.playerQueryEventSource; // client-server part, not need on copy/simulations
+ 
+-        this.gameCards = CardUtil.deepCopyObject(game.gameCards);
++        if (PATCH_PLAYABLE_COPY.get() && PATCH_SHARE_LIBRARY_CARDS) {
++            // a playable-calc copy reads library cards and throws them away: share them instead of copying
++            this.gameCards = new HashMap<>(game.gameCards.size());
++            for (Map.Entry<UUID, Card> e : game.gameCards.entrySet()) {
++                boolean share = game.state.getZone(e.getKey()) == Zone.LIBRARY;
++                this.gameCards.put(e.getKey(), share ? e.getValue() : e.getValue().copy());
++            }
++        } else {
++            this.gameCards = CardUtil.deepCopyObject(game.gameCards);
++        }
+         this.meldCards = CardUtil.deepCopyObject(game.meldCards);
+ 
+         this.lki = CardUtil.deepCopyObject(game.lki);
+@@ -288,7 +303,13 @@ public abstract class GameImpl implements Game {
+ 
+     @Override
+     public Game createSimulationForPlayableCalc() {
+-        Game res = this.copy();
++        Game res;
++        PATCH_PLAYABLE_COPY.set(Boolean.TRUE);
++        try {
++            res = this.copy();
++        } finally {
++            PATCH_PLAYABLE_COPY.set(Boolean.FALSE);
++        }
+         ((GameImpl) res).simulation = true;
+         ((GameImpl) res).checkPlayableState = true;
+         return res;
+@@ -1824,8 +1845,13 @@ public abstract class GameImpl implements Game {
+                 Player player;
+                 while (!isPaused() && !checkIfGameIsOver()) {
+                     try {
+-                        if (rollbackBookmarkOnPriorityStart == 0) {
+-                            rollbackBookmarkOnPriorityStart = bookmarkState();
++                        if (rollbackBookmarkOnPriorityStart == 0 && !PATCH_NO_PRIORITY_BOOKMARK) {
++                            long idMark = RandomUtil.markIdStream();
++                            try {
++                                rollbackBookmarkOnPriorityStart = bookmarkState();
++                            } finally {
++                                RandomUtil.resetIdStream(idMark);
++                            }
+                         }
+                         player = getPlayer(state.getPlayerList().get());
+                         state.setPriorityPlayerId(player.getId());
+diff --git a/Mage/src/main/java/mage/players/PlayerImpl.java b/Mage/src/main/java/mage/players/PlayerImpl.java
+index 69be0818..b7691da7 100644
+--- a/Mage/src/main/java/mage/players/PlayerImpl.java
++++ b/Mage/src/main/java/mage/players/PlayerImpl.java
+@@ -3618,8 +3618,20 @@ public abstract class PlayerImpl implements Player, Serializable {
+      */
+     @Override
+     public ManaOptions getManaAvailable(Game originalGame) {
++        // mtg-archive patch 0002: reset the object-ID stream when the calculation ends (see getPlayable)
++        long idMark = RandomUtil.markIdStream();
++        try {
++            return getManaAvailableCalc(originalGame);
++        } finally {
++            RandomUtil.resetIdStream(idMark);
++        }
++    }
++
++    private ManaOptions getManaAvailableCalc(Game originalGame) {
+         // workaround to fix a triggers list modification bug (game must be immutable on playable calculations)
+-        Game game = originalGame.createSimulationForPlayableCalc();
++        Game game = GameImpl.PATCH_ONE_COPY && originalGame.inCheckPlayableState()
++                ? originalGame // already a throwaway playable-calc copy (getPlayable made it)
++                : originalGame.createSimulationForPlayableCalc();
+ 
+         ManaOptions availableMana = new ManaOptions();
+         availableMana.addMana(manaPool.getMana());
+@@ -4354,6 +4366,18 @@ public abstract class PlayerImpl implements Player, Serializable {
+      * @return
+      */
+     public List<ActivatedAbility> getPlayable(Game originalGame, boolean hidden, Zone fromZone, boolean hideDuplicatedAbilities) {
++        // mtg-archive patch 0002: a playable calculation draws object IDs. The game-copies switches change
++        // how many IDs it draws, and the pilot's mana choices depend on the IDs. Reset the object-ID stream
++        // when the calculation ends.
++        long idMark = RandomUtil.markIdStream();
++        try {
++            return getPlayableCalc(originalGame, hidden, fromZone, hideDuplicatedAbilities);
++        } finally {
++            RandomUtil.resetIdStream(idMark);
++        }
++    }
++
++    private List<ActivatedAbility> getPlayableCalc(Game originalGame, boolean hidden, Zone fromZone, boolean hideDuplicatedAbilities) {
+         List<ActivatedAbility> playable = new ArrayList<>();
+         if (shouldSkipGettingPlayable(originalGame)) {
+             return playable;
+diff --git a/Mage/src/main/java/mage/util/RandomUtil.java b/Mage/src/main/java/mage/util/RandomUtil.java
+index 300ce3ce..c7b4b3f2 100644
+--- a/Mage/src/main/java/mage/util/RandomUtil.java
++++ b/Mage/src/main/java/mage/util/RandomUtil.java
+@@ -14,7 +14,24 @@ import java.util.UUID;
+ public final class RandomUtil {
+ 
+     private static final ThreadLocal<Random> random = ThreadLocal.withInitial(Random::new);
+-    private static final ThreadLocal<Random> idRandom = new ThreadLocal<>();
++    private static final ThreadLocal<IdRandom> idRandom = new ThreadLocal<>();
++
++    /** A Random with a state that code can read and set. It draws the same numbers as new Random(seed). */
++    private static final class IdRandom extends Random {
++        private static final long MASK = (1L << 48) - 1;
++        private long state;
++
++        IdRandom(long seed) {
++            super(0);
++            state = (seed ^ 0x5DEECE66DL) & MASK;
++        }
++
++        @Override
++        protected int next(int bits) {
++            state = (state * 0x5DEECE66DL + 0xBL) & MASK;
++            return (int) (state >>> (48 - bits));
++        }
++    }
+ 
+     private RandomUtil() {
+     }
+@@ -45,7 +62,21 @@ public final class RandomUtil {
+ 
+     public static void setSeed(long newSeed) {
+         random.get().setSeed(newSeed);
+-        idRandom.set(new Random(newSeed * 0x9E3779B97F4A7C15L + 0x632BE59BD9B4E019L));
++        idRandom.set(new IdRandom(newSeed * 0x9E3779B97F4A7C15L + 0x632BE59BD9B4E019L));
++    }
++
++    /** Returns the state of the object-ID stream, or 0 when no seed is set. Pass it to {@link #resetIdStream}. */
++    public static long markIdStream() {
++        IdRandom r = idRandom.get();
++        return r == null ? 0 : r.state;
++    }
++
++    /** Sets the object-ID stream to a state that {@link #markIdStream} returned. The stream then draws the same IDs again. */
++    public static void resetIdStream(long mark) {
++        IdRandom r = idRandom.get();
++        if (r != null) {
++            r.state = mark;
++        }
+     }
+ 
+     public static UUID newUUID() {

@@ -1,0 +1,46 @@
+{
+  "accepted": [
+    {
+      "comparison": "dq2-needle-t1/goal-aware",
+      "direction": "xmage_lower",
+      "cause": "On turn 1, XMage enters the checklands and Sunken Hollow tapped. Our engine has no such rule.",
+      "evidence": "diagnosis/small-fails.md"
+    },
+    {
+      "comparison": "dq2-demonic-t1/goal-aware",
+      "direction": "xmage_lower",
+      "cause": "On turn 1, XMage enters the checklands and Sunken Hollow tapped. Our engine has no such rule.",
+      "evidence": "diagnosis/small-fails.md"
+    },
+    {
+      "comparison": "dq1-sol-ring-t2/goal-aware",
+      "direction": "xmage_higher",
+      "cause": "Land order: XMage plays lands in name order, our engine in draw order. The user accepts the name order.",
+      "evidence": "diagnosis/small-fails.md"
+    },
+    {
+      "comparison": "dq1-sol-ring-t2/land-window",
+      "direction": "xmage_higher",
+      "cause": "Land order: XMage plays lands in name order, our engine in draw order. The user accepts the name order.",
+      "evidence": "diagnosis/small-fails.md"
+    },
+    {
+      "comparison": "dq2-obeka-t4/goal-aware",
+      "direction": "xmage_lower",
+      "cause": "After the shim fixes, XMage is within −0.5 pp [−1.8, 0.8] of our engine with the land order and the land rules it lacks (o4), so those rules explain the gap: Sunken Hollow enters tapped, the filter lands and Verges, Fiery Islet's draw, and Urza's Saga.",
+      "evidence": "diagnosis/obeka-t4.md"
+    },
+    {
+      "comparison": "dq2-obeka-t4/land-window",
+      "direction": "xmage_lower",
+      "cause": "After the shim fixes, XMage is within −0.5 pp [−1.8, 0.8] of our engine with the land order and the land rules it lacks (o4), so those rules explain the gap: Sunken Hollow enters tapped, the filter lands and Verges, Fiery Islet's draw, and Urza's Saga.",
+      "evidence": "diagnosis/obeka-t4.md"
+    },
+    {
+      "comparison": "dq1-demonic-t2/goal-aware",
+      "direction": "xmage_higher",
+      "cause": "Land order: XMage plays lands in name order, our engine in draw order. The user accepts the name order. Three land rules our engine lacks (Interplanar Beacon, Reflecting Pool, Field of the Dead) give part of it back.",
+      "evidence": "diagnosis/small-fails.md"
+    }
+  ]
+}

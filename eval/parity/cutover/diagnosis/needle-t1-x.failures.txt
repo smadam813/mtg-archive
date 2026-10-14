@@ -1,0 +1,1907 @@
+# run 0, seed -1742672592, class RulesShort
+T0 Mulligan: SEED -1742672592
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Marsh Flats, Underground Sea, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [City of Brass, Drowned Catacomb, Takenuma, Abandoned Mire, Opt, Sliver Construct, Alpha Myr, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Polluted Delta, Swamp, Urza's Saga, Verdant Catacombs, Sol Ring, Vampiric Tutor, Metallic Sliver]
+T0 Mulligan: PILOT bottom Polluted Delta
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Cascade Bluffs, Flooded Strand, Gloomlake Verge, Urza's Saga, Verdant Catacombs, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Cascade Bluffs
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Flooded Strand
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Gloomlake Verge, Urza's Saga, Verdant Catacombs, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Gloomlake Verge  from hand onto the Battlefield
+T1 Main: Pilot plays Gloomlake Verge 
+T1 Main: PILOT land Gloomlake Verge
+T1 Main: Pilot casts Brainstorm  from hand
+T1 Main: PILOT cast Brainstorm
+T1 Main: Pilot draws three cards
+T1 Main: PILOT put_back Alpha Myr
+T1 Main: Pilot puts a card from hand to the top of their library (source: Brainstorm )
+T1 Main: PILOT put_back Alpha Myr
+T1 Main: Pilot puts a card from hand to the top of their library (source: Brainstorm )
+T1 Main: Pilot puts Brainstorm  from stack into their graveyard
+T1 Main: RESOLVED Brainstorm
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=92 hand=[Urza's Saga, Verdant Catacombs, Metallic Sliver, Underground River, Island] bf=[Gloomlake Verge(T)] gy=[Brainstorm]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 1, seed 1477616048, class RulesShort
+T0 Mulligan: SEED 1477616048
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Drowned Catacomb, Graven Cairns, Brainstorm, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sunken Ruins, Urza's Saga, Preordain, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Sunken Ruins, Swamp, Urza's Saga, Wooded Foothills, Demonic Tutor, Alpha Myr]
+T0 Mulligan: PILOT bottom Drowned Catacomb
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Scalding Tarn, Volcanic Island, Ponder, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Scalding Tarn, Volcanic Island, Ponder, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Scalding Tarn  from hand onto the Battlefield
+T1 Main: Pilot plays Scalding Tarn 
+T1 Main: PILOT land Scalding Tarn
+T1 Main: Pilot loses 1 life from Scalding Tarn 
+T1 Main: Pilot sacrificed Scalding Tarn  (source: Scalding Tarn )
+T1 Main: Pilot activates: search your library for an Island or Mountain card, put it onto the battlefield, then shuffle. from Scalding Tarn 
+T1 Main: PILOT activate Scalding Tarn
+T1 Main: Pilot searches their library (source: Scalding Tarn )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Scalding Tarn )
+T1 Main: Pilot's library is shuffled (source: Scalding Tarn )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Volcanic Island, Ponder, Alpha Myr, Alpha Myr, Underground Sea] bf=[Badlands] gy=[Scalding Tarn]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 2, seed 600608383, class RulesShort
+T0 Mulligan: SEED 600608383
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Riverpyre Verge, Swamp, Underground River, Sol Ring, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Takenuma, Abandoned Mire, Ponder, Gilded Sentinel, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Polluted Delta, Reliquary Tower, Watery Grave, Windswept Heath, Mystical Tutor, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Polluted Delta
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Reliquary Tower, Watery Grave, Windswept Heath, Mystical Tutor, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Bloodstained Mire  from hand onto the Battlefield
+T1 Main: Pilot plays Bloodstained Mire 
+T1 Main: PILOT land Bloodstained Mire
+T1 Main: Pilot loses 1 life from Bloodstained Mire 
+T1 Main: Pilot sacrificed Bloodstained Mire  (source: Bloodstained Mire )
+T1 Main: Pilot activates: search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle. from Bloodstained Mire 
+T1 Main: PILOT activate Bloodstained Mire
+T1 Main: Pilot searches their library (source: Bloodstained Mire )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Bloodstained Mire )
+T1 Main: Pilot's library is shuffled (source: Bloodstained Mire )
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Reliquary Tower, Watery Grave, Windswept Heath, Mystical Tutor] bf=[Badlands(T), Metallic Sliver] gy=[Bloodstained Mire]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 3, seed 1865890430, class RulesShort
+T0 Mulligan: SEED 1865890430
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Underground Sea, Windswept Heath, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Bloodstained Mire, Demonic Tutor, Vampiric Tutor, Sliver Construct, Alpha Myr, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Takenuma, Abandoned Mire, Volcanic Island, Gilded Sentinel, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Misty Rainforest
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Flooded Strand, Shivan Reef, Sulfur Falls, Simian Spirit Guide, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Flooded Strand, Shivan Reef, Sulfur Falls, Simian Spirit Guide, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T1 Main: Pilot plays Flooded Strand 
+T1 Main: PILOT land Flooded Strand
+T1 Main: Pilot loses 1 life from Flooded Strand 
+T1 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T1 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T1 Main: PILOT activate Flooded Strand
+T1 Main: Pilot searches their library (source: Flooded Strand )
+T1 Main: PILOT tutor Island
+T1 Main: Pilot puts Island  from library onto the Battlefield (source: Flooded Strand )
+T1 Main: Pilot's library is shuffled (source: Flooded Strand )
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Shivan Reef, Sulfur Falls, Simian Spirit Guide, Alpha Myr] bf=[Island(T), Metallic Sliver] gy=[Flooded Strand]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 4, seed -1068222394, class RulesShort
+T0 Mulligan: SEED -1068222394
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Steam Vents, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Shivan Reef, Takenuma, Abandoned Mire, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Graven Cairns, Vault of Whispers, Simian Spirit Guide, Alpha Myr, Metallic Sliver, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Graven Cairns
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Flooded Strand, Misty Rainforest, Sunken Ruins, Ponder, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Metallic Sliver
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Flooded Strand, Misty Rainforest, Sunken Ruins, Ponder, Memnite]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T1 Main: Pilot plays Flooded Strand 
+T1 Main: PILOT land Flooded Strand
+T1 Main: Pilot loses 1 life from Flooded Strand 
+T1 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T1 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T1 Main: PILOT activate Flooded Strand
+T1 Main: Pilot searches their library (source: Flooded Strand )
+T1 Main: PILOT tutor Island
+T1 Main: Pilot puts Island  from library onto the Battlefield (source: Flooded Strand )
+T1 Main: Pilot's library is shuffled (source: Flooded Strand )
+T1 Main: Pilot casts Ponder  from hand
+T1 Main: PILOT cast Ponder
+T1 Main: PILOT order_top Alpha Myr
+T1 Main: Pilot puts a card from library to the top of their library (source: Ponder )
+T1 Main: PILOT order_top Preordain
+T1 Main: Pilot puts a card from library to the top of their library (source: Ponder )
+T1 Main: Pilot puts a card from library to the top of their library (source: Ponder )
+T1 Main: PILOT shuffle shuffle
+T1 Main: Pilot's library is shuffled (source: Ponder )
+T1 Main: Pilot draws a card
+T1 Main: Pilot puts Ponder  from stack into their graveyard
+T1 Main: RESOLVED Ponder
+T1 Main: Pilot casts Memnite  from hand
+T1 Main: PILOT cast Memnite
+T1 Main: Pilot puts Memnite  from stack onto the Battlefield
+T1 Main: RESOLVED Memnite
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=91 hand=[Misty Rainforest, Sunken Ruins, Scalding Tarn, Sulfur Falls] bf=[Island(T), Memnite] gy=[Flooded Strand, Ponder]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 5, seed 1794173356, class RulesShort
+T0 Mulligan: SEED 1794173356
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Shivan Reef, Sunken Hollow, Dark Ritual, Preordain, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Underground River, Verdant Catacombs, Watery Grave, Preordain, Sliver Construct, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Gloomlake Verge, Graven Cairns, Brainstorm, Gilded Sentinel, Simian Spirit Guide, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Gloomlake Verge
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Badlands, Blood Crypt, Polluted Delta, Underground River, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Blood Crypt, Polluted Delta, Underground River, Alpha Myr, Memnite]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Blood Crypt 
+T1 Main: Pilot puts Blood Crypt  from hand onto the Battlefield
+T1 Main: Pilot plays Blood Crypt 
+T1 Main: PILOT land Blood Crypt
+T1 Main: Pilot casts Memnite  from hand
+T1 Main: PILOT cast Memnite
+T1 Main: Pilot puts Memnite  from stack onto the Battlefield
+T1 Main: RESOLVED Memnite
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Polluted Delta, Underground River, Alpha Myr, Reliquary Tower] bf=[Blood Crypt, Memnite] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 6, seed -263219428, class RulesShort
+T0 Mulligan: SEED -263219428
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Flooded Strand, Urza's Saga, Windswept Heath, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sunken Ruins, Underground River, Opt, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Island, Preordain, Sol Ring, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Island, Preordain, Sol Ring, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Island  from hand onto the Battlefield
+T1 Main: Pilot plays Island 
+T1 Main: PILOT land Island
+T1 Main: Pilot casts Sol Ring  from hand
+T1 Main: PILOT cast Sol Ring
+T1 Main: Pilot puts Sol Ring  from stack onto the Battlefield
+T1 Main: RESOLVED Sol Ring
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Preordain, Demonic Tutor] bf=[Island(T), Metallic Sliver, Metallic Sliver, Sol Ring(T)] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 7, seed 1661301186, class RulesShort
+T0 Mulligan: SEED 1661301186
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Vault of Whispers, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Vault of Whispers, Pithing Needle, Vampiric Tutor, Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Polluted Delta, Vampiric Tutor, Gilded Sentinel, Simian Spirit Guide, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Flooded Strand
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Mana Confluence, Dark Ritual, Vampiric Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Mana Confluence, Dark Ritual, Vampiric Tutor, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Mana Confluence  from hand onto the Battlefield
+T1 Main: Pilot plays Mana Confluence 
+T1 Main: PILOT land Mana Confluence
+T1 Main: Pilot loses 1 life from Mana Confluence 
+T1 Main: Pilot casts Dark Ritual  from hand
+T1 Main: PILOT cast Dark Ritual
+T1 Main: Pilot puts Dark Ritual  from stack into their graveyard
+T1 Main: RESOLVED Dark Ritual
+T1 Main: Pilot casts Alpha Myr  from hand
+T1 Main: PILOT cast Alpha Myr
+T1 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T1 Main: RESOLVED Alpha Myr
+T1 Main: Pilot casts Vampiric Tutor  from hand
+T1 Main: PILOT cast Vampiric Tutor
+T1 Main: Pilot searches their library (source: Vampiric Tutor )
+T1 Main: PILOT tutor Pithing Needle
+T1 Main: Pilot's library is shuffled (source: Vampiric Tutor )
+T1 Main: Pilot puts a card from library to the top of their library (source: Vampiric Tutor )
+T1 Main: Pilot loses 2 life from Vampiric Tutor 
+T1 Main: Pilot puts Vampiric Tutor  from stack into their graveyard
+T1 Main: RESOLVED Vampiric Tutor
+T1 Main: Pilot skip attack
+T1 End: END life=37 lib=93 hand=[Alpha Myr, Verdant Catacombs] bf=[Alpha Myr, Mana Confluence(T)] gy=[Dark Ritual, Vampiric Tutor]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 8, seed -240477323, class RulesShort
+T0 Mulligan: SEED -240477323
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Island, Steam Vents, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Drowned Catacomb, Reliquary Tower, Demonic Tutor, Dark Ritual, Preordain, Vampiric Tutor, Metallic Sliver]
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Drowned Catacomb, Reliquary Tower, Demonic Tutor, Dark Ritual, Preordain, Vampiric Tutor, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Drowned Catacomb  from hand onto the Battlefield
+T1 Main: Pilot plays Drowned Catacomb 
+T1 Main: PILOT land Drowned Catacomb
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=91 hand=[Reliquary Tower, Demonic Tutor, Dark Ritual, Preordain, Vampiric Tutor, Metallic Sliver, Alpha Myr] bf=[Drowned Catacomb(T)] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 9, seed -804095379, class RulesShort
+T0 Mulligan: SEED -804095379
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Swamp, Brainstorm, Dark Ritual, Vampiric Tutor, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Graven Cairns, Polluted Delta, Volcanic Island, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Brainstorm, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Arid Mesa, Takenuma, Abandoned Mire, Opt, Sol Ring, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Arid Mesa, Takenuma, Abandoned Mire, Opt, Sol Ring, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Arid Mesa  from hand onto the Battlefield
+T1 Main: Pilot plays Arid Mesa 
+T1 Main: PILOT land Arid Mesa
+T1 Main: Pilot loses 1 life from Arid Mesa 
+T1 Main: Pilot sacrificed Arid Mesa  (source: Arid Mesa )
+T1 Main: Pilot activates: search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle. from Arid Mesa 
+T1 Main: PILOT activate Arid Mesa
+T1 Main: Pilot searches their library (source: Arid Mesa )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Arid Mesa )
+T1 Main: Pilot's library is shuffled (source: Arid Mesa )
+T1 Main: Pilot casts Sol Ring  from hand
+T1 Main: PILOT cast Sol Ring
+T1 Main: Pilot puts Sol Ring  from stack onto the Battlefield
+T1 Main: RESOLVED Sol Ring
+T1 Main: Pilot casts Alpha Myr  from hand
+T1 Main: PILOT cast Alpha Myr
+T1 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T1 Main: RESOLVED Alpha Myr
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Takenuma, Abandoned Mire, Opt, Urza's Saga] bf=[Alpha Myr, Badlands(T), Sol Ring(T)] gy=[Arid Mesa]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 10, seed 478806028, class RulesShort
+T0 Mulligan: SEED 478806028
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Fiery Islet, Underground River, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Fiery Islet, Flooded Strand, Steam Vents, Simian Spirit Guide, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Graven Cairns, Steam Vents, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Cascade Bluffs
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Drowned Catacomb, Demonic Tutor, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Drowned Catacomb, Demonic Tutor, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Drowned Catacomb  from hand onto the Battlefield
+T1 Main: Pilot plays Drowned Catacomb 
+T1 Main: PILOT land Drowned Catacomb
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Metallic Sliver, Metallic Sliver, Metallic Sliver, Metallic Sliver] bf=[Drowned Catacomb(T)] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 11, seed -90043920, class RulesShort
+T0 Mulligan: SEED -90043920
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Reliquary Tower, Riverpyre Verge, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Marsh Flats, Mountain, Volcanic Island, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Steam Vents, Vampiric Tutor, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Drowned Catacomb, Sunken Ruins, Underground Sea, Verdant Catacombs, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Drowned Catacomb
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Sunken Ruins, Underground Sea, Verdant Catacombs, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Sunken Ruins  from hand onto the Battlefield
+T1 Main: Pilot plays Sunken Ruins 
+T1 Main: PILOT land Sunken Ruins
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Underground Sea, Verdant Catacombs, Alpha Myr, Alpha Myr, Alpha Myr] bf=[Sunken Ruins] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 12, seed -1494476257, class RulesShort
+T0 Mulligan: SEED -1494476257
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Riverpyre Verge, Sunken Hollow, Sunken Ruins, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Gloomlake Verge, Island, Marsh Flats, Volcanic Island, Windswept Heath, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Underground River, Brainstorm, Dark Ritual, Opt, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Drowned Catacomb
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Sunken Ruins, Vault of Whispers, Verdant Catacombs, Ponder, Sliver Construct, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Sunken Ruins, Vault of Whispers, Verdant Catacombs, Ponder, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Sunken Ruins  from hand onto the Battlefield
+T1 Main: Pilot plays Sunken Ruins 
+T1 Main: PILOT land Sunken Ruins
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Vault of Whispers, Verdant Catacombs, Ponder, Alpha Myr, Alpha Myr] bf=[Sunken Ruins] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 13, seed 1581267951, class RulesShort
+T0 Mulligan: SEED 1581267951
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Riverpyre Verge, Vault of Whispers, Watery Grave, Sliver Construct, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Demonic Tutor, Vampiric Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Flooded Strand, Wooded Foothills, Brainstorm, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: PILOT bottom Fiery Islet
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Badlands, Blood Crypt, Reliquary Tower, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Badlands, Blood Crypt, Reliquary Tower, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Badlands  from hand onto the Battlefield
+T1 Main: Pilot plays Badlands 
+T1 Main: PILOT land Badlands
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Blood Crypt, Reliquary Tower, Alpha Myr, Alpha Myr, Alpha Myr] bf=[Badlands] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 14, seed 1958422399, class RulesShort
+T0 Mulligan: SEED 1958422399
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Sunken Hollow, Takenuma, Abandoned Mire, Wooded Foothills, Brainstorm, Sol Ring, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Underground River, Sliver Construct, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Marsh Flats, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Command Tower
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Cascade Bluffs, Dragonskull Summit, Gilded Sentinel, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Cascade Bluffs, Dragonskull Summit, Alpha Myr, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Cascade Bluffs  from hand onto the Battlefield
+T1 Main: Pilot plays Cascade Bluffs 
+T1 Main: PILOT land Cascade Bluffs
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Dragonskull Summit, Alpha Myr, Alpha Myr, Metallic Sliver] bf=[Cascade Bluffs(T), Metallic Sliver] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 15, seed 1638150629, class RulesShort
+T0 Mulligan: SEED 1638150629
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Opt, Vampiric Tutor, Gilded Sentinel, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Graven Cairns, Mountain, Underground River, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Island, Volcanic Island, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Fiery Islet
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Badlands, Misty Rainforest, Sunken Ruins, Watery Grave, Dark Ritual, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Misty Rainforest, Sunken Ruins, Watery Grave, Dark Ritual, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Misty Rainforest  from hand onto the Battlefield
+T1 Main: Pilot plays Misty Rainforest 
+T1 Main: PILOT land Misty Rainforest
+T1 Main: Pilot loses 1 life from Misty Rainforest 
+T1 Main: Pilot sacrificed Misty Rainforest  (source: Misty Rainforest )
+T1 Main: Pilot activates: search your library for a Forest or Island card, put it onto the battlefield, then shuffle. from Misty Rainforest 
+T1 Main: PILOT activate Misty Rainforest
+T1 Main: Pilot searches their library (source: Misty Rainforest )
+T1 Main: PILOT tutor Island
+T1 Main: Pilot puts Island  from library onto the Battlefield (source: Misty Rainforest )
+T1 Main: Pilot's library is shuffled (source: Misty Rainforest )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Sunken Ruins, Watery Grave, Dark Ritual, Alpha Myr, Alpha Myr] bf=[Island] gy=[Misty Rainforest]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 16, seed 1909695369, class RulesShort
+T0 Mulligan: SEED 1909695369
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Graven Cairns, Mana Confluence, Misty Rainforest, Volcanic Island, Ponder, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Mountain, Steam Vents, Underground Sea, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Mountain, Sunken Hollow, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Misty Rainforest
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Command Tower, Graven Cairns, Sunken Hollow, Underground Sea, Gilded Sentinel, Simian Spirit Guide, Metallic Sliver]
+T0 Mulligan: PILOT bottom Command Tower
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Graven Cairns, Sunken Hollow, Underground Sea, Simian Spirit Guide, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Blood Crypt 
+T1 Main: Pilot puts Blood Crypt  from hand onto the Battlefield
+T1 Main: Pilot plays Blood Crypt 
+T1 Main: PILOT land Blood Crypt
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Graven Cairns, Sunken Hollow, Underground Sea, Simian Spirit Guide] bf=[Blood Crypt(T), Metallic Sliver] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 17, seed 1054823413, class RulesShort
+T0 Mulligan: SEED 1054823413
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Vault of Whispers, Ponder, Simian Spirit Guide, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Riverpyre Verge, Sunken Hollow, Wooded Foothills, Ponder, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Shivan Reef, Underground River, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Dragonskull Summit, Marsh Flats, Vault of Whispers, Demonic Tutor, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Metallic Sliver
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Dragonskull Summit, Marsh Flats, Vault of Whispers, Demonic Tutor, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Dragonskull Summit  from hand onto the Battlefield
+T1 Main: Pilot plays Dragonskull Summit 
+T1 Main: PILOT land Dragonskull Summit
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Marsh Flats, Vault of Whispers, Demonic Tutor, Metallic Sliver, Sliver Construct] bf=[Dragonskull Summit(T)] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 19, seed 1187456318, class RulesShort
+T0 Mulligan: SEED 1187456318
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Gloomlake Verge, Graven Cairns, Urza's Saga, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Mountain, Wooded Foothills, Demonic Tutor, Simian Spirit Guide, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Drowned Catacomb, Steam Vents, Pithing Needle, Sol Ring, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Metallic Sliver
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Drowned Catacomb, Steam Vents, Pithing Needle, Sol Ring, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Drowned Catacomb  from hand onto the Battlefield
+T1 Main: Pilot plays Drowned Catacomb 
+T1 Main: PILOT land Drowned Catacomb
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=92 hand=[Steam Vents, Pithing Needle, Sol Ring, Metallic Sliver, Metallic Sliver, Reliquary Tower] bf=[Drowned Catacomb(T)] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 20, seed -277600195, class RulesShort
+T0 Mulligan: SEED -277600195
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Gloomlake Verge, Sunken Ruins, Wooded Foothills, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Graven Cairns, Riverpyre Verge, Verdant Catacombs, Brainstorm, Mystical Tutor, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Scalding Tarn, Verdant Catacombs, Alpha Myr, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Bloodstained Mire, Island, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Bloodstained Mire, Island, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Bloodstained Mire  from hand onto the Battlefield
+T1 Main: Pilot plays Bloodstained Mire 
+T1 Main: PILOT land Bloodstained Mire
+T1 Main: Pilot loses 1 life from Bloodstained Mire 
+T1 Main: Pilot sacrificed Bloodstained Mire  (source: Bloodstained Mire )
+T1 Main: Pilot activates: search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle. from Bloodstained Mire 
+T1 Main: PILOT activate Bloodstained Mire
+T1 Main: Pilot searches their library (source: Bloodstained Mire )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Bloodstained Mire )
+T1 Main: Pilot's library is shuffled (source: Bloodstained Mire )
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Island, Alpha Myr, Metallic Sliver, Sunken Hollow] bf=[Badlands(T), Metallic Sliver] gy=[Bloodstained Mire]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 105, seed -732423955, class LandShort
+T0 Mulligan: SEED -732423955
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Volcanic Island, Watery Grave, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Demonic Tutor, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Drowned Catacomb, Takenuma, Abandoned Mire, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Windswept Heath  from hand onto the Battlefield
+T1 Main: Pilot plays Windswept Heath 
+T1 Main: PILOT land Windswept Heath
+T1 Main: Pilot loses 1 life from Windswept Heath 
+T1 Main: Pilot sacrificed Windswept Heath  (source: Windswept Heath )
+T1 Main: Pilot activates: search your library for a Forest or Plains card, put it onto the battlefield, then shuffle. from Windswept Heath 
+T1 Main: PILOT activate Windswept Heath
+T1 Main: Pilot searches their library (source: Windswept Heath )
+T1 Main: Pilot's library is shuffled (source: Windswept Heath )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=93 hand=[Demonic Tutor, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver] bf=[] gy=[Windswept Heath]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 115, seed -1189330501, class LandShort
+T0 Mulligan: SEED -1189330501
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Riverpyre Verge, Watery Grave, Sliver Construct, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Underground Sea, Watery Grave, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Cascade Bluffs, Vampiric Tutor, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Pithing Needle, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Pithing Needle, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Pithing Needle, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Sliver Construct] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 125, seed 590332484, class LandShort
+T0 Mulligan: SEED 590332484
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Polluted Delta, Dark Ritual, Mystical Tutor, Vampiric Tutor, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Reliquary Tower, Riverpyre Verge, Sulfur Falls, Wooded Foothills, Opt, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Polluted Delta, Urza's Saga, Verdant Catacombs, Volcanic Island, Windswept Heath, Dark Ritual, Alpha Myr]
+T0 Mulligan: PILOT bottom Polluted Delta
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Opt, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Opt, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Opt, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Alpha Myr] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 206, seed -1538582798, class LandShort
+T0 Mulligan: SEED -1538582798
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Steam Vents, Sunken Hollow, Ponder, Sol Ring, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Urza's Saga, Ponder, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Marsh Flats, Sulfur Falls, Dark Ritual, Mystical Tutor, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: PILOT bottom Marsh Flats
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Gilded Sentinel, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Alpha Myr] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 277, seed 962927136, class LandShort
+T0 Mulligan: SEED 962927136
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Sulfur Falls, Takenuma, Abandoned Mire, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Mana Confluence, Sunken Ruins, Verdant Catacombs, Brainstorm, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Gloomlake Verge, Shivan Reef, Volcanic Island, Watery Grave, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Gloomlake Verge
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Brainstorm, Dark Ritual, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Brainstorm, Dark Ritual, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Brainstorm, Dark Ritual, Alpha Myr, Metallic Sliver, Metallic Sliver, Ponder] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 311, seed 90152833, class LandShort
+T0 Mulligan: SEED 90152833
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Wooded Foothills, Mystical Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Marsh Flats, Reliquary Tower, Vault of Whispers, Verdant Catacombs, Watery Grave, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Gloomlake Verge, Urza's Saga, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Flooded Strand
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Opt, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Opt, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Opt, Alpha Myr, Metallic Sliver, Metallic Sliver, Brainstorm] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 314, seed -1945342817, class LandShort
+T0 Mulligan: SEED -1945342817
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Sunken Ruins, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Dragonskull Summit, Opt, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Takenuma, Abandoned Mire, Underground River, Sol Ring, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Takenuma, Abandoned Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Preordain, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Preordain, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Preordain, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 317, seed 850494626, class LandShort
+T0 Mulligan: SEED 850494626
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Polluted Delta, Reliquary Tower, Shivan Reef, Sunken Hollow, Preordain, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sunken Hollow, Demonic Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Underground River, Watery Grave, Preordain, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Windswept Heath  from hand onto the Battlefield
+T1 Main: Pilot plays Windswept Heath 
+T1 Main: PILOT land Windswept Heath
+T1 Main: Pilot loses 1 life from Windswept Heath 
+T1 Main: Pilot sacrificed Windswept Heath  (source: Windswept Heath )
+T1 Main: Pilot activates: search your library for a Forest or Plains card, put it onto the battlefield, then shuffle. from Windswept Heath 
+T1 Main: PILOT activate Windswept Heath
+T1 Main: Pilot searches their library (source: Windswept Heath )
+T1 Main: Pilot's library is shuffled (source: Windswept Heath )
+T1 Main: Pilot casts Memnite  from hand
+T1 Main: PILOT cast Memnite
+T1 Main: Pilot puts Memnite  from stack onto the Battlefield
+T1 Main: RESOLVED Memnite
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=93 hand=[Demonic Tutor, Alpha Myr, Alpha Myr, Metallic Sliver] bf=[Memnite] gy=[Windswept Heath]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 359, seed 1777316450, class LandShort
+T0 Mulligan: SEED 1777316450
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Steam Vents, Swamp, Takenuma, Abandoned Mire, Brainstorm, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sulfur Falls, Vault of Whispers, Dark Ritual, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Shivan Reef, Opt, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Shivan Reef
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Memnite]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot casts Memnite  from hand
+T1 Main: PILOT cast Memnite
+T1 Main: Pilot puts Memnite  from stack onto the Battlefield
+T1 Main: RESOLVED Memnite
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Alpha Myr] bf=[Memnite] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 375, seed -93641900, class LandShort
+T0 Mulligan: SEED -93641900
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Sunken Ruins, Swamp, Opt, Sol Ring, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Flooded Strand, Volcanic Island, Demonic Tutor, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Dragonskull Summit, Watery Grave, Opt, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Mystical Tutor, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Mystical Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Windswept Heath  from hand onto the Battlefield
+T1 Main: Pilot plays Windswept Heath 
+T1 Main: PILOT land Windswept Heath
+T1 Main: Pilot loses 1 life from Windswept Heath 
+T1 Main: Pilot sacrificed Windswept Heath  (source: Windswept Heath )
+T1 Main: Pilot activates: search your library for a Forest or Plains card, put it onto the battlefield, then shuffle. from Windswept Heath 
+T1 Main: PILOT activate Windswept Heath
+T1 Main: Pilot searches their library (source: Windswept Heath )
+T1 Main: Pilot's library is shuffled (source: Windswept Heath )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=93 hand=[Mystical Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver] bf=[] gy=[Windswept Heath]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 398, seed -835047689, class LandShort
+T0 Mulligan: SEED -835047689
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Drowned Catacomb, Graven Cairns, Polluted Delta, Steam Vents, Sunken Ruins, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Scalding Tarn, Sunken Ruins, Volcanic Island, Mystical Tutor, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Polluted Delta, Sliver Construct, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Flooded Strand
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Pithing Needle, Sol Ring, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Pithing Needle, Sol Ring, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Pithing Needle, Sol Ring, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 423, seed 1652840595, class LandShort
+T0 Mulligan: SEED 1652840595
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Reliquary Tower, Watery Grave, Windswept Heath, Simian Spirit Guide, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Underground River, Gilded Sentinel, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Blood Crypt, Underground River, Wooded Foothills, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Brainstorm, Opt, Sol Ring, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Brainstorm, Opt, Sol Ring, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Brainstorm, Opt, Sol Ring, Metallic Sliver, Dark Ritual] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 480, seed 2072476120, class LandShort
+T0 Mulligan: SEED 2072476120
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Sunken Hollow, Dark Ritual, Sliver Construct, Alpha Myr, Alpha Myr, Memnite]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Fiery Islet, Mana Confluence, Riverpyre Verge, Sunken Ruins, Demonic Tutor, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Fiery Islet
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Memnite]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot casts Memnite  from hand
+T1 Main: PILOT cast Memnite
+T1 Main: Pilot puts Memnite  from stack onto the Battlefield
+T1 Main: RESOLVED Memnite
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Pithing Needle] bf=[Memnite] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 620, seed 1511520275, class LandShort
+T0 Mulligan: SEED 1511520275
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Sunken Ruins, Dark Ritual, Preordain, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Underground Sea, Pithing Needle, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Marsh Flats, Polluted Delta, Volcanic Island, Sol Ring, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Drowned Catacomb
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Ponder, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Metallic Sliver
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Ponder, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Ponder, Metallic Sliver, Metallic Sliver, Metallic Sliver, Metallic Sliver] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 643, seed -1478734691, class LandShort
+T0 Mulligan: SEED -1478734691
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Gilded Sentinel, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Underground Sea, Wooded Foothills, Dark Ritual, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Wooded Foothills, Simian Spirit Guide, Sliver Construct, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Ponder, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Ponder, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Ponder, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Sliver Construct] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 715, seed 1902017327, class LandShort
+T0 Mulligan: SEED 1902017327
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Cascade Bluffs, Sol Ring, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Mana Confluence, Urza's Saga, Brainstorm, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Reliquary Tower, Swamp, Demonic Tutor, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Reliquary Tower
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Simian Spirit Guide, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Gilded Sentinel] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 720, seed 368549289, class LandShort
+T0 Mulligan: SEED 368549289
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, City of Brass, Dragonskull Summit, Gloomlake Verge, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Island, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Underground Sea, Urza's Saga, Sliver Construct, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Command Tower
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Mystical Tutor, Sliver Construct, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Mystical Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Mystical Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Alpha Myr] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 737, seed 1875977385, class LandShort
+T0 Mulligan: SEED 1875977385
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Flooded Strand, Steam Vents, Sulfur Falls, Preordain, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Dragonskull Summit, Sunken Ruins, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Dragonskull Summit, Gilded Sentinel, Sliver Construct, Alpha Myr, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Opt, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Opt, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Opt, Metallic Sliver, Metallic Sliver, Metallic Sliver, Metallic Sliver] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 867, seed -1123471499, class LandShort
+T0 Mulligan: SEED -1123471499
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Island, Takenuma, Abandoned Mire, Vault of Whispers, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Reliquary Tower, Swamp, Alpha Myr, Metallic Sliver, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Drowned Catacomb, Mountain, Scalding Tarn, Demonic Tutor, Preordain, Metallic Sliver, Memnite]
+T0 Mulligan: PILOT bottom Drowned Catacomb
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver] bf=[] gy=[]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+
+# run 1022, seed -1822966930, class LandShort
+T0 Mulligan: SEED -1822966930
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Marsh Flats, Verdant Catacombs, Ponder, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Sunken Ruins, Underground Sea, Vampiric Tutor, Alpha Myr, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Mountain, Windswept Heath, Brainstorm, Dark Ritual, Mystical Tutor, Alpha Myr]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Windswept Heath, Vampiric Tutor, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Alpha Myr
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Windswept Heath, Vampiric Tutor, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Windswept Heath  from hand onto the Battlefield
+T1 Main: Pilot plays Windswept Heath 
+T1 Main: PILOT land Windswept Heath
+T1 Main: Pilot loses 1 life from Windswept Heath 
+T1 Main: Pilot sacrificed Windswept Heath  (source: Windswept Heath )
+T1 Main: Pilot activates: search your library for a Forest or Plains card, put it onto the battlefield, then shuffle. from Windswept Heath 
+T1 Main: PILOT activate Windswept Heath
+T1 Main: Pilot searches their library (source: Windswept Heath )
+T1 Main: Pilot's library is shuffled (source: Windswept Heath )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=93 hand=[Vampiric Tutor, Alpha Myr, Metallic Sliver, Metallic Sliver, Alpha Myr] bf=[] gy=[Windswept Heath]
+T1 End: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 End: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 

@@ -1,0 +1,3937 @@
+{
+  "name": "bq1-wrenn-and-six",
+  "source": "../acceptance/brawl-query-1/deck.txt",
+  "substitutions": [],
+  "decklist": {
+    "commanders": [
+      {
+        "name": "Wrenn and Six"
+      }
+    ],
+    "entries": [
+      {
+        "card": {
+          "name": "Ragavan, Nimble Pilferer"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Birds of Paradise"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Llanowar Elves"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Elvish Mystic"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Delighted Halfling"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Arcane Signet"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Mind Stone"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Talisman of Impulse"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Farseek"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Rampant Growth"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Cultivate"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Explore"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Utopia Sprawl"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Azusa, Lost but Seeking"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Dryad of the Ilysian Grove"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Exploration"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Oracle of Mul Daya"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Ramunap Excavator"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Crucible of Worlds"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Tireless Tracker"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Six"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Crop Rotation"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Harrow"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Entish Restoration"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Tireless Provisioner"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Lotus Cobra"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Icetill Explorer"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "The One Ring"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sylvan Library"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Harmonize"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Unexpected Windfall"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Big Score"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Faithless Looting"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Thrill of Possibility"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Jeska\u0027s Will"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Lightning Bolt"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Abrade"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Beast Within"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Chaos Warp"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Blasphemous Act"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Krosan Grip"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Nature\u0027s Claim"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Reclamation Sage"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Veil of Summer"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Heroic Intervention"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Snakeskin Veil"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Goblin Bombardment"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Goldspan Dragon"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Terror of the Peaks"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Craterhoof Behemoth"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Rampaging Baloths"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Eternal Witness"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Worldly Tutor"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Green Sun\u0027s Zenith"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Swiftfoot Boots"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Lightning Greaves"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Solemn Simulacrum"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Burnished Hart"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Wood Elves"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Professional Face-Breaker"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Enduring Vitality"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Return of the Wildspeaker"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Command Tower"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Stomping Ground"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Cinder Glade"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Rootbound Crag"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Karplusan Forest"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Game Trail"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Wooded Foothills"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Windswept Heath"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Bloodstained Mire"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Verdant Catacombs"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Arid Mesa"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Misty Rainforest"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Prismatic Vista"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Fabled Passage"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Evolving Wilds"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Terramorphic Expanse"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Boseiju, Who Endures"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Yavimaya, Cradle of Growth"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Temple of Abandon"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Ash Barrens"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Demolition Field"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Rogue\u0027s Passage"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Forest"
+        },
+        "quantity": 8
+      },
+      {
+        "card": {
+          "name": "Mountain"
+        },
+        "quantity": 7
+      }
+    ]
+  },
+  "deck": [
+    {
+      "id": 86,
+      "oracle_id": "108ae90a-50fa-4cfd-b751-d630e41425fe",
+      "name": "Wrenn and Six",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Planeswalker"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Wrenn"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{R}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 1,
+      "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
+      "name": "Abrade",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 2,
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "name": "Arcane Signet",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": true,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 3,
+      "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+      "name": "Arid Mesa",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Mountain",
+        "Plains"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 4,
+      "oracle_id": "58257464-278e-45fa-8e0b-bcd9a7500bc1",
+      "name": "Ash Barrens",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 5,
+      "oracle_id": "6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51",
+      "name": "Azusa, Lost but Seeking",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Human",
+        "Monk"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 6,
+      "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+      "name": "Beast Within",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 7,
+      "oracle_id": "a5cbd257-c836-493e-bb1a-76242619dea2",
+      "name": "Big Score",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 4.0,
+      "mana_cost": "{3}{R}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 8,
+      "oracle_id": "d3a0b660-358c-41bd-9cd2-41fbf3491b1a",
+      "name": "Birds of Paradise",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Bird"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 9,
+      "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+      "name": "Blasphemous Act",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 9.0,
+      "mana_cost": "{8}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 10,
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "name": "Bloodstained Mire",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Swamp",
+        "Mountain"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 11,
+      "oracle_id": "bf1341dd-41a3-49f6-87ec-63170dde4324",
+      "name": "Boseiju, Who Endures",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 12,
+      "oracle_id": "893fed41-c144-433f-af88-bc7d419b7fb3",
+      "name": "Burnished Hart",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elk"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{3}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 13,
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "name": "Chaos Warp",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 14,
+      "oracle_id": "dfac0258-e148-4d7d-8ded-fc2466d9caa6",
+      "name": "Cinder Glade",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Mountain",
+        "Forest"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 15,
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "name": "Command Tower",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": true,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 16,
+      "oracle_id": "8c52bd39-0586-48ca-b263-17210cf9feb6",
+      "name": "Craterhoof Behemoth",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Beast"
+      ],
+      "mana_value": 8.0,
+      "mana_cost": "{5}{G}{G}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 17,
+      "oracle_id": "28b46183-c62f-47b1-9fee-3ba148202cab",
+      "name": "Crop Rotation",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_land_types": [],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 18,
+      "oracle_id": "33c722cf-b4bf-431f-aefd-ee96241a7fbf",
+      "name": "Crucible of Worlds",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{3}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 19,
+      "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a",
+      "name": "Cultivate",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 20,
+      "oracle_id": "f9d3b046-0b95-4103-a630-4b3fb88bb60b",
+      "name": "Delighted Halfling",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Halfling",
+        "Citizen"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 21,
+      "oracle_id": "93953926-a644-49bb-9b5a-4c8f19114c7e",
+      "name": "Demolition Field",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 22,
+      "oracle_id": "bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9",
+      "name": "Dryad of the Ilysian Grove",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Nymph",
+        "Dryad"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 23,
+      "oracle_id": "3f3b2c10-21f8-4e13-be83-4ef3fa36e123",
+      "name": "Elvish Mystic",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 24,
+      "oracle_id": "3577c47e-76d3-4659-b922-31c4b74be3a0",
+      "name": "Enduring Vitality",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elk",
+        "Glimmer"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{1}{G}{G}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 25,
+      "oracle_id": "736017e2-bc33-49e8-812d-1639443fdb51",
+      "name": "Entish Restoration",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 26,
+      "oracle_id": "30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c",
+      "name": "Eternal Witness",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{1}{G}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 27,
+      "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+      "name": "Evolving Wilds",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 28,
+      "oracle_id": "0c2841bb-038c-4fbf-8360-bc0a1522b58d",
+      "name": "Exploration",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 29,
+      "oracle_id": "b8f566ea-8283-4afa-9ac8-737e26419283",
+      "name": "Explore",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 30,
+      "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54",
+      "name": "Fabled Passage",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 31,
+      "oracle_id": "3d6fa57a-aa53-4b5c-b8af-a7612c823117",
+      "name": "Faithless Looting",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 32,
+      "oracle_id": "495e52e6-4c2b-4574-9474-eadbdcc8b4ac",
+      "name": "Farseek",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "fetch_land_types": [
+        "Plains",
+        "Island",
+        "Swamp",
+        "Mountain"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 33,
+      "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+      "name": "Forest",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Forest"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 34,
+      "oracle_id": "00de57d2-7cb6-4337-9bc6-f6711e4dfabf",
+      "name": "Game Trail",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 35,
+      "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
+      "name": "Goblin Bombardment",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 36,
+      "oracle_id": "716b3ea2-45b7-4a8f-af72-de7f4e510eff",
+      "name": "Goldspan Dragon",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Dragon"
+      ],
+      "mana_value": 5.0,
+      "mana_cost": "{3}{R}{R}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 37,
+      "oracle_id": "0d96b60b-a060-48ee-bb83-93f1c4a10669",
+      "name": "Green Sun\u0027s Zenith",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{X}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 38,
+      "oracle_id": "7eff84f1-f772-497a-b350-bbc93d0230f7",
+      "name": "Harmonize",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 4.0,
+      "mana_cost": "{2}{G}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 39,
+      "oracle_id": "705509e9-a034-4a5a-9c65-66f58748b8a2",
+      "name": "Harrow",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 40,
+      "oracle_id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27",
+      "name": "Heroic Intervention",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 41,
+      "oracle_id": "109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f",
+      "name": "Icetill Explorer",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Insect",
+        "Scout"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{2}{G}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 42,
+      "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+      "name": "Jeska\u0027s Will",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": true,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 43,
+      "oracle_id": "bd912666-f37f-4767-af6f-9e6d0fcccacf",
+      "name": "Karplusan Forest",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C",
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "C",
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 44,
+      "oracle_id": "3e39224c-72ce-4ecc-aa17-12c071ea1f3e",
+      "name": "Krosan Grip",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 45,
+      "oracle_id": "4457ed35-7c10-48c8-9776-456485fdf070",
+      "name": "Lightning Bolt",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 46,
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "name": "Lightning Greaves",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Equipment"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 47,
+      "oracle_id": "68954295-54e3-4303-a6bc-fc4547a4e3a3",
+      "name": "Llanowar Elves",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 48,
+      "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+      "name": "Lotus Cobra",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Snake"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 49,
+      "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+      "name": "Mind Stone",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 50,
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "name": "Misty Rainforest",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Forest",
+        "Island"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 51,
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "name": "Mountain",
+      "quantity": 7,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 52,
+      "oracle_id": "6d4e558e-9109-4918-a082-fdcbaffd516b",
+      "name": "Nature\u0027s Claim",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 53,
+      "oracle_id": "6c5b02eb-7829-436a-8555-fea200e4b67f",
+      "name": "Oracle of Mul Daya",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Shaman"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{3}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 54,
+      "oracle_id": "032b8a0d-491a-4a12-ab9f-689010054d5b",
+      "name": "Prismatic Vista",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 55,
+      "oracle_id": "04152e7a-969c-4858-841b-0a569a9fc1bf",
+      "name": "Professional Face-Breaker",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Warrior"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 56,
+      "oracle_id": "37108cd4-bbab-4ce3-9ed6-f60e8422e703",
+      "name": "Ragavan, Nimble Pilferer",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Monkey",
+        "Pirate"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 57,
+      "oracle_id": "2d3e6549-6cc6-434f-a189-ba3b55e64c34",
+      "name": "Rampaging Baloths",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Beast"
+      ],
+      "mana_value": 6.0,
+      "mana_cost": "{4}{G}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 58,
+      "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+      "name": "Rampant Growth",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 59,
+      "oracle_id": "4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5",
+      "name": "Ramunap Excavator",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Snake",
+        "Cleric"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 60,
+      "oracle_id": "032ec6e2-6cc3-4a97-9cc7-3233f5e11904",
+      "name": "Reclamation Sage",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Shaman"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 61,
+      "oracle_id": "2b76f9e9-cd28-4eaf-8674-215c34263f96",
+      "name": "Return of the Wildspeaker",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 5.0,
+      "mana_cost": "{4}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 62,
+      "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+      "name": "Rogue\u0027s Passage",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 63,
+      "oracle_id": "9516c4c1-d72d-434f-97e1-6a862434a169",
+      "name": "Rootbound Crag",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 64,
+      "oracle_id": "dbcbdf37-c40f-4068-b4a7-a849cab1056c",
+      "name": "Six",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Treefolk"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 65,
+      "oracle_id": "1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8",
+      "name": "Snakeskin Veil",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 66,
+      "oracle_id": "00c0543c-2a1f-4425-8283-4062d74a1637",
+      "name": "Solemn Simulacrum",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Golem"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{4}",
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 67,
+      "oracle_id": "16052b52-ade1-406f-a06b-ce7ea607fb63",
+      "name": "Stomping Ground",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Mountain",
+        "Forest"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 68,
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+      "name": "Swiftfoot Boots",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Equipment"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 69,
+      "oracle_id": "92eed395-62ca-4293-882b-8565c40daab5",
+      "name": "Sylvan Library",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 70,
+      "oracle_id": "f2ccc9e8-8e92-4f8c-8728-8c748630e0dd",
+      "name": "Talisman of Impulse",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "produced_colors": [
+        "C",
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "C",
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 71,
+      "oracle_id": "3baa8e38-ef93-435d-b63e-f781d5bfcc68",
+      "name": "Temple of Abandon",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "any_face_colors": [
+        "G",
+        "R"
+      ]
+    },
+    {
+      "id": 72,
+      "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a",
+      "name": "Terramorphic Expanse",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 73,
+      "oracle_id": "f8e17f4f-080d-4bba-bd05-ca27e94ccecc",
+      "name": "Terror of the Peaks",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Dragon"
+      ],
+      "mana_value": 5.0,
+      "mana_cost": "{3}{R}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 74,
+      "oracle_id": "3aa83ed2-f48b-4ce6-a614-2c54ddf50538",
+      "name": "The One Ring",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 4.0,
+      "mana_cost": "{4}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 75,
+      "oracle_id": "1cb0610b-a731-42c2-b93f-0a29f63cebf4",
+      "name": "Thrill of Possibility",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 76,
+      "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+      "name": "Tireless Provisioner",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Scout"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 77,
+      "oracle_id": "e6555cca-e608-4c87-b835-9cd47fd1f543",
+      "name": "Tireless Tracker",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Scout"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 78,
+      "oracle_id": "498c10c9-253d-4b15-b48c-1509381b17e8",
+      "name": "Unexpected Windfall",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 4.0,
+      "mana_cost": "{2}{R}{R}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 79,
+      "oracle_id": "00d8efa6-a2d9-4249-8da7-b45173675329",
+      "name": "Utopia Sprawl",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Aura"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 80,
+      "oracle_id": "002965be-a36f-4a09-9ce0-c6535bca1703",
+      "name": "Veil of Summer",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 81,
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "name": "Verdant Catacombs",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Swamp",
+        "Forest"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 82,
+      "oracle_id": "29737a60-3ebd-40d9-b935-c4f54b90d45d",
+      "name": "Windswept Heath",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Forest",
+        "Plains"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 83,
+      "oracle_id": "8973bd99-20f8-4867-90ef-50392147ee1b",
+      "name": "Wood Elves",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Elf",
+        "Scout"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{G}",
+      "fetch_land_types": [
+        "Forest"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 84,
+      "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+      "name": "Wooded Foothills",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Mountain",
+        "Forest"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 85,
+      "oracle_id": "e8863518-0bfa-49c3-8c6e-6c9116a81051",
+      "name": "Worldly Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{G}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "G"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 87,
+      "oracle_id": "8dd5f5af-d2d8-4356-8617-8381081b930c",
+      "name": "Yavimaya, Cradle of Growth",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "G"
+      ]
+    }
+  ],
+  "profiles": {
+    "Wrenn and Six": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Abrade": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Arcane Signet": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}",
+        "{U}",
+        "{B}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    "Arid Mesa": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Ash Barrens": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "hand",
+        "enters_tapped": false,
+        "via": "activate_from_hand",
+        "activation_cost": "{1}",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Azusa, Lost but Seeking": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Beast Within": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Big Score": {
+      "develops": true,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Birds of Paradise": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}",
+        "{U}",
+        "{B}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    "Blasphemous Act": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Bloodstained Mire": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Boseiju, Who Endures": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Burnished Hart": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "activation_cost": "{3}",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Chaos Warp": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Cinder Glade": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G",
+        "R"
+      ]
+    },
+    "Command Tower": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Craterhoof Behemoth": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Crop Rotation": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Crucible of Worlds": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Cultivate": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Delighted Halfling": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}",
+        "{W}",
+        "{U}",
+        "{B}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C",
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    "Demolition Field": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Dryad of the Ilysian Grove": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Elvish Mystic": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Enduring Vitality": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Entish Restoration": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Eternal Witness": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Evolving Wilds": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Exploration": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Explore": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Fabled Passage": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Faithless Looting": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Farseek": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Forest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Game Trail": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G",
+        "R"
+      ]
+    },
+    "Goblin Bombardment": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Goldspan Dragon": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Green Sun\u0027s Zenith": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Harmonize": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Harrow": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Heroic Intervention": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Icetill Explorer": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Jeska\u0027s Will": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Karplusan Forest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}",
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C",
+        "G",
+        "R"
+      ]
+    },
+    "Krosan Grip": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Lightning Bolt": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Lightning Greaves": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Llanowar Elves": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Lotus Cobra": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Mind Stone": {
+      "develops": true,
+      "draws": true,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Misty Rainforest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Mountain": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R"
+      ]
+    },
+    "Nature\u0027s Claim": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Oracle of Mul Daya": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Prismatic Vista": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Professional Face-Breaker": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Ragavan, Nimble Pilferer": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Rampaging Baloths": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Rampant Growth": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Ramunap Excavator": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Reclamation Sage": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Return of the Wildspeaker": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Rogue\u0027s Passage": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Rootbound Crag": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G",
+        "R"
+      ]
+    },
+    "Six": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Snakeskin Veil": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Solemn Simulacrum": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Stomping Ground": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G",
+        "R"
+      ]
+    },
+    "Swiftfoot Boots": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Sylvan Library": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Talisman of Impulse": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C",
+        "R",
+        "G"
+      ]
+    },
+    "Temple of Abandon": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "G",
+        "R"
+      ]
+    },
+    "Terramorphic Expanse": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Terror of the Peaks": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "The One Ring": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Thrill of Possibility": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Tireless Provisioner": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Tireless Tracker": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Unexpected Windfall": {
+      "develops": true,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Utopia Sprawl": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Veil of Summer": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Verdant Catacombs": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Windswept Heath": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Wood Elves": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Wooded Foothills": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Worldly Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "library_top",
+        "enters_tapped": false,
+        "via": "cast",
+        "delay_turns": 0
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Yavimaya, Cradle of Growth": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G"
+      ]
+    }
+  },
+  "unprofiled": [
+    "Boseiju, Who Endures",
+    "Cultivate",
+    "Demolition Field",
+    "Entish Restoration",
+    "Jeska\u0027s Will",
+    "Lotus Cobra",
+    "Solemn Simulacrum",
+    "Sylvan Library",
+    "The One Ring",
+    "Utopia Sprawl",
+    "Veil of Summer",
+    "Wood Elves"
+  ]
+}

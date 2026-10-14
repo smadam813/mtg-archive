@@ -1,0 +1,63 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Demonic Tutor",
+  "checks": [
+    {
+      "name": "Finds any card and puts it in hand",
+      "start": {
+        "hand": [
+          "Demonic Tutor"
+        ],
+        "battlefield": [
+          "Swamp",
+          "Swamp"
+        ],
+        "library": [
+          "Sol Ring",
+          "Forest"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Demonic Tutor"
+        },
+        {
+          "type": "choose",
+          "pick": "Sol Ring"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "found-card-in-hand",
+          "kind": "hand_contains",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Demonic Tutor"
+          ]
+        },
+        {
+          "id": "library-searched",
+          "kind": "library_count",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Search your library for a card, put that card into your hand, then shuffle.",
+      "assertions": [
+        "found-card-in-hand",
+        "spell-resolves",
+        "library-searched"
+      ]
+    }
+  ]
+}

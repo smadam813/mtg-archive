@@ -1,0 +1,346 @@
+{
+  "label": "x4",
+  "engine": "xmage",
+  "case": "dq2-obeka-t4",
+  "mulligan": "goal-aware",
+  "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+  "engine_version": "xmage-1.4.61V1\u002Bbeee0dd6",
+  "ablations": [],
+  "runs": 10000,
+  "successes": 6885,
+  "engine_errors": 0,
+  "floor": 0.6885,
+  "lower": 0.679352347387604,
+  "upper": 0.6975028852266509,
+  "etb": {},
+  "pay_life": {},
+  "lift": [
+    {
+      "land": "Windswept Heath",
+      "runs": 502,
+      "failures": 440,
+      "failure_rate": 0.8764940239043825
+    },
+    {
+      "land": "Urza\u0027s Saga",
+      "runs": 672,
+      "failures": 372,
+      "failure_rate": 0.5535714285714286
+    },
+    {
+      "land": "Reliquary Tower",
+      "runs": 1072,
+      "failures": 516,
+      "failure_rate": 0.48134328358208955
+    },
+    {
+      "land": "Sunken Hollow",
+      "runs": 1339,
+      "failures": 622,
+      "failure_rate": 0.46452576549663926
+    },
+    {
+      "land": "Graven Cairns",
+      "runs": 1143,
+      "failures": 459,
+      "failure_rate": 0.4015748031496063
+    },
+    {
+      "land": "Wooded Foothills",
+      "runs": 436,
+      "failures": 159,
+      "failure_rate": 0.3646788990825688
+    },
+    {
+      "land": "Vault of Whispers",
+      "runs": 604,
+      "failures": 215,
+      "failure_rate": 0.35596026490066224
+    },
+    {
+      "land": "Verdant Catacombs",
+      "runs": 568,
+      "failures": 200,
+      "failure_rate": 0.352112676056338
+    },
+    {
+      "land": "Cascade Bluffs",
+      "runs": 1560,
+      "failures": 549,
+      "failure_rate": 0.35192307692307695
+    },
+    {
+      "land": "Volcanic Island",
+      "runs": 601,
+      "failures": 203,
+      "failure_rate": 0.33777038269550747
+    },
+    {
+      "land": "Watery Grave",
+      "runs": 568,
+      "failures": 186,
+      "failure_rate": 0.3274647887323944
+    },
+    {
+      "land": "Sunken Ruins",
+      "runs": 844,
+      "failures": 270,
+      "failure_rate": 0.31990521327014215
+    },
+    {
+      "land": "Swamp",
+      "runs": 783,
+      "failures": 228,
+      "failure_rate": 0.29118773946360155
+    },
+    {
+      "land": "Takenuma, Abandoned Mire",
+      "runs": 781,
+      "failures": 225,
+      "failure_rate": 0.2880921895006402
+    },
+    {
+      "land": "Sulfur Falls",
+      "runs": 914,
+      "failures": 256,
+      "failure_rate": 0.2800875273522976
+    },
+    {
+      "land": "Riverpyre Verge",
+      "runs": 1053,
+      "failures": 290,
+      "failure_rate": 0.2754036087369421
+    },
+    {
+      "land": "Mountain",
+      "runs": 1130,
+      "failures": 305,
+      "failure_rate": 0.26991150442477874
+    },
+    {
+      "land": "Shivan Reef",
+      "runs": 1001,
+      "failures": 266,
+      "failure_rate": 0.26573426573426573
+    },
+    {
+      "land": "Underground Sea",
+      "runs": 750,
+      "failures": 192,
+      "failure_rate": 0.256
+    },
+    {
+      "land": "Underground River",
+      "runs": 746,
+      "failures": 189,
+      "failure_rate": 0.25335120643431636
+    },
+    {
+      "land": "Badlands",
+      "runs": 5835,
+      "failures": 1416,
+      "failure_rate": 0.24267352185089974
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 1155,
+      "failures": 272,
+      "failure_rate": 0.2354978354978355
+    },
+    {
+      "land": "Island",
+      "runs": 3353,
+      "failures": 777,
+      "failure_rate": 0.23173277661795408
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 1072,
+      "failures": 246,
+      "failure_rate": 0.2294776119402985
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 1037,
+      "failures": 237,
+      "failure_rate": 0.22854387656702024
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 1599,
+      "failures": 360,
+      "failure_rate": 0.225140712945591
+    },
+    {
+      "land": "Dragonskull Summit",
+      "runs": 1253,
+      "failures": 281,
+      "failure_rate": 0.22426177174780526
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 1225,
+      "failures": 274,
+      "failure_rate": 0.2236734693877551
+    },
+    {
+      "land": "Fiery Islet",
+      "runs": 1295,
+      "failures": 288,
+      "failure_rate": 0.22239382239382238
+    },
+    {
+      "land": "Flooded Strand",
+      "runs": 1226,
+      "failures": 272,
+      "failure_rate": 0.22185970636215335
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 1133,
+      "failures": 247,
+      "failure_rate": 0.21800529567519858
+    },
+    {
+      "land": "Gloomlake Verge",
+      "runs": 1253,
+      "failures": 267,
+      "failure_rate": 0.21308858739026337
+    },
+    {
+      "land": "Drowned Catacomb",
+      "runs": 1199,
+      "failures": 244,
+      "failure_rate": 0.20350291909924936
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 1239,
+      "failures": 247,
+      "failure_rate": 0.1993543179983858
+    },
+    {
+      "land": "City of Brass",
+      "runs": 1240,
+      "failures": 243,
+      "failure_rate": 0.19596774193548386
+    },
+    {
+      "land": "Command Tower",
+      "runs": 1250,
+      "failures": 241,
+      "failure_rate": 0.1928
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 2329,
+      "failures": 449,
+      "failure_rate": 0.19278660369257192
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 1163,
+      "failures": 210,
+      "failure_rate": 0.18056749785038692
+    }
+  ],
+  "against": {
+    "label": "x3",
+    "successes": 6028,
+    "runs": 10000,
+    "difference": {
+      "estimate": 0.0857,
+      "lower": 0.07247626391979738,
+      "upper": 0.0988815646480376
+    }
+  },
+  "paths": [
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 97
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 67
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 62
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Metallic Sliver \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 38
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Sliver Construct \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 35
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T3 cast Metallic Sliver \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 30
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Metallic Sliver \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 29
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Sliver Construct \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 25
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 22
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 20
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Alpha Myr \u003E T3 cast Metallic Sliver \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 18
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T3 cast Metallic Sliver \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 17
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 16
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 15
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Sliver Construct \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 14
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 13
+    },
+    {
+      "path": "T1 land \u003E T1 cast Memnite \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 12
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 cast Vampiric Tutor \u003E T2 land \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 12
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Alpha Myr \u003E T3 land \u003E T3 cast Metallic Sliver \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 11
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Metallic Sliver \u003E T3 land \u003E T3 cast Alpha Myr \u003E T4 land \u003E T4 cast Obeka, Brute Chronologist",
+      "runs": 10
+    }
+  ],
+  "cannot_cast": 2038,
+  "classes": {
+    "land_short": 1730,
+    "color_short": 322,
+    "rules_short": 1063,
+    "unknown": 0
+  }
+}

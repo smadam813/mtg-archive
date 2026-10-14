@@ -1,0 +1,3 @@
+# Fixture bytes are the contract — the 17-column fixture is deliberately
+# CRLF and the rest deliberately LF, so git must never renormalize them.
+* -text

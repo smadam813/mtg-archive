@@ -1,0 +1,367 @@
+[
+  {
+    "effective_date": "2002-10",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2002",
+    "events": [
+      { "card": "Test of Endurance", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2003-05",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2003",
+    "events": [
+      { "card": "Burning Wish", "action": "ban", "scope": "all" },
+      { "card": "Cunning Wish", "action": "ban", "scope": "all" },
+      { "card": "Death Wish", "action": "ban", "scope": "all" },
+      { "card": "Golden Wish", "action": "ban", "scope": "all" },
+      { "card": "Living Wish", "action": "ban", "scope": "all" },
+      { "card": "Ring of Ma'rûf", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2004-10",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2004",
+    "events": [
+      { "card": "Beacon of Immortality", "action": "ban", "scope": "all" },
+      { "card": "Burning Wish", "action": "unban", "scope": "all" },
+      { "card": "Cunning Wish", "action": "unban", "scope": "all" },
+      { "card": "Death Wish", "action": "unban", "scope": "all" },
+      { "card": "Golden Wish", "action": "unban", "scope": "all" },
+      { "card": "Living Wish", "action": "unban", "scope": "all" },
+      { "card": "Ring of Ma'rûf", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2005-04",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2005",
+    "events": [
+      { "card": "Ancestral Recall", "action": "ban", "scope": "all" },
+      { "card": "Balance", "action": "ban", "scope": "all" },
+      { "card": "Black Lotus", "action": "ban", "scope": "all" },
+      { "card": "Biorhythm", "action": "ban", "scope": "all" },
+      { "card": "Library of Alexandria", "action": "ban", "scope": "all" },
+      { "card": "Mox Emerald", "action": "ban", "scope": "all" },
+      { "card": "Mox Jet", "action": "ban", "scope": "all" },
+      { "card": "Mox Pearl", "action": "ban", "scope": "all" },
+      { "card": "Mox Ruby", "action": "ban", "scope": "all" },
+      { "card": "Mox Sapphire", "action": "ban", "scope": "all" },
+      { "card": "Panoptic Mirror", "action": "ban", "scope": "all" },
+      { "card": "Sway of the Stars", "action": "ban", "scope": "all" },
+      { "card": "Time Walk", "action": "ban", "scope": "all" },
+      { "card": "Upheaval", "action": "ban", "scope": "all" },
+      { "card": "Worldgorger Dragon", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2005-12",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2005",
+    "events": [
+      { "card": "Crucible of Worlds", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2006-02",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2006",
+    "events": [
+      { "card": "Heartless Hidetsugu", "action": "ban", "scope": "commander_only" },
+      { "card": "Kaervek the Merciless", "action": "ban", "scope": "commander_only" },
+      { "card": "Niv-Mizzet, the Firemind", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2006-05",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2006",
+    "events": [
+      { "card": "Yawgmoth's Bargain", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2006-11",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2006",
+    "events": [
+      { "card": "Heartless Hidetsugu", "action": "unban", "scope": "commander_only" },
+      { "card": "Kaervek the Merciless", "action": "unban", "scope": "commander_only" },
+      { "card": "Niv-Mizzet, the Firemind", "action": "unban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2007-03",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2007",
+    "events": [
+      { "card": "Coalition Victory", "action": "ban", "scope": "all" },
+      { "card": "Rofellos, Llanowar Emissary", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2007-11",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2007",
+    "events": [
+      { "card": "Beacon of Immortality", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2008-02",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2008",
+    "events": [
+      { "card": "Kokusho, the Evening Star", "action": "ban", "scope": "all" },
+      { "card": "Recurring Nightmare", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2008-06",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2008",
+    "events": [
+      { "card": "Limited Resources", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2008-09",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2008",
+    "events": [
+      { "card": "Grindstone", "action": "ban", "scope": "all" },
+      { "card": "Karakas", "action": "ban", "scope": "all" },
+      { "card": "Lion's Eye Diamond", "action": "ban", "scope": "all" },
+      { "card": "Protean Hulk", "action": "ban", "scope": "all" },
+      { "card": "Riftsweeper", "action": "ban", "scope": "all" },
+      { "card": "Test of Endurance", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2008-12",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2008",
+    "events": [
+      { "card": "Time Vault", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2009-03",
+    "date_precision": "month",
+    "announcement_url": "https://mtg.wiki/page/Banned_and_restricted_cards/Timeline#2009",
+    "events": [
+      { "card": "Metalworker", "action": "ban", "scope": "all" },
+      { "card": "Tinker", "action": "ban", "scope": "all" },
+      { "card": "Crucible of Worlds", "action": "unban", "scope": "all" },
+      { "card": "Rofellos, Llanowar Emissary", "action": "unban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2009-06-20",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20101206000125/http://www.mtgcommander.net/rules.php",
+    "events": [
+      { "card": "Fastbond", "action": "ban", "scope": "all" },
+      { "card": "Gifts Ungiven", "action": "ban", "scope": "all" },
+      { "card": "Braids, Cabal Minion", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2009-09-10",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20101206000125/http://www.mtgcommander.net/rules.php",
+    "events": [
+      { "card": "Riftsweeper", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2009-12-01",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Painter's Servant", "action": "ban", "scope": "all" },
+      { "card": "Grindstone", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2010-06-20",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Channel", "action": "ban", "scope": "all" },
+      { "card": "Tolarian Academy", "action": "ban", "scope": "all" },
+      { "card": "Staff of Domination", "action": "ban", "scope": "all" },
+      { "card": "Rofellos, Llanowar Emissary", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2010-12-20",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Emrakul, the Aeons Torn", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2011-06-17",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Worldgorger Dragon", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2011-09-20",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Lion's Eye Diamond", "action": "unban", "scope": "all" },
+      { "card": "Erayo, Soratami Ascendant // Erayo's Essence", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2012-06-19",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Griselbrand", "action": "ban", "scope": "all" },
+      { "card": "Sundering Titan", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2012-09-19",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Primeval Titan", "action": "ban", "scope": "all" },
+      { "card": "Worldfire", "action": "ban", "scope": "all" },
+      { "card": "Kokusho, the Evening Star", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2013-04-22",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Trade Secrets", "action": "ban", "scope": "all" },
+      { "card": "Staff of Domination", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2014-02-02",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Sylvan Primordial", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2014-09-12",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Braids, Cabal Minion", "action": "ban", "scope": "all" },
+      { "card": "Erayo, Soratami Ascendant // Erayo's Essence", "action": "ban", "scope": "all" },
+      { "card": "Rofellos, Llanowar Emissary", "action": "ban", "scope": "all" },
+      { "card": "Kokusho, the Evening Star", "action": "unban", "scope": "all" },
+      { "card": "Metalworker", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2016-01-18",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Prophet of Kruphix", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2017-04-24",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20191127024517/http://mtgcommander.net/EDH_Root/changelog.php",
+    "events": [
+      { "card": "Leovold, Emissary of Trest", "action": "ban", "scope": "all" },
+      { "card": "Protean Hulk", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2019-07-08",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20190816102502/http://mtgcommander.net/rules.php",
+    "events": [
+      { "card": "Iona, Shield of Emeria", "action": "ban", "scope": "all" },
+      { "card": "Paradox Engine", "action": "ban", "scope": "all" },
+      { "card": "Painter's Servant", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2020-04-20",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2020/04/20/april-2020-rules-update/",
+    "events": [
+      { "card": "Lutri, the Spellchaser", "action": "ban", "scope": "all" },
+      { "card": "Flash", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2020-05-18",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2020/05/18/18-may-2020-update/",
+    "events": [
+      { "card": "Chaos Orb", "action": "ban", "scope": "all" },
+      { "card": "Falling Star", "action": "ban", "scope": "all" },
+      { "card": "Shahrazad", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2021-07-12",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2021/07/12/july-2021-update/",
+    "events": [
+      { "card": "Hullbreacher", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2021-09-13",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2021/09/13/september-2021-quarterly-update/",
+    "events": [
+      { "card": "Golos, Tireless Pilgrim", "action": "ban", "scope": "all" },
+      { "card": "Worldfire", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2024-09-23",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2024/09/23/september-2024-quarterly-update/",
+    "events": [
+      { "card": "Dockside Extortionist", "action": "ban", "scope": "all" },
+      { "card": "Jeweled Lotus", "action": "ban", "scope": "all" },
+      { "card": "Mana Crypt", "action": "ban", "scope": "all" },
+      { "card": "Nadu, Winged Wisdom", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2025-04-22",
+    "date_precision": "day",
+    "announcement_url": "https://magic.wizards.com/en/news/announcements/commander-bans-and-restrictions-april-22-2025",
+    "events": [
+      { "card": "Braids, Cabal Minion", "action": "unban", "scope": "all" },
+      { "card": "Coalition Victory", "action": "unban", "scope": "all" },
+      { "card": "Gifts Ungiven", "action": "unban", "scope": "all" },
+      { "card": "Panoptic Mirror", "action": "unban", "scope": "all" },
+      { "card": "Sway of the Stars", "action": "unban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2026-02-09",
+    "date_precision": "day",
+    "announcement_url": "https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-february-9-2026",
+    "events": [
+      { "card": "Biorhythm", "action": "unban", "scope": "all" },
+      { "card": "Lutri, the Spellchaser", "action": "ban", "scope": "companion" }
+    ]
+  }
+]

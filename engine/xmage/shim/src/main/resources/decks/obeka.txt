@@ -1,0 +1,101 @@
+# Done-query 2 final deck. Commander first, then the 99.
+COMMANDER: Obeka, Brute Chronologist
+1 Pithing Needle
+1 Demonic Tutor
+1 Spoils of the Vault
+1 Tainted Pact
+1 Gamble
+1 Vampiric Tutor
+1 Mystical Tutor
+1 Diabolic Intent
+1 Wishclaw Talisman
+1 Fabricate
+1 Sol Ring
+1 Dark Ritual
+1 Simian Spirit Guide
+1 Arcane Signet
+1 Fellwar Stone
+1 Mind Stone
+1 Talisman of Dominance
+1 Talisman of Creativity
+1 Talisman of Indulgence
+1 Brainstorm
+1 Ponder
+1 Preordain
+1 Opt
+1 Gitaxian Probe
+1 Mystic Remora
+1 Sensei's Divining Top
+1 Night's Whisper
+1 Sign in Blood
+1 Windfall
+1 Frantic Search
+1 Phyrexian Arena
+1 Deadly Dispute
+1 Thassa's Oracle
+1 Underworld Breach
+1 Notion Thief
+1 Dauthi Voidwalker
+1 Faerie Mastermind
+1 Ledger Shredder
+1 Baral, Chief of Compliance
+1 Narset, Parter of Veils
+1 Counterspell
+1 Mana Drain
+1 An Offer You Can't Refuse
+1 Arcane Denial
+1 Swan Song
+1 Flusterstorm
+1 Pact of Negation
+1 Spell Pierce
+1 Pyroblast
+1 Red Elemental Blast
+1 Mindbreak Trap
+1 Dispel
+1 Delay
+1 Cyclonic Rift
+1 Toxic Deluge
+1 Chaos Warp
+1 Feed the Swarm
+1 Lightning Bolt
+1 Terminate
+1 Infernal Grasp
+1 Chain of Vapor
+1 Command Tower
+1 Underground Sea
+1 Volcanic Island
+1 Badlands
+1 Watery Grave
+1 Steam Vents
+1 Blood Crypt
+1 Polluted Delta
+1 Bloodstained Mire
+1 Scalding Tarn
+1 Verdant Catacombs
+1 Marsh Flats
+1 Arid Mesa
+1 Flooded Strand
+1 Misty Rainforest
+1 Wooded Foothills
+1 Windswept Heath
+1 City of Brass
+1 Mana Confluence
+1 Underground River
+1 Shivan Reef
+1 Sulfur Falls
+1 Dragonskull Summit
+1 Drowned Catacomb
+1 Sunken Hollow
+1 Gloomlake Verge
+1 Riverpyre Verge
+1 Fiery Islet
+1 Cascade Bluffs
+1 Sunken Ruins
+1 Graven Cairns
+1 Urza's Saga
+1 Reliquary Tower
+1 Takenuma, Abandoned Mire
+1 Vault of Whispers
+1 Swamp
+1 Island
+1 Mountain

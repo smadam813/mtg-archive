@@ -1,0 +1,420 @@
+# run 0, seed -1742672592, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1742672592.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Gilded Sentinel, Metallic Sliver, Gilded Sentinel, Obsianus Golem, Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Mana Confluence, Marsh Flats, Obsianus Golem, Windswept Heath, Gilded Sentinel, Godless Shrine, Polluted Delta.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Obsianus Golem.
+T1 Main: Played Mana Confluence.
+T1 Main: Mana Confluence enters the battlefield.
+T2 Draw: Drew Sliver Construct.
+T2 Main: Played Marsh Flats.
+T2 Main: Marsh Flats enters the battlefield.
+T2 Main: Activated Marsh Flats: search_library.
+T2 Main: Sacrificed Marsh Flats.
+T2 Main: Marsh Flats goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Marsh Flats: found Watery Grave.
+T2 Main: Watery Grave enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 1, seed 1477616048, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1477616048.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Obsianus Golem, Glass Golem, Temple Garden, Windswept Heath, Hexplate Golem, Alpha Myr, Sliver Construct.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Temple Garden.
+T1 Main: Temple Garden enters the battlefield.
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Windswept Heath.
+T2 Main: Windswept Heath enters the battlefield.
+T2 Main: Activated Windswept Heath: search_library.
+T2 Main: Sacrificed Windswept Heath.
+T2 Main: Windswept Heath goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Windswept Heath: found Tropical Island.
+T2 Main: Tropical Island enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Temple Garden, Tropical Island and spending {G}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 2, seed 600608383, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 600608383.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Sliver Construct, Savannah, Eldrazi Devastator, Temple Garden, Glass Golem, Wooded Foothills, Obsianus Golem.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Bayou.
+T1 Main: Played Savannah.
+T1 Main: Savannah enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Temple Garden.
+T2 Main: Temple Garden enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 3, seed 1865890430, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1865890430.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Gilded Sentinel, Tundra, Marsh Flats, Field of the Dead, Polluted Delta, Alpha Myr, Sliver Construct.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Tundra.
+T1 Main: Tundra enters the battlefield.
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Marsh Flats.
+T2 Main: Marsh Flats enters the battlefield.
+T2 Main: Activated Marsh Flats: search_library.
+T2 Main: Sacrificed Marsh Flats.
+T2 Main: Marsh Flats goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Marsh Flats: found Savannah.
+T2 Main: Savannah enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Tundra, Savannah and spending {U}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 4, seed -1068222394, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1068222394.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Sliver Construct, Obsianus Golem, Hexplate Golem, Sacred Foundry, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Glass Golem, Field of the Dead, Obsianus Golem, Sliver Construct, Sliver Construct, Gilded Sentinel, Windswept Heath.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Field of the Dead.
+T1 Main: Field of the Dead enters the battlefield.
+T2 Draw: Drew Verdant Catacombs.
+T2 Main: Played Windswept Heath.
+T2 Main: Windswept Heath enters the battlefield.
+T2 Main: Activated Windswept Heath: search_library.
+T2 Main: Sacrificed Windswept Heath.
+T2 Main: Windswept Heath goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Windswept Heath: found Temple Garden.
+T2 Main: Temple Garden enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 5, seed 1794173356, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1794173356.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Hallowed Fountain, Vampiric Tutor, Temple Garden, Gilded Sentinel, Alpha Myr, Eldrazi Devastator, Demonic Tutor.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Badlands.
+T1 Main: Played Hallowed Fountain.
+T1 Main: Hallowed Fountain enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Temple Garden.
+T2 Main: Temple Garden enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Hallowed Fountain, Temple Garden and spending {U}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 6, seed -263219428, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -263219428.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Hexplate Golem, Gilded Sentinel, Obsianus Golem, Obsianus Golem, Scrubland, Tropical Island, Alpha Myr.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Scrubland.
+T1 Main: Scrubland enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Scrubland and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Glass Golem.
+T2 Main: Played Tropical Island.
+T2 Main: Tropical Island enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Scrubland, Tropical Island and spending {B}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 7, seed 1661301186, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1661301186.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Obsianus Golem, Overgrown Tomb, Metallic Sliver, Gilded Sentinel, Obsianus Golem, Breeding Pool, Bloodstained Mire.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Hexplate Golem.
+T1 Main: Played Overgrown Tomb.
+T1 Main: Overgrown Tomb enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Overgrown Tomb and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Breeding Pool.
+T2 Main: Breeding Pool enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 8, seed -240477323, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -240477323.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Plateau, Underground Sea, Windswept Heath, Sliver Construct, Gilded Sentinel, Misty Rainforest, Breeding Pool.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Eldrazi Devastator.
+T1 Main: Played Plateau.
+T1 Main: Plateau enters the battlefield.
+T2 Draw: Drew Bloodstained Mire.
+T2 Main: Played Underground Sea.
+T2 Main: Underground Sea enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 9, seed -804095379, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -804095379.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Glass Golem, Obsianus Golem, Sacred Foundry, Volcanic Island, Vampiric Tutor, Glass Golem, Command Tower.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Taiga.
+T1 Main: Played Sacred Foundry.
+T1 Main: Sacred Foundry enters the battlefield.
+T2 Draw: Drew Bloodstained Mire.
+T2 Main: Played Volcanic Island.
+T2 Main: Volcanic Island enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 10, seed 478806028, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 478806028.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Metallic Sliver, Badlands, Glass Golem, Glass Golem, Sliver Construct, Gilded Sentinel, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Metallic Sliver, Glass Golem, Gilded Sentinel, Obsianus Golem, Field of the Dead, Volcanic Island, Scalding Tarn.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Eldrazi Devastator.
+T1 Main: Played Field of the Dead.
+T1 Main: Field of the Dead enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Field of the Dead and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Vampiric Tutor.
+T2 Main: Played Volcanic Island.
+T2 Main: Volcanic Island enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 12, seed -1494476257, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1494476257.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Vampiric Tutor, Gilded Sentinel, Temple Garden, City of Brass, Alpha Myr, Polluted Delta, Badlands.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Temple Garden.
+T1 Main: Temple Garden enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played City of Brass.
+T2 Main: City of Brass enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Temple Garden, City of Brass and spending {B}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 13, seed 1581267951, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1581267951.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Demonic Tutor, Obsianus Golem, Glass Golem, Interplanar Beacon, Bloodstained Mire, Metallic Sliver, Obsianus Golem.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Breeding Pool.
+T1 Main: Played Interplanar Beacon.
+T1 Main: Interplanar Beacon enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Interplanar Beacon and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Godless Shrine.
+T2 Main: Played Bloodstained Mire.
+T2 Main: Bloodstained Mire enters the battlefield.
+T2 Main: Activated Bloodstained Mire: search_library.
+T2 Main: Sacrificed Bloodstained Mire.
+T2 Main: Bloodstained Mire goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Bloodstained Mire: found Plateau.
+T2 Main: Plateau enters the battlefield.
+T2 Main: Casting Demonic Tutor for {1}{B}.
+T2 Main: Paid {1}{B} for Demonic Tutor by tapping Interplanar Beacon, Plateau and spending {B}{R}.
+T2 Main: Shuffled the library.
+T2 Main: Demonic Tutor: found Sol Ring, put into hand.
+T2 Main: Demonic Tutor finishes resolving and goes to the graveyard.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 14, seed 1958422399, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1958422399.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Reflecting Pool, Gilded Sentinel, Demonic Tutor, Steam Vents, Gilded Sentinel, Glass Golem.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Windswept Heath.
+T1 Main: Played Reflecting Pool.
+T1 Main: Reflecting Pool enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Steam Vents.
+T2 Main: Steam Vents enters the battlefield.
+T2 Main: Casting Demonic Tutor for {1}{B}.
+T2 Main: Paid {1}{B} for Demonic Tutor by tapping Reflecting Pool, Steam Vents and spending {B}{R}.
+T2 Main: Shuffled the library.
+T2 Main: Demonic Tutor: found Sol Ring, put into hand.
+T2 Main: Demonic Tutor finishes resolving and goes to the graveyard.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 16, seed 1909695369, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1909695369.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Polluted Delta, Wooded Foothills, Alpha Myr, Hexplate Golem, Gilded Sentinel, Marsh Flats, Blood Crypt.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Polluted Delta.
+T1 Main: Polluted Delta enters the battlefield.
+T1 Main: Activated Polluted Delta: search_library.
+T1 Main: Sacrificed Polluted Delta.
+T1 Main: Polluted Delta goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Polluted Delta: found Steam Vents.
+T1 Main: Steam Vents enters the battlefield.
+T2 Draw: Drew Tropical Island.
+T2 Main: Played Wooded Foothills.
+T2 Main: Wooded Foothills enters the battlefield.
+T2 Main: Activated Wooded Foothills: search_library.
+T2 Main: Sacrificed Wooded Foothills.
+T2 Main: Wooded Foothills goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Wooded Foothills: found Savannah.
+T2 Main: Savannah enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Steam Vents, Savannah and spending {R}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 17, seed 1054823413, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1054823413.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Obsianus Golem, Obsianus Golem, Gilded Sentinel, Sliver Construct, Command Tower, Eldrazi Devastator, Breeding Pool.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Plateau.
+T1 Main: Played Command Tower.
+T1 Main: Command Tower enters the battlefield.
+T2 Draw: Drew Vampiric Tutor.
+T2 Main: Played Breeding Pool.
+T2 Main: Breeding Pool enters the battlefield.
+T2 Main: Casting Vampiric Tutor for {B}.
+T2 Main: Paid {B} for Vampiric Tutor by tapping Command Tower and spending {B}.
+T2 Main: Shuffled the library.
+T2 Main: Vampiric Tutor: found Sol Ring, put on top of the library.
+T2 Main: Vampiric Tutor finishes resolving and goes to the graveyard.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 18, seed -2009878801, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -2009878801.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Polluted Delta, Obsianus Golem, Sliver Construct, Alpha Myr, Godless Shrine, Scrubland, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Obsianus Golem.
+T1 Main: Played Polluted Delta.
+T1 Main: Polluted Delta enters the battlefield.
+T1 Main: Activated Polluted Delta: search_library.
+T1 Main: Sacrificed Polluted Delta.
+T1 Main: Polluted Delta goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Polluted Delta: found Blood Crypt.
+T1 Main: Blood Crypt enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Blood Crypt and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Godless Shrine.
+T2 Main: Godless Shrine enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Blood Crypt, Godless Shrine and spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 19, seed 1187456318, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1187456318.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Gilded Sentinel, Blood Crypt, Obsianus Golem, Glass Golem, Sliver Construct, Gilded Sentinel, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Glass Golem, Temple Garden, Eldrazi Devastator, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Obsianus Golem.
+T1 Mulligan: Kept 6 cards after 2 mulligans: Alpha Myr, Windswept Heath, Obsianus Golem, Hallowed Fountain, Savannah, Glass Golem.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Underground Sea.
+T1 Main: Played Windswept Heath.
+T1 Main: Windswept Heath enters the battlefield.
+T1 Main: Activated Windswept Heath: search_library.
+T1 Main: Sacrificed Windswept Heath.
+T1 Main: Windswept Heath goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Windswept Heath: found Godless Shrine.
+T1 Main: Godless Shrine enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Hallowed Fountain.
+T2 Main: Hallowed Fountain enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Godless Shrine, Hallowed Fountain and spending {U}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 20, seed -277600195, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -277600195.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Gilded Sentinel, Sliver Construct, Alpha Myr, Gilded Sentinel, Eldrazi Devastator, Temple Garden, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Glass Golem, Gilded Sentinel, Windswept Heath, Sacred Foundry, Glass Golem, Obsianus Golem, Eldrazi Devastator.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Temple Garden.
+T1 Main: Played Windswept Heath.
+T1 Main: Windswept Heath enters the battlefield.
+T1 Main: Activated Windswept Heath: search_library.
+T1 Main: Sacrificed Windswept Heath.
+T1 Main: Windswept Heath goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Windswept Heath: found Breeding Pool.
+T1 Main: Breeding Pool enters the battlefield.
+T2 Draw: Drew Arid Mesa.
+T2 Main: Played Sacred Foundry.
+T2 Main: Sacred Foundry enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+
+# run 21, seed -96823375, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -96823375.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy land-window.
+T1 Mulligan: Mulligan 1 (free): Obsianus Golem, Obsianus Golem, Bayou, Metallic Sliver, Metallic Sliver, Obsianus Golem, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Metallic Sliver, Sliver Construct, Plateau, Wooded Foothills, Metallic Sliver, Misty Rainforest, Obsianus Golem.
+T1 Untap: Goal: on_battlefield("Sol Ring", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Plateau.
+T1 Main: Plateau enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Plateau and spending {R}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Wooded Foothills.
+T2 Main: Wooded Foothills enters the battlefield.
+T2 Main: Activated Wooded Foothills: search_library.
+T2 Main: Sacrificed Wooded Foothills.
+T2 Main: Wooded Foothills goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Wooded Foothills: found Volcanic Island.
+T2 Main: Volcanic Island enters the battlefield.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Plateau and spending {R}.
+T2 Main: Metallic Sliver enters the battlefield.
+T2 Cleanup: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: on_battlefield("Sol Ring", by_turn 2).

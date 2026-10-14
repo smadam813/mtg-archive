@@ -1,0 +1,276 @@
+{
+  "label": "demonic-t1-o-name",
+  "engine": "ours",
+  "case": "dq2-demonic-t1",
+  "mulligan": "goal-aware",
+  "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+  "engine_version": "1.0.0\u002B1b85ea2a07e5d580e850521c6077b88168005cf6",
+  "ablations": [
+    "land-order name"
+  ],
+  "runs": 10000,
+  "successes": 220,
+  "engine_errors": 0,
+  "floor": 0.022,
+  "lower": 0.019303308176876983,
+  "upper": 0.02506379426548984,
+  "etb": {},
+  "pay_life": {},
+  "lift": [
+    {
+      "land": "Cascade Bluffs",
+      "runs": 560,
+      "failures": 560,
+      "failure_rate": 1
+    },
+    {
+      "land": "Fiery Islet",
+      "runs": 390,
+      "failures": 390,
+      "failure_rate": 1
+    },
+    {
+      "land": "Island",
+      "runs": 763,
+      "failures": 763,
+      "failure_rate": 1
+    },
+    {
+      "land": "Mountain",
+      "runs": 211,
+      "failures": 211,
+      "failure_rate": 1
+    },
+    {
+      "land": "Reliquary Tower",
+      "runs": 214,
+      "failures": 214,
+      "failure_rate": 1
+    },
+    {
+      "land": "Riverpyre Verge",
+      "runs": 172,
+      "failures": 172,
+      "failure_rate": 1
+    },
+    {
+      "land": "Shivan Reef",
+      "runs": 134,
+      "failures": 134,
+      "failure_rate": 1
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 150,
+      "failures": 150,
+      "failure_rate": 1
+    },
+    {
+      "land": "Sulfur Falls",
+      "runs": 123,
+      "failures": 123,
+      "failure_rate": 1
+    },
+    {
+      "land": "Graven Cairns",
+      "runs": 320,
+      "failures": 315,
+      "failure_rate": 0.984375
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 745,
+      "failures": 729,
+      "failure_rate": 0.978523489932886
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 586,
+      "failures": 573,
+      "failure_rate": 0.9778156996587031
+    },
+    {
+      "land": "Drowned Catacomb",
+      "runs": 473,
+      "failures": 462,
+      "failure_rate": 0.9767441860465116
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 252,
+      "failures": 246,
+      "failure_rate": 0.9761904761904762
+    },
+    {
+      "land": "City of Brass",
+      "runs": 534,
+      "failures": 520,
+      "failure_rate": 0.9737827715355806
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 304,
+      "failures": 296,
+      "failure_rate": 0.9736842105263158
+    },
+    {
+      "land": "Badlands",
+      "runs": 2704,
+      "failures": 2632,
+      "failure_rate": 0.9733727810650887
+    },
+    {
+      "land": "Dragonskull Summit",
+      "runs": 472,
+      "failures": 459,
+      "failure_rate": 0.972457627118644
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 675,
+      "failures": 655,
+      "failure_rate": 0.9703703703703703
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 246,
+      "failures": 238,
+      "failure_rate": 0.967479674796748
+    },
+    {
+      "land": "Command Tower",
+      "runs": 522,
+      "failures": 505,
+      "failure_rate": 0.9674329501915708
+    },
+    {
+      "land": "Gloomlake Verge",
+      "runs": 328,
+      "failures": 317,
+      "failure_rate": 0.9664634146341463
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 162,
+      "failures": 156,
+      "failure_rate": 0.9629629629629629
+    },
+    {
+      "land": "Flooded Strand",
+      "runs": 388,
+      "failures": 373,
+      "failure_rate": 0.961340206185567
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 196,
+      "failures": 187,
+      "failure_rate": 0.9540816326530612
+    },
+    {
+      "land": "Sunken Hollow",
+      "runs": 233,
+      "failures": 208,
+      "failure_rate": 0.8927038626609443
+    }
+  ],
+  "against": {
+    "label": "demonic-t1-x",
+    "successes": 153,
+    "runs": 10000,
+    "difference": {
+      "estimate": 0.006699999999999999,
+      "lower": 0.002955037164149919,
+      "upper": 0.01048726468873784
+    }
+  },
+  "paths": [
+    {
+      "path": "T1 land \u003E T1 cast Demonic Tutor",
+      "runs": 74
+    },
+    {
+      "path": "T1 land \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Metallic Sliver",
+      "runs": 38
+    },
+    {
+      "path": "T1 land \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor",
+      "runs": 21
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Demonic Tutor",
+      "runs": 7
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T1 cast Demonic Tutor",
+      "runs": 6
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Metallic Sliver",
+      "runs": 5
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Demonic Tutor",
+      "runs": 5
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor",
+      "runs": 4
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor",
+      "runs": 4
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Metallic Sliver",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 activate Misty Rainforest \u003E T1 cast Demonic Tutor",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 activate Polluted Delta \u003E T1 cast Demonic Tutor",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 activate Scalding Tarn \u003E T1 cast Demonic Tutor",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Memnite",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 cast Demonic Tutor \u003E T1 cast Memnite",
+      "runs": 3
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Metallic Sliver",
+      "runs": 2
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Pithing Needle",
+      "runs": 2
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Metallic Sliver",
+      "runs": 2
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T1 cast Dark Ritual \u003E T1 cast Demonic Tutor \u003E T1 cast Sol Ring \u003E T1 cast Alpha Myr",
+      "runs": 2
+    }
+  ],
+  "cannot_cast": 0,
+  "classes": {
+    "land_short": 0,
+    "color_short": 0,
+    "rules_short": 0,
+    "unknown": 9780
+  }
+}

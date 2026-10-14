@@ -1,0 +1,43 @@
+{
+  "effective_date": "2010-12-06",
+  "wayback_url": "https://web.archive.org/web/20101206000125/http://www.mtgcommander.net/rules.php",
+  "banned": [
+    "Ancestral Recall",
+    "Balance",
+    "Biorhythm",
+    "Black Lotus",
+    "Channel",
+    "Coalition Victory",
+    "Fastbond",
+    "Gifts Ungiven",
+    "Karakas",
+    "Kokusho, the Evening Star",
+    "Library of Alexandria",
+    "Limited Resources",
+    "Lion's Eye Diamond",
+    "Metalworker",
+    "Mox Emerald",
+    "Mox Jet",
+    "Mox Pearl",
+    "Mox Ruby",
+    "Mox Sapphire",
+    "Painter's Servant",
+    "Panoptic Mirror",
+    "Protean Hulk",
+    "Recurring Nightmare",
+    "Staff of Domination",
+    "Sway of the Stars",
+    "Time Vault",
+    "Time Walk",
+    "Tinker",
+    "Tolarian Academy",
+    "Upheaval",
+    "Worldgorger Dragon",
+    "Yawgmoth's Bargain"
+  ],
+  "banned_as_commander": [
+    "Braids, Cabal Minion",
+    "Rofellos, Llanowar Emissary"
+  ],
+  "banned_as_companion": []
+}

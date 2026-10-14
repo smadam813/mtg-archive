@@ -1,0 +1,6 @@
+{
+  "name": "mtg-archive",
+  "description": "MTG Commander and Arena Brawl lookup, deck analysis, commander swaps, deck building, and archive administration over the MTG Archive service.",
+  "keywords": ["mtg", "magic-the-gathering", "commander", "edh", "brawl", "arena"],
+  "author": { "name": "Adam Keech", "url": "https://github.com/smadam813" }
+}

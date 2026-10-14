@@ -1,0 +1,267 @@
+over	7	horizon	f5d9a6dd7eb86526f8f648bcd7d62128390916d17479adb138ad66bb492ece00
+log	7	0	mulligan	SEED 7
+log	7	0	mulligan	Pilot's library is shuffled
+log	7	0	mulligan	Idle's library is shuffled
+log	7	0	mulligan	Pilot take the first turn
+log	7	0	mulligan	Pilot draws seven cards
+log	7	0	mulligan	Idle draws seven cards
+log	7	0	mulligan	PILOT keep [Scalding Tarn, Steam Vents, Frantic Search, Phyrexian Arena, Opt, Sol Ring, Faerie Mastermind]
+log	7	0	mulligan	Pilot keeps hand
+log	7	0	mulligan	Idle keeps hand
+log	7	0	mulligan	OPENING hand=[Scalding Tarn, Steam Vents, Frantic Search, Phyrexian Arena, Opt, Sol Ring, Faerie Mastermind]
+log	7	1	draw	Pilot draws a card
+log	7	1	main	Pilot puts Scalding Tarn  from hand onto the Battlefield
+log	7	1	main	Pilot plays Scalding Tarn 
+log	7	1	main	PILOT land Scalding Tarn
+log	7	1	main	Pilot loses 1 life from Scalding Tarn 
+log	7	1	main	Pilot sacrificed Scalding Tarn  (source: Scalding Tarn )
+log	7	1	main	Pilot activates: search your library for an Island or Mountain card, put it onto the battlefield, then shuffle. from Scalding Tarn 
+log	7	1	main	PILOT activate Scalding Tarn
+log	7	1	main	Pilot searches their library (source: Scalding Tarn )
+log	7	1	main	PILOT tutor Badlands
+log	7	1	main	Pilot puts Badlands  from library onto the Battlefield (source: Scalding Tarn )
+log	7	1	main	Pilot's library is shuffled (source: Scalding Tarn )
+log	7	1	main	Pilot casts Sol Ring  from hand
+log	7	1	main	PILOT cast Sol Ring
+log	7	1	main	Pilot puts Sol Ring  from stack onto the Battlefield
+log	7	1	main	RESOLVED Sol Ring
+log	7	1	main	Pilot skips attack
+log	7	1	end	END life=39 lib=90 hand=[Steam Vents, Frantic Search, Phyrexian Arena, Opt, Faerie Mastermind, Vault of Whispers] bf=[Badlands(T), Sol Ring] gy=[Scalding Tarn]
+log	7	1	draw	Idle draws a card
+log	7	1	main	Idle skips attack
+log	7	1	cleanup	Idle discards down to 7 hand cards
+log	7	1	cleanup	Idle discards Plains 
+log	7	2	draw	Pilot draws a card
+log	7	2	main	Pilot loses 2 life from Steam Vents 
+log	7	2	main	Pilot puts Steam Vents  from hand onto the Battlefield
+log	7	2	main	Pilot plays Steam Vents 
+log	7	2	main	PILOT land Steam Vents
+log	7	2	main	Pilot casts Faerie Mastermind  from hand
+log	7	2	main	PILOT cast Faerie Mastermind
+log	7	2	main	Pilot puts Faerie Mastermind  from stack onto the Battlefield
+log	7	2	main	RESOLVED Faerie Mastermind
+log	7	2	main	Pilot skips attack
+log	7	2	end	END life=37 lib=89 hand=[Frantic Search, Phyrexian Arena, Opt, Vault of Whispers, Windfall] bf=[Badlands, Faerie Mastermind, Sol Ring(T), Steam Vents(T)] gy=[Scalding Tarn]
+log	7	2	draw	Idle draws a card
+log	7	2	main	Idle skips attack
+log	7	2	cleanup	Idle discards down to 7 hand cards
+log	7	2	cleanup	Idle discards Plains 
+log	7	3	upkeep	Pilot activates: each player draws a card. from Faerie Mastermind 
+log	7	3	upkeep	PILOT activate Faerie Mastermind
+log	7	3	upkeep	Pilot draws a card
+log	7	3	upkeep	Idle draws a card
+log	7	3	draw	Pilot draws a card
+log	7	3	main	Pilot puts Command Tower  from hand onto the Battlefield
+log	7	3	main	Pilot plays Command Tower 
+log	7	3	main	PILOT land Command Tower
+log	7	3	main	Pilot casts Opt  from hand
+log	7	3	main	PILOT cast Opt
+log	7	3	main	Pilot scries 1 (source: Opt )
+log	7	3	main	PILOT scry Lightning Bolt
+log	7	3	main	Pilot puts a card from library to the bottom of their library (source: Opt )
+log	7	3	main	Pilot draws a card
+log	7	3	main	Pilot puts Opt  from stack into their graveyard
+log	7	3	main	RESOLVED Opt
+log	7	3	main	Pilot skips attack
+log	7	3	end	END life=37 lib=86 hand=[Frantic Search, Phyrexian Arena, Vault of Whispers, Windfall, Pyroblast, Takenuma, Abandoned Mire] bf=[Badlands(T), Command Tower(T), Faerie Mastermind, Sol Ring(T), Steam Vents(T)] gy=[Scalding Tarn, Opt]
+log	7	3	draw	Idle draws a card
+log	7	3	main	Idle skips attack
+log	7	3	cleanup	Idle discards down to 7 hand cards
+log	7	3	cleanup	Idle discards Plains 
+log	7	3	cleanup	Idle discards Plains 
+log	7	4	upkeep	Pilot activates: each player draws a card. from Faerie Mastermind 
+log	7	4	upkeep	PILOT activate Faerie Mastermind
+log	7	4	upkeep	Pilot draws a card
+log	7	4	upkeep	Idle draws a card
+log	7	4	upkeep	Pilot casts Pyroblast  (mode 2) targeting Command Tower  from hand
+log	7	4	upkeep	PILOT cast Pyroblast
+log	7	4	upkeep	Pilot puts Pyroblast  from stack into their graveyard
+log	7	4	upkeep	RESOLVED Pyroblast
+log	7	4	draw	Pilot draws a card
+log	7	4	main	Pilot puts Sunken Ruins  from hand onto the Battlefield
+log	7	4	main	Pilot plays Sunken Ruins 
+log	7	4	main	PILOT land Sunken Ruins
+log	7	4	main	Pilot skips attack
+log	7	4	end	END life=37 lib=84 hand=[Frantic Search, Phyrexian Arena, Vault of Whispers, Windfall, Takenuma, Abandoned Mire, Sign in Blood] bf=[Badlands(T), Command Tower(T), Faerie Mastermind, Sol Ring(T), Steam Vents(T), Sunken Ruins] gy=[Scalding Tarn, Opt, Pyroblast]
+over	8	horizon	11eb0e4b4ff625f6127e0f32a3fe4ad003be5e6265211a587c40ad8f55f41729
+log	8	0	mulligan	SEED 8
+log	8	0	mulligan	Pilot's library is shuffled
+log	8	0	mulligan	Idle's library is shuffled
+log	8	0	mulligan	Pilot take the first turn
+log	8	0	mulligan	Pilot draws seven cards
+log	8	0	mulligan	Idle draws seven cards
+log	8	0	mulligan	PILOT keep [Bloodstained Mire, Mountain, Toxic Deluge, Mana Drain, Chain of Vapor, Lightning Bolt, Simian Spirit Guide]
+log	8	0	mulligan	Pilot keeps hand
+log	8	0	mulligan	Idle keeps hand
+log	8	0	mulligan	OPENING hand=[Bloodstained Mire, Mountain, Toxic Deluge, Mana Drain, Chain of Vapor, Lightning Bolt, Simian Spirit Guide]
+log	8	1	upkeep	Pilot moves Simian Spirit Guide  from hand to the exile zone
+log	8	1	upkeep	Pilot casts Lightning Bolt  targeting Idle from hand
+log	8	1	upkeep	PILOT cast Lightning Bolt
+log	8	1	upkeep	Idle loses 3 life from Lightning Bolt 
+log	8	1	upkeep	Pilot puts Lightning Bolt  from stack into their graveyard
+log	8	1	upkeep	RESOLVED Lightning Bolt
+log	8	1	draw	Pilot draws a card
+log	8	1	main	Pilot puts Bloodstained Mire  from hand onto the Battlefield
+log	8	1	main	Pilot plays Bloodstained Mire 
+log	8	1	main	PILOT land Bloodstained Mire
+log	8	1	main	Pilot loses 1 life from Bloodstained Mire 
+log	8	1	main	Pilot sacrificed Bloodstained Mire  (source: Bloodstained Mire )
+log	8	1	main	Pilot activates: search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle. from Bloodstained Mire 
+log	8	1	main	PILOT activate Bloodstained Mire
+log	8	1	main	Pilot searches their library (source: Bloodstained Mire )
+log	8	1	main	PILOT tutor Badlands
+log	8	1	main	Pilot puts Badlands  from library onto the Battlefield (source: Bloodstained Mire )
+log	8	1	main	Pilot's library is shuffled (source: Bloodstained Mire )
+log	8	1	main	Pilot skips attack
+log	8	1	end	END life=39 lib=90 hand=[Mountain, Toxic Deluge, Mana Drain, Chain of Vapor, Counterspell] bf=[Badlands] gy=[Lightning Bolt, Bloodstained Mire]
+log	8	1	draw	Idle draws a card
+log	8	1	main	Idle skips attack
+log	8	1	cleanup	Idle discards down to 7 hand cards
+log	8	1	cleanup	Idle discards Plains 
+log	8	2	draw	Pilot draws a card
+log	8	2	main	Pilot puts Mana Confluence  from hand onto the Battlefield
+log	8	2	main	Pilot plays Mana Confluence 
+log	8	2	main	PILOT land Mana Confluence
+log	8	2	main	Pilot skips attack
+log	8	2	end	END life=39 lib=89 hand=[Mountain, Toxic Deluge, Mana Drain, Chain of Vapor, Counterspell] bf=[Badlands, Mana Confluence] gy=[Lightning Bolt, Bloodstained Mire]
+log	8	2	draw	Idle draws a card
+log	8	2	main	Idle skips attack
+log	8	2	cleanup	Idle discards down to 7 hand cards
+log	8	2	cleanup	Idle discards Plains 
+log	8	3	draw	Pilot draws a card
+log	8	3	main	Pilot loses 1 life from Mana Confluence 
+log	8	3	main	Pilot casts Ponder  from hand
+log	8	3	main	PILOT cast Ponder
+log	8	3	main	PILOT order_top Pyroblast
+log	8	3	main	Pilot puts a card from library to the top of their library (source: Ponder )
+log	8	3	main	PILOT order_top Fiery Islet
+log	8	3	main	Pilot puts a card from library to the top of their library (source: Ponder )
+log	8	3	main	Pilot puts a card from library to the top of their library (source: Ponder )
+log	8	3	main	PILOT shuffle do not shuffle
+log	8	3	main	Pilot draws a card
+log	8	3	main	Pilot puts Ponder  from stack into their graveyard
+log	8	3	main	RESOLVED Ponder
+log	8	3	main	Pilot puts Mountain  from hand onto the Battlefield
+log	8	3	main	Pilot plays Mountain 
+log	8	3	main	PILOT land Mountain
+log	8	3	main	Pilot skips attack
+log	8	3	end	END life=38 lib=87 hand=[Toxic Deluge, Mana Drain, Chain of Vapor, Counterspell, Swamp] bf=[Badlands, Mana Confluence(T), Mountain] gy=[Lightning Bolt, Bloodstained Mire, Ponder]
+log	8	3	draw	Idle draws a card
+log	8	3	main	Idle skips attack
+log	8	3	cleanup	Idle discards down to 7 hand cards
+log	8	3	cleanup	Idle discards Plains 
+log	8	4	draw	Pilot draws a card
+log	8	4	main	Pilot loses 1 life from Mana Confluence 
+log	8	4	main	Pilot loses 31 life from Toxic Deluge 
+log	8	4	main	Pilot announces a value of 31 (life to pay) (source: Toxic Deluge )
+log	8	4	main	Pilot casts Toxic Deluge  from hand
+log	8	4	main	PILOT cast Toxic Deluge
+log	8	4	main	Pilot puts Toxic Deluge  from stack into their graveyard
+log	8	4	main	RESOLVED Toxic Deluge
+log	8	4	main	Pilot puts Fiery Islet  from hand onto the Battlefield
+log	8	4	main	Pilot plays Fiery Islet 
+log	8	4	main	PILOT land Fiery Islet
+log	8	4	main	Pilot loses 1 life from Fiery Islet 
+log	8	4	main	PILOT cannot activate Fiery Islet
+log	8	4	main	Pilot skips attack
+log	8	4	end	END life=6 lib=86 hand=[Mana Drain, Chain of Vapor, Counterspell, Swamp] bf=[Badlands(T), Fiery Islet, Mana Confluence(T), Mountain(T)] gy=[Lightning Bolt, Bloodstained Mire, Ponder, Toxic Deluge]
+over	121	horizon	84c0bc43f875ee772cdee44f95839e63c10773fc64a6c03b17f9153576c3f5e0
+log	121	0	mulligan	SEED 121
+log	121	0	mulligan	Pilot's library is shuffled
+log	121	0	mulligan	Idle's library is shuffled
+log	121	0	mulligan	Pilot take the first turn
+log	121	0	mulligan	Pilot draws seven cards
+log	121	0	mulligan	Idle draws seven cards
+log	121	0	mulligan	PILOT keep [Bloodstained Mire, City of Brass, Graven Cairns, Scalding Tarn, Vault of Whispers, Night's Whisper, Mystical Tutor]
+log	121	0	mulligan	Pilot keeps hand
+log	121	0	mulligan	Idle keeps hand
+log	121	0	mulligan	OPENING hand=[Bloodstained Mire, City of Brass, Graven Cairns, Scalding Tarn, Vault of Whispers, Night's Whisper, Mystical Tutor]
+log	121	1	draw	Pilot draws a card
+log	121	1	main	Pilot puts Bloodstained Mire  from hand onto the Battlefield
+log	121	1	main	Pilot plays Bloodstained Mire 
+log	121	1	main	PILOT land Bloodstained Mire
+log	121	1	main	Pilot loses 1 life from Bloodstained Mire 
+log	121	1	main	Pilot sacrificed Bloodstained Mire  (source: Bloodstained Mire )
+log	121	1	main	Pilot activates: search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle. from Bloodstained Mire 
+log	121	1	main	PILOT activate Bloodstained Mire
+log	121	1	main	Pilot searches their library (source: Bloodstained Mire )
+log	121	1	main	PILOT tutor Badlands
+log	121	1	main	Pilot puts Badlands  from library onto the Battlefield (source: Bloodstained Mire )
+log	121	1	main	Pilot's library is shuffled (source: Bloodstained Mire )
+log	121	1	main	Pilot skips attack
+log	121	1	end	END life=39 lib=90 hand=[City of Brass, Graven Cairns, Scalding Tarn, Vault of Whispers, Night's Whisper, Mystical Tutor, Talisman of Creativity] bf=[Badlands] gy=[Bloodstained Mire]
+log	121	1	draw	Idle draws a card
+log	121	1	main	Idle skips attack
+log	121	1	cleanup	Idle discards down to 7 hand cards
+log	121	1	cleanup	Idle discards Plains 
+log	121	2	draw	Pilot draws a card
+log	121	2	main	Pilot puts City of Brass  from hand onto the Battlefield
+log	121	2	main	Pilot plays City of Brass 
+log	121	2	main	PILOT land City of Brass
+log	121	2	main	Pilot casts Mystical Tutor  from hand
+log	121	2	main	PILOT cast Mystical Tutor
+log	121	2	main	Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+log	121	2	main	Pilot loses 1 life from City of Brass 
+log	121	2	main	Pilot searches their library (source: Mystical Tutor )
+log	121	2	main	PILOT tutor An Offer You Can't Refuse
+log	121	2	main	Pilot reveals An Offer You Can't Refuse
+log	121	2	main	Pilot's library is shuffled (source: Mystical Tutor )
+log	121	2	main	Pilot puts a card from library to the top of their library (source: Mystical Tutor )
+log	121	2	main	Pilot puts Mystical Tutor  from stack into their graveyard
+log	121	2	main	RESOLVED Mystical Tutor
+log	121	2	main	Pilot skips attack
+log	121	2	end	END life=38 lib=89 hand=[Graven Cairns, Scalding Tarn, Vault of Whispers, Night's Whisper, Talisman of Creativity, Narset, Parter of Veils] bf=[Badlands, City of Brass(T)] gy=[Bloodstained Mire, Mystical Tutor]
+log	121	2	draw	Idle draws a card
+log	121	2	main	Idle skips attack
+log	121	2	cleanup	Idle discards down to 7 hand cards
+log	121	2	cleanup	Idle discards Plains 
+log	121	3	draw	Pilot draws a card
+log	121	3	main	Pilot casts Night's Whisper  from hand
+log	121	3	main	PILOT cast Night's Whisper
+log	121	3	main	Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+log	121	3	main	Pilot loses 1 life from City of Brass 
+log	121	3	main	Pilot draws two cards
+log	121	3	main	Pilot loses 2 life from Night's Whisper 
+log	121	3	main	Pilot puts Night's Whisper  from stack into their graveyard
+log	121	3	main	RESOLVED Night's Whisper
+log	121	3	main	Pilot puts Graven Cairns  from hand onto the Battlefield
+log	121	3	main	Pilot plays Graven Cairns 
+log	121	3	main	PILOT land Graven Cairns
+log	121	3	main	Pilot skips attack
+log	121	3	end	END life=35 lib=86 hand=[Scalding Tarn, Vault of Whispers, Talisman of Creativity, Narset, Parter of Veils, An Offer You Can't Refuse, Tainted Pact, Vampiric Tutor] bf=[Badlands(T), City of Brass(T), Graven Cairns] gy=[Bloodstained Mire, Mystical Tutor, Night's Whisper]
+log	121	3	draw	Idle draws a card
+log	121	3	main	Idle skips attack
+log	121	3	cleanup	Idle discards down to 7 hand cards
+log	121	3	cleanup	Idle discards Plains 
+log	121	4	upkeep	Pilot casts Tainted Pact  from hand
+log	121	4	upkeep	PILOT cast Tainted Pact
+log	121	4	upkeep	Pilot moves Shivan Reef  from library to the exile zone (source: Tainted Pact )
+log	121	4	upkeep	Pilot puts Shivan Reef  from exile zone into their hand
+log	121	4	upkeep	Pilot puts Tainted Pact  from stack into their graveyard
+log	121	4	upkeep	RESOLVED Tainted Pact
+log	121	4	upkeep	Pilot casts Vampiric Tutor  from hand
+log	121	4	upkeep	PILOT cast Vampiric Tutor
+log	121	4	upkeep	Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+log	121	4	upkeep	Pilot loses 1 life from City of Brass 
+log	121	4	upkeep	Pilot searches their library (source: Vampiric Tutor )
+log	121	4	upkeep	PILOT tutor Arcane Denial
+log	121	4	upkeep	Pilot's library is shuffled (source: Vampiric Tutor )
+log	121	4	upkeep	Pilot puts a card from library to the top of their library (source: Vampiric Tutor )
+log	121	4	upkeep	Pilot loses 2 life from Vampiric Tutor 
+log	121	4	upkeep	Pilot puts Vampiric Tutor  from stack into their graveyard
+log	121	4	upkeep	RESOLVED Vampiric Tutor
+log	121	4	draw	Pilot draws a card
+log	121	4	main	Pilot puts Scalding Tarn  from hand onto the Battlefield
+log	121	4	main	Pilot plays Scalding Tarn 
+log	121	4	main	PILOT land Scalding Tarn
+log	121	4	main	Pilot loses 1 life from Scalding Tarn 
+log	121	4	main	Pilot sacrificed Scalding Tarn  (source: Scalding Tarn )
+log	121	4	main	Pilot activates: search your library for an Island or Mountain card, put it onto the battlefield, then shuffle. from Scalding Tarn 
+log	121	4	main	PILOT activate Scalding Tarn
+log	121	4	main	Pilot searches their library (source: Scalding Tarn )
+log	121	4	main	PILOT tutor Blood Crypt
+log	121	4	main	Pilot loses 2 life from Blood Crypt 
+log	121	4	main	Pilot puts Blood Crypt  from library onto the Battlefield (source: Scalding Tarn )
+log	121	4	main	Pilot's library is shuffled (source: Scalding Tarn )
+log	121	4	main	Pilot skips attack
+log	121	4	end	END life=29 lib=83 hand=[Vault of Whispers, Talisman of Creativity, Narset, Parter of Veils, An Offer You Can't Refuse, Shivan Reef, Arcane Denial] bf=[Badlands(T), Blood Crypt, City of Brass(T), Graven Cairns(T)] gy=[Bloodstained Mire, Mystical Tutor, Night's Whisper, Tainted Pact, Vampiric Tutor, Scalding Tarn]

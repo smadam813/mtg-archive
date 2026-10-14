@@ -1,0 +1,136 @@
+{
+  "decks": [
+    { "name": "dq2-obeka", "source": "../acceptance/done-query-2/final-99.json" },
+    { "name": "dq2-final-99", "source": "../acceptance/done-query-2/final-99.json" },
+    { "name": "dq1-golos", "source": "../acceptance/done-query-1/decklist.json" },
+    {
+      "name": "brawl-seek-conjure",
+      "source": "sources/brawl-seek-conjure.json",
+      "goal": { "kind": "cast", "card": "Golos, Tireless Pilgrim", "by_turn": 5 },
+      "format": "brawl",
+      "exercises": "Determinism only, no parity case: every XMage seek card and the XMage conjure cards, on the play at 25 life."
+    },
+    { "name": "bq1-wrenn-and-six", "source": "../acceptance/brawl-query-1/deck.txt" },
+    { "name": "bq1-wrenn-and-six-responses", "source": "../acceptance/brawl-query-1/deck.txt" },
+    { "name": "bq2-jolly-balloon-man", "source": "../acceptance/brawl-query-2/parity-deck.txt" },
+    { "name": "brawl-calibration", "source": "sources/brawl-calibration.txt" }
+  ],
+  "runs": 10000,
+  "base_seed": 20260928,
+  "fresh_seed": 20260929,
+  "turn_horizon": 10,
+  "mulligans": ["goal-aware", "land-window"],
+  "cases": [
+    {
+      "name": "dq2-needle-t1",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "on_battlefield", "card": "Pithing Needle", "by_turn": 1 },
+      "exercises": "The done-query 2 goal: tutors to hand, the ritual, the spirit guide and Sol Ring on turn 1."
+    },
+    {
+      "name": "dq2-demonic-t1",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "cast", "card": "Demonic Tutor", "by_turn": 1 },
+      "exercises": "The ritual and the spirit guide pay a two-mana spell on turn 1."
+    },
+    {
+      "name": "dq2-needle-t2",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "on_battlefield", "card": "Pithing Needle", "by_turn": 2 },
+      "exercises": "Tutors to the top: Vampiric and Mystical Tutor on turn 1, the card drawn on turn 2."
+    },
+    {
+      "name": "dq2-needle-t3",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "on_battlefield", "card": "Pithing Needle", "by_turn": 3 },
+      "exercises": "Cantrips: Brainstorm, Ponder, Preordain and Opt dig for the Needle, and the pilot orders and shuffles."
+    },
+    {
+      "name": "dq2-obeka-t4",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "cast", "card": "Obeka, Brute Chronologist", "by_turn": 4 },
+      "exercises": "Fetch lands and duals find the three colors of the commander."
+    },
+    {
+      "name": "dq2-needle-t4-disrupted",
+      "deck": "dq2-obeka",
+      "goal": { "kind": "on_battlefield", "card": "Pithing Needle", "by_turn": 4 },
+      "disruption": [{ "kind": "counterspell", "turn": 3 }, { "kind": "targeted_removal", "turn": 4 }],
+      "exercises": "Tier 3 under the default disruption profile: both arms."
+    },
+    {
+      "name": "dq2-final-99-needle-t4-interactive",
+      "deck": "dq2-final-99",
+      "goal": { "kind": "on_battlefield", "card": "Pithing Needle", "by_turn": 4 },
+      "disruption": [{ "kind": "counterspell", "turn": 3 }, { "kind": "targeted_removal", "turn": 4 }],
+      "disruption_mode": "interactive",
+      "exercises": "Tier 4, the counter path: the done-query 2 final 99 with its own counterspells and no filler, under the default profile in interactive mode."
+    },
+    {
+      "name": "dq1-sol-ring-t2",
+      "deck": "dq1-golos",
+      "goal": { "kind": "on_battlefield", "card": "Sol Ring", "by_turn": 2 },
+      "exercises": "A five-color deck: Demonic Tutor to hand and Vampiric Tutor to the top."
+    },
+    {
+      "name": "dq1-demonic-t2",
+      "deck": "dq1-golos",
+      "goal": { "kind": "cast", "card": "Demonic Tutor", "by_turn": 2 },
+      "exercises": "Fetch lands and duals find black in a five-color mana base."
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-brawl",
+      "deck": "bq1-wrenn-and-six",
+      "goal": { "kind": "cast", "card": "Wrenn and Six", "by_turn": 3 },
+      "format": "brawl",
+      "exercises": "Brawl acceptance query 1 in Brawl: a planeswalker commander from the command zone, on the play at 25 life, one free mulligan."
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-competitive",
+      "deck": "bq1-wrenn-and-six",
+      "goal": { "kind": "cast", "card": "Wrenn and Six", "by_turn": 3 },
+      "format": "competitive_brawl",
+      "exercises": "The same deck in Competitive Brawl: no free mulligan."
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive",
+      "deck": "bq1-wrenn-and-six-responses",
+      "goal": { "kind": "on_battlefield", "card": "Wrenn and Six", "by_turn": 3 },
+      "disruption": [{ "kind": "targeted_removal", "turn": 3 }],
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "exercises": "Tier 4, the protection path: the Brawl acceptance query 1 deck with its response features, Wrenn and Six on the battlefield by turn 3 through an Atomize at the end of turn 3, in interactive mode. Shroud, hexproof and protection spells change what the Atomize can target or answer it."
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive-hold",
+      "deck": "bq1-wrenn-and-six-responses",
+      "goal": { "kind": "on_battlefield", "card": "Wrenn and Six", "by_turn": 3 },
+      "disruption": [{ "kind": "targeted_removal", "turn": 3 }],
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "play_policy": "goal-aware-hold",
+      "exercises": "Tier 4, the hold policy: the protection case under goal-aware-hold in both arms (ADR 0014). The pilot keeps its response cards in hand and, while Wrenn and Six holds, keeps mana for the cheapest one."
+    },
+    {
+      "name": "bq2-jolly-balloon-man-t3",
+      "deck": "bq2-jolly-balloon-man",
+      "goal": { "kind": "cast", "card": "The Jolly Balloon Man", "by_turn": 3 },
+      "format": "standard_brawl",
+      "exercises": "Brawl acceptance query 2: a 60-card Standard Brawl deck from the collection casts its commander on turn 3."
+    },
+    {
+      "name": "brawl-calibration-t1",
+      "deck": "brawl-calibration",
+      "goal": { "kind": "cast", "card": "Ornithopter", "by_turn": 1 },
+      "format": "brawl",
+      "exercises": "Calibration with a closed form: one 0-mana card, no tutor, no draw. Counts the turn-1 draw (none on the play) and one free mulligan."
+    },
+    {
+      "name": "brawl-calibration-t1-competitive",
+      "deck": "brawl-calibration",
+      "goal": { "kind": "cast", "card": "Ornithopter", "by_turn": 1 },
+      "format": "competitive_brawl",
+      "exercises": "The calibration in Competitive Brawl: no free mulligan."
+    }
+  ]
+}

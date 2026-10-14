@@ -1,0 +1,32 @@
+{
+  "query": "BQ2: build from the collection, commander cast on turn 3 (build-deck, Standard Brawl)",
+  "collection": "collection.csv",
+  "generator": "generate_collection.py (seed 295)",
+  "parity_deck": "parity-deck.txt",
+  "as_of": "2026-10-04T21:01:57Z",
+  "as_of_source": "Scryfall Oracle Cards bulk updated_at; the Standard pool and each fact read from api.scryfall.com/cards/search, /cards/named and /cards/collection on 2026-10-05",
+  "next_bans_due": "2026-10-12",
+  "commander": "The Jolly Balloon Man",
+  "commander_pick": [
+    "Candidates: every Standard-legal legendary creature or planeswalker with mana value 3 that the collection owns and that is commander-legal in Standard Brawl.",
+    "Two colors: a turn-3 cast of a three-color commander strains a 60-card mana base.",
+    "XMage implements it: the parity case must cast it.",
+    "Most owned Standard Brawl cards in its color identity, basics aside: 871, a ten-way tie of BG and RW commanders.",
+    "Tie-break by EDHREC rank, the Standard Brawl popularity order: The Jolly Balloon Man (2478) before Camellia, the Seedmiser (2708) and Joshua, Phoenix's Dominant (3775)."
+  ],
+  "facts": [
+    { "card": "The Jolly Balloon Man", "seat": "commander", "brawl": "legal", "competitivebrawl": "legal", "standardbrawl": "legal", "standard": "legal" }
+  ],
+  "collection_summary": {
+    "base_rows": 1896,
+    "sampled_rows": 1860,
+    "copies": 5257,
+    "standard_pool_cards": 5164,
+    "owned_standard_brawl_legal_cards": 2235,
+    "digital_only_cards": 0
+  },
+  "parity_deck_summary": {
+    "cards": 60,
+    "standardbrawl": "all 49 names legal, every card owned, singleton apart from basics"
+  }
+}

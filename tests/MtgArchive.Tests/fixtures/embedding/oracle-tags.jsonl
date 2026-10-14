@@ -1,0 +1,6 @@
+{"label": "ramp", "taggings": [{"oracle_id": "68954295-54e5-4de3-8fb3-5fbf6e0ee5d6"}, {"oracle_id": "ce5f1fd0-a6c2-4b1e-8bc6-6a26e1a0f7c6"}]}
+{"label": "mana-dork", "taggings": [{"oracle_id": "68954295-54e5-4de3-8fb3-5fbf6e0ee5d6"}]}
+{"label": "mana-rock", "taggings": [{"oracle_id": "ce5f1fd0-a6c2-4b1e-8bc6-6a26e1a0f7c6"}]}
+{"id": "5c9a0f4e-1c1e-4d5a-9b2f-0a7c3e8d1f21", "label": "reanimate", "parent_ids": [], "taggings": []}
+{"id": "8e2b7d61-4f3a-4c8e-a1d9-6b5f2c0e9a34", "label": "reanimate-creature", "parent_ids": ["5c9a0f4e-1c1e-4d5a-9b2f-0a7c3e8d1f21"], "taggings": [{"oracle_id": "b96a8ad2-3d86-459b-a34f-19c9dc07c3c4", "weight": "median"}]}
+{"label": "infect", "taggings": [{"oracle_id": "a4c1e3f7-2b8d-4e6a-9c5f-0d1e2f3a4b5c"}]}

@@ -1,0 +1,59 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Evolving Wilds",
+  "checks": [
+    {
+      "name": "Sacrifices itself to fetch a tapped basic",
+      "start": {
+        "battlefield": [
+          "Evolving Wilds"
+        ],
+        "hand": [],
+        "library": [
+          "Forest"
+        ]
+      },
+      "actions": [
+        {
+          "type": "activate",
+          "permanent": "Evolving Wilds",
+          "ability": 0
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "basic-enters-tapped",
+          "kind": "battlefield_has",
+          "card": "Forest",
+          "tapped": true
+        },
+        {
+          "id": "wilds-sacrificed",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Evolving Wilds"
+          ]
+        },
+        {
+          "id": "library-searched",
+          "kind": "library_count",
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "assertions": [
+        "basic-enters-tapped",
+        "wilds-sacrificed",
+        "library-searched"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "query": "BQ3: Old Stickfingers deck across all three Brawl formats (deck-check)",
+  "deck": "deck.txt",
+  "as_of": "2026-10-04T21:01:57Z",
+  "as_of_source": "Scryfall Oracle Cards bulk updated_at; each fact read from api.scryfall.com/cards/named and /cards/collection on 2026-10-05",
+  "next_bans_due": "2026-10-12",
+  "facts": [
+    { "card": "Old Stickfingers", "seat": "commander", "brawl": "legal", "competitivebrawl": "banned", "standardbrawl": "not_legal" },
+    { "card": "Demonic Tutor", "seat": "entry", "brawl": "banned", "competitivebrawl": "legal", "standardbrawl": "not_legal" },
+    { "card": "Perennial Gravewarden", "seat": "entry", "brawl": "legal", "competitivebrawl": "legal", "standardbrawl": "not_legal", "digital_only": true, "set": "yecl", "set_type": "alchemy" }
+  ],
+  "deck_summary": {
+    "cards": 100,
+    "brawl": "88 names legal; banned: Demonic Tutor",
+    "competitivebrawl": "88 names legal; banned: Old Stickfingers",
+    "standardbrawl": "22 names legal (basics and Standard reprints); 100 cards, not 60"
+  }
+}

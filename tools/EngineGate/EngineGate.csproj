@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>MtgArchive.Tools.EngineGate</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <!-- HostCpu's LibraryImport of GetSystemTimes generates unsafe marshalling code. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="MtgArchive.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- The parity, determinism and leak gates drive both engines through the service's own batch runner (spec §6). -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="..\..\src\MtgArchive\MtgArchive.csproj" />
+    <!-- A gate starts its own sidecar processes from the image (determinism: two; leak: copies on and off). -->
+    <PackageReference Include="Testcontainers" Version="4.14.0" />
+  </ItemGroup>
+
+</Project>

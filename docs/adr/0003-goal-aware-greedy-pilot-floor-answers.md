@@ -1,0 +1,11 @@
+# Goal-aware greedy pilot with floor-labeled answers
+
+The goldfish engine's default pilot policy is a goal-aware greedy: the run's goal predicate is handed to the pilot as its objective, and its priority order is goal-satisfying actions, then tutors and selection that can find a goal piece, then land drop, ramp, draw, and anything else castable. A generic greedy (develop mana, cast the biggest castable spell) may never attempt the queried line — "turn-1 Pithing Needle" is unanswerable if the pilot tutors for ramp instead of Needle — so goal-awareness is what makes tier-2 answers computable, and it produces the exemplar lines for free. The pilot is deterministic given state and does no lookahead, so all randomness comes from the shuffle and the result under-reports what a competent pilot achieves.
+
+That bias is embraced as a contract, not tolerated: every tier-2 probability ships in a result envelope labeled as a floor ("≥ X%"), carrying the 95% confidence interval, run count, base seed, named play and mulligan policies, the per-turn cumulative curve, and replayable exemplar lines. Honesty is a schema property of the envelope, not a documentation promise. The engine accepts illegal decklists and attaches the legality verdict to the envelope instead of refusing, because the banned-commander done-query must reason over an illegal deck.
+
+**Amendment (2026-10-04, [ADR 0012](0012-arena-brawl-formats.md)):** the deck verdict replaces the legality verdict on the envelope. It judges card legality and deck shape in the request's format. An illegal deck still runs and reports.
+
+**Note (2026-10-11, [ADR 0013](0013-interactive-disruption.md)):** the response order is an addition. In interactive disruption the pilot answers a disruption card that threatens a goal card with the cheapest proven answer. The main-phase order and the floor label do not change, and the policy name stays `goal-aware-greedy`.
+
+**Note (2026-10-11, [ADR 0014](0014-goal-aware-hold-policy.md)):** a second play policy exists. `goal-aware-hold` is opt-in and plays only with interactive disruption. It plays as this order with a card hold and a mana reserve. `goal-aware-greedy` stays the default, and the floor label does not change.

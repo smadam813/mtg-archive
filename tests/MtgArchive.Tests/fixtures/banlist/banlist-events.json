@@ -1,0 +1,28 @@
+[
+  {
+    "effective_date": "2004-10-04",
+    "date_precision": "day",
+    "announcement_url": "https://web.archive.org/web/20041012000000/https://example.org/2004-banlist",
+    "events": [
+      { "card": "Ancestral Recall", "action": "ban", "scope": "all" },
+      { "card": "Braids, Cabal Minion", "action": "ban", "scope": "commander_only" }
+    ]
+  },
+  {
+    "effective_date": "2007-06",
+    "date_precision": "month",
+    "announcement_url": "https://web.archive.org/web/20070615000000/https://example.org/2007-banlist",
+    "events": [
+      { "card": "Braids, Cabal Minion", "action": "unban", "scope": "commander_only" },
+      { "card": "Sundering Titan", "action": "ban", "scope": "all" }
+    ]
+  },
+  {
+    "effective_date": "2026-02-02",
+    "date_precision": "day",
+    "announcement_url": "https://example.org/2026-02-announcement",
+    "events": [
+      { "card": "Lutri, the Spellchaser", "action": "ban", "scope": "companion" }
+    ]
+  }
+]

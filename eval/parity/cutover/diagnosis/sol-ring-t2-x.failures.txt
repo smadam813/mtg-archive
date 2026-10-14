@@ -1,0 +1,2234 @@
+# run 0, seed -1742672592, class RulesShort
+T0 Mulligan: SEED -1742672592
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Tropical Island, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Godless Shrine, Taiga, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Stomping Ground, Tundra, Underground Sea, Verdant Catacombs, Obsianus Golem, Sliver Construct]
+T0 Mulligan: PILOT bottom Hallowed Fountain
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Tundra, Underground Sea, Eldrazi Devastator, Hexplate Golem, Glass Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Tundra, Underground Sea, Glass Golem, Glass Golem, Gilded Sentinel]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Tundra  from hand onto the Battlefield
+T1 Main: Pilot plays Tundra 
+T1 Main: PILOT land Tundra
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Underground Sea, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel] bf=[Tundra] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot loses 2 life from Temple Garden 
+T2 Main: Pilot puts Temple Garden  from hand onto the Battlefield
+T2 Main: Pilot plays Temple Garden 
+T2 Main: PILOT land Temple Garden
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Underground Sea, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel] bf=[Temple Garden, Tundra] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1, seed 1477616048, class RulesShort
+T0 Mulligan: SEED 1477616048
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Eldrazi Devastator, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Plateau, Steam Vents, Tundra, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [City of Brass, Plateau, Steam Vents, Stomping Ground, Wooded Foothills, Eldrazi Devastator, Glass Golem]
+T0 Mulligan: PILOT bottom City of Brass
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Blood Crypt, Bloodstained Mire, Overgrown Tomb, Sacred Foundry, Volcanic Island, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Overgrown Tomb, Sacred Foundry, Volcanic Island, Gilded Sentinel, Gilded Sentinel]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Overgrown Tomb 
+T1 Main: Pilot puts Overgrown Tomb  from hand onto the Battlefield
+T1 Main: Pilot plays Overgrown Tomb 
+T1 Main: PILOT land Overgrown Tomb
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Sacred Foundry, Volcanic Island, Gilded Sentinel, Gilded Sentinel, Tropical Island] bf=[Overgrown Tomb] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot loses 2 life from Sacred Foundry 
+T2 Main: Pilot puts Sacred Foundry  from hand onto the Battlefield
+T2 Main: Pilot plays Sacred Foundry 
+T2 Main: PILOT land Sacred Foundry
+T2 Main: Pilot skip attack
+T2 End: END life=36 lib=92 hand=[Volcanic Island, Gilded Sentinel, Gilded Sentinel, Tropical Island, Gilded Sentinel] bf=[Overgrown Tomb, Sacred Foundry] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 2, seed 600608383, class RulesShort
+T0 Mulligan: SEED 600608383
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Mana Confluence, Reflecting Pool, Stomping Ground, Temple Garden, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Interplanar Beacon, Overgrown Tomb, Taiga, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Command Tower, Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Polluted Delta, Watery Grave, Windswept Heath, Obsianus Golem, Obsianus Golem, Obsianus Golem, Sliver Construct]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Polluted Delta, Watery Grave, Windswept Heath, Obsianus Golem, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Polluted Delta  from hand onto the Battlefield
+T1 Main: Pilot plays Polluted Delta 
+T1 Main: PILOT land Polluted Delta
+T1 Main: Pilot loses 1 life from Polluted Delta 
+T1 Main: Pilot sacrificed Polluted Delta  (source: Polluted Delta )
+T1 Main: Pilot activates: search your library for an Island or Swamp card, put it onto the battlefield, then shuffle. from Polluted Delta 
+T1 Main: PILOT activate Polluted Delta
+T1 Main: Pilot searches their library (source: Polluted Delta )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Polluted Delta )
+T1 Main: Pilot's library is shuffled (source: Polluted Delta )
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Watery Grave, Windswept Heath, Obsianus Golem, Sliver Construct, Gilded Sentinel] bf=[Badlands] gy=[Polluted Delta]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot loses 2 life from Watery Grave 
+T2 Main: Pilot puts Watery Grave  from hand onto the Battlefield
+T2 Main: Pilot plays Watery Grave 
+T2 Main: PILOT land Watery Grave
+T2 Main: Pilot skip attack
+T2 End: END life=37 lib=91 hand=[Windswept Heath, Obsianus Golem, Sliver Construct, Gilded Sentinel, Obsianus Golem] bf=[Badlands, Watery Grave] gy=[Polluted Delta]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 3, seed 1865890430, class RulesShort
+T0 Mulligan: SEED 1865890430
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Tropical Island, Windswept Heath, Sliver Construct, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Godless Shrine, Underground Sea, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Taiga, Volcanic Island, Obsianus Golem, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Taiga
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Flooded Strand, Savannah, Scalding Tarn, Glass Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Flooded Strand, Savannah, Scalding Tarn, Sliver Construct, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T1 Main: Pilot plays Flooded Strand 
+T1 Main: PILOT land Flooded Strand
+T1 Main: Pilot loses 1 life from Flooded Strand 
+T1 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T1 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T1 Main: PILOT activate Flooded Strand
+T1 Main: Pilot searches their library (source: Flooded Strand )
+T1 Main: PILOT tutor Breeding Pool
+T1 Main: Pilot loses 2 life from Breeding Pool 
+T1 Main: Pilot puts Breeding Pool  from library onto the Battlefield (source: Flooded Strand )
+T1 Main: Pilot's library is shuffled (source: Flooded Strand )
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=37 lib=92 hand=[Savannah, Scalding Tarn, Sliver Construct, Eldrazi Devastator] bf=[Breeding Pool(T), Metallic Sliver] gy=[Flooded Strand]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Savannah  from hand onto the Battlefield
+T2 Main: Pilot plays Savannah 
+T2 Main: PILOT land Savannah
+T2 Main: Pilot skip attack
+T2 End: END life=37 lib=91 hand=[Scalding Tarn, Sliver Construct, Eldrazi Devastator, Taiga] bf=[Breeding Pool, Metallic Sliver, Savannah] gy=[Flooded Strand]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 6, seed -263219428, class RulesShort
+T0 Mulligan: SEED -263219428
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Mana Confluence, Tundra, Windswept Heath, Hexplate Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Temple Garden, Hexplate Golem, Obsianus Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Obsianus Golem, Gilded Sentinel, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Blood Crypt, Misty Rainforest, Plateau, Glass Golem, Glass Golem, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Blood Crypt, Misty Rainforest, Plateau, Sliver Construct, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Blood Crypt 
+T1 Main: Pilot puts Blood Crypt  from hand onto the Battlefield
+T1 Main: Pilot plays Blood Crypt 
+T1 Main: PILOT land Blood Crypt
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Misty Rainforest, Plateau, Sliver Construct, Glass Golem] bf=[Blood Crypt(T), Metallic Sliver] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Interplanar Beacon  from hand onto the Battlefield
+T2 Main: Pilot plays Interplanar Beacon 
+T2 Main: PILOT land Interplanar Beacon
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Misty Rainforest, Plateau, Sliver Construct, Glass Golem] bf=[Blood Crypt, Interplanar Beacon, Metallic Sliver] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 7, seed 1661301186, class RulesShort
+T0 Mulligan: SEED 1661301186
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Demonic Tutor, Vampiric Tutor, Eldrazi Devastator, Obsianus Golem, Sliver Construct, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Scalding Tarn, Underground Sea, Demonic Tutor, Eldrazi Devastator, Obsianus Golem, Obsianus Golem]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Underground Sea, Demonic Tutor, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: PILOT bottom Underground Sea
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Blood Crypt, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Blood Crypt, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Blood Crypt 
+T1 Main: Pilot puts Blood Crypt  from hand onto the Battlefield
+T1 Main: Pilot plays Blood Crypt 
+T1 Main: PILOT land Blood Crypt
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Verdant Catacombs] bf=[Blood Crypt] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Verdant Catacombs  from hand onto the Battlefield
+T2 Main: Pilot plays Verdant Catacombs 
+T2 Main: PILOT land Verdant Catacombs
+T2 Main: Pilot loses 1 life from Verdant Catacombs 
+T2 Main: Pilot sacrificed Verdant Catacombs  (source: Verdant Catacombs )
+T2 Main: Pilot activates: search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle. from Verdant Catacombs 
+T2 Main: PILOT activate Verdant Catacombs
+T2 Main: Pilot searches their library (source: Verdant Catacombs )
+T2 Main: PILOT tutor Badlands
+T2 Main: Pilot puts Badlands  from library onto the Battlefield (source: Verdant Catacombs )
+T2 Main: Pilot's library is shuffled (source: Verdant Catacombs )
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=37 lib=91 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Volcanic Island] bf=[Alpha Myr, Badlands(T), Blood Crypt(T)] gy=[Verdant Catacombs]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 8, seed -240477323, class RulesShort
+T0 Mulligan: SEED -240477323
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Godless Shrine, Hallowed Fountain, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Plateau, Polluted Delta, Underground Sea, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Scalding Tarn, Eldrazi Devastator, Obsianus Golem, Glass Golem, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Hallowed Fountain
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Bloodstained Mire, City of Brass, Flooded Strand, Interplanar Beacon, Obsianus Golem, Glass Golem, Alpha Myr]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[City of Brass, Flooded Strand, Interplanar Beacon, Glass Golem, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts City of Brass  from hand onto the Battlefield
+T1 Main: Pilot plays City of Brass 
+T1 Main: PILOT land City of Brass
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Flooded Strand, Interplanar Beacon, Glass Golem, Alpha Myr, Misty Rainforest] bf=[City of Brass] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T2 Main: Pilot plays Flooded Strand 
+T2 Main: PILOT land Flooded Strand
+T2 Main: Pilot loses 1 life from Flooded Strand 
+T2 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T2 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T2 Main: PILOT activate Flooded Strand
+T2 Main: Pilot searches their library (source: Flooded Strand )
+T2 Main: PILOT tutor Breeding Pool
+T2 Main: Pilot loses 2 life from Breeding Pool 
+T2 Main: Pilot puts Breeding Pool  from library onto the Battlefield (source: Flooded Strand )
+T2 Main: Pilot's library is shuffled (source: Flooded Strand )
+T2 Main: Pilot casts Demonic Tutor  from hand
+T2 Main: PILOT cast Demonic Tutor
+T2 Main: Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+T2 Main: Pilot loses 1 life from City of Brass 
+T2 Main: Pilot searches their library (source: Demonic Tutor )
+T2 Main: PILOT tutor Sol Ring
+T2 Main: Pilot puts a card from library into their hand
+T2 Main: Pilot's library is shuffled (source: Demonic Tutor )
+T2 Main: Pilot puts Demonic Tutor  from stack into their graveyard
+T2 Main: RESOLVED Demonic Tutor
+T2 Main: Pilot skip attack
+T2 End: END life=36 lib=90 hand=[Interplanar Beacon, Glass Golem, Alpha Myr, Misty Rainforest, Sol Ring] bf=[Breeding Pool(T), City of Brass(T)] gy=[Flooded Strand, Demonic Tutor]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 9, seed -804095379, class RulesShort
+T0 Mulligan: SEED -804095379
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Stomping Ground, Underground Sea, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Marsh Flats, Volcanic Island, Obsianus Golem, Glass Golem, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Eldrazi Devastator, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [City of Brass, Taiga, Obsianus Golem, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[City of Brass, Taiga, Sliver Construct, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts City of Brass  from hand onto the Battlefield
+T1 Main: Pilot plays City of Brass 
+T1 Main: PILOT land City of Brass
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Taiga, Sliver Construct, Alpha Myr, Alpha Myr, Tundra] bf=[City of Brass] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Bloodstained Mire  from hand onto the Battlefield
+T2 Main: Pilot plays Bloodstained Mire 
+T2 Main: PILOT land Bloodstained Mire
+T2 Main: Pilot loses 1 life from Bloodstained Mire 
+T2 Main: Pilot sacrificed Bloodstained Mire  (source: Bloodstained Mire )
+T2 Main: Pilot activates: search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle. from Bloodstained Mire 
+T2 Main: PILOT activate Bloodstained Mire
+T2 Main: Pilot searches their library (source: Bloodstained Mire )
+T2 Main: PILOT tutor Badlands
+T2 Main: Pilot puts Badlands  from library onto the Battlefield (source: Bloodstained Mire )
+T2 Main: Pilot's library is shuffled (source: Bloodstained Mire )
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+T2 Main: Pilot loses 1 life from City of Brass 
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=91 hand=[Taiga, Sliver Construct, Alpha Myr, Tundra] bf=[Alpha Myr, Badlands(T), City of Brass(T)] gy=[Bloodstained Mire]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 10, seed 478806028, class RulesShort
+T0 Mulligan: SEED 478806028
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Command Tower, Misty Rainforest, Temple Garden, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Command Tower, Scalding Tarn, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, City of Brass, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Bayou
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Interplanar Beacon, Mana Confluence, Hexplate Golem, Glass Golem, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Interplanar Beacon, Mana Confluence, Glass Golem, Glass Golem, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Interplanar Beacon  from hand onto the Battlefield
+T1 Main: Pilot plays Interplanar Beacon 
+T1 Main: PILOT land Interplanar Beacon
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Mana Confluence, Glass Golem, Glass Golem, Sliver Construct, Marsh Flats] bf=[Interplanar Beacon] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Mana Confluence  from hand onto the Battlefield
+T2 Main: Pilot plays Mana Confluence 
+T2 Main: PILOT land Mana Confluence
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Glass Golem, Sliver Construct, Marsh Flats, Taiga] bf=[Interplanar Beacon, Mana Confluence] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 11, seed -90043920, class RulesShort
+T0 Mulligan: SEED -90043920
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Polluted Delta, Reflecting Pool, Scrubland, Hexplate Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Volcanic Island, Obsianus Golem, Glass Golem, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Underground Sea, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Misty Rainforest
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Arid Mesa, Steam Vents, Tropical Island, Verdant Catacombs, Demonic Tutor, Eldrazi Devastator, Glass Golem]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Steam Vents, Tropical Island, Verdant Catacombs, Demonic Tutor, Glass Golem]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Steam Vents 
+T1 Main: Pilot puts Steam Vents  from hand onto the Battlefield
+T1 Main: Pilot plays Steam Vents 
+T1 Main: PILOT land Steam Vents
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Tropical Island, Verdant Catacombs, Demonic Tutor, Glass Golem, Gilded Sentinel] bf=[Steam Vents] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Plateau  from hand onto the Battlefield
+T2 Main: Pilot plays Plateau 
+T2 Main: PILOT land Plateau
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Tropical Island, Verdant Catacombs, Demonic Tutor, Glass Golem, Gilded Sentinel] bf=[Plateau, Steam Vents] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 15, seed 1638150629, class RulesShort
+T0 Mulligan: SEED 1638150629
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Underground Sea, Eldrazi Devastator, Obsianus Golem, Glass Golem, Sliver Construct, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Temple Garden, Demonic Tutor, Obsianus Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Volcanic Island, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Scrubland, Steam Vents, Watery Grave, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Scrubland, Steam Vents, Watery Grave, Gilded Sentinel, Gilded Sentinel]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Breeding Pool 
+T1 Main: Pilot puts Breeding Pool  from hand onto the Battlefield
+T1 Main: Pilot plays Breeding Pool 
+T1 Main: PILOT land Breeding Pool
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Scrubland, Steam Vents, Watery Grave, Gilded Sentinel, Gilded Sentinel] bf=[Breeding Pool] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Scrubland  from hand onto the Battlefield
+T2 Main: Pilot plays Scrubland 
+T2 Main: PILOT land Scrubland
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Steam Vents, Watery Grave, Gilded Sentinel, Gilded Sentinel, Glass Golem] bf=[Breeding Pool, Scrubland] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 18, seed -2009878801, class RulesShort
+T0 Mulligan: SEED -2009878801
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Hallowed Fountain, Sacred Foundry, Underground Sea, Obsianus Golem, Glass Golem, Glass Golem]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Underground Sea, Verdant Catacombs, Demonic Tutor, Obsianus Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Marsh Flats, Polluted Delta, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Plateau, Scalding Tarn, Temple Garden, Underground Sea, Sliver Construct, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Plateau
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Sliver Construct
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Scalding Tarn, Temple Garden, Underground Sea, Sliver Construct, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Scalding Tarn  from hand onto the Battlefield
+T1 Main: Pilot plays Scalding Tarn 
+T1 Main: PILOT land Scalding Tarn
+T1 Main: Pilot loses 1 life from Scalding Tarn 
+T1 Main: Pilot sacrificed Scalding Tarn  (source: Scalding Tarn )
+T1 Main: Pilot activates: search your library for an Island or Mountain card, put it onto the battlefield, then shuffle. from Scalding Tarn 
+T1 Main: PILOT activate Scalding Tarn
+T1 Main: Pilot searches their library (source: Scalding Tarn )
+T1 Main: PILOT tutor Badlands
+T1 Main: Pilot puts Badlands  from library onto the Battlefield (source: Scalding Tarn )
+T1 Main: Pilot's library is shuffled (source: Scalding Tarn )
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=39 lib=92 hand=[Temple Garden, Underground Sea, Sliver Construct, Obsianus Golem] bf=[Badlands(T), Metallic Sliver] gy=[Scalding Tarn]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot loses 2 life from Temple Garden 
+T2 Main: Pilot puts Temple Garden  from hand onto the Battlefield
+T2 Main: Pilot plays Temple Garden 
+T2 Main: PILOT land Temple Garden
+T2 Main: Pilot skip attack
+T2 End: END life=37 lib=91 hand=[Underground Sea, Sliver Construct, Obsianus Golem, Gilded Sentinel] bf=[Badlands, Metallic Sliver, Temple Garden] gy=[Scalding Tarn]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 19, seed 1187456318, class RulesShort
+T0 Mulligan: SEED 1187456318
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Tundra, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Mana Confluence, Scalding Tarn, Wooded Foothills, Obsianus Golem, Obsianus Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Obsianus Golem, Obsianus Golem, Glass Golem, Sliver Construct, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Hallowed Fountain
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [City of Brass, Reflecting Pool, Scrubland, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Gilded Sentinel
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[City of Brass, Reflecting Pool, Scrubland, Gilded Sentinel, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts City of Brass  from hand onto the Battlefield
+T1 Main: Pilot plays City of Brass 
+T1 Main: PILOT land City of Brass
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Reflecting Pool, Scrubland, Gilded Sentinel, Sliver Construct, Misty Rainforest] bf=[City of Brass] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Misty Rainforest  from hand onto the Battlefield
+T2 Main: Pilot plays Misty Rainforest 
+T2 Main: PILOT land Misty Rainforest
+T2 Main: Pilot loses 1 life from Misty Rainforest 
+T2 Main: Pilot sacrificed Misty Rainforest  (source: Misty Rainforest )
+T2 Main: Pilot activates: search your library for a Forest or Island card, put it onto the battlefield, then shuffle. from Misty Rainforest 
+T2 Main: PILOT activate Misty Rainforest
+T2 Main: Pilot searches their library (source: Misty Rainforest )
+T2 Main: PILOT tutor Bayou
+T2 Main: Pilot puts Bayou  from library onto the Battlefield (source: Misty Rainforest )
+T2 Main: Pilot's library is shuffled (source: Misty Rainforest )
+T2 Main: Pilot skip attack
+T2 End: END life=39 lib=91 hand=[Reflecting Pool, Scrubland, Gilded Sentinel, Sliver Construct, Obsianus Golem] bf=[Bayou, City of Brass] gy=[Misty Rainforest]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 22, seed -212414534, class RulesShort
+T0 Mulligan: SEED -212414534
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Blood Crypt, Taiga, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Misty Rainforest, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Stomping Ground, Tundra, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Reflecting Pool, Demonic Tutor, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Reflecting Pool, Demonic Tutor, Gilded Sentinel, Sliver Construct, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Hallowed Fountain 
+T1 Main: Pilot puts Hallowed Fountain  from hand onto the Battlefield
+T1 Main: Pilot plays Hallowed Fountain 
+T1 Main: PILOT land Hallowed Fountain
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Reflecting Pool, Demonic Tutor, Gilded Sentinel, Sliver Construct, Sliver Construct] bf=[Hallowed Fountain] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Reflecting Pool  from hand onto the Battlefield
+T2 Main: Pilot plays Reflecting Pool 
+T2 Main: PILOT land Reflecting Pool
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Demonic Tutor, Gilded Sentinel, Sliver Construct, Sliver Construct, Verdant Catacombs] bf=[Hallowed Fountain, Reflecting Pool] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 23, seed -718596737, class RulesShort
+T0 Mulligan: SEED -718596737
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Taiga, Eldrazi Devastator, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Volcanic Island, Eldrazi Devastator, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Plateau, Vampiric Tutor, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Plateau
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Bloodstained Mire, Flooded Strand, Sacred Foundry, Savannah, Glass Golem, Glass Golem, Alpha Myr]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Flooded Strand, Sacred Foundry, Savannah, Glass Golem, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T1 Main: Pilot plays Flooded Strand 
+T1 Main: PILOT land Flooded Strand
+T1 Main: Pilot loses 1 life from Flooded Strand 
+T1 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T1 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T1 Main: PILOT activate Flooded Strand
+T1 Main: Pilot searches their library (source: Flooded Strand )
+T1 Main: PILOT tutor Breeding Pool
+T1 Main: Pilot loses 2 life from Breeding Pool 
+T1 Main: Pilot puts Breeding Pool  from library onto the Battlefield (source: Flooded Strand )
+T1 Main: Pilot's library is shuffled (source: Flooded Strand )
+T1 Main: Pilot skip attack
+T1 End: END life=37 lib=92 hand=[Sacred Foundry, Savannah, Glass Golem, Alpha Myr, Sliver Construct] bf=[Breeding Pool] gy=[Flooded Strand]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot loses 2 life from Sacred Foundry 
+T2 Main: Pilot puts Sacred Foundry  from hand onto the Battlefield
+T2 Main: Pilot plays Sacred Foundry 
+T2 Main: PILOT land Sacred Foundry
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=35 lib=91 hand=[Savannah, Glass Golem, Sliver Construct, Glass Golem] bf=[Alpha Myr, Breeding Pool(T), Sacred Foundry(T)] gy=[Flooded Strand]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 24, seed -976732969, class RulesShort
+T0 Mulligan: SEED -976732969
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Mana Confluence, Steam Vents, Eldrazi Devastator, Hexplate Golem, Obsianus Golem, Glass Golem, Glass Golem]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Volcanic Island, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Sliver Construct]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [City of Brass, Hallowed Fountain, Plateau, Sacred Foundry, Taiga, Glass Golem, Metallic Sliver]
+T0 Mulligan: PILOT bottom City of Brass
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Hallowed Fountain
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Plateau, Sacred Foundry, Taiga, Glass Golem, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Bayou  from hand onto the Battlefield
+T1 Main: Pilot plays Bayou 
+T1 Main: PILOT land Bayou
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Plateau, Sacred Foundry, Taiga, Glass Golem] bf=[Bayou(T), Metallic Sliver] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Plateau  from hand onto the Battlefield
+T2 Main: Pilot plays Plateau 
+T2 Main: PILOT land Plateau
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Sacred Foundry, Taiga, Glass Golem, Verdant Catacombs] bf=[Bayou, Metallic Sliver, Plateau] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 27, seed -1963257649, class RulesShort
+T0 Mulligan: SEED -1963257649
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Marsh Flats, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Mana Confluence, Eldrazi Devastator, Obsianus Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Interplanar Beacon, Plateau, Reflecting Pool, Sacred Foundry, Temple Garden, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Interplanar Beacon
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Arid Mesa, Blood Crypt, Breeding Pool, Underground Sea, Volcanic Island, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Breeding Pool, Underground Sea, Volcanic Island, Gilded Sentinel, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Breeding Pool 
+T1 Main: Pilot puts Breeding Pool  from hand onto the Battlefield
+T1 Main: Pilot plays Breeding Pool 
+T1 Main: PILOT land Breeding Pool
+T1 Main: Pilot casts Metallic Sliver  from hand
+T1 Main: PILOT cast Metallic Sliver
+T1 Main: Pilot puts Metallic Sliver  from stack onto the Battlefield
+T1 Main: RESOLVED Metallic Sliver
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Underground Sea, Volcanic Island, Gilded Sentinel, Alpha Myr] bf=[Breeding Pool(T), Metallic Sliver] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Underground Sea  from hand onto the Battlefield
+T2 Main: Pilot plays Underground Sea 
+T2 Main: PILOT land Underground Sea
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=38 lib=92 hand=[Volcanic Island, Gilded Sentinel, Gilded Sentinel] bf=[Alpha Myr, Breeding Pool(T), Metallic Sliver, Underground Sea(T)] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 29, seed -456586516, class RulesShort
+T0 Mulligan: SEED -456586516
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Temple Garden, Hexplate Golem, Hexplate Golem, Obsianus Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bloodstained Mire, Breeding Pool, City of Brass, Hexplate Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Tropical Island, Tundra, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Tropical Island
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Bloodstained Mire, Interplanar Beacon, Mana Confluence, Savannah, Tundra, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Bloodstained Mire
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Interplanar Beacon
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Mana Confluence, Savannah, Tundra, Gilded Sentinel, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts Mana Confluence  from hand onto the Battlefield
+T1 Main: Pilot plays Mana Confluence 
+T1 Main: PILOT land Mana Confluence
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Savannah, Tundra, Gilded Sentinel, Sliver Construct, Plateau] bf=[Mana Confluence] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Plateau  from hand onto the Battlefield
+T2 Main: Pilot plays Plateau 
+T2 Main: PILOT land Plateau
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Savannah, Tundra, Gilded Sentinel, Sliver Construct, Glass Golem] bf=[Mana Confluence, Plateau] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 31, seed 1048845129, class LandShort
+T0 Mulligan: SEED 1048845129
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [City of Brass, Marsh Flats, Volcanic Island, Eldrazi Devastator, Obsianus Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Command Tower, Misty Rainforest, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Plateau, Polluted Delta, Scrubland, Taiga, Eldrazi Devastator, Obsianus Golem, Glass Golem]
+T0 Mulligan: PILOT bottom Plateau
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver, Glass Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver, Glass Golem, Glass Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 33, seed 1314438048, class RulesShort
+T0 Mulligan: SEED 1314438048
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Interplanar Beacon, Savannah, Watery Grave, Gilded Sentinel, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Command Tower, Flooded Strand, Demonic Tutor, Obsianus Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Flooded Strand, Plateau, Sacred Foundry, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Field of the Dead
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [City of Brass, Volcanic Island, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[City of Brass, Volcanic Island, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot puts City of Brass  from hand onto the Battlefield
+T1 Main: Pilot plays City of Brass 
+T1 Main: PILOT land City of Brass
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Volcanic Island, Gilded Sentinel, Sliver Construct, Alpha Myr, Overgrown Tomb] bf=[City of Brass] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Flooded Strand  from hand onto the Battlefield
+T2 Main: Pilot plays Flooded Strand 
+T2 Main: PILOT land Flooded Strand
+T2 Main: Pilot loses 1 life from Flooded Strand 
+T2 Main: Pilot sacrificed Flooded Strand  (source: Flooded Strand )
+T2 Main: Pilot activates: search your library for a Plains or Island card, put it onto the battlefield, then shuffle. from Flooded Strand 
+T2 Main: PILOT activate Flooded Strand
+T2 Main: Pilot searches their library (source: Flooded Strand )
+T2 Main: PILOT tutor Breeding Pool
+T2 Main: Pilot loses 2 life from Breeding Pool 
+T2 Main: Pilot puts Breeding Pool  from library onto the Battlefield (source: Flooded Strand )
+T2 Main: Pilot's library is shuffled (source: Flooded Strand )
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot - Ability triggers: City of Brass  - Whenever City of Brass  becomes tapped, it deals 1 damage to you.
+T2 Main: Pilot loses 1 life from City of Brass 
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=36 lib=91 hand=[Volcanic Island, Gilded Sentinel, Sliver Construct, Overgrown Tomb] bf=[Alpha Myr, Breeding Pool(T), City of Brass(T)] gy=[Flooded Strand]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 34, seed -292546990, class RulesShort
+T0 Mulligan: SEED -292546990
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Sacred Foundry, Savannah, Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Breeding Pool, Field of the Dead, Steam Vents, Obsianus Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Interplanar Beacon, Steam Vents, Taiga, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Field of the Dead
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Hallowed Fountain, Scrubland, Hexplate Golem, Obsianus Golem, Glass Golem, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Hallowed Fountain, Scrubland, Glass Golem, Sliver Construct, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot loses 2 life from Hallowed Fountain 
+T1 Main: Pilot puts Hallowed Fountain  from hand onto the Battlefield
+T1 Main: Pilot plays Hallowed Fountain 
+T1 Main: PILOT land Hallowed Fountain
+T1 Main: Pilot skip attack
+T1 End: END life=38 lib=93 hand=[Scrubland, Glass Golem, Sliver Construct, Alpha Myr, Obsianus Golem] bf=[Hallowed Fountain] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot puts Arid Mesa  from hand onto the Battlefield
+T2 Main: Pilot plays Arid Mesa 
+T2 Main: PILOT land Arid Mesa
+T2 Main: Pilot loses 1 life from Arid Mesa 
+T2 Main: Pilot sacrificed Arid Mesa  (source: Arid Mesa )
+T2 Main: Pilot activates: search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle. from Arid Mesa 
+T2 Main: PILOT activate Arid Mesa
+T2 Main: Pilot searches their library (source: Arid Mesa )
+T2 Main: PILOT tutor Badlands
+T2 Main: Pilot puts Badlands  from library onto the Battlefield (source: Arid Mesa )
+T2 Main: Pilot's library is shuffled (source: Arid Mesa )
+T2 Main: Pilot casts Alpha Myr  from hand
+T2 Main: PILOT cast Alpha Myr
+T2 Main: Pilot puts Alpha Myr  from stack onto the Battlefield
+T2 Main: RESOLVED Alpha Myr
+T2 Main: Pilot skip attack
+T2 End: END life=37 lib=91 hand=[Scrubland, Glass Golem, Sliver Construct, Obsianus Golem] bf=[Alpha Myr, Badlands(T), Hallowed Fountain(T)] gy=[Arid Mesa]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 70, seed -2053963235, class LandShort
+T0 Mulligan: SEED -2053963235
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Command Tower, Underground Sea, Windswept Heath, Obsianus Golem, Alpha Myr, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Field of the Dead, Flooded Strand, Scalding Tarn, Taiga, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Mana Confluence, Marsh Flats, Plateau, Savannah, Obsianus Golem, Metallic Sliver]
+T0 Mulligan: PILOT bottom Godless Shrine
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Vampiric Tutor, Glass Golem, Glass Golem, Glass Golem, Sliver Construct, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Vampiric Tutor, Glass Golem, Sliver Construct, Sliver Construct, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Vampiric Tutor, Glass Golem, Sliver Construct, Sliver Construct, Alpha Myr, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Vampiric Tutor, Glass Golem, Sliver Construct, Sliver Construct, Alpha Myr, Gilded Sentinel, Metallic Sliver] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 143, seed -2045586715, class LandShort
+T0 Mulligan: SEED -2045586715
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Flooded Strand, Scalding Tarn, Scrubland, Tropical Island, Tundra, Glass Golem, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Scalding Tarn, Eldrazi Devastator, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Field of the Dead, Hallowed Fountain, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Sol Ring, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Sol Ring, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Sol Ring, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Sol Ring, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Sliver Construct] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 352, seed 1482454505, class LandShort
+T0 Mulligan: SEED 1482454505
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Mana Confluence, Misty Rainforest, Stomping Ground, Hexplate Golem, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Taiga, Eldrazi Devastator, Obsianus Golem, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Field of the Dead, Marsh Flats, Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Obsianus Golem, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Glass Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Glass Golem, Obsianus Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 437, seed -1647017386, class LandShort
+T0 Mulligan: SEED -1647017386
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Polluted Delta, Verdant Catacombs, Obsianus Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Interplanar Beacon, Scrubland, Glass Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Interplanar Beacon, Mana Confluence, Polluted Delta, Obsianus Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Godless Shrine
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Hexplate Golem, Glass Golem, Glass Golem, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Glass Golem, Glass Golem, Glass Golem, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Glass Golem, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Glass Golem, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr, Gilded Sentinel] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 482, seed 1907131055, class LandShort
+T0 Mulligan: SEED 1907131055
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Breeding Pool, Scalding Tarn, Hexplate Golem, Obsianus Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Mana Confluence, Tundra, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Sol Ring, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Glass Golem, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Alpha Myr, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Alpha Myr, Gilded Sentinel, Alpha Myr] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 684, seed -796048030, class LandShort
+T0 Mulligan: SEED -796048030
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Windswept Heath, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [City of Brass, Scrubland, Volcanic Island, Eldrazi Devastator, Glass Golem, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Hexplate Golem, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bayou
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Hexplate Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Glass Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Demonic Tutor, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Glass Golem, Sliver Construct] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 958, seed 1610104525, class LandShort
+T0 Mulligan: SEED 1610104525
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Tropical Island, Underground Sea, Wooded Foothills, Demonic Tutor, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sacred Foundry, Temple Garden, Windswept Heath, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Savannah, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Hexplate Golem, Glass Golem, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver, Sliver Construct] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Sliver Construct, Alpha Myr, Metallic Sliver, Metallic Sliver, Sliver Construct, Gilded Sentinel] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 975, seed 479436603, class LandShort
+T0 Mulligan: SEED 479436603
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Breeding Pool, Flooded Strand, Scrubland, Obsianus Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Eldrazi Devastator, Eldrazi Devastator, Hexplate Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Arid Mesa, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Arid Mesa
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver, Gilded Sentinel, Sliver Construct] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 983, seed -564733171, class LandShort
+T0 Mulligan: SEED -564733171
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Interplanar Beacon, Overgrown Tomb, Sacred Foundry, Sliver Construct, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Steam Vents, Tropical Island, Hexplate Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Marsh Flats, Volcanic Island, Obsianus Golem, Obsianus Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Demonic Tutor, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Demonic Tutor, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Demonic Tutor, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Metallic Sliver] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Demonic Tutor, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Metallic Sliver, Glass Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1064, seed 1566437078, class LandShort
+T0 Mulligan: SEED 1566437078
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Sacred Foundry, Taiga, Eldrazi Devastator, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Taiga, Temple Garden, Demonic Tutor, Eldrazi Devastator, Hexplate Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Bloodstained Mire, Breeding Pool, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Bayou
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Sol Ring, Eldrazi Devastator, Obsianus Golem, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Sol Ring, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Sol Ring, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr, Obsianus Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Sol Ring, Glass Golem, Glass Golem, Sliver Construct, Alpha Myr, Obsianus Golem, Eldrazi Devastator] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1125, seed -1036326513, class LandShort
+T0 Mulligan: SEED -1036326513
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Tropical Island, Volcanic Island, Glass Golem, Glass Golem, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Polluted Delta, Sacred Foundry, Wooded Foothills, Hexplate Golem, Obsianus Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Misty Rainforest, Reflecting Pool, Volcanic Island, Glass Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Misty Rainforest
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Eldrazi Devastator, Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Sliver Construct] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Sliver Construct, Sliver Construct] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1132, seed -1393988413, class LandShort
+T0 Mulligan: SEED -1393988413
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Breeding Pool, City of Brass, Wooded Foothills, Obsianus Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sol Ring, Hexplate Golem, Obsianus Golem, Glass Golem, Sliver Construct, Alpha Myr, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Field of the Dead, Obsianus Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Hexplate Golem, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Glass Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Glass Golem, Metallic Sliver] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1194, seed 2120481159, class LandShort
+T0 Mulligan: SEED 2120481159
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Scrubland, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Godless Shrine, Taiga, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Wooded Foothills, Hexplate Golem, Obsianus Golem, Glass Golem, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Hallowed Fountain
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Glass Golem, Sliver Construct, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Sliver Construct, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Sliver Construct, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Glass Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Sliver Construct, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver, Glass Golem, Hexplate Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1305, seed 1312055111, class LandShort
+T0 Mulligan: SEED 1312055111
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Sacred Foundry, Taiga, Obsianus Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Reflecting Pool, Sacred Foundry, Volcanic Island, Obsianus Golem, Glass Golem, Glass Golem, Sliver Construct]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Verdant Catacombs, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Verdant Catacombs
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Metallic Sliver, Obsianus Golem] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Gilded Sentinel, Alpha Myr, Metallic Sliver, Metallic Sliver, Obsianus Golem, Gilded Sentinel] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1335, seed 1825181535, class LandShort
+T0 Mulligan: SEED 1825181535
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Obsianus Golem, Glass Golem, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Taiga, Watery Grave, Glass Golem, Gilded Sentinel, Sliver Construct, Sliver Construct, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Bayou, Sol Ring, Eldrazi Devastator, Glass Golem, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Bayou
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Vampiric Tutor, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Vampiric Tutor, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Vampiric Tutor, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Vampiric Tutor, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver, Gilded Sentinel, Glass Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1337, seed 563395516, class LandShort
+T0 Mulligan: SEED 563395516
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Sacred Foundry, Obsianus Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Sol Ring, Hexplate Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Bloodstained Mire, Polluted Delta, Taiga, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom Badlands
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Vampiric Tutor, Obsianus Golem, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Vampiric Tutor, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Vampiric Tutor, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Vampiric Tutor, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Gilded Sentinel, Eldrazi Devastator] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1495, seed -24987033, class LandShort
+T0 Mulligan: SEED -24987033
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Hallowed Fountain, Tropical Island, Obsianus Golem, Glass Golem, Glass Golem, Alpha Myr, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Overgrown Tomb, Verdant Catacombs, Demonic Tutor, Glass Golem, Glass Golem, Glass Golem, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [City of Brass, Marsh Flats, Wooded Foothills, Glass Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: PILOT bottom City of Brass
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Eldrazi Devastator, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver, Gilded Sentinel] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Metallic Sliver, Gilded Sentinel, Sliver Construct] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1646, seed -1207508199, class LandShort
+T0 Mulligan: SEED -1207508199
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Taiga, Tropical Island, Obsianus Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, City of Brass, Field of the Dead, Demonic Tutor, Eldrazi Devastator, Obsianus Golem, Glass Golem]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Command Tower, Flooded Strand, Savannah, Underground Sea, Alpha Myr, Alpha Myr]
+T0 Mulligan: PILOT bottom Blood Crypt
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Vampiric Tutor, Glass Golem, Glass Golem, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Glass Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Vampiric Tutor, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Metallic Sliver]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Vampiric Tutor, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Vampiric Tutor, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Metallic Sliver, Metallic Sliver, Glass Golem] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 
+
+# run 1970, seed -1012537168, class LandShort
+T0 Mulligan: SEED -1012537168
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Idle's library is shuffled
+T0 Mulligan: Pilot take the first turn
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: Idle draws seven cards
+T0 Mulligan: PILOT mulligan [Badlands, Command Tower, Plateau, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Idle keeps hand
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans for free.
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Blood Crypt, Tropical Island, Windswept Heath, Glass Golem, Glass Golem, Gilded Sentinel, Metallic Sliver]
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 6 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT mulligan [Eldrazi Devastator, Hexplate Golem, Hexplate Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct]
+T0 Mulligan: PILOT bottom Eldrazi Devastator
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot decides to take mulligan
+T0 Mulligan: Pilot's library is shuffled
+T0 Mulligan: Pilot mulligans down to 5 cards
+T0 Mulligan: Pilot draws seven cards
+T0 Mulligan: PILOT keep [Hexplate Golem, Obsianus Golem, Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T0 Mulligan: PILOT bottom Hexplate Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: PILOT bottom Obsianus Golem
+T0 Mulligan: Pilot puts a card from hand to the bottom of their library
+T0 Mulligan: Pilot keeps hand
+T0 Mulligan: OPENING hand=[Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr]
+T1 Draw: Pilot draws a card
+T1 Main: Pilot skip attack
+T1 End: END life=40 lib=93 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr, Sliver Construct] bf=[] gy=[]
+T1 Draw: Idle draws a card
+T1 Main: Idle skip attack
+T1 Cleanup: Idle discards down to 7 hand cards
+T1 Cleanup: Idle discards Plains 
+T2 Draw: Pilot draws a card
+T2 Main: Pilot skip attack
+T2 End: END life=40 lib=92 hand=[Glass Golem, Glass Golem, Gilded Sentinel, Sliver Construct, Alpha Myr, Sliver Construct, Gilded Sentinel] bf=[] gy=[]
+T2 End: Goal on_battlefield("Sol Ring", by_turn 2) fails at the end of turn 2.
+T2 End: Goal missed: on_battlefield("Sol Ring", by_turn 2).
+T2 Draw: Idle draws a card
+T2 Main: Idle skip attack
+T2 Cleanup: Idle discards down to 7 hand cards
+T2 Cleanup: Idle discards Plains 

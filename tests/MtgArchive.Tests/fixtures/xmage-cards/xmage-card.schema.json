@@ -1,0 +1,438 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/smadam813/mtg-archive/tests/MtgArchive.Tests/fixtures/xmage-cards/xmage-card.schema.json",
+  "title": "XMage card-correctness fixture",
+  "description": "One card-correctness fixture (spec §6.2): converted once from a staple check. XmageCardFixtureTests runs each check as a sidecar scenario and asserts every clause of its clause map. start.turn, when present, is 1. activate.ability indexes the permanent's activated abilities in XMage's order, mana abilities included. Start permanents enter during turn-1 upkeep, so a start creature has summoning sickness and turn-1 upkeep triggers do not fire.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "card",
+    "checks",
+    "clause_map"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "card": {
+      "type": "string",
+      "minLength": 1
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "clause_map": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One entry per Oracle clause (split at line and sentence boundaries), each mapped to >= 1 assertion id or marked not_modeled with a reason.",
+      "items": {
+        "$ref": "#/$defs/clause"
+      }
+    }
+  },
+  "$defs": {
+    "cardName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cardList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/cardName"
+      }
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "start",
+        "actions",
+        "assertions"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start": {
+          "$ref": "#/$defs/start"
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/action"
+          }
+        },
+        "assertions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/assertion"
+          }
+        }
+      }
+    },
+    "start": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "turn": {
+          "const": 1
+        },
+        "on_the_play": {
+          "type": "boolean"
+        },
+        "battlefield": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/cardName"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "$ref": "#/$defs/cardName"
+                  },
+                  "tapped": {
+                    "type": "boolean"
+                  },
+                  "named": {
+                    "$ref": "#/$defs/cardName"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "hand": {
+          "$ref": "#/$defs/cardList"
+        },
+        "library": {
+          "$ref": "#/$defs/cardList"
+        },
+        "graveyard": {
+          "$ref": "#/$defs/cardList"
+        }
+      }
+    },
+    "actionType": {
+      "enum": [
+        "cast",
+        "activate",
+        "choose"
+      ]
+    },
+    "action": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/actionType"
+        }
+      },
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "required": [
+            "card"
+          ],
+          "properties": {
+            "type": {
+              "const": "cast"
+            },
+            "card": {
+              "$ref": "#/$defs/cardName"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "permanent",
+            "ability"
+          ],
+          "properties": {
+            "type": {
+              "const": "activate"
+            },
+            "permanent": {
+              "$ref": "#/$defs/cardName"
+            },
+            "ability": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "pick"
+          ],
+          "properties": {
+            "type": {
+              "const": "choose"
+            },
+            "pick": {
+              "$ref": "#/$defs/cardName"
+            }
+          }
+        }
+      ]
+    },
+    "assertionKind": {
+      "enum": [
+        "pool_at_least",
+        "battlefield_has",
+        "hand_contains",
+        "graveyard_contains",
+        "exile_contains",
+        "library_count",
+        "library_top",
+        "named",
+        "ability_locked",
+        "ability_activatable",
+        "life"
+      ]
+    },
+    "assertion": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique across the file; clause_map entries reference it."
+        },
+        "kind": {
+          "$ref": "#/$defs/assertionKind"
+        }
+      },
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "required": [
+            "mana"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "const": "pool_at_least"
+            },
+            "mana": {
+              "type": "object",
+              "additionalProperties": false,
+              "minProperties": 1,
+              "properties": {
+                "W": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "U": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "B": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "R": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "G": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "C": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "card"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "const": "battlefield_has"
+            },
+            "card": {
+              "$ref": "#/$defs/cardName"
+            },
+            "tapped": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "cards"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "enum": [
+                "hand_contains",
+                "graveyard_contains",
+                "exile_contains",
+                "library_top"
+              ]
+            },
+            "cards": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/cardName"
+              }
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "count"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "const": "library_count"
+            },
+            "count": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "permanent",
+            "value"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "const": "named"
+            },
+            "permanent": {
+              "$ref": "#/$defs/cardName"
+            },
+            "value": {
+              "$ref": "#/$defs/cardName"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "permanent",
+            "ability"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "enum": [
+                "ability_locked",
+                "ability_activatable"
+              ]
+            },
+            "permanent": {
+              "$ref": "#/$defs/cardName"
+            },
+            "ability": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "amount"
+          ],
+          "properties": {
+            "id": true,
+            "kind": {
+              "const": "life"
+            },
+            "amount": {
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    },
+    "clause": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clause"
+      ],
+      "properties": {
+        "clause": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verbatim clause of the pinned Oracle text."
+        },
+        "assertions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "not_modeled": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why the engine does not model this clause."
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "assertions"
+          ],
+          "not": {
+            "required": [
+              "not_modeled"
+            ]
+          }
+        },
+        {
+          "required": [
+            "not_modeled"
+          ],
+          "not": {
+            "required": [
+              "assertions"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

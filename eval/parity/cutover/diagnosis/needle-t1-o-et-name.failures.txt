@@ -1,0 +1,445 @@
+# run 1, seed 1477616048, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1477616048.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Windswept Heath, Urza's Saga, Alpha Myr, Alpha Myr, Reliquary Tower, Mystical Tutor, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Steam Vents, City of Brass, Sliver Construct, Metallic Sliver, Shivan Reef, Sliver Construct, Badlands.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Sliver Construct, Cascade Bluffs, Alpha Myr, Metallic Sliver, Opt, Gloomlake Verge, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Urza's Saga, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Urza's Saga.
+T1 Main: Urza's Saga enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 2, seed 600608383, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 600608383.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sliver Construct, Wooded Foothills, Dark Ritual, Memnite, Metallic Sliver, Volcanic Island, Sol Ring.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Sulfur Falls, Dragonskull Summit, Metallic Sliver, Island, Sliver Construct, Misty Rainforest.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Command Tower, Verdant Catacombs, Wooded Foothills, Arid Mesa, Metallic Sliver, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Preordain, Badlands, Reliquary Tower, Riverpyre Verge, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Badlands.
+T1 Main: Badlands enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Badlands and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 3, seed 1865890430, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1865890430.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sunken Hollow, Alpha Myr, Urza's Saga, Marsh Flats, Alpha Myr, Simian Spirit Guide, Memnite.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Vault of Whispers, Blood Crypt, Alpha Myr, Mana Confluence, Alpha Myr, Alpha Myr, Takenuma, Abandoned Mire.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Island, Metallic Sliver, Alpha Myr, Alpha Myr, Alpha Myr, Metallic Sliver, Verdant Catacombs.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Sliver Construct, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Graven Cairns, Memnite, Takenuma, Abandoned Mire, Island, Alpha Myr.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Graven Cairns.
+T1 Main: Graven Cairns enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Graven Cairns and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Main: Casting Memnite for .
+T1 Main: Paid  for Memnite.
+T1 Main: Memnite enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 5, seed 1794173356, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1794173356.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Metallic Sliver, Island, Mystical Tutor, Vampiric Tutor, Alpha Myr, Metallic Sliver, Demonic Tutor.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Command Tower, Underground Sea, Memnite, Sulfur Falls, Sunken Ruins, Demonic Tutor, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Simian Spirit Guide, Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Sliver Construct, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Scalding Tarn, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Simian Spirit Guide, Cascade Bluffs, Riverpyre Verge, Alpha Myr, Bloodstained Mire.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Bloodstained Mire.
+T1 Main: Bloodstained Mire enters the battlefield.
+T1 Main: Activated Bloodstained Mire: search_library.
+T1 Main: Sacrificed Bloodstained Mire.
+T1 Main: Bloodstained Mire goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Bloodstained Mire: found Badlands.
+T1 Main: Badlands enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 7, seed 1661301186, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1661301186.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Swamp, Gloomlake Verge, Metallic Sliver, Island, Mountain, Memnite, Opt.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Alpha Myr, Sunken Hollow, Alpha Myr, Alpha Myr, Alpha Myr, Ponder.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Alpha Myr, Badlands, Takenuma, Abandoned Mire, Preordain, Alpha Myr, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Sliver Construct, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Dragonskull Summit, Badlands, Mystical Tutor, Sol Ring, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Badlands.
+T1 Main: Badlands enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Badlands and spending {B}.
+T1 Main: Sol Ring enters the battlefield.
+T1 Main: Casting Alpha Myr for {2}.
+T1 Main: Sol Ring adds {C}{C} to the mana pool.
+T1 Main: Paid {2} for Alpha Myr by tapping Sol Ring and spending {C}{C}.
+T1 Main: Alpha Myr enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 8, seed -240477323, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -240477323.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Underground Sea, Windswept Heath, Underground River, Alpha Myr, Gilded Sentinel, Misty Rainforest, Swamp.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Metallic Sliver, Demonic Tutor, Alpha Myr, Gilded Sentinel, Badlands, Ponder.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Reliquary Tower, Vampiric Tutor, Gloomlake Verge, Volcanic Island, Sunken Hollow, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Drowned Catacomb, Scalding Tarn.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Misty Rainforest, Steam Vents, Opt, Volcanic Island.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Demonic Tutor.
+T1 Main: Played Misty Rainforest.
+T1 Main: Misty Rainforest enters the battlefield.
+T1 Main: Activated Misty Rainforest: search_library.
+T1 Main: Sacrificed Misty Rainforest.
+T1 Main: Misty Rainforest goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Misty Rainforest: found Island.
+T1 Main: Island enters the battlefield.
+T1 Main: Casting Opt for {U}.
+T1 Main: Paid {U} for Opt by tapping Island and spending {U}.
+T1 Main: Opt: looked at the top 1: Wooded Foothills.
+T1 Main: Opt: put Wooded Foothills on the bottom of the library.
+T1 Main: Opt: drew 1: Sliver Construct.
+T1 Main: Opt finishes resolving and goes to the graveyard.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 9, seed -804095379, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -804095379.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Volcanic Island, Vampiric Tutor, Cascade Bluffs, Command Tower, Bloodstained Mire, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Alpha Myr, Vault of Whispers, Alpha Myr, Gilded Sentinel, Metallic Sliver, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Metallic Sliver, Alpha Myr, Sliver Construct, Metallic Sliver, Alpha Myr, Alpha Myr, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Simian Spirit Guide, Command Tower, Alpha Myr, Alpha Myr.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Command Tower.
+T1 Main: Command Tower enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 10, seed 478806028, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 478806028.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Metallic Sliver, Metallic Sliver, Badlands, Metallic Sliver, Alpha Myr, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Scalding Tarn, Alpha Myr, Metallic Sliver, Reliquary Tower, Takenuma, Abandoned Mire, Sliver Construct, City of Brass.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Sunken Ruins, Ponder, Gilded Sentinel, Flooded Strand, Island, Metallic Sliver, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Ponder, Alpha Myr, Metallic Sliver, Underground River, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Mystical Tutor.
+T1 Main: Played Underground River.
+T1 Main: Underground River enters the battlefield.
+T1 Main: Casting Ponder for {U}.
+T1 Main: Paid {U} for Ponder by tapping Underground River and spending {U}.
+T1 Main: Ponder: looked at the top 3: Alpha Myr, Sliver Construct, Metallic Sliver.
+T1 Main: Ponder: put back on top, top card first: Metallic Sliver, Alpha Myr, Sliver Construct.
+T1 Main: Shuffled the library.
+T1 Main: Ponder: drew 1: Cascade Bluffs.
+T1 Main: Ponder finishes resolving and goes to the graveyard.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 11, seed -90043920, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -90043920.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Watery Grave, Metallic Sliver, Riverpyre Verge, Command Tower, Sulfur Falls, Alpha Myr, Sol Ring.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Pithing Needle, Badlands, Sol Ring, Sliver Construct, Metallic Sliver, Alpha Myr, Brainstorm.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Fiery Islet, Metallic Sliver, Metallic Sliver, Reliquary Tower, Urza's Saga, Sliver Construct, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Metallic Sliver.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Underground River, Simian Spirit Guide, Polluted Delta, Graven Cairns, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Graven Cairns.
+T1 Main: Graven Cairns enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Graven Cairns and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 12, seed -1494476257, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1494476257.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Vampiric Tutor, Dark Ritual, Metallic Sliver, City of Brass, Alpha Myr, Polluted Delta, Badlands.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Island, Metallic Sliver, Alpha Myr, Alpha Myr, Preordain, Metallic Sliver, Steam Vents.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Watery Grave, Vampiric Tutor, Mystical Tutor, Graven Cairns, Polluted Delta, Alpha Myr, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Polluted Delta, Sliver Construct.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Cascade Bluffs, Memnite, Graven Cairns, Takenuma, Abandoned Mire.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Swamp.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Memnite for .
+T1 Main: Paid  for Memnite.
+T1 Main: Memnite enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 14, seed 1958422399, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1958422399.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Alpha Myr, Alpha Myr, Demonic Tutor, Metallic Sliver, Steam Vents, Windswept Heath.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Vault of Whispers, Metallic Sliver, Arid Mesa, Drowned Catacomb, Alpha Myr, Alpha Myr, Ponder.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Arid Mesa, Alpha Myr, Metallic Sliver, Sliver Construct, Sulfur Falls, Gilded Sentinel, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Sliver Construct, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Alpha Myr, Alpha Myr, Alpha Myr, Underground Sea.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Underground Sea.
+T1 Main: Underground Sea enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 15, seed 1638150629, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1638150629.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Gilded Sentinel, Alpha Myr, Metallic Sliver, Alpha Myr, Dark Ritual, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Underground Sea, Opt, Metallic Sliver, Takenuma, Abandoned Mire, Gilded Sentinel, Sulfur Falls, Flooded Strand.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Vampiric Tutor, Sulfur Falls, Alpha Myr, Metallic Sliver, Mana Confluence, Sliver Construct, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Sliver Construct, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Metallic Sliver, Flooded Strand, Watery Grave, Drowned Catacomb, Simian Spirit Guide.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Polluted Delta.
+T1 Main: Played Drowned Catacomb.
+T1 Main: Drowned Catacomb enters the battlefield tapped.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 16, seed 1909695369, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1909695369.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Polluted Delta, Wooded Foothills, Alpha Myr, Alpha Myr, Marsh Flats, Blood Crypt, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Riverpyre Verge, Metallic Sliver, Alpha Myr, Metallic Sliver, Metallic Sliver, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Alpha Myr, Drowned Catacomb, Fiery Islet, Sunken Hollow, Alpha Myr, Mountain.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Wooded Foothills, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Watery Grave, Mountain, Vampiric Tutor, Preordain, Fiery Islet.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Fiery Islet.
+T1 Main: Fiery Islet enters the battlefield.
+T1 Main: Casting Preordain for {U}.
+T1 Main: Paid {U} for Preordain by tapping Fiery Islet and spending {U}.
+T1 Main: Preordain: looked at the top 2: Metallic Sliver, Metallic Sliver.
+T1 Main: Preordain: put Metallic Sliver on the bottom of the library.
+T1 Main: Preordain: put Metallic Sliver on the bottom of the library.
+T1 Main: Preordain: drew 1: Drowned Catacomb.
+T1 Main: Preordain finishes resolving and goes to the graveyard.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 17, seed 1054823413, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1054823413.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sulfur Falls, Metallic Sliver, Island, Sliver Construct, Command Tower, Shivan Reef, Mountain.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Mountain, Dark Ritual, Alpha Myr, Verdant Catacombs, Alpha Myr, Alpha Myr, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Polluted Delta, Sliver Construct, Metallic Sliver, Shivan Reef, Wooded Foothills, Island.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Scalding Tarn, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Metallic Sliver, Misty Rainforest, Sol Ring, Urza's Saga, Underground River.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Misty Rainforest.
+T1 Main: Misty Rainforest enters the battlefield.
+T1 Main: Activated Misty Rainforest: search_library.
+T1 Main: Sacrificed Misty Rainforest.
+T1 Main: Misty Rainforest goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Misty Rainforest: found Island.
+T1 Main: Island enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Island and spending {U}.
+T1 Main: Sol Ring enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Sol Ring adds {C}{C} to the mana pool.
+T1 Main: Paid {1} for Metallic Sliver by tapping Sol Ring and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 19, seed 1187456318, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1187456318.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Blood Crypt, Sliver Construct, Alpha Myr, Reliquary Tower, Metallic Sliver, Gilded Sentinel, Windswept Heath.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Marsh Flats, Volcanic Island, Ponder, Alpha Myr, Memnite, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Misty Rainforest, City of Brass, Mana Confluence, Metallic Sliver, Alpha Myr, Sliver Construct, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Pithing Needle, Dragonskull Summit, Mountain, Underground Sea, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Demonic Tutor.
+T1 Main: Played Dragonskull Summit.
+T1 Main: Dragonskull Summit enters the battlefield tapped.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 20, seed -277600195, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -277600195.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Graven Cairns, Sliver Construct, Alpha Myr, Gloomlake Verge, Alpha Myr, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Metallic Sliver, Windswept Heath, Blood Crypt, Sliver Construct, Vault of Whispers, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Dragonskull Summit, Alpha Myr, Sliver Construct, Metallic Sliver, Riverpyre Verge, Ponder, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Wooded Foothills, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Metallic Sliver, Ponder, Shivan Reef, Island, Underground River.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Marsh Flats.
+T1 Main: Played Island.
+T1 Main: Island enters the battlefield.
+T1 Main: Casting Ponder for {U}.
+T1 Main: Paid {U} for Ponder by tapping Island and spending {U}.
+T1 Main: Ponder: looked at the top 3: Opt, Alpha Myr, Sunken Ruins.
+T1 Main: Ponder: put back on top, top card first: Sunken Ruins, Opt, Alpha Myr.
+T1 Main: Shuffled the library.
+T1 Main: Ponder: drew 1: Sulfur Falls.
+T1 Main: Ponder finishes resolving and goes to the graveyard.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 21, seed -96823375, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -96823375.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Memnite, Metallic Sliver, Metallic Sliver, Simian Spirit Guide, Metallic Sliver, Alpha Myr, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Simian Spirit Guide, Metallic Sliver, Wooded Foothills, Metallic Sliver, Alpha Myr, Alpha Myr, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Sunken Hollow, Alpha Myr, Preordain, Alpha Myr, Reliquary Tower, Alpha Myr, Mystical Tutor.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Metallic Sliver, Memnite, Alpha Myr, Alpha Myr, Steam Vents.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Steam Vents.
+T1 Main: Steam Vents enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Steam Vents and spending {R}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Main: Casting Memnite for .
+T1 Main: Paid  for Memnite.
+T1 Main: Memnite enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 22, seed -212414534, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -212414534.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Misty Rainforest, Alpha Myr, Gilded Sentinel, Alpha Myr, Riverpyre Verge, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Gilded Sentinel, Volcanic Island, Alpha Myr, Dragonskull Summit, Blood Crypt, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Alpha Myr, Arid Mesa, Simian Spirit Guide, Memnite, Graven Cairns, Island.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Metallic Sliver, Alpha Myr, Takenuma, Abandoned Mire, Dragonskull Summit.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Dragonskull Summit.
+T1 Main: Dragonskull Summit enters the battlefield tapped.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 23, seed -718596737, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -718596737.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sol Ring, Alpha Myr, Sliver Construct, Sliver Construct, Marsh Flats, Riverpyre Verge, Swamp.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Sliver Construct, Watery Grave, Command Tower, Island, Dark Ritual, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Alpha Myr, Metallic Sliver, Alpha Myr, Verdant Catacombs, Metallic Sliver, Windswept Heath.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Polluted Delta, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Underground River, Sulfur Falls, Cascade Bluffs, Metallic Sliver, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).
+
+# run 24, seed -976732969, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -976732969.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Mountain, Memnite, Alpha Myr, Mystical Tutor, Mana Confluence, Metallic Sliver, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Gilded Sentinel, Alpha Myr, Metallic Sliver, Island, Vault of Whispers, Opt, Command Tower.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Scalding Tarn, Alpha Myr, Mana Confluence, Swamp, Alpha Myr, Sunken Ruins.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr, Alpha Myr.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Urza's Saga, Gloomlake Verge, Scalding Tarn, Simian Spirit Guide, Metallic Sliver.
+T1 Untap: Goal: on_battlefield("Pithing Needle", by_turn 1).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Gloomlake Verge.
+T1 Main: Gloomlake Verge enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Gloomlake Verge and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T1 Cleanup: Goal on_battlefield("Pithing Needle", by_turn 1) fails at the end of turn 1.
+T1 Cleanup: Goal missed: on_battlefield("Pithing Needle", by_turn 1).

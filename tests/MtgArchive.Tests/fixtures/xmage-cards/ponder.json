@@ -1,0 +1,140 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Ponder",
+  "checks": [
+    {
+      "name": "Puts the top three back in a new order, does not shuffle, then draws",
+      "start": {
+        "hand": [
+          "Ponder"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp",
+          "Brainstorm"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Ponder"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        },
+        {
+          "type": "choose",
+          "pick": "Swamp"
+        },
+        {
+          "type": "choose",
+          "pick": "do not shuffle"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "new-top-drawn",
+          "kind": "hand_contains",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "order-kept-without-shuffle",
+          "kind": "library_top",
+          "cards": [
+            "Swamp",
+            "Forest",
+            "Brainstorm"
+          ]
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Ponder"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shuffles after the look, then draws",
+      "start": {
+        "hand": [
+          "Ponder"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp",
+          "Brainstorm"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Ponder"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        },
+        {
+          "type": "choose",
+          "pick": "Swamp"
+        },
+        {
+          "type": "choose",
+          "pick": "shuffle"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "shuffled-then-drew",
+          "kind": "library_count",
+          "count": 3
+        },
+        {
+          "id": "shuffle-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Ponder"
+          ]
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Look at the top three cards of your library, then put them back in any order.",
+      "assertions": [
+        "new-top-drawn",
+        "order-kept-without-shuffle"
+      ]
+    },
+    {
+      "clause": "You may shuffle.",
+      "assertions": [
+        "order-kept-without-shuffle",
+        "shuffled-then-drew",
+        "shuffle-resolves"
+      ]
+    },
+    {
+      "clause": "Draw a card.",
+      "assertions": [
+        "new-top-drawn",
+        "shuffled-then-drew",
+        "spell-resolves"
+      ]
+    }
+  ]
+}

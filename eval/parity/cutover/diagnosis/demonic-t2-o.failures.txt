@@ -1,0 +1,537 @@
+# run 0, seed -1742672592, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1742672592.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Gilded Sentinel, Metallic Sliver, Gilded Sentinel, Obsianus Golem, Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Mana Confluence, Marsh Flats, Obsianus Golem, Windswept Heath, Gilded Sentinel, Godless Shrine, Polluted Delta.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Field of the Dead, Obsianus Golem, Marsh Flats, Volcanic Island, Glass Golem, Glass Golem, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Obsianus Golem, Obsianus Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Gilded Sentinel, Sliver Construct, Alpha Myr, Blood Crypt, Arid Mesa.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Taiga.
+T1 Main: Played Blood Crypt.
+T1 Main: Blood Crypt enters the battlefield.
+T2 Draw: Drew Glass Golem.
+T2 Main: Played Arid Mesa.
+T2 Main: Arid Mesa enters the battlefield.
+T2 Main: Activated Arid Mesa: search_library.
+T2 Main: Sacrificed Arid Mesa.
+T2 Main: Arid Mesa goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Arid Mesa: found Tundra.
+T2 Main: Tundra enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Blood Crypt, Tundra and spending {U}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 1, seed 1477616048, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1477616048.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Obsianus Golem, Glass Golem, Temple Garden, Windswept Heath, Hexplate Golem, Alpha Myr, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Glass Golem, Gilded Sentinel, Obsianus Golem, Sol Ring, Glass Golem, Gilded Sentinel, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Gilded Sentinel, Obsianus Golem, Gilded Sentinel, Sol Ring, Glass Golem, Field of the Dead, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Metallic Sliver, Gilded Sentinel, Sliver Construct, Sliver Construct, Sliver Construct.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Reflecting Pool.
+T1 Main: Played Reflecting Pool.
+T1 Main: Reflecting Pool enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Reflecting Pool and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Command Tower.
+T2 Main: Played Command Tower.
+T2 Main: Command Tower enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 2, seed 600608383, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 600608383.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sliver Construct, Savannah, Eldrazi Devastator, Temple Garden, Glass Golem, Wooded Foothills, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Interplanar Beacon, Gilded Sentinel, Misty Rainforest, Gilded Sentinel, Command Tower, Glass Golem, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Sliver Construct, Field of the Dead, Sliver Construct, Savannah, Verdant Catacombs, Metallic Sliver, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Eldrazi Devastator, Gilded Sentinel.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Bayou, Metallic Sliver, Blood Crypt, Windswept Heath, Alpha Myr.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Bayou.
+T1 Main: Bayou enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Bayou and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Tropical Island.
+T2 Main: Played Blood Crypt.
+T2 Main: Blood Crypt enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Bayou, Blood Crypt and spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 3, seed 1865890430, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1865890430.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Gilded Sentinel, Tundra, Marsh Flats, Field of the Dead, Polluted Delta, Alpha Myr, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Arid Mesa, Gilded Sentinel, Sliver Construct, Eldrazi Devastator, Temple Garden, Glass Golem, Hexplate Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Windswept Heath, Gilded Sentinel, Sliver Construct, Gilded Sentinel, Stomping Ground, Glass Golem, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Hexplate Golem, Gilded Sentinel.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Godless Shrine, Sliver Construct, Windswept Heath, Metallic Sliver, Mana Confluence.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Godless Shrine.
+T1 Main: Godless Shrine enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Godless Shrine and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Windswept Heath.
+T2 Main: Windswept Heath enters the battlefield.
+T2 Main: Activated Windswept Heath: search_library.
+T2 Main: Sacrificed Windswept Heath.
+T2 Main: Windswept Heath goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Windswept Heath: found Bayou.
+T2 Main: Bayou enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Godless Shrine, Bayou and spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 4, seed -1068222394, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1068222394.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sliver Construct, Obsianus Golem, Hexplate Golem, Sacred Foundry, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Glass Golem, Field of the Dead, Obsianus Golem, Sliver Construct, Sliver Construct, Gilded Sentinel, Windswept Heath.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Glass Golem, Reflecting Pool, Obsianus Golem, Alpha Myr, Sliver Construct, Field of the Dead, Eldrazi Devastator.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Hexplate Golem, Obsianus Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Flooded Strand, Misty Rainforest, Sliver Construct, Obsianus Golem, Gilded Sentinel.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Plateau.
+T1 Main: Played Flooded Strand.
+T1 Main: Flooded Strand enters the battlefield.
+T1 Main: Activated Flooded Strand: search_library.
+T1 Main: Sacrificed Flooded Strand.
+T1 Main: Flooded Strand goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Flooded Strand: found Volcanic Island.
+T1 Main: Volcanic Island enters the battlefield.
+T2 Draw: Drew Overgrown Tomb.
+T2 Main: Played Misty Rainforest.
+T2 Main: Misty Rainforest enters the battlefield.
+T2 Main: Activated Misty Rainforest: search_library.
+T2 Main: Sacrificed Misty Rainforest.
+T2 Main: Misty Rainforest goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Misty Rainforest: found Tundra.
+T2 Main: Tundra enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 5, seed 1794173356, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1794173356.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Hallowed Fountain, Vampiric Tutor, Temple Garden, Gilded Sentinel, Alpha Myr, Eldrazi Devastator, Demonic Tutor.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Badlands.
+T1 Main: Played Hallowed Fountain.
+T1 Main: Hallowed Fountain enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Temple Garden.
+T2 Main: Temple Garden enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Hallowed Fountain, Temple Garden and spending {U}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 6, seed -263219428, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -263219428.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Hexplate Golem, Gilded Sentinel, Obsianus Golem, Obsianus Golem, Scrubland, Tropical Island, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Field of the Dead, Blood Crypt, Glass Golem, Underground Sea, Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Verdant Catacombs, Command Tower, Arid Mesa, Scalding Tarn, Volcanic Island, Taiga, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Obsianus Golem, Obsianus Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Sliver Construct, Badlands, Watery Grave, Glass Golem, Gilded Sentinel.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Badlands.
+T1 Main: Badlands enters the battlefield.
+T2 Draw: Drew Wooded Foothills.
+T2 Main: Played Watery Grave.
+T2 Main: Watery Grave enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 8, seed -240477323, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -240477323.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Plateau, Underground Sea, Windswept Heath, Sliver Construct, Gilded Sentinel, Misty Rainforest, Breeding Pool.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Sliver Construct, Obsianus Golem, Sliver Construct, Metallic Sliver, Gilded Sentinel, Gilded Sentinel, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Gilded Sentinel, Scrubland, Mana Confluence, Obsianus Golem, Glass Golem, Polluted Delta, Field of the Dead.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Glass Golem, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Gilded Sentinel, Hallowed Fountain, Misty Rainforest, Metallic Sliver, Metallic Sliver.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Hallowed Fountain.
+T1 Main: Hallowed Fountain enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Hallowed Fountain and spending {U}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Sliver Construct.
+T2 Main: Played Misty Rainforest.
+T2 Main: Misty Rainforest enters the battlefield.
+T2 Main: Activated Misty Rainforest: search_library.
+T2 Main: Sacrificed Misty Rainforest.
+T2 Main: Misty Rainforest goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Misty Rainforest: found Taiga.
+T2 Main: Taiga enters the battlefield.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Hallowed Fountain and spending {U}.
+T2 Main: Metallic Sliver enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 9, seed -804095379, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -804095379.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Glass Golem, Obsianus Golem, Sacred Foundry, Volcanic Island, Vampiric Tutor, Glass Golem, Command Tower.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Taiga.
+T1 Main: Played Sacred Foundry.
+T1 Main: Sacred Foundry enters the battlefield.
+T2 Draw: Drew Bloodstained Mire.
+T2 Main: Played Volcanic Island.
+T2 Main: Volcanic Island enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 10, seed 478806028, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 478806028.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Metallic Sliver, Badlands, Glass Golem, Glass Golem, Sliver Construct, Gilded Sentinel, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Glass Golem, Gilded Sentinel, Obsianus Golem, Field of the Dead, Volcanic Island, Scalding Tarn.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Glass Golem, Glass Golem, Glass Golem, Glass Golem, Gilded Sentinel, Arid Mesa.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Glass Golem, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Arid Mesa, Glass Golem, Sliver Construct, Marsh Flats, Metallic Sliver.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Sol Ring.
+T1 Main: Played Arid Mesa.
+T1 Main: Arid Mesa enters the battlefield.
+T1 Main: Activated Arid Mesa: search_library.
+T1 Main: Sacrificed Arid Mesa.
+T1 Main: Arid Mesa goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Arid Mesa: found Savannah.
+T1 Main: Savannah enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Savannah and spending {G}.
+T1 Main: Sol Ring enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Sol Ring adds {C}{C} to the mana pool.
+T1 Main: Paid {1} for Metallic Sliver by tapping Sol Ring and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Sliver Construct.
+T2 Main: Played Marsh Flats.
+T2 Main: Marsh Flats enters the battlefield.
+T2 Main: Activated Marsh Flats: search_library.
+T2 Main: Sacrificed Marsh Flats.
+T2 Main: Marsh Flats goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Marsh Flats: found Watery Grave.
+T2 Main: Watery Grave enters the battlefield.
+T2 Main: Casting Sliver Construct for {3}.
+T2 Main: Sol Ring adds {C}{C} to the mana pool.
+T2 Main: Paid {3} for Sliver Construct by tapping Sol Ring, Savannah and spending {G}{C}{C}.
+T2 Main: Sliver Construct enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 11, seed -90043920, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -90043920.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Watery Grave, Command Tower, Taiga, Sol Ring, Alpha Myr, Metallic Sliver, Hexplate Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Temple Garden, Gilded Sentinel, Hexplate Golem, Interplanar Beacon, Plateau, Sacred Foundry, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Godless Shrine, Blood Crypt, Glass Golem, Hallowed Fountain, Mana Confluence, Interplanar Beacon, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Bayou, Underground Sea, Metallic Sliver, Gilded Sentinel, Scalding Tarn.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Flooded Strand.
+T1 Main: Played Bayou.
+T1 Main: Bayou enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Bayou and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Underground Sea.
+T2 Main: Underground Sea enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 12, seed -1494476257, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1494476257.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Vampiric Tutor, Gilded Sentinel, Temple Garden, City of Brass, Alpha Myr, Polluted Delta, Badlands.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Temple Garden.
+T1 Main: Temple Garden enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played City of Brass.
+T2 Main: City of Brass enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Temple Garden, City of Brass and spending {B}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 15, seed 1638150629, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1638150629.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sliver Construct, Gilded Sentinel, Metallic Sliver, Eldrazi Devastator, Metallic Sliver, Glass Golem, Misty Rainforest.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Reflecting Pool, Sol Ring, Glass Golem, Gilded Sentinel, Taiga, Hexplate Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Hallowed Fountain, Taiga, Sliver Construct, Plateau, Glass Golem, Eldrazi Devastator, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Sacred Foundry, Eldrazi Devastator.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Sliver Construct, Hexplate Golem, Stomping Ground, Tropical Island, Overgrown Tomb.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Gilded Sentinel.
+T1 Main: Played Stomping Ground.
+T1 Main: Stomping Ground enters the battlefield.
+T2 Draw: Drew Interplanar Beacon.
+T2 Main: Played Tropical Island.
+T2 Main: Tropical Island enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 16, seed 1909695369, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1909695369.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Polluted Delta, Wooded Foothills, Alpha Myr, Hexplate Golem, Gilded Sentinel, Marsh Flats, Blood Crypt.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Gilded Sentinel, Gilded Sentinel, Alpha Myr, Badlands, Flooded Strand, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Sacred Foundry, Temple Garden, Gilded Sentinel, Plateau, Bloodstained Mire, Glass Golem, Bayou.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Wooded Foothills, Verdant Catacombs.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Alpha Myr, Bayou, Glass Golem, Tropical Island, Plateau.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Obsianus Golem.
+T1 Main: Played Bayou.
+T1 Main: Bayou enters the battlefield.
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Tropical Island.
+T2 Main: Tropical Island enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Bayou, Tropical Island and spending {B}{G}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 17, seed 1054823413, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1054823413.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Obsianus Golem, Obsianus Golem, Gilded Sentinel, Sliver Construct, Command Tower, Eldrazi Devastator, Breeding Pool.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Breeding Pool, Glass Golem, Wooded Foothills, Hexplate Golem, Alpha Myr, Tundra, Field of the Dead.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Reflecting Pool, Watery Grave, Eldrazi Devastator, Sliver Construct, Eldrazi Devastator, Metallic Sliver, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Glass Golem, Gilded Sentinel.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Sliver Construct, Sliver Construct, Bloodstained Mire, Tundra, Sliver Construct.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew City of Brass.
+T1 Main: Played Bloodstained Mire.
+T1 Main: Bloodstained Mire enters the battlefield.
+T1 Main: Activated Bloodstained Mire: search_library.
+T1 Main: Sacrificed Bloodstained Mire.
+T1 Main: Bloodstained Mire goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Bloodstained Mire: found Bayou.
+T1 Main: Bayou enters the battlefield.
+T2 Draw: Drew Gilded Sentinel.
+T2 Main: Played Tundra.
+T2 Main: Tundra enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 18, seed -2009878801, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -2009878801.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Polluted Delta, Obsianus Golem, Sliver Construct, Alpha Myr, Godless Shrine, Scrubland, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Sliver Construct, Temple Garden, Windswept Heath, Misty Rainforest, City of Brass, Glass Golem, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Bayou, Obsianus Golem, Obsianus Golem, Obsianus Golem, Hallowed Fountain, Sliver Construct, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Obsianus Golem, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Bayou, Marsh Flats, Glass Golem, Metallic Sliver, Sliver Construct.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Bayou.
+T1 Main: Bayou enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Bayou and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Obsianus Golem.
+T2 Main: Played Marsh Flats.
+T2 Main: Marsh Flats enters the battlefield.
+T2 Main: Activated Marsh Flats: search_library.
+T2 Main: Sacrificed Marsh Flats.
+T2 Main: Marsh Flats goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Marsh Flats: found Sacred Foundry.
+T2 Main: Sacred Foundry enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 19, seed 1187456318, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1187456318.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Gilded Sentinel, Blood Crypt, Obsianus Golem, Glass Golem, Sliver Construct, Gilded Sentinel, Gilded Sentinel.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Glass Golem, Temple Garden, Eldrazi Devastator, Gilded Sentinel, Gilded Sentinel, Sliver Construct, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Obsianus Golem, Windswept Heath, Obsianus Golem, Hallowed Fountain, Savannah, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Underground Sea, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Sliver Construct, Polluted Delta, Gilded Sentinel, Flooded Strand, Hallowed Fountain.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Breeding Pool.
+T1 Main: Played Polluted Delta.
+T1 Main: Polluted Delta enters the battlefield.
+T1 Main: Activated Polluted Delta: search_library.
+T1 Main: Sacrificed Polluted Delta.
+T1 Main: Polluted Delta goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Polluted Delta: found Blood Crypt.
+T1 Main: Blood Crypt enters the battlefield.
+T2 Draw: Drew Glass Golem.
+T2 Main: Played Flooded Strand.
+T2 Main: Flooded Strand enters the battlefield.
+T2 Main: Activated Flooded Strand: search_library.
+T2 Main: Sacrificed Flooded Strand.
+T2 Main: Flooded Strand goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Flooded Strand: found Tropical Island.
+T2 Main: Tropical Island enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 21, seed -96823375, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -96823375.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Obsianus Golem, Obsianus Golem, Bayou, Metallic Sliver, Metallic Sliver, Obsianus Golem, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Metallic Sliver, Sliver Construct, Plateau, Wooded Foothills, Metallic Sliver, Misty Rainforest, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Eldrazi Devastator, Metallic Sliver, Gilded Sentinel, Glass Golem, Obsianus Golem, Gilded Sentinel, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Hexplate Golem, Obsianus Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Glass Golem, Overgrown Tomb, Glass Golem, Sliver Construct, Obsianus Golem.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Overgrown Tomb.
+T1 Main: Overgrown Tomb enters the battlefield.
+T2 Draw: Drew Flooded Strand.
+T2 Main: Played Flooded Strand.
+T2 Main: Flooded Strand enters the battlefield.
+T2 Main: Activated Flooded Strand: search_library.
+T2 Main: Sacrificed Flooded Strand.
+T2 Main: Flooded Strand goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Flooded Strand: found Underground Sea.
+T2 Main: Underground Sea enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 22, seed -212414534, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -212414534.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Obsianus Golem, Bayou, Misty Rainforest, Sliver Construct, Gilded Sentinel, Glass Golem, Eldrazi Devastator.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Alpha Myr, Glass Golem, Blood Crypt, Gilded Sentinel, Glass Golem, Glass Golem, Obsianus Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 3: Alpha Myr, Sol Ring, Glass Golem, Gilded Sentinel, Sliver Construct, Metallic Sliver, Glass Golem.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Eldrazi Devastator, Glass Golem.
+T1 Mulligan: Kept 5 cards after 3 mulligans: Reflecting Pool, Alpha Myr, Interplanar Beacon, Sol Ring, Scalding Tarn.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Glass Golem.
+T1 Main: Played Reflecting Pool.
+T1 Main: Reflecting Pool enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Reflecting Pool and spending {B}.
+T1 Main: Sol Ring enters the battlefield.
+T1 Main: Casting Alpha Myr for {2}.
+T1 Main: Sol Ring adds {C}{C} to the mana pool.
+T1 Main: Paid {2} for Alpha Myr by tapping Sol Ring and spending {C}{C}.
+T1 Main: Alpha Myr enters the battlefield.
+T2 Draw: Drew Breeding Pool.
+T2 Main: Played Interplanar Beacon.
+T2 Main: Interplanar Beacon enters the battlefield.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).
+
+# run 23, seed -718596737, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -718596737.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Glass Golem, Sol Ring, Sliver Construct, Overgrown Tomb, Glass Golem, Sacred Foundry, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Glass Golem, Volcanic Island, Flooded Strand, Temple Garden, Obsianus Golem, Hexplate Golem, Wooded Foothills.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Gilded Sentinel.
+T1 Mulligan: Kept 6 cards after 2 mulligans: Vampiric Tutor, Steam Vents, Interplanar Beacon, Sol Ring, Sliver Construct, Bayou.
+T1 Untap: Goal: cast("Demonic Tutor", by_turn 2).
+T1 Draw: Drew Field of the Dead.
+T1 Main: Played Steam Vents.
+T1 Main: Steam Vents enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Steam Vents and spending {R}.
+T1 Main: Sol Ring enters the battlefield.
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Interplanar Beacon.
+T2 Main: Interplanar Beacon enters the battlefield.
+T2 Main: Casting Sliver Construct for {3}.
+T2 Main: Sol Ring adds {C}{C} to the mana pool.
+T2 Main: Paid {3} for Sliver Construct by tapping Sol Ring, Steam Vents and spending {R}{C}{C}.
+T2 Main: Sliver Construct enters the battlefield.
+T2 Main: Casting Vampiric Tutor for {B}.
+T2 Main: Paid {B} for Vampiric Tutor by tapping Interplanar Beacon and spending {B}.
+T2 Main: Shuffled the library.
+T2 Main: Vampiric Tutor: found Demonic Tutor, put on top of the library.
+T2 Main: Vampiric Tutor finishes resolving and goes to the graveyard.
+T2 Cleanup: Goal cast("Demonic Tutor", by_turn 2) fails at the end of turn 2.
+T2 Cleanup: Goal missed: cast("Demonic Tutor", by_turn 2).

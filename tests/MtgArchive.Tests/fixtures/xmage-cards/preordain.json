@@ -1,0 +1,178 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Preordain",
+  "checks": [
+    {
+      "name": "Puts one card on the bottom, keeps one, then draws it",
+      "start": {
+        "hand": [
+          "Preordain"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp",
+          "Brainstorm"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Preordain"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        },
+        {
+          "type": "choose",
+          "pick": "keep the rest"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "one-bottom-one-drawn",
+          "kind": "hand_contains",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "bottomed-card-last",
+          "kind": "library_top",
+          "cards": [
+            "Swamp",
+            "Brainstorm",
+            "Forest"
+          ]
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Preordain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Keeps both in a new order, then draws the new top card",
+      "start": {
+        "hand": [
+          "Preordain"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp",
+          "Brainstorm"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Preordain"
+        },
+        {
+          "type": "choose",
+          "pick": "keep the rest"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "reordered-top-drawn",
+          "kind": "hand_contains",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "reordered-card-stays-on-top",
+          "kind": "library_top",
+          "cards": [
+            "Forest",
+            "Swamp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puts both on the bottom, then draws the third card",
+      "start": {
+        "hand": [
+          "Preordain"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp",
+          "Brainstorm"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Preordain"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        },
+        {
+          "type": "choose",
+          "pick": "Sol Ring"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "third-card-drawn",
+          "kind": "hand_contains",
+          "cards": [
+            "Swamp"
+          ]
+        },
+        {
+          "id": "both-on-bottom",
+          "kind": "library_top",
+          "cards": [
+            "Brainstorm",
+            "Forest",
+            "Sol Ring"
+          ]
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Scry 2, then draw a card.",
+      "assertions": [
+        "one-bottom-one-drawn",
+        "reordered-top-drawn",
+        "third-card-drawn",
+        "spell-resolves"
+      ]
+    },
+    {
+      "clause": "(To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+      "assertions": [
+        "bottomed-card-last",
+        "reordered-card-stays-on-top",
+        "both-on-bottom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Opt-in NVIDIA acceleration for Ollama. The GPU only speeds up bulk
+# re-embeds; qwen3-embedding:0.6b needs no GPU.
+# Usage: docker compose -f compose.yaml -f compose.gpu.yml up
+services:
+  ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

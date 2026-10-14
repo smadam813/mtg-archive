@@ -1,0 +1,324 @@
+{
+  "label": "demonic-t2-o",
+  "engine": "ours",
+  "case": "dq1-demonic-t2",
+  "mulligan": "goal-aware",
+  "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+  "engine_version": "1.0.0\u002Bbd5176b138670095eff105d9e6e7b63c4ed02c79",
+  "ablations": [],
+  "runs": 10000,
+  "successes": 2566,
+  "engine_errors": 0,
+  "floor": 0.2566,
+  "lower": 0.2481343240140089,
+  "upper": 0.2652526063928363,
+  "etb": {},
+  "pay_life": {},
+  "lift": [
+    {
+      "land": "Plateau",
+      "runs": 790,
+      "failures": 680,
+      "failure_rate": 0.8607594936708861
+    },
+    {
+      "land": "Breeding Pool",
+      "runs": 767,
+      "failures": 651,
+      "failure_rate": 0.848761408083442
+    },
+    {
+      "land": "Temple Garden",
+      "runs": 726,
+      "failures": 608,
+      "failure_rate": 0.837465564738292
+    },
+    {
+      "land": "Savannah",
+      "runs": 744,
+      "failures": 623,
+      "failure_rate": 0.8373655913978495
+    },
+    {
+      "land": "Tundra",
+      "runs": 774,
+      "failures": 648,
+      "failure_rate": 0.8372093023255814
+    },
+    {
+      "land": "Tropical Island",
+      "runs": 756,
+      "failures": 631,
+      "failure_rate": 0.8346560846560847
+    },
+    {
+      "land": "Taiga",
+      "runs": 811,
+      "failures": 671,
+      "failure_rate": 0.8273736128236745
+    },
+    {
+      "land": "Sacred Foundry",
+      "runs": 744,
+      "failures": 614,
+      "failure_rate": 0.8252688172043011
+    },
+    {
+      "land": "Hallowed Fountain",
+      "runs": 735,
+      "failures": 606,
+      "failure_rate": 0.8244897959183674
+    },
+    {
+      "land": "Stomping Ground",
+      "runs": 766,
+      "failures": 629,
+      "failure_rate": 0.8211488250652742
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 693,
+      "failures": 568,
+      "failure_rate": 0.8196248196248196
+    },
+    {
+      "land": "Volcanic Island",
+      "runs": 735,
+      "failures": 602,
+      "failure_rate": 0.819047619047619
+    },
+    {
+      "land": "Field of the Dead",
+      "runs": 503,
+      "failures": 401,
+      "failure_rate": 0.7972166998011928
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 528,
+      "failures": 398,
+      "failure_rate": 0.7537878787878788
+    },
+    {
+      "land": "Flooded Strand",
+      "runs": 535,
+      "failures": 402,
+      "failure_rate": 0.7514018691588785
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 546,
+      "failures": 409,
+      "failure_rate": 0.7490842490842491
+    },
+    {
+      "land": "Wooded Foothills",
+      "runs": 545,
+      "failures": 405,
+      "failure_rate": 0.7431192660550459
+    },
+    {
+      "land": "Windswept Heath",
+      "runs": 552,
+      "failures": 407,
+      "failure_rate": 0.7373188405797102
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 568,
+      "failures": 405,
+      "failure_rate": 0.7130281690140845
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 528,
+      "failures": 375,
+      "failure_rate": 0.7102272727272727
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 531,
+      "failures": 374,
+      "failure_rate": 0.704331450094162
+    },
+    {
+      "land": "Verdant Catacombs",
+      "runs": 551,
+      "failures": 386,
+      "failure_rate": 0.7005444646098004
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 581,
+      "failures": 404,
+      "failure_rate": 0.6953528399311532
+    },
+    {
+      "land": "Command Tower",
+      "runs": 529,
+      "failures": 364,
+      "failure_rate": 0.6880907372400756
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 512,
+      "failures": 350,
+      "failure_rate": 0.68359375
+    },
+    {
+      "land": "Interplanar Beacon",
+      "runs": 584,
+      "failures": 384,
+      "failure_rate": 0.6575342465753424
+    },
+    {
+      "land": "City of Brass",
+      "runs": 527,
+      "failures": 343,
+      "failure_rate": 0.650853889943074
+    },
+    {
+      "land": "Underground Sea",
+      "runs": 886,
+      "failures": 571,
+      "failure_rate": 0.6444695259593679
+    },
+    {
+      "land": "Godless Shrine",
+      "runs": 849,
+      "failures": 543,
+      "failure_rate": 0.6395759717314488
+    },
+    {
+      "land": "Scrubland",
+      "runs": 842,
+      "failures": 534,
+      "failure_rate": 0.6342042755344418
+    },
+    {
+      "land": "Watery Grave",
+      "runs": 910,
+      "failures": 576,
+      "failure_rate": 0.6329670329670329
+    },
+    {
+      "land": "Badlands",
+      "runs": 875,
+      "failures": 548,
+      "failure_rate": 0.6262857142857143
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 833,
+      "failures": 516,
+      "failure_rate": 0.6194477791116446
+    },
+    {
+      "land": "Reflecting Pool",
+      "runs": 517,
+      "failures": 318,
+      "failure_rate": 0.6150870406189555
+    },
+    {
+      "land": "Overgrown Tomb",
+      "runs": 852,
+      "failures": 516,
+      "failure_rate": 0.6056338028169014
+    },
+    {
+      "land": "Bayou",
+      "runs": 886,
+      "failures": 521,
+      "failure_rate": 0.5880361173814899
+    }
+  ],
+  "paths": [
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 485
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 476
+    },
+    {
+      "path": "T1 land \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 225
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 land \u003E T2 activate Misty Rainforest \u003E T2 cast Demonic Tutor",
+      "runs": 35
+    },
+    {
+      "path": "T1 land \u003E T1 activate Flooded Strand \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 30
+    },
+    {
+      "path": "T1 land \u003E T1 activate Verdant Catacombs \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 30
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Marsh Flats \u003E T2 cast Demonic Tutor",
+      "runs": 29
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Polluted Delta \u003E T2 cast Demonic Tutor",
+      "runs": 29
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Wooded Foothills \u003E T2 cast Demonic Tutor",
+      "runs": 29
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T1 cast Vampiric Tutor \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 28
+    },
+    {
+      "path": "T1 land \u003E T1 activate Windswept Heath \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 28
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Verdant Catacombs \u003E T2 cast Demonic Tutor",
+      "runs": 28
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 27
+    },
+    {
+      "path": "T1 land \u003E T1 activate Polluted Delta \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 27
+    },
+    {
+      "path": "T1 land \u003E T1 activate Marsh Flats \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 26
+    },
+    {
+      "path": "T1 land \u003E T1 activate Verdant Catacombs \u003E T1 cast Vampiric Tutor \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 24
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Flooded Strand \u003E T2 cast Demonic Tutor",
+      "runs": 24
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Misty Rainforest \u003E T2 cast Demonic Tutor",
+      "runs": 24
+    },
+    {
+      "path": "T1 land \u003E T2 land \u003E T2 activate Bloodstained Mire \u003E T2 cast Demonic Tutor",
+      "runs": 23
+    },
+    {
+      "path": "T1 land \u003E T1 activate Polluted Delta \u003E T1 cast Vampiric Tutor \u003E T2 land \u003E T2 cast Demonic Tutor",
+      "runs": 22
+    }
+  ],
+  "cannot_cast": 0,
+  "classes": {
+    "land_short": 0,
+    "color_short": 0,
+    "rules_short": 0,
+    "unknown": 7434
+  }
+}

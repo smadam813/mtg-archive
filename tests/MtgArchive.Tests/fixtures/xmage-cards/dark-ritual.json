@@ -1,0 +1,97 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Dark Ritual",
+  "checks": [
+    {
+      "name": "Resolving Dark Ritual adds {B}{B}{B}",
+      "start": {
+        "battlefield": [
+          "Swamp"
+        ],
+        "hand": [
+          "Dark Ritual"
+        ],
+        "library": []
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Dark Ritual"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "adds-three-black",
+          "kind": "pool_at_least",
+          "mana": {
+            "B": 3
+          }
+        },
+        {
+          "id": "ritual-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Dark Ritual"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The ritual mana pays for Demonic Tutor in the same turn",
+      "start": {
+        "battlefield": [
+          "Swamp"
+        ],
+        "hand": [
+          "Dark Ritual",
+          "Demonic Tutor"
+        ],
+        "library": [
+          "Pithing Needle",
+          "Forest"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Dark Ritual"
+        },
+        {
+          "type": "cast",
+          "card": "Demonic Tutor"
+        },
+        {
+          "type": "choose",
+          "pick": "Pithing Needle"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "tutor-paid-from-ritual",
+          "kind": "hand_contains",
+          "cards": [
+            "Pithing Needle"
+          ]
+        },
+        {
+          "id": "one-black-left",
+          "kind": "pool_at_least",
+          "mana": {
+            "B": 1
+          }
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Add {B}{B}{B}.",
+      "assertions": [
+        "adds-three-black",
+        "ritual-resolves",
+        "tutor-paid-from-ritual",
+        "one-black-left"
+      ]
+    }
+  ]
+}

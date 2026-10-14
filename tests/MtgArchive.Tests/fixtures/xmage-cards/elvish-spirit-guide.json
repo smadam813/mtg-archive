@@ -1,0 +1,45 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Elvish Spirit Guide",
+  "checks": [
+    {
+      "name": "Pays {G} from hand with no land",
+      "start": {
+        "turn": 1,
+        "hand": [
+          "Elvish Spirit Guide",
+          "Elvish Mystic"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Elvish Mystic"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "guide-exiled",
+          "kind": "exile_contains",
+          "cards": [
+            "Elvish Spirit Guide"
+          ]
+        },
+        {
+          "id": "colored-spell-cast",
+          "kind": "battlefield_has",
+          "card": "Elvish Mystic"
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Exile this card from your hand: Add {G}.",
+      "assertions": [
+        "guide-exiled",
+        "colored-spell-cast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+step, cards, distinct names cumulative (api / trigger / replacement / static / keyword / cost)
+   0: +82 cards, total 15: api 9, trigger 0, replacement 0, static 1, keyword 1, cost 4
+     api names: ['ChangeZone', 'Cleanup', 'Draw', 'LoseLife', 'Mana', 'NameCard', 'RearrangeTopOfLibrary', 'Scry', 'Untap']
+     trigger names: []
+   1: +87 cards, total 20: api 11, trigger 1, replacement 2, static 1, keyword 1, cost 4
+   2: +38 cards, total 26: api 15, trigger 2, replacement 3, static 1, keyword 1, cost 4
+   3: +46 cards, total 46: api 33, trigger 2, replacement 3, static 2, keyword 2, cost 4
+   4: +38 cards, total 55: api 37, trigger 2, replacement 4, static 3, keyword 5, cost 4
+   5: +33 cards, total 58: api 40, trigger 2, replacement 4, static 3, keyword 5, cost 4
+   6: +50 cards, total 76: api 43, trigger 13, replacement 4, static 3, keyword 9, cost 4
+   7: +156 cards, total 126: api 57, trigger 19, replacement 6, static 8, keyword 31, cost 5
+   8: +200 cards, total 161: api 72, trigger 24, replacement 7, static 13, keyword 39, cost 6
+   9: +164 cards, total 193: api 79, trigger 31, replacement 7, static 15, keyword 51, cost 10
+  10: +169 cards, total 210: api 87, trigger 31, replacement 8, static 15, keyword 59, cost 10
+     api names: ['AlterAttribute', 'Amass', 'Animate', 'AnimateAll', 'Attach', 'BecomeMonarch', 'Blight', 'Branch', 'ChangeCombatants', 'ChangeTargets', 'ChangeText', 'ChangeZone', 'ChangeZoneAll', 'ChooseCard', 'ChooseColor', 'ChooseNumber', 'ChoosePlayer', 'ChooseType', 'Clash', 'Cleanup', 'Connive', 'Counter', 'DamageAll', 'DamageResolve', 'DealDamage', 'DelayedTrigger', 'Destroy', 'DestroyAll', 'Dig', 'Draw', 'EachDamage', 'Earthbend', 'Effect', 'EndTurn', 'ExchangeControl', 'ExchangeLifeVariant', 'Explore', 'Fight', 'Fog', 'GainControl', 'GainLife', 'GenericChoice', 'Goad', 'ImmediateTrigger', 'Investigate', 'LoseLife', 'LosesGame', 'Mana', 'ManaReflected', 'Manifest', 'MoveCounter', 'MultiplyCounter', 'NameCard', 'PeekAndReveal', 'Phases', 'Poison', 'Proliferate', 'Protection', 'ProtectionAll', 'Pump', 'PumpAll', 'PutCounter', 'PutCounterAll', 'Radiation', 'RearrangeTopOfLibrary', 'Regenerate', 'RemoveCounter', 'RemoveFromCombat', 'Repeat', 'RepeatEach', 'ReplaceCounter', 'ReplaceDamage', 'ReplaceEffect', 'ReplaceMana', 'ReplaceToken', 'Reveal', 'RevealHand', 'RingTemptsYou', 'Sacrifice', 'Scry', 'SetLife', 'StoreSVar', 'Tap', 'Token', 'Unattach', 'Untap', 'WinsGame']
+     trigger names: ['AbilityCast', 'Always', 'AttackerUnblocked', 'AttackersDeclared', 'AttackersDeclaredOneTarget', 'Attacks', 'BecomeMonstrous', 'BecomesTarget', 'ChangesZone', 'ChangesZoneAll', 'CommitCrime', 'CounterAdded', 'CounterAddedOnce', 'CounterPlayerAddedAll', 'DamageAll', 'DamageDone', 'DamageDoneOnce', 'Drawn', 'LandPlayed', 'LifeGained', 'LifeLost', 'ManaAdded', 'MilledAll', 'Phase', 'Proliferate', 'RingTemptsYou', 'SearchedLibrary', 'SpellCast', 'SpellCastOrCopy', 'Taps', 'TapsForMana']
+  11: +164 cards, total 229: api 90, trigger 31, replacement 8, static 17, keyword 70, cost 13
+  12: +120 cards, total 245: api 93, trigger 35, replacement 8, static 18, keyword 76, cost 15
+  13: +84 cards, total 258: api 93, trigger 35, replacement 9, static 26, keyword 79, cost 16
+  14: +53 cards, total 263: api 97, trigger 35, replacement 9, static 26, keyword 80, cost 16
+  15: +50 cards, total 265: api 97, trigger 35, replacement 9, static 26, keyword 81, cost 17
+  16: +77 cards, total 277: api 98, trigger 36, replacement 9, static 28, keyword 82, cost 24
+  17: +100 cards, total 299: api 98, trigger 37, replacement 10, static 29, keyword 85, cost 40
+  18: +75 cards, total 301: api 98, trigger 38, replacement 10, static 29, keyword 86, cost 40
+  19: +70 cards, total 308: api 98, trigger 41, replacement 10, static 30, keyword 89, cost 40
+  20: +69 cards, total 312: api 99, trigger 41, replacement 10, static 30, keyword 90, cost 42
+  21: +70 cards, total 332: api 100, trigger 41, replacement 10, static 30, keyword 105, cost 46
+  22: +53 cards, total 336: api 101, trigger 42, replacement 11, static 30, keyword 105, cost 47
+  23: +56 cards, total 343: api 103, trigger 44, replacement 12, static 30, keyword 107, cost 47
+     api names: ['AddTurn', 'AlterAttribute', 'Amass', 'Animate', 'AnimateAll', 'Attach', 'BecomeMonarch', 'BlankLine', 'Blight', 'Branch', 'ChangeCombatants', 'ChangeTargets', 'ChangeText', 'ChangeZone', 'ChangeZoneAll', 'ChaosEnsues', 'Charm', 'ChooseCard', 'ChooseColor', 'ChooseNumber', 'ChoosePlayer', 'ChooseType', 'Clash', 'Cleanup', 'Clone', 'Connive', 'ControlSpell', 'CopyPermanent', 'CopySpellAbility', 'Counter', 'DamageAll', 'DamageResolve', 'DealDamage', 'DelayedTrigger', 'Destroy', 'DestroyAll', 'Dig', 'Discard', 'Draw', 'EachDamage', 'Earthbend', 'Effect', 'EndTurn', 'ExchangeControl', 'ExchangeLifeVariant', 'Explore', 'Fight', 'Fog', 'GainControl', 'GainLife', 'GenericChoice', 'Goad', 'ImmediateTrigger', 'Investigate', 'LoseLife', 'LosesGame', 'Mana', 'ManaReflected', 'Manifest', 'Mill', 'MoveCounter', 'MultiplyCounter', 'NameCard', 'PeekAndReveal', 'Phases', 'Planeswalk', 'Play', 'Poison', 'Proliferate', 'Protection', 'ProtectionAll', 'Pump', 'PumpAll', 'PutCounter', 'PutCounterAll', 'Radiation', 'RearrangeTopOfLibrary', 'Regenerate', 'RemoveCounter', 'RemoveFromCombat', 'Repeat', 'RepeatEach', 'ReplaceCounter', 'ReplaceDamage', 'ReplaceEffect', 'ReplaceMana', 'ReplaceToken', 'Reveal', 'RevealHand', 'RingTemptsYou', 'Sacrifice', 'SacrificeAll', 'Scry', 'SetLife', 'Shuffle', 'StoreSVar', 'Tap', 'TapAll', 'Token', 'Unattach', 'Untap', 'Vote', 'WinsGame']
+     trigger names: ['AbilityCast', 'AbilityTriggered', 'Always', 'AttackerUnblocked', 'AttackersDeclared', 'AttackersDeclaredOneTarget', 'Attacks', 'BecomeMonstrous', 'BecomesTarget', 'BecomesTargetOnce', 'Blocks', 'ChangesZone', 'ChangesZoneAll', 'CommitCrime', 'CounterAdded', 'CounterAddedOnce', 'CounterPlayerAddedAll', 'Countered', 'Cycled', 'DamageAll', 'DamageDone', 'DamageDoneOnce', 'Discarded', 'DiscardedAll', 'Drawn', 'Evolved', 'LandPlayed', 'LifeGained', 'LifeLost', 'LifeLostAll', 'ManaAdded', 'ManaExpend', 'Milled', 'MilledAll', 'Phase', 'Proliferate', 'RingTemptsYou', 'Sacrificed', 'SearchedLibrary', 'SpellCast', 'SpellCastOrCopy', 'Taps', 'TapsForMana', 'Untaps']
+  24: +53 cards, total 345: api 103, trigger 44, replacement 12, static 30, keyword 107, cost 49
+  25: +43 cards, total 351: api 104, trigger 45, replacement 13, static 32, keyword 108, cost 49
+whole sample: 385 {'keyword': 122, 'api': 116, 'trigger': 47, 'cost': 51, 'static': 35, 'replacement': 14}
+step 0: cards 82, distinct parameter keys 37; count 0 (0%), condition 1 (1%), target 0 (0%), ailogic 4 (5%), any_ability 72 (88%)
+step 10: cards 1062, distinct parameter keys 343; count 198 (19%), condition 140 (13%), target 243 (23%), ailogic 86 (8%), any_ability 1050 (99%)
+step 23: cards 2103, distinct parameter keys 507; count 380 (18%), condition 301 (14%), target 606 (29%), ailogic 184 (9%), any_ability 2091 (99%)
+step 25: cards 2199, distinct parameter keys 518; count 433 (20%), condition 308 (14%), target 655 (30%), ailogic 195 (9%), any_ability 2187 (99%)

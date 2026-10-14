@@ -1,0 +1,335 @@
+== sample
+decks 52 slots 5200 nonbasic slots 4432 unique cards 2453 unique nonbasic 2447
+  collection: decks 1, slots 100, nonbasic 100
+  done-query: decks 1, slots 100, nonbasic 97
+  edhrec-average: decks 25, slots 2500, nonbasic 2110
+  archidekt: decks 25, slots 2500, nonbasic 2125
+
+== engine coverage (nonbasic slots)
+  defined: 125 (2.8%)
+  inert_exact: 122 (2.8%)
+  fetch_facet: 100 (2.3%)
+  expressible: 104 (2.3%)
+  uncovered: 3981 (89.8%)
+  covered total: 451 (10.2%); defined+inert_exact+fetch_facet: 7.8%
+  all slots incl. basics covered: 1219/5200 (23.4%)
+  per source:
+    collection: engine covered 26.0% (defined 3.0%), forge 100.0%
+    done-query: engine covered 33.0% (defined 11.3%), forge 100.0%
+    edhrec-average: engine covered 10.5% (defined 3.3%), forge 100.0%
+    archidekt: engine covered 8.1% (defined 1.9%), forge 100.0%
+  unique nonbasic covered: 82 / 2447
+
+== forge coverage
+  all slots: {'present': 5200} 100.0%
+  nonbasic slots: {'present': 4432} 100.0%
+  unique: Counter({'present': 2453})
+  scripts with a # TODO comment (unique): 6
+  missing: []
+
+== needs by subsystem and effect kind (share of nonbasic slots whose card needs it)
+  Targets, opponents, and other players' objects: 1733 (39.1%), 1092 cards
+  Combat: 1621 (36.6%), 1235 cards
+  Trigger events beyond on_enter, at_step, on_draw: 1127 (25.4%), 818 cards
+  Life total (gain, loss, payment): 1074 (24.2%), 647 cards
+  Replacement and prevention effects: 870 (19.6%), 405 cards
+  Continuous effects (layers): 790 (17.8%), 583 cards
+  Graveyard and exile as play zones: 605 (13.7%), 423 cards
+  Counters (+1/+1, loyalty, other): 551 (12.4%), 427 cards
+  Stack and responses: 514 (11.6%), 255 cards
+  Tokens: 482 (10.9%), 353 cards
+  mana_complex: 350 (7.9%), 192 cards
+  discard: 295 (6.7%), 203 cards
+  put_onto_battlefield: 289 (6.5%), 135 cards
+  sacrifice_other: 254 (5.7%), 177 cards
+  rule_restriction: 233 (5.3%), 136 cards
+  cost_other: 206 (4.6%), 154 cards
+  draw_complex: 146 (3.3%), 104 cards
+  tutor_complex: 141 (3.2%), 70 cards
+  cost_reduction: 130 (2.9%), 85 cards
+  modal: 122 (2.8%), 83 cards
+  alt_cost: 117 (2.6%), 84 cards
+  mill: 89 (2.0%), 58 cards
+  x_cost: 80 (1.8%), 61 cards
+  untap: 79 (1.8%), 56 cards
+  Copy effects: 72 (1.6%), 60 cards
+  dig: 51 (1.2%), 39 cards
+  activation_condition: 49 (1.1%), 39 cards
+  reveal_until: 34 (0.8%), 30 cards
+  extra_land: 30 (0.7%), 19 cards
+  blink: 28 (0.6%), 24 cards
+  random: 21 (0.5%), 17 cards
+  extra_turn_combat: 20 (0.5%), 16 cards
+  move_self: 20 (0.5%), 13 cards
+  transform: 18 (0.4%), 18 cards
+  surveil: 16 (0.4%), 14 cards
+  command_zone: 13 (0.3%), 9 cards
+  keyword_other: 9 (0.2%), 8 cards
+  cost_increase: 8 (0.2%), 7 cards
+  saga_class: 5 (0.1%), 5 cards
+  hand_size_draw_rule: 4 (0.1%), 4 cards
+
+  tags:
+    targets_other [opponents]: 1019 (23.0%)
+    creature_body [combat]: 1002 (22.6%)
+    evasion_keywords [combat]: 914 (20.6%)
+    each_player [opponents]: 788 (17.8%)
+    etb_tapped [replacement]: 635 (14.3%)
+    combat_words [combat]: 504 (11.4%)
+    damage [life]: 483 (10.9%)
+    other_counters [counters]: 482 (10.9%)
+    token [tokens]: 467 (10.5%)
+    instant_interaction [stack]: 467 (10.5%)
+    graveyard_other [graveyard]: 462 (10.4%)
+    grant_ability [layers]: 431 (9.7%)
+    removal [opponents]: 397 (9.0%)
+    plus_counters [counters]: 357 (8.1%)
+    mana_complex [None]: 350 (7.9%)
+    trig_attack [triggers]: 333 (7.5%)
+    discard [None]: 295 (6.7%)
+    put_onto_battlefield [None]: 289 (6.5%)
+    life_gain [life]: 272 (6.1%)
+    life_loss [life]: 259 (5.8%)
+    pump [layers]: 258 (5.8%)
+    sacrifice_other [None]: 254 (5.7%)
+    recursion [graveyard]: 248 (5.6%)
+    enters_with [replacement]: 241 (5.4%)
+    protection [layers]: 235 (5.3%)
+    rule_restriction [None]: 233 (5.3%)
+    cost_other [None]: 206 (4.6%)
+    trig_cast [triggers]: 199 (4.5%)
+    trig_dies [triggers]: 180 (4.1%)
+    pay_life [life]: 177 (4.0%)
+    board_wipe [opponents]: 161 (3.6%)
+    type_change [layers]: 157 (3.5%)
+    draw_complex [None]: 146 (3.3%)
+    attach [combat]: 145 (3.3%)
+    tutor_complex [None]: 141 (3.2%)
+    trig_other [triggers]: 137 (3.1%)
+    trig_enters_other [triggers]: 135 (3.0%)
+    cast_free [graveyard]: 134 (3.0%)
+    cost_reduction [None]: 130 (2.9%)
+    replacement_instead [replacement]: 129 (2.9%)
+    modal [None]: 122 (2.8%)
+    exile_zone [graveyard]: 118 (2.7%)
+    alt_cost [None]: 117 (2.6%)
+    counter_spell [stack]: 95 (2.1%)
+    mill [None]: 89 (2.0%)
+    x_cost [None]: 80 (1.8%)
+    untap [None]: 79 (1.8%)
+    trig_step_other [triggers]: 78 (1.8%)
+    flash [stack]: 76 (1.7%)
+    planeswalker [counters]: 58 (1.3%)
+    trig_landfall [triggers]: 55 (1.2%)
+    copy_permanent [copy]: 52 (1.2%)
+    dig [None]: 51 (1.2%)
+    activation_condition [None]: 49 (1.1%)
+    trig_draw_other [triggers]: 44 (1.0%)
+    reveal_until [None]: 34 (0.8%)
+    extra_land [None]: 30 (0.7%)
+    trig_sacrifice [triggers]: 29 (0.7%)
+    blink [None]: 28 (0.6%)
+    tokens_kw [tokens]: 24 (0.5%)
+    prevention [replacement]: 21 (0.5%)
+    random [None]: 21 (0.5%)
+    gain_control [layers]: 20 (0.5%)
+    extra_turn_combat [None]: 20 (0.5%)
+    move_self [None]: 20 (0.5%)
+    copy_spell [copy]: 20 (0.5%)
+    trig_counters [triggers]: 19 (0.4%)
+    trigger_doubling [replacement]: 19 (0.4%)
+    trig_life [triggers]: 19 (0.4%)
+    loyalty [counters]: 18 (0.4%)
+    transform [None]: 18 (0.4%)
+    cast_from_library [graveyard]: 17 (0.4%)
+    surveil [None]: 16 (0.4%)
+    command_zone [None]: 13 (0.3%)
+    keyword_other [None]: 9 (0.2%)
+    cost_increase [None]: 8 (0.2%)
+    saga_class [None]: 5 (0.1%)
+    trig_mana [triggers]: 5 (0.1%)
+    hand_size_draw_rule [None]: 4 (0.1%)
+    split_second [stack]: 1 (0.0%)
+
+== missing-unit count per uncovered card (slot-weighted)
+   [(1, 716), (2, 946), (3, 868), (4, 692), (5, 436), (6, 183), (7, 92), (8, 39), (9, 8), (10, 1)]
+
+== greedy: add the unit that unlocks the most slots next
+   1. +Replacement and prevention effects: unlocks 287, cumulative 738 (16.7%)
+   2. +Life total (gain, loss, payment): unlocks 209, cumulative 947 (21.4%)
+   3. +Targets, opponents, and other players' objects: unlocks 80, cumulative 1027 (23.2%)
+   4. +Stack and responses: unlocks 114, cumulative 1141 (25.7%)
+   5. +mana_complex: unlocks 105, cumulative 1246 (28.1%)
+   6. +Trigger events beyond on_enter, at_step, on_draw: unlocks 119, cumulative 1365 (30.8%)
+   7. +Combat: unlocks 192, cumulative 1557 (35.1%)
+   8. +Continuous effects (layers): unlocks 307, cumulative 1864 (42.1%)
+   9. +Counters (+1/+1, loyalty, other): unlocks 228, cumulative 2092 (47.2%)
+  10. +Tokens: unlocks 241, cumulative 2333 (52.6%)
+  11. +Graveyard and exile as play zones: unlocks 247, cumulative 2580 (58.2%)
+  12. +discard: unlocks 182, cumulative 2762 (62.3%)
+  13. +rule_restriction: unlocks 163, cumulative 2925 (66.0%)
+  14. +put_onto_battlefield: unlocks 114, cumulative 3039 (68.6%)
+  15. +tutor_complex: unlocks 115, cumulative 3154 (71.2%)
+  16. +sacrifice_other: unlocks 121, cumulative 3275 (73.9%)
+  17. +cost_other: unlocks 130, cumulative 3405 (76.8%)
+  18. +draw_complex: unlocks 114, cumulative 3519 (79.4%)
+  19. +cost_reduction: unlocks 113, cumulative 3632 (81.9%)
+  20. +modal: unlocks 105, cumulative 3737 (84.3%)
+  21. +alt_cost: unlocks 103, cumulative 3840 (86.6%)
+  22. +mill: unlocks 83, cumulative 3923 (88.5%)
+  23. +Copy effects: unlocks 67, cumulative 3990 (90.0%)
+  24. +x_cost: unlocks 70, cumulative 4060 (91.6%)
+  25. +untap: unlocks 62, cumulative 4122 (93.0%)
+
+== top cards by slot weight that stay uncovered
+  Exotic Orchard x35: each_player, mana_complex
+  Path of Ancestry x25: etb_tapped, mana_complex, trig_cast
+  Swords to Plowshares x20: instant_interaction, life_gain, removal, targets_other
+  Lightning Greaves x20: attach, evasion_keywords, grant_ability, protection
+  Cultivate x19: put_onto_battlefield
+  Fellwar Stone x17: each_player, mana_complex
+  Counterspell x17: counter_spell, instant_interaction, targets_other
+  Path to Exile x16: instant_interaction, put_onto_battlefield, removal, targets_other, tutor_complex
+  Watery Grave x16: enters_with, etb_tapped, pay_life
+  Blasphemous Act x16: board_wipe, cost_reduction, damage
+  Farseek x15: put_onto_battlefield, tutor_complex
+  Dragonskull Summit x15: etb_tapped
+  An Offer You Can't Refuse x13: counter_spell, instant_interaction, targets_other, token
+  Drowned Catacomb x13: etb_tapped
+  Sunken Hollow x13: etb_tapped
+  Reliquary Tower x13: rule_restriction
+  Swiftfoot Boots x13: attach, evasion_keywords, grant_ability, protection
+  Blood Crypt x12: enters_with, etb_tapped, pay_life
+  Chaos Warp x12: instant_interaction, put_onto_battlefield, targets_other
+  Bojuka Bog x12: etb_tapped, graveyard_other, removal, targets_other
+  Steam Vents x11: enters_with, etb_tapped, pay_life
+  Talisman of Dominance x11: damage
+  Heroic Intervention x11: grant_ability, instant_interaction, protection
+  Nature's Lore x11: put_onto_battlefield, tutor_complex
+  Rogue's Passage x11: combat_words, rule_restriction, targets_other
+  Cyclonic Rift x10: alt_cost, instant_interaction, removal, targets_other
+  Smothering Tithe x10: draw_complex, each_player, token, trig_draw_other
+  Sulfur Falls x10: etb_tapped
+  Rhystic Study x10: each_player, trig_cast
+  Smoldering Marsh x10: etb_tapped
+  Cinder Glade x10: etb_tapped
+  Godless Shrine x9: enters_with, etb_tapped, pay_life
+
+== spot-check sample (seed 207, 30 unique nonbasic cards)
+--- Terminate [uncovered] Instant
+    "Destroy target creature. It can't be regenerated."
+    tags: ['instant_interaction', 'removal', 'rule_restriction', 'targets_other']
+--- Grim Poppet [uncovered] Artifact Creature — Scarecrow
+    'CARDNAME enters with three -1/-1 counters on it.\nRemove a -1/-1 counter from CARDNAME: Put a -1/-1 counter on another target creature.'
+    tags: ['cost_other', 'creature_body', 'enters_with', 'other_counters', 'targets_other']
+--- Etali, Primal Storm [uncovered] Legendary Creature — Elder Dinosaur
+    "Whenever CARDNAME attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs."
+    tags: ['cast_free', 'combat_words', 'creature_body', 'each_player', 'exile_zone', 'trig_attack']
+--- Ashaya, Soul of the Wild [uncovered] Legendary Creature — Elemental
+    "CARDNAME's power and toughness are each equal to the number of lands you control.\nNontoken creatures you control are Forest lands in addition to their other types. "
+    tags: ['creature_body', 'type_change']
+--- Oath of Ajani [uncovered] Legendary Enchantment
+    'When CARDNAME enters, put a +1/+1 counter on each creature you control.\nPlaneswalker spells you cast cost {1} less to cast.'
+    tags: ['cost_reduction', 'other_counters', 'plus_counters']
+--- Emergence Zone [uncovered] Land
+    '{T}: Add {C}.\n{1}, {T}, Sacrifice CARDNAME: You may cast spells this turn as though they had flash.'
+    tags: ['flash']
+--- Surrakar Spellblade [uncovered] Creature — Surrakar
+    'Whenever you cast an instant or sorcery spell, you may put a charge counter on CARDNAME.\nWhenever CARDNAME deals combat damage to a player, you may draw X cards, where X is the number of charge counters on it.'
+    tags: ['combat_words', 'damage', 'draw_complex', 'other_counters', 'trig_attack', 'trig_cast']
+--- Changeling Outcast [uncovered] Creature — Shapeshifter
+    "Changeling \nCARDNAME can't block and can't be blocked."
+    tags: ['combat_words', 'creature_body', 'rule_restriction', 'type_change']
+--- Blue Mage's Cane [uncovered] Artifact — Equipment
+    'Job select\nEquipped creature gets +0/+2, is a Wizard in addition to its other types, and has "Whenever CARDNAME attacks, exile up to one target instant or sorcery card from defending player\'s graveyard. If you do, copy it. You may cast the copy by paying {3} rather than paying its mana cost."\nEquip '
+    tags: ['alt_cost', 'attach', 'combat_words', 'grant_ability', 'graveyard_other', 'pump', 'targets_other', 'tokens_kw', 'type_change']
+--- Mind Stone [expressible] Artifact
+    '{T}: Add {C}.\n{1}, {T}, Sacrifice CARDNAME: Draw a card.'
+    tags: []
+--- Phenax, God of Deception [uncovered] Legendary Enchantment Creature — God
+    'Indestructible\nAs long as your devotion to blue and black is less than seven, CARDNAME isn\'t a creature.\nCreatures you control have "{T}: Target player mills X cards, where X is CARDNAME\'s toughness."'
+    tags: ['creature_body', 'grant_ability', 'mill', 'protection', 'targets_other']
+--- Dihada, Binder of Wills [uncovered] Legendary Planeswalker — Dihada
+    '+2: Up to one target legendary creature gains vigilance, lifelink, and indestructible until your next turn.\n-3: Reveal the top four cards of your library. Put any number of legendary cards from among them into your hand and the rest into your graveyard. Create a Treasure token for each card put into'
+    tags: ['dig', 'evasion_keywords', 'gain_control', 'grant_ability', 'graveyard_other', 'life_gain', 'planeswalker', 'protection', 'targets_other', 'token', 'untap']
+--- Fireglass Mentor [uncovered] Creature — Lizard Warlock
+    'At the beginning of your second main phase, if an opponent lost life this turn, exile the top two cards of your library. Choose one of them. Until end of turn, you may play that card.'
+    tags: ['cast_free', 'each_player', 'exile_zone', 'modal', 'trig_step_other']
+--- Bred for the Hunt [uncovered] Enchantment
+    'Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card.'
+    tags: ['combat_words', 'damage', 'other_counters', 'plus_counters', 'trig_attack']
+--- Mortality Spear [uncovered] Instant
+    'CARDNAME costs {2} less to cast if you gained life this turn.\nDestroy target nonland permanent.'
+    tags: ['cost_reduction', 'instant_interaction', 'removal', 'targets_other']
+--- Wakestone Gargoyle [uncovered] Creature — Gargoyle
+    "Defender, flying\n{1}{W}: Creatures you control with defender can attack this turn as though they didn't have defender."
+    tags: ['combat_words', 'creature_body', 'evasion_keywords', 'grant_ability']
+--- Soul's Fire [uncovered] Instant
+    'Target creature you control deals damage equal to its power to any target.'
+    tags: ['damage', 'instant_interaction', 'targets_other']
+--- Ghost Vacuum [uncovered] Artifact
+    '{T}: Exile target card from a graveyard.\n{6}, {T}, Sacrifice CARDNAME: Put each creature card exiled with CARDNAME onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery.'
+    tags: ['evasion_keywords', 'exile_zone', 'graveyard_other', 'other_counters', 'put_onto_battlefield', 'recursion', 'removal', 'type_change']
+--- Rampaging Baloths [uncovered] Creature — Beast
+    'Trample\nWhenever a land you control enters, create a 4/4 green Beast creature token.'
+    tags: ['creature_body', 'evasion_keywords', 'token', 'trig_landfall']
+--- Reaper's Scythe [uncovered] Artifact — Equipment
+    'Job select\nAt the beginning of your end step, put a soul counter on CARDNAME for each player who lost life this turn.\nEquipped creature gets +1/+1 for each soul counter on CARDNAME and is an Assassin in addition to its other types.\nEquip {2}'
+    tags: ['attach', 'each_player', 'other_counters', 'pump', 'tokens_kw', 'type_change']
+--- Formless Genesis [uncovered] Kindred Sorcery — Shapeshifter
+    'Changeling \nCreate an X/X colorless Shapeshifter creature token with changeling and deathtouch, where X is the number of land cards in your graveyard.\nRetrace '
+    tags: ['evasion_keywords', 'graveyard_other', 'token', 'type_change']
+--- Ultimate Magic: Meteor [uncovered] Sorcery
+    'CARDNAME deals 7 damage to each creature. If CARDNAME was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} '
+    tags: ['board_wipe', 'damage', 'each_player', 'exile_zone']
+--- Elixir of Immortality [uncovered] Artifact
+    "{2}, {T}: You gain 5 life. Shuffle CARDNAME and your graveyard into their owner's library."
+    tags: ['graveyard_other', 'life_gain']
+--- Craterhoof Behemoth [uncovered] Creature — Beast
+    'Haste\nWhen CARDNAME enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.'
+    tags: ['creature_body', 'evasion_keywords', 'grant_ability', 'pump']
+--- Nexus of Becoming [uncovered] Artifact
+    "At the beginning of combat on your turn, draw a card. Then you may exile an artifact or creature card from your hand. If you do, create a token that's a copy of the exiled card, except it's a 3/3 Golem artifact creature in addition to its other types."
+    tags: ['combat_words', 'copy_permanent', 'exile_zone', 'token', 'trig_step_other', 'type_change']
+--- Beamtown Beatstick [uncovered] Artifact — Equipment
+    'Equipped creature gets +1/+0 and has menace. \nWhenever equipped creature deals combat damage to a player or battle, create a Treasure token.\nEquip {2} '
+    tags: ['attach', 'combat_words', 'damage', 'evasion_keywords', 'grant_ability', 'pump', 'token', 'trig_attack']
+--- Thalisse, Reverent Medium [uncovered] Legendary Creature — Human Cleric
+    'At the beginning of each end step, create X 1/1 white Spirit creature tokens with flying, where X is the number of tokens you created this turn.'
+    tags: ['creature_body', 'evasion_keywords', 'token']
+--- Fight Rigging [uncovered] Enchantment
+    'Hideaway 5 \nAt the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost.'
+    tags: ['cast_free', 'combat_words', 'exile_zone', 'other_counters', 'plus_counters', 'targets_other', 'trig_step_other']
+--- Cordial Vampire [uncovered] Creature — Vampire
+    'Whenever CARDNAME or another creature dies, put a +1/+1 counter on each Vampire you control.'
+    tags: ['creature_body', 'other_counters', 'plus_counters', 'trig_dies']
+--- Noise Marine [uncovered] Creature — Astartes Warrior
+    "Cascade \nWhen CARDNAME enters, it deals damage equal to the number of spells you've cast this turn to any target."
+    tags: ['cast_free', 'creature_body', 'damage', 'exile_zone', 'reveal_until', 'targets_other']
+
+== cards one tag away from covered (slot-weighted, by that tag)
+  etb_tapped: 256
+  damage: 100
+  put_onto_battlefield: 40
+  mana_complex: 28
+  rule_restriction: 22
+  discard: 19
+  activation_condition: 15
+  evasion_keywords: 15
+  life_loss: 11
+  trig_cast: 11
+  tutor_complex: 11
+  type_change: 11
+  cost_reduction: 8
+  creature_body: 7
+  dig: 6
+  exile_zone: 6
+  token: 6
+  flash: 6
+  trig_enters_other: 6
+  board_wipe: 5
+
+== lenient view: mana sources whose only gaps are tapped entry or self-damage
+  minor-gap mana sources: 478 slots (10.8%); lenient covered 21.0%
+  nonbasic lands: 1170 slots, covered 21.4%
+  nonland cards: 3262 slots, covered 6.2%

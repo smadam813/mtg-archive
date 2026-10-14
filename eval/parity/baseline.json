@@ -1,0 +1,1905 @@
+{
+  "engine": "xmage",
+  "version": "mixed: xmage-1.4.62V1\u002B0243e949, xmage-1.4.62V1\u002B5841eec8, xmage-1.4.62V1\u002Ba3d8e53a",
+  "captured": "2026-10-11",
+  "comparisons": [
+    {
+      "name": "dq2-needle-t1/goal-aware",
+      "case": "dq2-needle-t1",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 1
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 2022,
+      "curve": [
+        0.2022,
+        0.2722,
+        0.3606,
+        0.4158,
+        0.4605,
+        0.5026,
+        0.5376,
+        0.5636,
+        0.5909,
+        0.6142
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 1970,
+      "fresh_curve": [
+        0.197,
+        0.2692,
+        0.3657,
+        0.4153,
+        0.4622,
+        0.5016,
+        0.5358,
+        0.5634,
+        0.5907,
+        0.6158
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t1/land-window",
+      "case": "dq2-needle-t1",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 1
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 731,
+      "curve": [
+        0.0731,
+        0.1488,
+        0.2527,
+        0.3051,
+        0.3497,
+        0.396,
+        0.4386,
+        0.4796,
+        0.5163,
+        0.5446
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 698,
+      "fresh_curve": [
+        0.0698,
+        0.139,
+        0.2427,
+        0.2916,
+        0.3372,
+        0.3827,
+        0.4267,
+        0.4657,
+        0.5003,
+        0.532
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-demonic-t1/goal-aware",
+      "case": "dq2-demonic-t1",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "cast",
+        "card": "Demonic Tutor",
+        "by_turn": 1
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 153,
+      "curve": [
+        0.0153,
+        0.185,
+        0.3098,
+        0.3696,
+        0.4024,
+        0.4259,
+        0.4491,
+        0.4721,
+        0.4964,
+        0.5172
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 146,
+      "fresh_curve": [
+        0.0146,
+        0.1729,
+        0.2987,
+        0.3559,
+        0.394,
+        0.4199,
+        0.4454,
+        0.4672,
+        0.4878,
+        0.5111
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-demonic-t1/land-window",
+      "case": "dq2-demonic-t1",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "cast",
+        "card": "Demonic Tutor",
+        "by_turn": 1
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 47,
+      "curve": [
+        0.0047,
+        0.0845,
+        0.207,
+        0.2647,
+        0.2998,
+        0.3284,
+        0.3563,
+        0.3837,
+        0.411,
+        0.4329
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 40,
+      "fresh_curve": [
+        0.004,
+        0.0777,
+        0.2023,
+        0.2572,
+        0.292,
+        0.3221,
+        0.3491,
+        0.376,
+        0.4003,
+        0.4257
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t2/goal-aware",
+      "case": "dq2-needle-t2",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 2
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 3376,
+      "curve": [
+        0.1872,
+        0.3376,
+        0.4439,
+        0.502,
+        0.5418,
+        0.5773,
+        0.6062,
+        0.6287,
+        0.6525,
+        0.6731
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 3354,
+      "fresh_curve": [
+        0.1825,
+        0.3354,
+        0.4451,
+        0.4983,
+        0.5387,
+        0.5737,
+        0.6026,
+        0.6263,
+        0.6506,
+        0.6714
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t2/land-window",
+      "case": "dq2-needle-t2",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 2
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 1492,
+      "curve": [
+        0.073,
+        0.1492,
+        0.2532,
+        0.3061,
+        0.3507,
+        0.3964,
+        0.4397,
+        0.4811,
+        0.5183,
+        0.5465
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 1394,
+      "fresh_curve": [
+        0.0697,
+        0.1394,
+        0.2432,
+        0.2926,
+        0.338,
+        0.3831,
+        0.4272,
+        0.4664,
+        0.5013,
+        0.5333
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t3/goal-aware",
+      "case": "dq2-needle-t3",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 5071,
+      "curve": [
+        0.1765,
+        0.3256,
+        0.5071,
+        0.5631,
+        0.6025,
+        0.6345,
+        0.6583,
+        0.6779,
+        0.6996,
+        0.7164
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 4996,
+      "fresh_curve": [
+        0.1728,
+        0.3209,
+        0.4996,
+        0.5524,
+        0.5924,
+        0.6227,
+        0.6488,
+        0.6698,
+        0.6917,
+        0.7099
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t3/land-window",
+      "case": "dq2-needle-t3",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 2535,
+      "curve": [
+        0.073,
+        0.1503,
+        0.2535,
+        0.3048,
+        0.3506,
+        0.3958,
+        0.4384,
+        0.4795,
+        0.5164,
+        0.5439
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 2429,
+      "fresh_curve": [
+        0.0697,
+        0.14,
+        0.2429,
+        0.292,
+        0.339,
+        0.3836,
+        0.4278,
+        0.4675,
+        0.5021,
+        0.5342
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-obeka-t4/goal-aware",
+      "case": "dq2-obeka-t4",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "cast",
+        "card": "Obeka, Brute Chronologist",
+        "by_turn": 4
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 6885,
+      "curve": [
+        0,
+        0.0034,
+        0.1165,
+        0.6885,
+        0.8225,
+        0.8878,
+        0.9243,
+        0.9495,
+        0.9662,
+        0.9769
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7018,
+      "fresh_curve": [
+        0,
+        0.0024,
+        0.1129,
+        0.7018,
+        0.8367,
+        0.8985,
+        0.9301,
+        0.9531,
+        0.9719,
+        0.9807
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-obeka-t4/land-window",
+      "case": "dq2-obeka-t4",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "cast",
+        "card": "Obeka, Brute Chronologist",
+        "by_turn": 4
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 6880,
+      "curve": [
+        0,
+        0.0033,
+        0.1142,
+        0.688,
+        0.8221,
+        0.8875,
+        0.9241,
+        0.9493,
+        0.966,
+        0.9768
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7017,
+      "fresh_curve": [
+        0,
+        0.0023,
+        0.1115,
+        0.7017,
+        0.8367,
+        0.8985,
+        0.9301,
+        0.953,
+        0.9717,
+        0.9805
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t4-disrupted/goal-aware/baseline",
+      "case": "dq2-needle-t4-disrupted",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 5633,
+      "curve": [
+        0.1765,
+        0.3256,
+        0.508,
+        0.5633,
+        0.6009,
+        0.6335,
+        0.6572,
+        0.6768,
+        0.6982,
+        0.715
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 5527,
+      "fresh_curve": [
+        0.1728,
+        0.3209,
+        0.5003,
+        0.5527,
+        0.5913,
+        0.6227,
+        0.6489,
+        0.6698,
+        0.6914,
+        0.7091
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t4-disrupted/goal-aware/disrupted",
+      "case": "dq2-needle-t4-disrupted",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 0,
+      "curve": [
+        0.1765,
+        0.3256,
+        0.3294,
+        0.3294,
+        0.3435,
+        0.3578,
+        0.3678,
+        0.3745,
+        0.3821,
+        0.3878
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 0,
+      "fresh_curve": [
+        0.1728,
+        0.3209,
+        0.3244,
+        0.3244,
+        0.3395,
+        0.3527,
+        0.3612,
+        0.3691,
+        0.3765,
+        0.3811
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t4-disrupted/land-window/baseline",
+      "case": "dq2-needle-t4-disrupted",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 3044,
+      "curve": [
+        0.073,
+        0.1503,
+        0.2544,
+        0.3044,
+        0.3496,
+        0.3962,
+        0.4384,
+        0.4795,
+        0.5159,
+        0.5437
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 2901,
+      "fresh_curve": [
+        0.0697,
+        0.14,
+        0.2437,
+        0.2901,
+        0.3375,
+        0.383,
+        0.4266,
+        0.4664,
+        0.5011,
+        0.5329
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-needle-t4-disrupted/land-window/disrupted",
+      "case": "dq2-needle-t4-disrupted",
+      "deck": "dq2-obeka",
+      "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 0,
+      "curve": [
+        0.073,
+        0.1503,
+        0.1523,
+        0.1523,
+        0.1684,
+        0.1878,
+        0.2051,
+        0.222,
+        0.2356,
+        0.2459
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 0,
+      "fresh_curve": [
+        0.0697,
+        0.14,
+        0.1419,
+        0.1419,
+        0.158,
+        0.1767,
+        0.1956,
+        0.2131,
+        0.2273,
+        0.2382
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq2-final-99-needle-t4-interactive/goal-aware/baseline",
+      "case": "dq2-final-99-needle-t4-interactive",
+      "deck": "dq2-final-99",
+      "deck_sha": "4d66a2a4d54b3fe9a2ded9c32be4310c372e31cab44d5e6704cfd5cbc8954def",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 6760,
+      "curve": [
+        0.1482,
+        0.3555,
+        0.6233,
+        0.7267,
+        0.7779,
+        0.8115,
+        0.8383,
+        0.8566,
+        0.8701,
+        0.8802
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 6799,
+      "fresh_curve": [
+        0.1442,
+        0.3569,
+        0.6211,
+        0.7306,
+        0.7757,
+        0.8096,
+        0.8342,
+        0.8512,
+        0.8655,
+        0.8754
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "dq2-final-99-needle-t4-interactive/goal-aware/disrupted",
+      "case": "dq2-final-99-needle-t4-interactive",
+      "deck": "dq2-final-99",
+      "deck_sha": "4d66a2a4d54b3fe9a2ded9c32be4310c372e31cab44d5e6704cfd5cbc8954def",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 609,
+      "curve": [
+        0.1482,
+        0.3555,
+        0.4158,
+        0.4184,
+        0.4298,
+        0.4507,
+        0.4722,
+        0.4883,
+        0.5009,
+        0.5122
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 608,
+      "fresh_curve": [
+        0.1442,
+        0.3569,
+        0.4137,
+        0.4164,
+        0.4253,
+        0.4425,
+        0.4631,
+        0.4791,
+        0.4924,
+        0.5041
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "dq2-final-99-needle-t4-interactive/land-window/baseline",
+      "case": "dq2-final-99-needle-t4-interactive",
+      "deck": "dq2-final-99",
+      "deck_sha": "4d66a2a4d54b3fe9a2ded9c32be4310c372e31cab44d5e6704cfd5cbc8954def",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 5083,
+      "curve": [
+        0.0722,
+        0.1921,
+        0.4159,
+        0.5403,
+        0.6085,
+        0.6648,
+        0.7172,
+        0.7508,
+        0.7771,
+        0.7989
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 5056,
+      "fresh_curve": [
+        0.0718,
+        0.1894,
+        0.4206,
+        0.5368,
+        0.6101,
+        0.6664,
+        0.7188,
+        0.7541,
+        0.7814,
+        0.8005
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "dq2-final-99-needle-t4-interactive/land-window/disrupted",
+      "case": "dq2-final-99-needle-t4-interactive",
+      "deck": "dq2-final-99",
+      "deck_sha": "4d66a2a4d54b3fe9a2ded9c32be4310c372e31cab44d5e6704cfd5cbc8954def",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Pithing Needle",
+        "by_turn": 4
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "counterspell",
+          "turn": 3
+        },
+        {
+          "kind": "targeted_removal",
+          "turn": 4
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 412,
+      "curve": [
+        0.0722,
+        0.1921,
+        0.267,
+        0.2705,
+        0.29,
+        0.3195,
+        0.3567,
+        0.3837,
+        0.406,
+        0.4246
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 436,
+      "fresh_curve": [
+        0.0718,
+        0.1894,
+        0.2612,
+        0.2646,
+        0.2833,
+        0.3127,
+        0.3516,
+        0.3799,
+        0.4045,
+        0.4227
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "dq1-sol-ring-t2/goal-aware",
+      "case": "dq1-sol-ring-t2",
+      "deck": "dq1-golos",
+      "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Sol Ring",
+        "by_turn": 2
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 3247,
+      "curve": [
+        0.1906,
+        0.3247,
+        0.4134,
+        0.4476,
+        0.4738,
+        0.4979,
+        0.5192,
+        0.5363,
+        0.5531,
+        0.5697
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 3183,
+      "fresh_curve": [
+        0.1849,
+        0.3183,
+        0.4133,
+        0.4491,
+        0.4757,
+        0.4971,
+        0.5179,
+        0.5382,
+        0.5549,
+        0.5706
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq1-sol-ring-t2/land-window",
+      "case": "dq1-sol-ring-t2",
+      "deck": "dq1-golos",
+      "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Sol Ring",
+        "by_turn": 2
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 1324,
+      "curve": [
+        0.0714,
+        0.1324,
+        0.2361,
+        0.2644,
+        0.2929,
+        0.3168,
+        0.3419,
+        0.3652,
+        0.3858,
+        0.4066
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 1281,
+      "fresh_curve": [
+        0.0699,
+        0.1281,
+        0.2308,
+        0.2609,
+        0.2894,
+        0.317,
+        0.343,
+        0.3659,
+        0.3884,
+        0.4121
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq1-demonic-t2/goal-aware",
+      "case": "dq1-demonic-t2",
+      "deck": "dq1-golos",
+      "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+      "goal": {
+        "kind": "cast",
+        "card": "Demonic Tutor",
+        "by_turn": 2
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 2690,
+      "curve": [
+        0,
+        0.269,
+        0.3302,
+        0.3702,
+        0.3936,
+        0.4143,
+        0.4318,
+        0.446,
+        0.4614,
+        0.4763
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 2700,
+      "fresh_curve": [
+        0,
+        0.27,
+        0.3352,
+        0.3757,
+        0.3977,
+        0.4158,
+        0.4332,
+        0.4488,
+        0.4634,
+        0.4762
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "dq1-demonic-t2/land-window",
+      "case": "dq1-demonic-t2",
+      "deck": "dq1-golos",
+      "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+      "goal": {
+        "kind": "cast",
+        "card": "Demonic Tutor",
+        "by_turn": 2
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 1142,
+      "curve": [
+        0,
+        0.1142,
+        0.1464,
+        0.1723,
+        0.1938,
+        0.2118,
+        0.2307,
+        0.2491,
+        0.2649,
+        0.282
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 1148,
+      "fresh_curve": [
+        0,
+        0.1148,
+        0.1477,
+        0.1749,
+        0.1954,
+        0.2174,
+        0.237,
+        0.2543,
+        0.2731,
+        0.2906
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a"
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-brawl/goal-aware",
+      "case": "bq1-wrenn-and-six-t3-brawl",
+      "deck": "bq1-wrenn-and-six",
+      "deck_sha": "024bcf2d4364b57fe04d39519104eaca4d866541df284731bee0536f2c6e415d",
+      "goal": {
+        "kind": "cast",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7748,
+      "curve": [
+        0,
+        0.4139,
+        0.7748,
+        0.9206,
+        0.9709,
+        0.9869,
+        0.9934,
+        0.9961,
+        0.9975,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7819,
+      "fresh_curve": [
+        0,
+        0.4111,
+        0.7819,
+        0.9215,
+        0.9709,
+        0.9864,
+        0.9926,
+        0.995,
+        0.9963,
+        0.9977
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "brawl"
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-brawl/land-window",
+      "case": "bq1-wrenn-and-six-t3-brawl",
+      "deck": "bq1-wrenn-and-six",
+      "deck_sha": "024bcf2d4364b57fe04d39519104eaca4d866541df284731bee0536f2c6e415d",
+      "goal": {
+        "kind": "cast",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7746,
+      "curve": [
+        0,
+        0.4135,
+        0.7746,
+        0.9203,
+        0.9707,
+        0.9868,
+        0.9934,
+        0.9961,
+        0.9975,
+        0.9984
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7820,
+      "fresh_curve": [
+        0,
+        0.4107,
+        0.782,
+        0.9209,
+        0.9705,
+        0.9864,
+        0.9926,
+        0.995,
+        0.9963,
+        0.9977
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "brawl"
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-competitive/goal-aware",
+      "case": "bq1-wrenn-and-six-t3-competitive",
+      "deck": "bq1-wrenn-and-six",
+      "deck_sha": "024bcf2d4364b57fe04d39519104eaca4d866541df284731bee0536f2c6e415d",
+      "goal": {
+        "kind": "cast",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7774,
+      "curve": [
+        0,
+        0.4128,
+        0.7774,
+        0.9208,
+        0.9703,
+        0.9865,
+        0.9929,
+        0.996,
+        0.9974,
+        0.9981
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7830,
+      "fresh_curve": [
+        0,
+        0.4079,
+        0.783,
+        0.9213,
+        0.9697,
+        0.985,
+        0.9913,
+        0.9939,
+        0.9956,
+        0.9973
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "competitive_brawl"
+    },
+    {
+      "name": "bq1-wrenn-and-six-t3-competitive/land-window",
+      "case": "bq1-wrenn-and-six-t3-competitive",
+      "deck": "bq1-wrenn-and-six",
+      "deck_sha": "024bcf2d4364b57fe04d39519104eaca4d866541df284731bee0536f2c6e415d",
+      "goal": {
+        "kind": "cast",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7774,
+      "curve": [
+        0,
+        0.4107,
+        0.7774,
+        0.92,
+        0.9699,
+        0.9864,
+        0.9926,
+        0.9959,
+        0.9975,
+        0.9981
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7817,
+      "fresh_curve": [
+        0,
+        0.4069,
+        0.7817,
+        0.921,
+        0.9694,
+        0.9849,
+        0.9915,
+        0.994,
+        0.9956,
+        0.9972
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "competitive_brawl"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive/goal-aware/baseline",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7748,
+      "curve": [
+        0,
+        0.4139,
+        0.7748,
+        0.9206,
+        0.9709,
+        0.9869,
+        0.9934,
+        0.9961,
+        0.9975,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7819,
+      "fresh_curve": [
+        0,
+        0.4111,
+        0.7819,
+        0.9215,
+        0.9709,
+        0.9864,
+        0.9926,
+        0.995,
+        0.9963,
+        0.9977
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "format": "brawl",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive/goal-aware/disrupted",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 345,
+      "curve": [
+        0,
+        0.4139,
+        0.4158,
+        0.6687,
+        0.8415,
+        0.9278,
+        0.9638,
+        0.9806,
+        0.9887,
+        0.9934
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 366,
+      "fresh_curve": [
+        0,
+        0.4111,
+        0.4126,
+        0.6678,
+        0.8409,
+        0.9292,
+        0.9654,
+        0.9809,
+        0.9888,
+        0.9937
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "format": "brawl",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive/land-window/baseline",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 7746,
+      "curve": [
+        0,
+        0.4135,
+        0.7746,
+        0.9203,
+        0.9707,
+        0.9868,
+        0.9934,
+        0.9961,
+        0.9975,
+        0.9984
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 7820,
+      "fresh_curve": [
+        0,
+        0.4107,
+        0.782,
+        0.9209,
+        0.9705,
+        0.9864,
+        0.9926,
+        0.995,
+        0.9963,
+        0.9977
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "format": "brawl",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive/land-window/disrupted",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 348,
+      "curve": [
+        0,
+        0.4135,
+        0.4154,
+        0.6684,
+        0.8411,
+        0.9277,
+        0.9637,
+        0.9806,
+        0.9889,
+        0.9935
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 368,
+      "fresh_curve": [
+        0,
+        0.4107,
+        0.4122,
+        0.6674,
+        0.8406,
+        0.929,
+        0.9653,
+        0.9809,
+        0.9888,
+        0.9937
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B5841eec8",
+      "format": "brawl",
+      "disruption_mode": "interactive"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive-hold/goal-aware/baseline",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive-hold",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 8013,
+      "curve": [
+        0,
+        0.4342,
+        0.8013,
+        0.9298,
+        0.9748,
+        0.9881,
+        0.9935,
+        0.9963,
+        0.9976,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 8045,
+      "fresh_curve": [
+        0,
+        0.4314,
+        0.8045,
+        0.9295,
+        0.9735,
+        0.9872,
+        0.9929,
+        0.9954,
+        0.9966,
+        0.9978
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B0243e949",
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "play_policy": "goal-aware-hold"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive-hold/goal-aware/disrupted",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive-hold",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 728,
+      "curve": [
+        0,
+        0.4342,
+        0.4525,
+        0.6996,
+        0.8586,
+        0.9374,
+        0.9695,
+        0.9839,
+        0.9909,
+        0.9941
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 740,
+      "fresh_curve": [
+        0,
+        0.4314,
+        0.4495,
+        0.7,
+        0.8587,
+        0.9373,
+        0.9689,
+        0.983,
+        0.9895,
+        0.994
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B0243e949",
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "play_policy": "goal-aware-hold"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive-hold/land-window/baseline",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive-hold",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "baseline",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 8013,
+      "curve": [
+        0,
+        0.4338,
+        0.8013,
+        0.9295,
+        0.9746,
+        0.988,
+        0.9935,
+        0.9963,
+        0.9976,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 8047,
+      "fresh_curve": [
+        0,
+        0.4311,
+        0.8047,
+        0.9289,
+        0.9731,
+        0.9872,
+        0.9929,
+        0.9954,
+        0.9966,
+        0.9978
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B0243e949",
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "play_policy": "goal-aware-hold"
+    },
+    {
+      "name": "bq1-wrenn-and-six-responses-t3-interactive-hold/land-window/disrupted",
+      "case": "bq1-wrenn-and-six-responses-t3-interactive-hold",
+      "deck": "bq1-wrenn-and-six-responses",
+      "deck_sha": "beb2b6fd809006e499223ac012d4c1f82417d4637a0e7dbfd9a377ef62de4a9f",
+      "goal": {
+        "kind": "on_battlefield",
+        "card": "Wrenn and Six",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "disruption": [
+        {
+          "kind": "targeted_removal",
+          "turn": 3
+        }
+      ],
+      "arm": "disrupted",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 728,
+      "curve": [
+        0,
+        0.4338,
+        0.4521,
+        0.6994,
+        0.8584,
+        0.9373,
+        0.9693,
+        0.984,
+        0.991,
+        0.9942
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 744,
+      "fresh_curve": [
+        0,
+        0.4311,
+        0.4493,
+        0.6998,
+        0.8583,
+        0.9372,
+        0.9688,
+        0.983,
+        0.9895,
+        0.994
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002B0243e949",
+      "format": "brawl",
+      "disruption_mode": "interactive",
+      "play_policy": "goal-aware-hold"
+    },
+    {
+      "name": "bq2-jolly-balloon-man-t3/goal-aware",
+      "case": "bq2-jolly-balloon-man-t3",
+      "deck": "bq2-jolly-balloon-man",
+      "deck_sha": "e6124409ebe11076408aede7ed102b4cbc55d339d15214565987a20df4ca4760",
+      "goal": {
+        "kind": "cast",
+        "card": "The Jolly Balloon Man",
+        "by_turn": 3
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 3798,
+      "curve": [
+        0,
+        0,
+        0.3798,
+        0.7459,
+        0.9217,
+        0.9713,
+        0.9875,
+        0.9936,
+        0.9969,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 3806,
+      "fresh_curve": [
+        0,
+        0,
+        0.3806,
+        0.749,
+        0.9192,
+        0.9705,
+        0.9878,
+        0.9943,
+        0.9971,
+        0.9987
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "standard_brawl"
+    },
+    {
+      "name": "bq2-jolly-balloon-man-t3/land-window",
+      "case": "bq2-jolly-balloon-man-t3",
+      "deck": "bq2-jolly-balloon-man",
+      "deck_sha": "e6124409ebe11076408aede7ed102b4cbc55d339d15214565987a20df4ca4760",
+      "goal": {
+        "kind": "cast",
+        "card": "The Jolly Balloon Man",
+        "by_turn": 3
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 3794,
+      "curve": [
+        0,
+        0,
+        0.3794,
+        0.7452,
+        0.9216,
+        0.9712,
+        0.9876,
+        0.9937,
+        0.9969,
+        0.9983
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 3795,
+      "fresh_curve": [
+        0,
+        0,
+        0.3795,
+        0.7474,
+        0.9188,
+        0.9705,
+        0.9878,
+        0.9943,
+        0.9971,
+        0.9987
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "standard_brawl"
+    },
+    {
+      "name": "brawl-calibration-t1/goal-aware",
+      "case": "brawl-calibration-t1",
+      "deck": "brawl-calibration",
+      "deck_sha": "d8a1e6b45cb084b3e39e3f299028006905bd80c3300bb55edabf9d057b07234d",
+      "goal": {
+        "kind": "cast",
+        "card": "Ornithopter",
+        "by_turn": 1
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 2200,
+      "curve": [
+        0.22,
+        0.2293,
+        0.2379,
+        0.2466,
+        0.2555,
+        0.2645,
+        0.2735,
+        0.2818,
+        0.2899,
+        0.2975
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 2223,
+      "fresh_curve": [
+        0.2223,
+        0.2311,
+        0.2388,
+        0.2481,
+        0.2569,
+        0.2658,
+        0.2735,
+        0.2831,
+        0.2921,
+        0.3013
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "brawl"
+    },
+    {
+      "name": "brawl-calibration-t1/land-window",
+      "case": "brawl-calibration-t1",
+      "deck": "brawl-calibration",
+      "deck_sha": "d8a1e6b45cb084b3e39e3f299028006905bd80c3300bb55edabf9d057b07234d",
+      "goal": {
+        "kind": "cast",
+        "card": "Ornithopter",
+        "by_turn": 1
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 692,
+      "curve": [
+        0.0692,
+        0.0803,
+        0.0901,
+        0.1022,
+        0.113,
+        0.1235,
+        0.1353,
+        0.145,
+        0.1554,
+        0.1657
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 680,
+      "fresh_curve": [
+        0.068,
+        0.0775,
+        0.0877,
+        0.0971,
+        0.1074,
+        0.1179,
+        0.1299,
+        0.1409,
+        0.1522,
+        0.1616
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "brawl"
+    },
+    {
+      "name": "brawl-calibration-t1-competitive/goal-aware",
+      "case": "brawl-calibration-t1-competitive",
+      "deck": "brawl-calibration",
+      "deck_sha": "d8a1e6b45cb084b3e39e3f299028006905bd80c3300bb55edabf9d057b07234d",
+      "goal": {
+        "kind": "cast",
+        "card": "Ornithopter",
+        "by_turn": 1
+      },
+      "mulligan": "goal-aware",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 1676,
+      "curve": [
+        0.1676,
+        0.1753,
+        0.1853,
+        0.1946,
+        0.2025,
+        0.2125,
+        0.2231,
+        0.233,
+        0.2428,
+        0.2517
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 1762,
+      "fresh_curve": [
+        0.1762,
+        0.1857,
+        0.1942,
+        0.2014,
+        0.2105,
+        0.2191,
+        0.2283,
+        0.2372,
+        0.2448,
+        0.2513
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "competitive_brawl"
+    },
+    {
+      "name": "brawl-calibration-t1-competitive/land-window",
+      "case": "brawl-calibration-t1-competitive",
+      "deck": "brawl-calibration",
+      "deck_sha": "d8a1e6b45cb084b3e39e3f299028006905bd80c3300bb55edabf9d057b07234d",
+      "goal": {
+        "kind": "cast",
+        "card": "Ornithopter",
+        "by_turn": 1
+      },
+      "mulligan": "land-window",
+      "runs": 10000,
+      "base_seed": 20260928,
+      "successes": 691,
+      "curve": [
+        0.0691,
+        0.0798,
+        0.0899,
+        0.102,
+        0.1131,
+        0.1235,
+        0.1355,
+        0.1449,
+        0.1556,
+        0.1656
+      ],
+      "fresh_seed": 20260929,
+      "fresh_successes": 689,
+      "fresh_curve": [
+        0.0689,
+        0.0786,
+        0.0886,
+        0.098,
+        0.1082,
+        0.1191,
+        0.1311,
+        0.142,
+        0.1533,
+        0.1628
+      ],
+      "turn_horizon": 10,
+      "engine_version": "xmage-1.4.62V1\u002Ba3d8e53a",
+      "format": "competitive_brawl"
+    }
+  ]
+}

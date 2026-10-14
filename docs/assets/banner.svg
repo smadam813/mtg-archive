@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">MTG Archive</title>
+  <desc id="desc">The five mana colors on a pentagon beside the words MTG Archive: a Commander and Arena Brawl knowledge base.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171a22"/>
+      <stop offset="1" stop-color="#0d0f14"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3e3b5"/>
+      <stop offset="0.25" stop-color="#2f80c4"/>
+      <stop offset="0.5" stop-color="#8c7f9a"/>
+      <stop offset="0.75" stop-color="#d6403a"/>
+      <stop offset="1" stop-color="#2f9a5c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="190" cy="160" r="150" fill="url(#glow)"/>
+
+  <!-- Pentagon and star through the five mana positions, WUBRG clockwise. -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2">
+    <polygon points="190,65 280.4,130.6 245.8,236.9 134.2,236.9 99.6,130.6"/>
+    <polygon points="190,65 245.8,236.9 99.6,130.6 280.4,130.6 134.2,236.9" stroke-opacity="0.08"/>
+  </g>
+
+  <g stroke-width="3">
+    <circle cx="190" cy="65" r="30" fill="#f3e3b5" stroke="#fff8e6"/>
+    <circle cx="280.4" cy="130.6" r="30" fill="#2f80c4" stroke="#8cc2ef"/>
+    <circle cx="245.8" cy="236.9" r="30" fill="#2b2830" stroke="#8c7f9a"/>
+    <circle cx="134.2" cy="236.9" r="30" fill="#d6403a" stroke="#f29a8f"/>
+    <circle cx="99.6" cy="130.6" r="30" fill="#2f9a5c" stroke="#8fd3a8"/>
+  </g>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <text x="190" y="66" fill="#3a3020">W</text>
+    <text x="280.4" y="131.6" fill="#ffffff">U</text>
+    <text x="245.8" y="237.9" fill="#d9d2e3">B</text>
+    <text x="134.2" y="237.9" fill="#ffffff">R</text>
+    <text x="99.6" y="131.6" fill="#ffffff">G</text>
+  </g>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="380" y="148" font-size="84" font-weight="700" fill="#f4f1ea" letter-spacing="-1">MTG Archive</text>
+    <rect x="384" y="172" width="520" height="5" rx="2.5" fill="url(#rule)"/>
+    <text x="382" y="222" font-size="30" fill="#b9c0cc">Commander and Arena Brawl knowledge base</text>
+    <text x="382" y="264" font-size="22" fill="#7d8696" font-family="Consolas, 'SF Mono', Menlo, monospace">corpus · index · simulation engine · Claude Code skills</text>
+  </g>
+</svg>

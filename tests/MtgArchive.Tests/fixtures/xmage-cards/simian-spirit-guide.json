@@ -1,0 +1,45 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Simian Spirit Guide",
+  "checks": [
+    {
+      "name": "Pays {R} from hand with no land",
+      "start": {
+        "turn": 1,
+        "hand": [
+          "Simian Spirit Guide",
+          "Raging Goblin"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Raging Goblin"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "guide-exiled",
+          "kind": "exile_contains",
+          "cards": [
+            "Simian Spirit Guide"
+          ]
+        },
+        {
+          "id": "colored-spell-cast",
+          "kind": "battlefield_has",
+          "card": "Raging Goblin"
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Exile this card from your hand: Add {R}.",
+      "assertions": [
+        "guide-exiled",
+        "colored-spell-cast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# python count_brawl.py oracle-cards-20261003210155.jsonl.gz default-cards-20261003210542.jsonl.gz (run 2026-10-03)
+oracle cards (ingest layouts): 36171
+legalities.commander: {'legal': 32116, 'not_legal': 3972, 'banned': 83}
+legalities.brawl: {'not_legal': 20124, 'legal': 16010, 'banned': 37}
+legalities.competitivebrawl: {'not_legal': 20124, 'legal': 16037, 'banned': 10}
+legalities.standardbrawl: {'not_legal': 30992, 'legal': 5179}
+legalities.standard: {'not_legal': 30994, 'legal': 5164, 'banned': 13}
+legalities.historic: {'not_legal': 20124, 'legal': 15963, 'banned': 84}
+legalities.alchemy: {'not_legal': 31978, 'legal': 4192, 'banned': 1}
+(brawl, competitivebrawl) pairs: {('not_legal', 'not_legal'): 20124, ('legal', 'legal'): 16003, ('banned', 'legal'): 34, ('legal', 'banned'): 7, ('banned', 'banned'): 3}
+oracle print: digital 1916 | games has arena 12426 | games == [arena] 766 | arena_id set 11681
+names starting with A-: {('A-Town', 'funny', 'paper'): 1}
+brawl-legal cards by commander kind: {'not a commander': 13592, 'legendary creature': 2160, 'legendary planeswalker': 236, 'legendary Vehicle with P/T': 16, 'legendary Spacecraft with P/T': 6}
+competitivebrawl-legal cards by commander kind: {'not a commander': 13624, 'legendary creature': 2155, 'legendary planeswalker': 236, 'legendary Vehicle with P/T': 16, 'legendary Spacecraft with P/T': 6}
+default_cards: every printing digital 854 | any Arena printing 16284 | oracle print games disagrees with any-printing Arena 3858
+brawl legal or banned but no Arena printing 0 | Arena printing but brawl not_legal 237

@@ -1,0 +1,18 @@
+{
+  "decklist": {
+    "commanders": [ { "name": "Test Commander" } ],
+    "entries": [
+      { "card": { "name": "Test Forest" }, "quantity": 30 },
+      { "card": { "name": "Test Plains" }, "quantity": 6 },
+      { "card": { "name": "Test Savannah" }, "quantity": 2 },
+      { "card": { "name": "Test Signet" }, "quantity": 1 },
+      { "card": { "name": "Test Hybrid" }, "quantity": 1 },
+      { "card": { "name": "Test Bear" }, "quantity": 59 }
+    ]
+  },
+  "categories": [
+    { "name": "lands", "cards": [ { "name": "Test Forest" }, { "name": "Test Plains" }, { "name": "Test Savannah" } ] },
+    { "name": "ramp", "cards": [ { "name": "Test Signet" } ], "k": 1 }
+  ],
+  "max_turn": 4
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Pithing Needle",
+  "checks": [
+    {
+      "name": "Names a card as it enters; the name sticks to the permanent",
+      "start": {
+        "hand": [
+          "Pithing Needle"
+        ],
+        "battlefield": [
+          "Swamp"
+        ],
+        "library": []
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Pithing Needle"
+        },
+        {
+          "type": "choose",
+          "pick": "Evolving Wilds"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "needle-resolves",
+          "kind": "battlefield_has",
+          "card": "Pithing Needle"
+        },
+        {
+          "id": "name-sticks",
+          "kind": "named",
+          "permanent": "Pithing Needle",
+          "value": "Evolving Wilds"
+        }
+      ]
+    },
+    {
+      "name": "Named non-mana activated abilities are locked; mana abilities are exempt",
+      "start": {
+        "battlefield": [
+          {
+            "name": "Pithing Needle",
+            "tapped": false,
+            "named": "Evolving Wilds"
+          },
+          "Evolving Wilds",
+          "Sol Ring"
+        ],
+        "library": [
+          "Forest"
+        ]
+      },
+      "actions": [],
+      "assertions": [
+        {
+          "id": "named-ability-locked",
+          "kind": "ability_locked",
+          "permanent": "Evolving Wilds",
+          "ability": 0
+        },
+        {
+          "id": "mana-ability-exempt",
+          "kind": "ability_activatable",
+          "permanent": "Sol Ring",
+          "ability": 0
+        }
+      ]
+    },
+    {
+      "name": "Naming a mana source leaves its mana ability activatable",
+      "start": {
+        "battlefield": [
+          {
+            "name": "Pithing Needle",
+            "tapped": false,
+            "named": "Sol Ring"
+          },
+          "Sol Ring"
+        ],
+        "library": []
+      },
+      "actions": [],
+      "assertions": [
+        {
+          "id": "named-mana-ability-exempt",
+          "kind": "ability_activatable",
+          "permanent": "Sol Ring",
+          "ability": 0
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "As this artifact enters, choose a card name.",
+      "assertions": [
+        "needle-resolves",
+        "name-sticks"
+      ]
+    },
+    {
+      "clause": "Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+      "assertions": [
+        "named-ability-locked",
+        "mana-ability-exempt",
+        "named-mana-ability-exempt"
+      ]
+    }
+  ]
+}

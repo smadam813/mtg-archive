@@ -1,0 +1,31 @@
+{
+  "tier-4-hold-run-deck-check/hold-run": {
+    "match": [
+      "curl -d '{\"play_policy\":\"goal-aware-hold\"}'",
+      "{\\\"play_policy\\\": \\\"goal-aware-hold\\\"}"
+    ],
+    "nomatch": ["{\"play_policy\":\"goal-aware-greedy\"}"]
+  },
+  "tier-4-hold-run-deck-check/abstracted-run": {
+    "match": [
+      "{\"disruption_mode\":\"abstracted\"}",
+      "{\\\"disruption_mode\\\": \\\"abstracted\\\"}"
+    ],
+    "nomatch": ["{\"disruption_mode\":\"interactive\"}"]
+  },
+  "tier-4-hold-run-deck-check/interactive-run": {
+    "match": [
+      "{\"disruption_mode\":\"interactive\"}",
+      "{\\\"disruption_mode\\\": \\\"interactive\\\"}"
+    ],
+    "nomatch": ["{\"disruption_mode\":\"abstracted\"}"]
+  },
+  "tier-4-hold-run-deck-check/service-path": {
+    "match": [
+      "curl -s $MTG_ARCHIVE_URL/simulate",
+      "curl http://127.0.0.1:8080/simulate",
+      "${MTG_ARCHIVE_URL:-http://localhost:8080}/simulate"
+    ],
+    "nomatch": ["curl http://127.0.0.1:8080/healthz"]
+  }
+}

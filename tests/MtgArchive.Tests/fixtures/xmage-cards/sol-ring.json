@@ -1,0 +1,47 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Sol Ring",
+  "checks": [
+    {
+      "name": "Tapping Sol Ring adds {C}{C}",
+      "start": {
+        "battlefield": [
+          "Sol Ring"
+        ],
+        "hand": [],
+        "library": []
+      },
+      "actions": [
+        {
+          "type": "activate",
+          "permanent": "Sol Ring",
+          "ability": 0
+        }
+      ],
+      "assertions": [
+        {
+          "id": "adds-two-colorless",
+          "kind": "pool_at_least",
+          "mana": {
+            "C": 2
+          }
+        },
+        {
+          "id": "sol-ring-tapped",
+          "kind": "battlefield_has",
+          "card": "Sol Ring",
+          "tapped": true
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "{T}: Add {C}{C}.",
+      "assertions": [
+        "adds-two-colorless",
+        "sol-ring-tapped"
+      ]
+    }
+  ]
+}

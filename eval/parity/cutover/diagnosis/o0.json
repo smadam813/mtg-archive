@@ -1,0 +1,263 @@
+{
+  "label": "o0",
+  "engine": "ours",
+  "case": "dq2-obeka-t4",
+  "mulligan": "goal-aware",
+  "deck_sha": "5e168e43e41d565d2a1c2daf9dcf34079d8ad3996efb495d8980cff20f5d182b",
+  "engine_version": "1.0.0\u002B0b2e07f231d1a15565d82591dc5a45108c9639da",
+  "ablations": [],
+  "runs": 10000,
+  "successes": 7520,
+  "engine_errors": 0,
+  "floor": 0.752,
+  "lower": 0.7434401641665032,
+  "upper": 0.7603663006546759,
+  "etb": {},
+  "pay_life": {},
+  "classes": {
+    "land_short": 0,
+    "color_short": 0,
+    "rules_short": 0,
+    "unknown": 2480
+  },
+  "lift": [
+    {
+      "land": "Windswept Heath",
+      "runs": 931,
+      "failures": 802,
+      "failure_rate": 0.8614393125671321
+    },
+    {
+      "land": "Reliquary Tower",
+      "runs": 983,
+      "failures": 297,
+      "failure_rate": 0.3021363173957274
+    },
+    {
+      "land": "Urza\u0027s Saga",
+      "runs": 1020,
+      "failures": 308,
+      "failure_rate": 0.30196078431372547
+    },
+    {
+      "land": "Vault of Whispers",
+      "runs": 976,
+      "failures": 231,
+      "failure_rate": 0.23668032786885246
+    },
+    {
+      "land": "Takenuma, Abandoned Mire",
+      "runs": 953,
+      "failures": 216,
+      "failure_rate": 0.2266526757607555
+    },
+    {
+      "land": "Island",
+      "runs": 1444,
+      "failures": 312,
+      "failure_rate": 0.21606648199445982
+    },
+    {
+      "land": "Swamp",
+      "runs": 1479,
+      "failures": 317,
+      "failure_rate": 0.21433400946585532
+    },
+    {
+      "land": "Cascade Bluffs",
+      "runs": 1048,
+      "failures": 219,
+      "failure_rate": 0.20896946564885496
+    },
+    {
+      "land": "Flooded Strand",
+      "runs": 1004,
+      "failures": 208,
+      "failure_rate": 0.20717131474103587
+    },
+    {
+      "land": "Underground River",
+      "runs": 991,
+      "failures": 205,
+      "failure_rate": 0.20686175580222
+    },
+    {
+      "land": "Mountain",
+      "runs": 1506,
+      "failures": 310,
+      "failure_rate": 0.2058432934926959
+    },
+    {
+      "land": "Gloomlake Verge",
+      "runs": 1043,
+      "failures": 213,
+      "failure_rate": 0.20421860019175456
+    },
+    {
+      "land": "Sunken Hollow",
+      "runs": 1915,
+      "failures": 390,
+      "failure_rate": 0.20365535248041775
+    },
+    {
+      "land": "Verdant Catacombs",
+      "runs": 997,
+      "failures": 202,
+      "failure_rate": 0.20260782347041123
+    },
+    {
+      "land": "Drowned Catacomb",
+      "runs": 1043,
+      "failures": 206,
+      "failure_rate": 0.1975071907957814
+    },
+    {
+      "land": "Watery Grave",
+      "runs": 1943,
+      "failures": 382,
+      "failure_rate": 0.1966031909418425
+    },
+    {
+      "land": "Graven Cairns",
+      "runs": 1000,
+      "failures": 196,
+      "failure_rate": 0.196
+    },
+    {
+      "land": "Sunken Ruins",
+      "runs": 985,
+      "failures": 192,
+      "failure_rate": 0.1949238578680203
+    },
+    {
+      "land": "Sulfur Falls",
+      "runs": 1022,
+      "failures": 197,
+      "failure_rate": 0.19275929549902152
+    },
+    {
+      "land": "Volcanic Island",
+      "runs": 2164,
+      "failures": 416,
+      "failure_rate": 0.1922365988909427
+    },
+    {
+      "land": "Underground Sea",
+      "runs": 2019,
+      "failures": 387,
+      "failure_rate": 0.19167904903417535
+    },
+    {
+      "land": "Fiery Islet",
+      "runs": 1023,
+      "failures": 195,
+      "failure_rate": 0.1906158357771261
+    },
+    {
+      "land": "Riverpyre Verge",
+      "runs": 1045,
+      "failures": 195,
+      "failure_rate": 0.18660287081339713
+    },
+    {
+      "land": "Shivan Reef",
+      "runs": 1013,
+      "failures": 188,
+      "failure_rate": 0.1855873642645607
+    },
+    {
+      "land": "Dragonskull Summit",
+      "runs": 954,
+      "failures": 177,
+      "failure_rate": 0.18553459119496854
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 973,
+      "failures": 176,
+      "failure_rate": 0.18088386433710174
+    },
+    {
+      "land": "Badlands",
+      "runs": 2177,
+      "failures": 388,
+      "failure_rate": 0.178226917776757
+    },
+    {
+      "land": "Wooded Foothills",
+      "runs": 959,
+      "failures": 170,
+      "failure_rate": 0.1772679874869656
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 2083,
+      "failures": 369,
+      "failure_rate": 0.1771483437349976
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 1026,
+      "failures": 180,
+      "failure_rate": 0.17543859649122806
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 1015,
+      "failures": 178,
+      "failure_rate": 0.17536945812807883
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 996,
+      "failures": 174,
+      "failure_rate": 0.1746987951807229
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 1004,
+      "failures": 174,
+      "failure_rate": 0.17330677290836655
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 995,
+      "failures": 172,
+      "failure_rate": 0.1728643216080402
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 962,
+      "failures": 166,
+      "failure_rate": 0.17255717255717257
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 2163,
+      "failures": 363,
+      "failure_rate": 0.1678224687933426
+    },
+    {
+      "land": "Command Tower",
+      "runs": 991,
+      "failures": 166,
+      "failure_rate": 0.16750756811301715
+    },
+    {
+      "land": "City of Brass",
+      "runs": 1015,
+      "failures": 166,
+      "failure_rate": 0.16354679802955666
+    }
+  ],
+  "against": {
+    "label": "x0",
+    "successes": 5178,
+    "runs": 10000,
+    "difference": {
+      "estimate": 0.23419999999999996,
+      "lower": 0.22119942488713595,
+      "upper": 0.24708436506020554
+    }
+  }
+}

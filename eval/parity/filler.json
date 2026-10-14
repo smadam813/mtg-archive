@@ -1,0 +1,14 @@
+{
+  "rule": "A filler card is colorless, not a land, not legendary, of the normal layout, with a generic mana cost, and with no rules text but the keywords flying, vigilance, reach, defender and trample. For each mana value the filler is the first such card, by no keyword first and then by name, that XMage implements. Commanders, lands (a land face included) and cards with a DSL definition stay; every other card becomes the filler of its mana value.",
+  "by_mana_value": {
+    "0": "Memnite",
+    "1": "Metallic Sliver",
+    "2": "Alpha Myr",
+    "3": "Sliver Construct",
+    "4": "Gilded Sentinel",
+    "5": "Glass Golem",
+    "6": "Obsianus Golem",
+    "7": "Hexplate Golem",
+    "8": "Eldrazi Devastator"
+  }
+}

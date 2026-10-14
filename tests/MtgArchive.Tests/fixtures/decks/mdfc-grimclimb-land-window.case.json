@@ -1,0 +1,446 @@
+{
+  "name": "mdfc-grimclimb-land-window",
+  "deck": [
+    {
+      "id": 0,
+      "oracle_id": "6b697345-2c61-4720-6f64-206f66207468",
+      "name": "Esika, God of the Tree // The Prismatic Bridge",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3,
+      "mana_cost": "{1}{G}{G}",
+      "produced_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "front_face_name": "Esika, God of the Tree",
+      "back_face": {
+        "id": 0,
+        "oracle_id": "6b697345-2c61-4720-6f64-206f66207468",
+        "name": "The Prismatic Bridge",
+        "quantity": 1,
+        "is_commander": true,
+        "is_land": false,
+        "is_basic": false,
+        "is_permanent": true,
+        "card_types": [
+          "Enchantment"
+        ],
+        "supertypes": [],
+        "subtypes": [],
+        "mana_value": 5,
+        "mana_cost": "{W}{U}{B}{R}{G}",
+        "fetch_basic_only": false,
+        "any_face_colors": []
+      },
+      "any_face_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "74616853-6574-7372-6b75-6c6c20536d61",
+      "name": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+      "quantity": 4,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2,
+      "mana_cost": "{X}{R}{R}",
+      "fetch_basic_only": false,
+      "front_face_name": "Shatterskull Smashing",
+      "back_face": {
+        "id": 0,
+        "oracle_id": "74616853-6574-7372-6b75-6c6c20536d61",
+        "name": "Shatterskull, the Hammer Pass",
+        "quantity": 1,
+        "is_commander": false,
+        "is_land": true,
+        "is_basic": false,
+        "is_permanent": true,
+        "card_types": [
+          "Land"
+        ],
+        "supertypes": [],
+        "subtypes": [],
+        "mana_value": 0,
+        "produced_colors": [
+          "R"
+        ],
+        "fetch_basic_only": false,
+        "any_face_colors": [
+          "R"
+        ]
+      },
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "67697242-7468-6c63-696d-622050617468",
+      "name": "Brightclimb Pathway // Grimclimb Pathway",
+      "quantity": 4,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "front_face_name": "Brightclimb Pathway",
+      "back_face": {
+        "id": 0,
+        "oracle_id": "67697242-7468-6c63-696d-622050617468",
+        "name": "Grimclimb Pathway",
+        "quantity": 1,
+        "is_commander": false,
+        "is_land": true,
+        "is_basic": false,
+        "is_permanent": true,
+        "card_types": [
+          "Land"
+        ],
+        "supertypes": [],
+        "subtypes": [],
+        "mana_value": 0,
+        "produced_colors": [
+          "B"
+        ],
+        "fetch_basic_only": false,
+        "any_face_colors": [
+          "B"
+        ]
+      },
+      "any_face_colors": [
+        "W",
+        "B"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "69616c50-736e-0000-0000-000000000000",
+      "name": "Plains",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "W"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "616c7349-646e-0000-0000-000000000000",
+      "name": "Island",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "U"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "6d617753-0070-0000-0000-000000000000",
+      "name": "Swamp",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "6e756f4d-6174-6e69-0000-000000000000",
+      "name": "Mountain",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "65726f46-7473-0000-0000-000000000000",
+      "name": "Forest",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "7a697247-6c7a-2079-4265-617273000000",
+      "name": "Grizzly Bears",
+      "quantity": 47,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    }
+  ],
+  "goal": {
+    "kind": "on_battlefield",
+    "card": "Grimclimb Pathway",
+    "by_turn": 2
+  },
+  "mulligan": "land-window",
+  "runs": 500,
+  "base_seed": 8,
+  "turn_horizon": 6,
+  "profiles": {
+    "Esika, God of the Tree": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}",
+        "{U}",
+        "{B}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    "The Prismatic Bridge": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Shatterskull Smashing": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Shatterskull, the Hammer Pass": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R"
+      ]
+    },
+    "Brightclimb Pathway": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "W"
+      ]
+    },
+    "Grimclimb Pathway": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Plains": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "W"
+      ]
+    },
+    "Island": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "U"
+      ]
+    },
+    "Swamp": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Mountain": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R"
+      ]
+    },
+    "Forest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Grizzly Bears": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    }
+  },
+  "unprofiled": []
+}

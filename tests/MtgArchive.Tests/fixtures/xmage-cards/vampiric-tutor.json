@@ -1,0 +1,74 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Vampiric Tutor",
+  "checks": [
+    {
+      "name": "Finds any card and puts it on top after the shuffle",
+      "start": {
+        "hand": [
+          "Vampiric Tutor"
+        ],
+        "battlefield": [
+          "Swamp"
+        ],
+        "library": [
+          "Forest",
+          "Island",
+          "Sol Ring"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Vampiric Tutor"
+        },
+        {
+          "type": "choose",
+          "pick": "Sol Ring"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "found-card-on-top",
+          "kind": "library_top",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "library-keeps-found-card",
+          "kind": "library_count",
+          "count": 3
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Vampiric Tutor"
+          ]
+        },
+        {
+          "id": "loses-two-life",
+          "kind": "life",
+          "amount": 38
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Search your library for a card, then shuffle and put that card on top.",
+      "assertions": [
+        "found-card-on-top",
+        "library-keeps-found-card",
+        "spell-resolves"
+      ]
+    },
+    {
+      "clause": "You lose 2 life.",
+      "assertions": [
+        "loses-two-life"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Curated files are banlist truth; Scryfall diffs only detect drift
+
+A Scryfall snapshot diff can detect a Commander ban or unban (a `legalities.commander` flip) but knows neither the effective date nor the announcement — the two things a ban event's provenance requires. So the dated banlist history lives as a curated, git-versioned events file (`data/banlist-events.json`, cards by exact Oracle name), and the Game Changers list as dated curated snapshots; ingest replays these files into the derived tables. The snapshot diff never writes ban or GC events — it only reports **drift** when Scryfall's current state disagrees with the files, and a human appends the dated event with its announcement URL and re-ingests. The rejected alternative, auto-creating events dated by snapshot date, would write wrong effective dates into a table whose whole point is dated citation; at ~1–2 ban changes a year, the manual step is trivial and the history stays auditable in git.
+
+**Scope (2026-10-04, [ADR 0012](0012-arena-brawl-formats.md)):** this ADR covers Commander only. The Brawl formats take legality from their Scryfall keys, with no curated files, ban events, or drift.

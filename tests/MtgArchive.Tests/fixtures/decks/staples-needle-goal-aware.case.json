@@ -1,0 +1,726 @@
+{
+  "name": "staples-needle-goal-aware",
+  "deck": [
+    {
+      "id": 0,
+      "oracle_id": "9cd190f4-b5c6-5319-f007-36e835e122ff",
+      "name": "Sheoldred, the Apocalypse",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 4,
+      "mana_cost": "{2}{B}{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "cbf54a91-8b1d-e7c7-7f5e-cfd089f51dfa",
+      "name": "Brainstorm",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "dc021d11-d94f-d2e2-d75e-e8c901491114",
+      "name": "Dark Ritual",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "74a1bf48-a95e-3952-4051-1124e10b8754",
+      "name": "Demonic Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2,
+      "mana_cost": "{1}{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "88e003f4-3d70-54ec-a548-3014eadb97ed",
+      "name": "Elvish Mystic",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{G}",
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "22cb1d7b-e0dc-9f83-ebdd-76e8305fe48f",
+      "name": "Elvish Spirit Guide",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3,
+      "mana_cost": "{2}{G}",
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "02e2c149-b052-1da0-b410-a2056d191c72",
+      "name": "Evolving Wilds",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0,
+      "mana_cost": "",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "4ccbcc06-d912-e039-ec69-8838f71d7947",
+      "name": "Mystical Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "8e49ac6e-d646-4a9d-1259-0375abc1cd56",
+      "name": "Opt",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "e97bc42a-dd38-961d-c544-a7b2c12113a7",
+      "name": "Pithing Needle",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{1}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "90cc2650-3f88-c0bc-3fef-8d188f0a3d05",
+      "name": "Ponder",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "ce896c28-7f89-62ce-6e28-8d896b3b0226",
+      "name": "Preordain",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "a9b40a05-0ef0-a9cc-0d56-0f0f31590364",
+      "name": "Raging Goblin",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{R}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "1763f14f-465d-ab58-66eb-d72e42431cd3",
+      "name": "Rampant Growth",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "6a8a1960-2f76-87e2-8af9-4c6bca00fc1b",
+      "name": "Simian Spirit Guide",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3,
+      "mana_cost": "{2}{R}",
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "eed50a10-f4b3-643e-b8d7-21056e3e519f",
+      "name": "Sol Ring",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{1}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "4e6b00eb-5145-99b2-5d9a-90e4f1887ab4",
+      "name": "Vampiric Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1,
+      "mana_cost": "{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "b6aa1004-3f6e-e548-e615-81670247a2c8",
+      "name": "Swamp",
+      "quantity": 14,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "mana_cost": "",
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "17500f73-7fa4-3cd1-d9dd-22d392204bf7",
+      "name": "Island",
+      "quantity": 12,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "mana_cost": "",
+      "produced_colors": [
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "U"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "3a8bd8ee-90fe-55b7-e6c7-524ea01c2b5a",
+      "name": "Forest",
+      "quantity": 8,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [],
+      "mana_value": 0,
+      "mana_cost": "",
+      "produced_colors": [
+        "G"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "G"
+      ]
+    },
+    {
+      "id": 0,
+      "oracle_id": "6c6c6946-7265-4220-6561-720000000000",
+      "name": "Filler Bear",
+      "quantity": 17,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2,
+      "mana_cost": "{1}{G}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "6c6c6946-7265-4f20-6772-650000000000",
+      "name": "Filler Ogre",
+      "quantity": 16,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3,
+      "mana_cost": "{2}{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 0,
+      "oracle_id": "6c6c6946-7265-4420-7261-6b6500000000",
+      "name": "Filler Drake",
+      "quantity": 16,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 4,
+      "mana_cost": "{3}{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    }
+  ],
+  "goal": {
+    "kind": "on_battlefield",
+    "card": "Pithing Needle",
+    "by_turn": 1
+  },
+  "mulligan": "goal-aware",
+  "runs": 1000,
+  "base_seed": 1,
+  "turn_horizon": 6,
+  "profiles": {
+    "Sheoldred, the Apocalypse": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Brainstorm": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Dark Ritual": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "spell_mana": "{B}{B}{B}",
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Demonic Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "hand",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Elvish Mystic": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Elvish Spirit Guide": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [
+        "{G}"
+      ],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Evolving Wilds": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Mystical Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "library_top",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Opt": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Pithing Needle": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Ponder": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Preordain": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Raging Goblin": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Rampant Growth": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Simian Spirit Guide": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [
+        "{R}"
+      ],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Sol Ring": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Vampiric Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "library_top",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Swamp": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Island": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "U"
+      ]
+    },
+    "Forest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "G"
+      ]
+    },
+    "Filler Bear": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Filler Ogre": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Filler Drake": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    }
+  },
+  "unprofiled": []
+}

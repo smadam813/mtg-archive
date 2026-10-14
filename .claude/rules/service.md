@@ -1,0 +1,15 @@
+---
+paths:
+  - "src/MtgArchive/**/*.cs"
+---
+
+# Service
+
+- One Postgres + pgvector database is the only store (ADR 0001). EF Core migrations own all DDL; `ArchiveDbContext` uses the snake_case naming convention, so entities map to snake_case tables and columns without attributes.
+- The header comment on `Data/ArchiveDbContext.cs` is the raw-SQL law. Raw SQL is reserved for the two query paths it names, the search surfaces' KNN statements and `legal_candidates`, always through `FromSql`/`SqlQuery` interpolation. Write every other query as LINQ on `ArchiveDbContext`. Before adding a third raw-SQL query site, stop and ask. Hybrid query law: every structured predicate composes in the same SQL statement as `ORDER BY embedding <=> $q LIMIT k`; rows are never filtered after they return to C#.
+- The legality boundary: an endpoint that returns cards as candidates is mapped as `POST`, derives its body from `Api/CandidateQueryRequest.cs`, calls `CandidateQuery.ResolveAsync` first, and adds its predicates to the query that returns, so one SQL statement runs. `tests/MtgArchive.Tests/IndexFuzzHarness.cs` discovers such endpoints from the route table by that base type and fuzzes them, so a new index endpoint is under the no-illegal-candidates and no-unowned-candidates suites the moment it maps. `tests/MtgArchive.Tests/SeamProbe.cs` holds the worked example. `POST /commander-alternatives` is the one exception to the base type (its role is fixed); it still starts from `CandidateQuery.ResolveAsync`.
+- Ingest is a single-flight in-service job (`Ingest/IngestRunner.cs`). A new phase gets a slot in `IngestPhases.CanonicalOrder` and an `AddScoped<IIngestPhase, …>()` registration in `Program.cs`; an unregistered slot completes as skipped, never as an error. Every phase is idempotent: a second run over the same data ends in the same state with no duplicate rows, because rerunning ingest is the only recovery path. Derived tables (legality, card feature profiles and source profiles today) are rebuilt in their `_staging` twin and published through `Ingest/DerivedStateSwap.cs`; the live table is never updated in place.
+- Every endpoint registers through an `IEndpointMapper` singleton in `Program.cs`; tests inject probe endpoints the same way. New code goes in the slice it serves (`Cards`, `Rules`, `Banlist`, `Bracket`, `CollectionImport`, `Ingest`, `Embedding`, `Simulation`), entities in `Data/`, wire types shared by more than one slice in `Api/`.
+- Endpoints follow `docs/api-conventions.md` (snake_case wire via `Api/WireJson.cs`, `versions` echo, one `Citation` shape, RFC 9457 problem+json via `Api/Problems.cs`) and each route is asserted in `tests/MtgArchive.Tests/OpenApiTests.cs`.
+- `EmbeddingModel.Resolve` in `Program.cs` fails startup on an unknown `Embedding:ModelTag` or `Embedding:Composition` by design; a model or composition switch is the `Embedding__ModelTag` or `Embedding__Composition` setting plus an ingest, never a compose edit.
+- Curated source-of-truth files live under `data/`, mounted read-only at `/data`; the service archives into Postgres and never writes there.

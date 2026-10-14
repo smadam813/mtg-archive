@@ -1,0 +1,2181 @@
+{
+  "name": "bq2-jolly-balloon-man",
+  "source": "../acceptance/brawl-query-2/parity-deck.txt",
+  "substitutions": [],
+  "decklist": {
+    "commanders": [
+      {
+        "name": "The Jolly Balloon Man"
+      }
+    ],
+    "entries": [
+      {
+        "card": {
+          "name": "Arcane Signet"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "The Irencrag"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Heraldic Banner"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Swiftfoot Boots"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Abrade"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Thrill of Possibility"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Grand Abolisher"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Untimely Malfunction"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Authority of the Consuls"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Dawn\u0027s Truce"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Demand Answers"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Voice of Victory"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Felidar Retreat"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Hexing Squelcher"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Caretaker\u0027s Talent"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Enduring Innocence"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Seize the Spoils"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Aurelia, the Warleader"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Warleader\u0027s Call"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Taurean Mauler"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Razorkin Needlehead"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Exemplar of Light"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Cathar Commando"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Get Lost"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Lightning Strike"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Banishing Light"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Ajani\u0027s Pridemate"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Helpful Hunter"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Archangel of Tithes"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Giada, Font of Hope"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Lyra Dawnbringer"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Dragon Fodder"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Hare Apparent"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Shock"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Crime Novelist"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Command Tower"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sacred Foundry"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sundown Pass"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Temple of Triumph"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Elegant Parlor"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Wind-Scarred Crag"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Starting Town"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Fabled Passage"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Evolving Wilds"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Vibrant Cityscape"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Boros Guildgate"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Mountain"
+        },
+        "quantity": 7
+      },
+      {
+        "card": {
+          "name": "Plains"
+        },
+        "quantity": 6
+      }
+    ]
+  },
+  "deck": [
+    {
+      "id": 43,
+      "oracle_id": "82ea519f-0e14-43d3-bf46-a1c5352e9600",
+      "name": "The Jolly Balloon Man",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Human",
+        "Clown"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{1}{R}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 1,
+      "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
+      "name": "Abrade",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 2,
+      "oracle_id": "95e94dea-5ac0-4d6f-adec-ca147aee861f",
+      "name": "Ajani\u0027s Pridemate",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Cat",
+        "Soldier"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 3,
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "name": "Arcane Signet",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": true,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 4,
+      "oracle_id": "ff5caed4-0276-476d-8fae-edae2536df7f",
+      "name": "Archangel of Tithes",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Angel"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{1}{W}{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 5,
+      "oracle_id": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+      "name": "Aurelia, the Warleader",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "mana_value": 6.0,
+      "mana_cost": "{2}{R}{R}{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 6,
+      "oracle_id": "55f3c721-e13a-406e-bc8e-d6cdc91ac477",
+      "name": "Authority of the Consuls",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 7,
+      "oracle_id": "f28b21a6-f7ce-437a-8c5b-0423cb55cefb",
+      "name": "Banishing Light",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 8,
+      "oracle_id": "73c423b7-cab8-4e69-8070-9edbf96a6c2c",
+      "name": "Boros Guildgate",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Gate"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": 9,
+      "oracle_id": "c97957a2-8310-4cff-8aad-871b7901d124",
+      "name": "Caretaker\u0027s Talent",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Class"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 10,
+      "oracle_id": "774dce79-67e0-4820-8013-c7a7347993ce",
+      "name": "Cathar Commando",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 11,
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "name": "Command Tower",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": true,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 12,
+      "oracle_id": "5996b1d0-7fe3-4fec-8730-9db901d887b1",
+      "name": "Crime Novelist",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Goblin",
+        "Bard"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 13,
+      "oracle_id": "37c06f89-db36-4937-9404-2b07cd22e1a6",
+      "name": "Dawn\u0027s Truce",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 14,
+      "oracle_id": "c11e84a1-dbda-429b-8cd6-fd0deaefc689",
+      "name": "Demand Answers",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 15,
+      "oracle_id": "d0d2c45b-b6e3-4999-bdab-976e8f0d6617",
+      "name": "Dragon Fodder",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 16,
+      "oracle_id": "9ea747cf-5d04-4aa7-bdc3-8145860cd1ba",
+      "name": "Elegant Parlor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Mountain",
+        "Plains"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": 17,
+      "oracle_id": "98a389f4-2905-47f3-b60e-3d4afb3e5cb0",
+      "name": "Enduring Innocence",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Sheep",
+        "Glimmer"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{1}{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 18,
+      "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+      "name": "Evolving Wilds",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 19,
+      "oracle_id": "9ad730b5-8950-4215-9319-387e2970dd22",
+      "name": "Exemplar of Light",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Angel"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{2}{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 20,
+      "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54",
+      "name": "Fabled Passage",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 21,
+      "oracle_id": "16629f59-bae8-4c19-bf50-443eb0ed6856",
+      "name": "Felidar Retreat",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 4.0,
+      "mana_cost": "{3}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 22,
+      "oracle_id": "522dd417-364b-44ab-8ca9-fb55db5f26a6",
+      "name": "Get Lost",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 23,
+      "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+      "name": "Giada, Font of Hope",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "produced_colors": [
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": [
+        "W"
+      ]
+    },
+    {
+      "id": 24,
+      "oracle_id": "c749f23c-40c0-4159-b84c-a70cbb062c14",
+      "name": "Grand Abolisher",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 25,
+      "oracle_id": "3c1619bd-db5e-4df6-a196-0a9d62374f6d",
+      "name": "Hare Apparent",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Rabbit",
+        "Noble"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 26,
+      "oracle_id": "c0864adb-e9aa-40b6-91ff-a0646193e887",
+      "name": "Helpful Hunter",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Cat"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 27,
+      "oracle_id": "3525e263-e29a-49bf-a29f-fb3ce43bbd33",
+      "name": "Heraldic Banner",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{3}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 28,
+      "oracle_id": "96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b",
+      "name": "Hexing Squelcher",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Goblin",
+        "Sorcerer"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 29,
+      "oracle_id": "f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb",
+      "name": "Lightning Strike",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 30,
+      "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
+      "name": "Lyra Dawnbringer",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "mana_value": 5.0,
+      "mana_cost": "{3}{W}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 31,
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "name": "Mountain",
+      "quantity": 7,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 32,
+      "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+      "name": "Plains",
+      "quantity": 6,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Plains"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": [
+        "W"
+      ]
+    },
+    {
+      "id": 33,
+      "oracle_id": "a78f981a-bf8a-42a4-b171-d655cc2cc1a2",
+      "name": "Razorkin Needlehead",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Assassin"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{R}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 34,
+      "oracle_id": "45181cb8-2090-4471-ba90-e5a8f04d525f",
+      "name": "Sacred Foundry",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Mountain",
+        "Plains"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": 35,
+      "oracle_id": "58f83528-9110-4895-b5ea-51b90af30a8d",
+      "name": "Seize the Spoils",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 36,
+      "oracle_id": "a9d288b8-cdc1-4e55-a0c9-d6edfc95e65d",
+      "name": "Shock",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 37,
+      "oracle_id": "d04e0975-f401-41b8-a9db-9bcf9cbbce66",
+      "name": "Starting Town",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Town"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 38,
+      "oracle_id": "5ad0b405-cca4-475e-985c-4d7e3599d87e",
+      "name": "Sundown Pass",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": 39,
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+      "name": "Swiftfoot Boots",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Equipment"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 40,
+      "oracle_id": "fd5ee26c-cc54-4dc0-b611-5cda14354a5e",
+      "name": "Taurean Mauler",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Shapeshifter"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 41,
+      "oracle_id": "6f0d94d9-64bb-4175-83bc-301e8f79f54f",
+      "name": "Temple of Triumph",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": 42,
+      "oracle_id": "8c89ba89-9bb3-4609-873c-6f5a961733ce",
+      "name": "The Irencrag",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 44,
+      "oracle_id": "1cb0610b-a731-42c2-b93f-0a29f63cebf4",
+      "name": "Thrill of Possibility",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 45,
+      "oracle_id": "2c49d24a-98a4-43c2-bb59-1ef13d4214c2",
+      "name": "Untimely Malfunction",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{R}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 46,
+      "oracle_id": "6a7f3e1f-6798-4644-b64c-7765f81f0938",
+      "name": "Vibrant Cityscape",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [],
+      "fetch_basic_only": true,
+      "fetch_activation": "tapped",
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [],
+      "any_face_colors": []
+    },
+    {
+      "id": 47,
+      "oracle_id": "b12cbda1-ac09-49eb-96b3-a4df27bc37ea",
+      "name": "Voice of Victory",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Human",
+        "Bard"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 48,
+      "oracle_id": "a751c07b-fc21-4854-96e7-f71abf4e86c9",
+      "name": "Warleader\u0027s Call",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 3.0,
+      "mana_cost": "{1}{R}{W}",
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": []
+    },
+    {
+      "id": 49,
+      "oracle_id": "b0af0c54-2a59-4075-8543-d41ff20c4c87",
+      "name": "Wind-Scarred Crag",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "identity_bound": false,
+      "opponent_dependent": false,
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "any_face_colors": [
+        "R",
+        "W"
+      ]
+    }
+  ],
+  "profiles": {
+    "The Jolly Balloon Man": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Abrade": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Ajani\u0027s Pridemate": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Arcane Signet": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}",
+        "{U}",
+        "{B}",
+        "{R}",
+        "{G}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "W",
+        "U",
+        "B",
+        "R",
+        "G"
+      ]
+    },
+    "Archangel of Tithes": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Aurelia, the Warleader": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Authority of the Consuls": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Banishing Light": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Boros Guildgate": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    },
+    "Caretaker\u0027s Talent": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Cathar Commando": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Command Tower": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Crime Novelist": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Dawn\u0027s Truce": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Demand Answers": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Dragon Fodder": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Elegant Parlor": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    },
+    "Enduring Innocence": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Evolving Wilds": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Exemplar of Light": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Fabled Passage": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Felidar Retreat": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Get Lost": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Giada, Font of Hope": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "W"
+      ]
+    },
+    "Grand Abolisher": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Hare Apparent": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Helpful Hunter": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Heraldic Banner": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Hexing Squelcher": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Lightning Strike": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Lyra Dawnbringer": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Mountain": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R"
+      ]
+    },
+    "Plains": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "W"
+      ]
+    },
+    "Razorkin Needlehead": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Sacred Foundry": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    },
+    "Seize the Spoils": {
+      "develops": true,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Shock": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Starting Town": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{C}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "C",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Sundown Pass": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    },
+    "Swiftfoot Boots": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Taurean Mauler": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Temple of Triumph": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    },
+    "The Irencrag": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Thrill of Possibility": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Untimely Malfunction": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Vibrant Cityscape": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": true,
+        "via": "activate_on_battlefield",
+        "delay_turns": 0
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Voice of Victory": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Warleader\u0027s Call": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Wind-Scarred Crag": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "W"
+      ]
+    }
+  },
+  "unprofiled": [
+    "Crime Novelist",
+    "Heraldic Banner"
+  ]
+}

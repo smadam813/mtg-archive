@@ -1,0 +1,16 @@
+{
+  "query": "BQ1: Wrenn and Six deck with Ragavan in the 99 moves to Competitive Brawl (commander-swap)",
+  "deck": "deck.txt",
+  "as_of": "2026-10-04T21:01:57Z",
+  "as_of_source": "Scryfall Oracle Cards bulk updated_at; each fact read from api.scryfall.com/cards/named and /cards/collection on 2026-10-05",
+  "next_bans_due": "2026-10-12",
+  "facts": [
+    { "card": "Wrenn and Six", "seat": "commander", "brawl": "legal", "competitivebrawl": "banned", "standardbrawl": "not_legal" },
+    { "card": "Ragavan, Nimble Pilferer", "seat": "entry", "brawl": "legal", "competitivebrawl": "banned", "standardbrawl": "not_legal" }
+  ],
+  "deck_summary": {
+    "cards": 100,
+    "brawl": "all 87 names legal",
+    "competitivebrawl": "85 names legal; banned: Wrenn and Six, Ragavan, Nimble Pilferer"
+  }
+}

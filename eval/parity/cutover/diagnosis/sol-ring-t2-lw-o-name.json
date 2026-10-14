@@ -1,0 +1,324 @@
+{
+  "label": "sol-ring-t2-lw-o-name",
+  "engine": "ours",
+  "case": "dq1-sol-ring-t2",
+  "mulligan": "land-window",
+  "deck_sha": "d1ee35a1b6d7c5ffbf49a7897974577bb14c7bcd195beaa3e1f1ecdac57814d1",
+  "engine_version": "1.0.0\u002B1b85ea2a07e5d580e850521c6077b88168005cf6",
+  "ablations": [
+    "land-order name"
+  ],
+  "runs": 10000,
+  "successes": 1321,
+  "engine_errors": 0,
+  "floor": 0.1321,
+  "lower": 0.12560461617507385,
+  "upper": 0.13887792982607,
+  "etb": {},
+  "pay_life": {},
+  "lift": [
+    {
+      "land": "Flooded Strand",
+      "runs": 841,
+      "failures": 772,
+      "failure_rate": 0.9179548156956004
+    },
+    {
+      "land": "Plateau",
+      "runs": 552,
+      "failures": 496,
+      "failure_rate": 0.8985507246376812
+    },
+    {
+      "land": "Breeding Pool",
+      "runs": 1788,
+      "failures": 1605,
+      "failure_rate": 0.8976510067114094
+    },
+    {
+      "land": "Field of the Dead",
+      "runs": 830,
+      "failures": 740,
+      "failure_rate": 0.891566265060241
+    },
+    {
+      "land": "Hallowed Fountain",
+      "runs": 754,
+      "failures": 666,
+      "failure_rate": 0.883289124668435
+    },
+    {
+      "land": "Blood Crypt",
+      "runs": 1156,
+      "failures": 1015,
+      "failure_rate": 0.8780276816608996
+    },
+    {
+      "land": "Steam Vents",
+      "runs": 318,
+      "failures": 279,
+      "failure_rate": 0.8773584905660378
+    },
+    {
+      "land": "Sacred Foundry",
+      "runs": 445,
+      "failures": 390,
+      "failure_rate": 0.8764044943820225
+    },
+    {
+      "land": "Mana Confluence",
+      "runs": 717,
+      "failures": 627,
+      "failure_rate": 0.8744769874476988
+    },
+    {
+      "land": "Overgrown Tomb",
+      "runs": 608,
+      "failures": 531,
+      "failure_rate": 0.8733552631578947
+    },
+    {
+      "land": "Command Tower",
+      "runs": 891,
+      "failures": 778,
+      "failure_rate": 0.8731762065095399
+    },
+    {
+      "land": "Misty Rainforest",
+      "runs": 670,
+      "failures": 585,
+      "failure_rate": 0.8731343283582089
+    },
+    {
+      "land": "Bloodstained Mire",
+      "runs": 925,
+      "failures": 807,
+      "failure_rate": 0.8724324324324324
+    },
+    {
+      "land": "Polluted Delta",
+      "runs": 499,
+      "failures": 434,
+      "failure_rate": 0.8697394789579158
+    },
+    {
+      "land": "Stomping Ground",
+      "runs": 274,
+      "failures": 238,
+      "failure_rate": 0.8686131386861314
+    },
+    {
+      "land": "Savannah",
+      "runs": 444,
+      "failures": 385,
+      "failure_rate": 0.8671171171171171
+    },
+    {
+      "land": "Arid Mesa",
+      "runs": 1016,
+      "failures": 876,
+      "failure_rate": 0.8622047244094488
+    },
+    {
+      "land": "Bayou",
+      "runs": 2078,
+      "failures": 1790,
+      "failure_rate": 0.861405197305101
+    },
+    {
+      "land": "Badlands",
+      "runs": 4253,
+      "failures": 3662,
+      "failure_rate": 0.8610392664001881
+    },
+    {
+      "land": "Verdant Catacombs",
+      "runs": 179,
+      "failures": 154,
+      "failure_rate": 0.8603351955307262
+    },
+    {
+      "land": "Interplanar Beacon",
+      "runs": 736,
+      "failures": 633,
+      "failure_rate": 0.8600543478260869
+    },
+    {
+      "land": "Scrubland",
+      "runs": 357,
+      "failures": 307,
+      "failure_rate": 0.8599439775910365
+    },
+    {
+      "land": "Tropical Island",
+      "runs": 237,
+      "failures": 203,
+      "failure_rate": 0.8565400843881856
+    },
+    {
+      "land": "City of Brass",
+      "runs": 895,
+      "failures": 765,
+      "failure_rate": 0.8547486033519553
+    },
+    {
+      "land": "Godless Shrine",
+      "runs": 878,
+      "failures": 750,
+      "failure_rate": 0.8542141230068337
+    },
+    {
+      "land": "Marsh Flats",
+      "runs": 692,
+      "failures": 588,
+      "failure_rate": 0.8497109826589595
+    },
+    {
+      "land": "Reflecting Pool",
+      "runs": 490,
+      "failures": 416,
+      "failure_rate": 0.8489795918367347
+    },
+    {
+      "land": "Taiga",
+      "runs": 330,
+      "failures": 278,
+      "failure_rate": 0.8424242424242424
+    },
+    {
+      "land": "Watery Grave",
+      "runs": 138,
+      "failures": 116,
+      "failure_rate": 0.8405797101449275
+    },
+    {
+      "land": "Scalding Tarn",
+      "runs": 390,
+      "failures": 327,
+      "failure_rate": 0.8384615384615385
+    },
+    {
+      "land": "Temple Garden",
+      "runs": 265,
+      "failures": 222,
+      "failure_rate": 0.8377358490566038
+    },
+    {
+      "land": "Tundra",
+      "runs": 225,
+      "failures": 187,
+      "failure_rate": 0.8311111111111111
+    },
+    {
+      "land": "Underground Sea",
+      "runs": 168,
+      "failures": 138,
+      "failure_rate": 0.8214285714285714
+    },
+    {
+      "land": "Volcanic Island",
+      "runs": 156,
+      "failures": 124,
+      "failure_rate": 0.7948717948717948
+    }
+  ],
+  "against": {
+    "label": "sol-ring-t2-lw-x",
+    "successes": 1324,
+    "runs": 10000,
+    "difference": {
+      "estimate": -0.0002999999999999947,
+      "lower": -0.00969229894295224,
+      "upper": 0.00909227003573259
+    }
+  },
+  "paths": [
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 cast Gilded Sentinel",
+      "runs": 142
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 117
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T1 cast Alpha Myr \u003E T2 land \u003E T2 cast Gilded Sentinel",
+      "runs": 62
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Gilded Sentinel",
+      "runs": 60
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land",
+      "runs": 58
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 39
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Metallic Sliver",
+      "runs": 32
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 27
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Alpha Myr",
+      "runs": 27
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 cast Gilded Sentinel",
+      "runs": 23
+    },
+    {
+      "path": "T1 land \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 23
+    },
+    {
+      "path": "T1 land \u003E T1 activate Bloodstained Mire \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 20
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 activate Misty Rainforest \u003E T2 cast Gilded Sentinel",
+      "runs": 17
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T1 cast Alpha Myr \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 13
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T1 cast Metallic Sliver \u003E T2 land \u003E T2 cast Sliver Construct",
+      "runs": 13
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Sol Ring \u003E T1 cast Alpha Myr \u003E T2 land \u003E T2 cast Gilded Sentinel",
+      "runs": 12
+    },
+    {
+      "path": "T1 land \u003E T1 activate Arid Mesa \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land",
+      "runs": 12
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 activate Marsh Flats \u003E T2 cast Gilded Sentinel",
+      "runs": 12
+    },
+    {
+      "path": "T1 land \u003E T1 cast Sol Ring \u003E T2 land \u003E T2 activate Scalding Tarn \u003E T2 cast Gilded Sentinel",
+      "runs": 11
+    },
+    {
+      "path": "T1 land \u003E T1 cast Vampiric Tutor \u003E T2 cast Sol Ring \u003E T2 land \u003E T2 activate Misty Rainforest \u003E T2 cast Sliver Construct",
+      "runs": 11
+    }
+  ],
+  "cannot_cast": 0,
+  "classes": {
+    "land_short": 0,
+    "color_short": 0,
+    "rules_short": 0,
+    "unknown": 8679
+  }
+}

@@ -1,0 +1,49 @@
+// Isolated dev environment for mtg-archive. See README.md "Dev container"
+// and docs/adr/0008-devcontainer-true-dind.md.
+{
+  "name": "mtg-archive",
+  "build": { "dockerfile": "Dockerfile" },
+  "features": {
+    // Privileged inner daemon; the repo compose stack and Testcontainers run
+    // against it. /var/lib/docker persists in a named volume per container.
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    // claude-code needs Node; without this it installs Node 18 from NodeSource.
+    "ghcr.io/devcontainers/features/node:1": { "version": "lts" },
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
+  },
+  // Adds --gpus all only when the host daemon reports the nvidia runtime.
+  // Hosts without one start fine; only the gpu compose overlay needs it.
+  "hostRequirements": { "gpu": "optional" },
+  "remoteUser": "vscode",
+  "mounts": [
+    // Claude Code login, plugins, and memory survive rebuilds. gh login lives
+    // in the container home and survives restarts, not rebuilds.
+    "source=mtg-archive-claude-config,target=/home/vscode/.claude,type=volume",
+    "source=mtg-archive-history,target=/commandhistory,type=volume"
+  ],
+  "containerEnv": {
+    // Puts .claude.json (OAuth) in the volume alongside the rest.
+    "CLAUDE_CONFIG_DIR": "/home/vscode/.claude",
+    "HISTFILE": "/commandhistory/.bash_history",
+    // The inner daemon publishes on this container's loopback. Without this
+    // Testcontainers targets the bridge gateway IP, whose reverse DNS lookup
+    // hangs 10s per test on Docker Desktop hosts that never answer NXDOMAIN.
+    // Unset it if you point DOCKER_HOST at another daemon; the override wins
+    // over the endpoint and every test then connects to the wrong host.
+    "TESTCONTAINERS_HOST_OVERRIDE": "localhost"
+  },
+  // A bind-mounted workspace is owned by another uid, so mark it safe for git.
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && dotnet restore && dotnet tool restore",
+  "forwardPorts": [8080, 5432, 11434],
+  "portsAttributes": {
+    "8080": { "label": "service" },
+    "5432": { "label": "postgres" },
+    "11434": { "label": "ollama" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-dotnettools.csdevkit", "anthropic.claude-code"]
+    }
+  }
+}

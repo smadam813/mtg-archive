@@ -1,0 +1,39 @@
+MTG Archive
+Copyright (c) 2026 Adam Keech
+
+The MIT License in LICENSE covers the code in this repository and the curated
+files under data/ that this project writes: banlist-events.json,
+banlist-categories.json, bracket-spec/, game-changers/ and curated/.
+
+Third-party material
+--------------------
+
+engine/xmage/
+  The sidecar image clones XMage (https://github.com/magefree/mage) at the
+  tag and commit in engine/xmage/XMAGE_TAG and applies the patches in
+  engine/xmage/patches/. XMage is under the MIT License, copyright its
+  authors.
+
+Local data, not shipped in this repository
+------------------------------------------
+
+data/popularity/
+  Brawl and Competitive Brawl popularity exports from Untapped.gg
+  (https://mtga.untapped.gg). The repository does not ship these files. The
+  maintainer keeps them locally, and git ignores them. The MIT License does
+  not cover these files. They stay under the Untapped.gg terms of use.
+
+Data fetched at ingest, not shipped in this repository
+------------------------------------------------------
+
+- Card data and Oracle Tags from Scryfall (https://scryfall.com), under the
+  Scryfall API terms.
+- The Magic: The Gathering Comprehensive Rules from Wizards of the Coast
+  (https://magic.wizards.com/en/rules).
+
+Wizards of the Coast
+--------------------
+
+MTG Archive is unofficial Fan Content permitted under the Fan Content Policy.
+Not approved/endorsed by Wizards. Portions of the materials used are property
+of Wizards of the Coast. (c) Wizards of the Coast LLC.

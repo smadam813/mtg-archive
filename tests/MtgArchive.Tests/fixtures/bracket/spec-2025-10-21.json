@@ -1,0 +1,93 @@
+{
+  "date": "2025-10-21",
+  "source": "https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-october-21-2025",
+  "notes": "The 2025-10-21 update is the revision in force. It removes tutors as a barometer and adds the turn expectations. It does not restate the per-bracket lines for mass land denial and extra turns. The format page states only the Game Changers limits. So those two barometers quote the 2025-02-11 update, which no later update changes. The 2026-02-09 update changes no bracket.",
+  "barometers": [
+    {
+      "name": "game_changers_count",
+      "definition": "Game Changers are cards that can dramatically warp Commander games, allowing players to run away with resources, shift games in ways that many players dislike, block people from play, efficiently search for their strongest cards, or have commanders that tend to take away from more casual games.",
+      "source": "https://magic.wizards.com/en/formats/commander",
+      "thresholds": {
+        "1": {
+          "max": 0,
+          "text": "Bracket 1 and 2 decks exclude Game Changers."
+        },
+        "2": {
+          "max": 0,
+          "text": "Bracket 1 and 2 decks exclude Game Changers."
+        },
+        "3": {
+          "max": 3,
+          "text": "Bracket 3 allows for up to three Game Changers."
+        },
+        "4": {
+          "max": null,
+          "text": "Brackets 4 and 5 allow for unlimited Game Changers."
+        },
+        "5": {
+          "max": null,
+          "text": "Brackets 4 and 5 allow for unlimited Game Changers."
+        }
+      }
+    },
+    {
+      "name": "mass_land_denial",
+      "definition": "These cards regularly destroy, exile, and bounce other lands, keep lands tapped, or change what mana is produced by four or more lands per player without replacing them. Examples in this category are Armageddon, Ruination, Sunder, Winter Orb, and Blood Moon.",
+      "source": "https://magic.wizards.com/en/news/announcements/introducing-commander-brackets-beta",
+      "thresholds": {
+        "1": {
+          "allowed": false,
+          "text": "No intentional two-card infinite combos, mass land denial, or extra-turn cards."
+        },
+        "2": {
+          "allowed": false,
+          "text": "No intentional two-card infinite combos or mass land denial."
+        },
+        "3": {
+          "allowed": false,
+          "text": "No mass land denial."
+        },
+        "4": {
+          "allowed": true,
+          "text": "No restrictions (other than the banned list)."
+        },
+        "5": {
+          "allowed": true,
+          "text": "No restrictions (other than the banned list)."
+        }
+      }
+    },
+    {
+      "name": "chained_extra_turns",
+      "definition": "A single extra-turn spell can be fun and splashy. However, extra-turn spells take a ton of time away from other players and their ability to play the game and tend to be unfun when repeated. In multiples, they begin to function like a combo deck, where your \"combo\" is taking four turns in a row and getting so far ahead that nobody can catch up.",
+      "source": "https://magic.wizards.com/en/news/announcements/introducing-commander-brackets-beta",
+      "thresholds": {
+        "1": {
+          "cards_allowed": false,
+          "chaining_allowed": false,
+          "text": "No intentional two-card infinite combos, mass land denial, or extra-turn cards."
+        },
+        "2": {
+          "cards_allowed": true,
+          "chaining_allowed": false,
+          "text": "Extra-turn cards should only appear in low quantities and are not intended to be chained in succession or looped."
+        },
+        "3": {
+          "cards_allowed": true,
+          "chaining_allowed": false,
+          "text": "Extra-turn cards should only appear in low quantities and are not intended to be chained in succession or looped."
+        },
+        "4": {
+          "cards_allowed": true,
+          "chaining_allowed": true,
+          "text": "No restrictions (other than the banned list)."
+        },
+        "5": {
+          "cards_allowed": true,
+          "chaining_allowed": true,
+          "text": "No restrictions (other than the banned list)."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "category": "ante",
+    "list_wording": "All cards that refer to the ante mechanic",
+    "effective_date": "2020-05-18",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2020/05/18/18-may-2020-update/",
+    "members": { "oracle_word": "ante" }
+  },
+  {
+    "category": "conspiracy",
+    "list_wording": "All cards with the Conspiracy card type",
+    "effective_date": "2020-05-18",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2020/05/18/18-may-2020-update/",
+    "members": { "card_type": "Conspiracy" }
+  },
+  {
+    "category": "racist_depictions",
+    "list_wording": "Cards whose art, text, name, or combination thereof that are racially or culturally offensive are banned in all formats.",
+    "effective_date": "2020-06-10",
+    "date_precision": "day",
+    "announcement_url": "https://mtgcommander.net/index.php/2020/06/14/rc-statement-on-wizards-removal-of-inappropriate-cards/",
+    "members": {
+      "cards": [
+        "Invoke Prejudice",
+        "Cleanse",
+        "Stone-Throwing Devils",
+        "Pradesh Gypsies",
+        "Jihad",
+        "Imprison",
+        "Crusade"
+      ]
+    }
+  }
+]

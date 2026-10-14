@@ -1,0 +1,2454 @@
+card,layout,front_type_line,faces,has_text
+Swamp,normal,Basic Land — Swamp,,True
+Forest,normal,Basic Land — Forest,,True
+Mountain,normal,Basic Land — Mountain,,True
+Plains,normal,Basic Land — Plains,,True
+Island,normal,Basic Land — Island,,True
+Sol Ring,normal,Artifact,,True
+Arcane Signet,normal,Artifact,,True
+Command Tower,normal,Land,,True
+Exotic Orchard,normal,Land,,True
+Path of Ancestry,normal,Land,,True
+Lightning Greaves,normal,Artifact — Equipment,,True
+Swords to Plowshares,normal,Instant,,True
+Cultivate,normal,Sorcery,,True
+Counterspell,normal,Instant,,True
+Fellwar Stone,normal,Artifact,,True
+Blasphemous Act,normal,Sorcery,,True
+Evolving Wilds,normal,Land,,True
+Path to Exile,normal,Instant,,True
+Watery Grave,normal,Land — Island Swamp,,True
+Dragonskull Summit,normal,Land,,True
+Farseek,normal,Sorcery,,True
+An Offer You Can't Refuse,normal,Instant,,True
+Drowned Catacomb,normal,Land,,True
+Polluted Delta,normal,Land,,True
+Reliquary Tower,normal,Land,,True
+Sunken Hollow,normal,Land — Island Swamp,,True
+Swiftfoot Boots,normal,Artifact — Equipment,,True
+Blood Crypt,normal,Land — Swamp Mountain,,True
+Bojuka Bog,normal,Land,,True
+Chaos Warp,normal,Instant,,True
+Demonic Tutor,normal,Sorcery,,True
+Heroic Intervention,normal,Instant,,True
+Nature's Lore,normal,Sorcery,,True
+Rogue's Passage,normal,Land,,True
+Steam Vents,normal,Land — Island Mountain,,True
+Talisman of Dominance,normal,Artifact,,True
+Bloodstained Mire,normal,Land,,True
+Cinder Glade,normal,Land — Mountain Forest,,True
+Cyclonic Rift,normal,Instant,,True
+Dark Ritual,normal,Instant,,True
+Rhystic Study,normal,Enchantment,,True
+Smoldering Marsh,normal,Land — Swamp Mountain,,True
+Smothering Tithe,normal,Enchantment,,True
+Sulfur Falls,normal,Land,,True
+Ash Barrens,normal,Land,,True
+Godless Shrine,normal,Land — Plains Swamp,,True
+Overgrown Tomb,normal,Land — Swamp Forest,,True
+Sacred Foundry,normal,Land — Mountain Plains,,True
+Scalding Tarn,normal,Land,,True
+Talisman of Indulgence,normal,Artifact,,True
+Terramorphic Expanse,normal,Land,,True
+Underground River,normal,Land,,True
+Breeding Pool,normal,Land — Forest Island,,True
+Chromatic Lantern,normal,Artifact,,True
+Clifftop Retreat,normal,Land,,True
+Hinterland Harbor,normal,Land,,True
+Isolated Chapel,normal,Land,,True
+Marsh Flats,normal,Land,,True
+Misty Rainforest,normal,Land,,True
+Putrefy,normal,Instant,,True
+Reanimate,normal,Sorcery,,True
+Skullclamp,normal,Artifact — Equipment,,True
+Sulfurous Springs,normal,Land,,True
+Swan Song,normal,Instant,,True
+Talisman of Creativity,normal,Artifact,,True
+Temple Garden,normal,Land — Forest Plains,,True
+Toxic Deluge,normal,Sorcery,,True
+Woodland Cemetery,normal,Land,,True
+Battlefield Forge,normal,Land,,True
+Birds of Paradise,normal,Creature — Bird,,True
+Canopy Vista,normal,Land — Forest Plains,,True
+Commander's Sphere,normal,Artifact,,True
+Deadly Rollick,normal,Instant,,True
+Dimir Signet,normal,Artifact,,True
+Fabled Passage,normal,Land,,True
+Flooded Strand,normal,Land,,True
+Frantic Search,normal,Instant,,True
+Infernal Grasp,normal,Instant,,True
+Mystic Remora,normal,Enchantment,,True
+Nazgûl,normal,Creature — Wraith Knight,,True
+Night's Whisper,normal,Sorcery,,True
+Rampant Growth,normal,Sorcery,,True
+Stomping Ground,normal,Land — Mountain Forest,,True
+Teferi's Protection,normal,Instant,,True
+Thought Vessel,normal,Artifact,,True
+Vampiric Tutor,normal,Instant,,True
+Verdant Catacombs,normal,Land,,True
+Windswept Heath,normal,Land,,True
+Wooded Foothills,normal,Land,,True
+Arcane Denial,normal,Instant,,True
+Arid Mesa,normal,Land,,True
+Assassin's Trophy,normal,Instant,,True
+Beast Within,normal,Instant,,True
+Caves of Koilos,normal,Land,,True
+Darkwater Catacombs,normal,Land,,True
+Evolution Sage,normal,Creature — Elf Druid,,True
+Faeburrow Elder,normal,Creature — Treefolk Druid,,True
+Hallowed Fountain,normal,Land — Plains Island,,True
+Kodama's Reach,normal,Sorcery — Arcane,,True
+Llanowar Wastes,normal,Land,,True
+Luxury Suite,normal,Land,,True
+Myriad Landscape,normal,Land,,True
+Propaganda,normal,Enchantment,,True
+Rootbound Crag,normal,Land,,True
+Shivan Reef,normal,Land,,True
+Talisman of Hierarchy,normal,Artifact,,True
+Terminate,normal,Instant,,True
+Vandalblast,normal,Sorcery,,True
+Vernal Fen,normal,Land — Swamp Forest,,True
+Anguished Unmaking,normal,Instant,,True
+Archmage Emeritus,normal,Creature — Human Wizard,,True
+Baleful Strix,normal,Artifact Creature — Bird,,True
+Brainstorm,normal,Instant,,True
+Canyon Slough,normal,Land — Swamp Mountain,,True
+Casualties of War,normal,Sorcery,,True
+Cavern of Souls,normal,Land,,True
+Crumbling Necropolis,normal,Land,,True
+Deflecting Swat,normal,Instant,,True
+Feed the Swarm,normal,Sorcery,,True
+Fetid Heath,normal,Land,,True
+Fetid Pools,normal,Land — Island Swamp,,True
+Fierce Guardianship,normal,Instant,,True
+Fortified Village,normal,Land,,True
+Generous Gift,normal,Instant,,True
+Glacial Fortress,normal,Land,,True
+Harrow,normal,Instant,,True
+Inexorable Tide,normal,Enchantment,,True
+Izzet Signet,normal,Artifact,,True
+Jungle Shrine,normal,Land,,True
+Lightning Bolt,normal,Instant,,True
+Lotus Petal,normal,Artifact,,True
+Morphic Pool,normal,Land,,True
+Mystical Tutor,normal,Instant,,True
+Nomad Outpost,normal,Land,,True
+Opulent Palace,normal,Land,,True
+Orcish Bowmasters,normal,Creature — Orc Archer,,True
+Rakdos Signet,normal,Artifact,,True
+Solemn Simulacrum,normal,Artifact Creature — Golem,,True
+Springbloom Druid,normal,Creature — Elf Druid,,True
+Sungrass Prairie,normal,Land,,True
+Sunpetal Grove,normal,Land,,True
+Sword of the Animist,normal,Legendary Artifact — Equipment,,True
+"Syr Konrad, the Grim",normal,Legendary Creature — Human Knight,,True
+Temple of Mystery,normal,Land,,True
+Training Center,normal,Land,,True
+Victimize,normal,Sorcery,,True
+Windfall,normal,Sorcery,,True
+Abrade,normal,Instant,,True
+Aftermath Analyst,normal,Creature — Elf Detective,,True
+Angel of the Ruins,normal,Artifact Creature — Angel,,True
+Anger,normal,Creature — Incarnation,,True
+Authority of the Consuls,normal,Enchantment,,True
+Black Market Connections,normal,Enchantment,,True
+Brushland,normal,Land,,True
+Cascade Bluffs,normal,Land,,True
+Choked Estuary,normal,Land,,True
+City of Brass,normal,Land,,True
+Command Beacon,normal,Land,,True
+Dauthi Voidwalker,normal,Creature — Dauthi Rogue,,True
+Deadly Dispute,normal,Instant,,True
+Deepglow Skate,normal,Creature — Fish,,True
+Dig Through Time,normal,Instant,,True
+Escape Tunnel,normal,Land,,True
+Faerie Mastermind,normal,Creature — Faerie Rogue,,True
+Faithless Looting,normal,Sorcery,,True
+Fell the Profane // Fell Mire,modal_dfc,Instant,Fell the Profane // Fell Mire,False
+Festering Thicket,normal,Land — Swamp Forest,,True
+Furycalm Snarl,normal,Land,,True
+Game Trail,normal,Land,,True
+Golgari Rot Farm,normal,Land,,True
+Hardened Scales,normal,Enchantment,,True
+Karn's Bastion,normal,Land,,True
+Karplusan Forest,normal,Land,,True
+Kessig Wolf Run,normal,Land,,True
+Lethal Scheme,normal,Instant,,True
+Mind Stone,normal,Artifact,,True
+Morbid Opportunist,normal,Creature — Human Rogue,,True
+Mossfire Valley,normal,Land,,True
+"Muldrotha, the Gravetide",normal,Legendary Creature — Elemental Avatar,,True
+Nightscape Familiar,normal,Creature — Zombie,,True
+Opt,normal,Instant,,True
+Orzhov Signet,normal,Artifact,,True
+"Otawara, Soaring City",normal,Legendary Land,,True
+Prairie Stream,normal,Land — Plains Island,,True
+Rugged Prairie,normal,Land,,True
+Ruinous Ultimatum,normal,Sorcery,,True
+Sakura-Tribe Elder,normal,Creature — Snake Shaman,,True
+Seaside Citadel,normal,Land,,True
+Sensei's Divining Top,normal,Artifact,,True
+Sheltered Thicket,normal,Land — Mountain Forest,,True
+"Sheoldred, the Apocalypse",normal,Legendary Creature — Phyrexian Praetor,,True
+Skycloud Expanse,normal,Land,,True
+Stormcarved Coast,normal,Land,,True
+Sunken Ruins,normal,Land,,True
+Talisman of Conviction,normal,Artifact,,True
+Tear Asunder,normal,Instant,,True
+Temple of Malady,normal,Land,,True
+Three Visits,normal,Sorcery,,True
+Twilight Mire,normal,Land,,True
+Vault of Champions,normal,Land,,True
+Viscera Seer,normal,Creature — Vampire Wizard,,True
+Xander's Lounge,normal,Land — Island Swamp Mountain,,True
+Akroma's Will,normal,Instant,,True
+Arcane Sanctum,normal,Land,,True
+Archaeomancer's Map,normal,Artifact,,True
+Austere Command,normal,Sorcery,,True
+Avenger of Zendikar,normal,Creature — Elemental,,True
+Bane of Progress,normal,Creature — Elemental,,True
+Bastion of Remembrance,normal,Enchantment,,True
+Blood Artist,normal,Creature — Vampire,,True
+Bloom Tender,normal,Creature — Elf Druid,,True
+Boggart Trawler // Boggart Bog,modal_dfc,Creature — Goblin,Boggart Trawler // Boggart Bog,False
+Bolas's Citadel,normal,Legendary Artifact,,True
+"Boromir, Warden of the Tower",normal,Legendary Creature — Human Soldier,,True
+Boros Charm,normal,Instant,,True
+"Braids, Arisen Nightmare",normal,Legendary Creature — Nightmare,,True
+Cleansing Nova,normal,Sorcery,,True
+Clever Concealment,normal,Instant,,True
+Colossal Grave-Reaver,normal,Creature — Dragon,,True
+Conduit of Worlds,normal,Artifact,,True
+Corpsejack Menace,normal,Creature — Fungus,,True
+Crop Rotation,normal,Instant,,True
+Crux of Fate,normal,Sorcery,,True
+Damn,normal,Sorcery,,True
+Desolate Mire,normal,Land,,True
+Dispatch,normal,Instant,,True
+Doubling Season,normal,Enchantment,,True
+Dragon Tempest,normal,Enchantment,,True
+Drownyard Temple,normal,Land,,True
+Elemental Bond,normal,Enchantment,,True
+Esper Sentinel,normal,Artifact Creature — Human Soldier,,True
+"Etali, Primal Storm",normal,Legendary Creature — Elder Dinosaur,,True
+Everflowing Chalice,normal,Artifact,,True
+Farewell,normal,Sorcery,,True
+Fiery Islet,normal,Land,,True
+Firebender Ascension,normal,Enchantment,,True
+Flawless Maneuver,normal,Instant,,True
+Flooded Grove,normal,Land,,True
+Flux Channeler,normal,Creature — Human Wizard,,True
+Force of Will,normal,Instant,,True
+Frontier Bivouac,normal,Land,,True
+Gamble,normal,Sorcery,,True
+Garruk's Uprising,normal,Enchantment,,True
+Ghostly Prison,normal,Enchantment,,True
+Gleaming Splendor,normal,Enchantment,,True
+Grand Abolisher,normal,Creature — Human Cleric,,True
+Gravecrawler,normal,Creature — Zombie,,True
+Graven Cairns,normal,Land,,True
+Harmonic Prodigy,normal,Creature — Human Wizard,,True
+Harmonize,normal,Sorcery,,True
+Herald's Horn,normal,Artifact,,True
+Hexing Squelcher,normal,Creature — Goblin Sorcerer,,True
+High Market,normal,Land,,True
+Jetmir's Garden,normal,Land — Mountain Forest Plains,,True
+"Liliana, Dreadhorde General",normal,Legendary Planeswalker — Liliana,,True
+Living Death,normal,Sorcery,,True
+Lonely Sandbar,normal,Land,,True
+"Lotho, Corrupt Shirriff",normal,Legendary Creature — Halfling Rogue,,True
+Malakir Rebirth // Malakir Mire,modal_dfc,Instant,Malakir Rebirth // Malakir Mire,False
+Mana Confluence,normal,Land,,True
+Mana Drain,normal,Instant,,True
+"Mazirek, Kraul Death Priest",normal,Legendary Creature — Insect Shaman,,True
+"Moraug, Fury of Akoum",normal,Legendary Creature — Minotaur Warrior,,True
+Mosswort Bridge,normal,Land,,True
+Mother of Runes,normal,Creature — Human Cleric,,True
+"Narset, Parter of Veils",normal,Legendary Planeswalker — Narset,,True
+Negate,normal,Instant,,True
+Noxious Gearhulk,normal,Artifact Creature — Construct,,True
+"Omnath, Locus of Rage",normal,Legendary Creature — Elemental,,True
+Ophiomancer,normal,Creature — Human Shaman,,True
+Overflowing Basin,normal,Land,,True
+Pact of the Serpent,normal,Sorcery,,True
+Pest Infestation,normal,Sorcery,,True
+Phyrexian Arena,normal,Enchantment,,True
+Ponder,normal,Sorcery,,True
+Port Town,normal,Land,,True
+Preordain,normal,Sorcery,,True
+Psychosis Crawler,normal,Artifact Creature — Phyrexian Horror,,True
+Radiant Grove,normal,Land — Forest Plains,,True
+Raffine's Tower,normal,Land — Plains Island Swamp,,True
+Rakdos Charm,normal,Instant,,True
+Reality Shift,normal,Instant,,True
+Reflecting Pool,normal,Land,,True
+Relic of Legends,normal,Artifact,,True
+Ripples of Potential,normal,Instant,,True
+Riveteers Overlook,normal,Land,,True
+Roiling Regrowth,normal,Instant,,True
+Sandsteppe Citadel,normal,Land,,True
+Savai Triome,normal,Land — Mountain Plains Swamp,,True
+Scavenger Grounds,normal,Land — Desert,,True
+Secluded Courtyard,normal,Land,,True
+Shadowblood Ridge,normal,Land,,True
+"Shalai, Voice of Plenty",normal,Legendary Creature — Angel,,True
+Simian Spirit Guide,normal,Creature — Ape Spirit,,True
+Sink into Stupor // Soporific Springs,modal_dfc,Instant,Sink into Stupor // Soporific Springs,False
+Skull Prophet,normal,Creature — Human Druid,,True
+Skyshroud Claim,normal,Sorcery,,True
+Snap,normal,Instant,,True
+Snuff Out,normal,Instant,,True
+Soul Shatter,normal,Instant,,True
+Spire of Industry,normal,Land,,True
+Stitcher's Supplier,normal,Creature — Zombie,,True
+Stroke of Midnight,normal,Instant,,True
+Sun Titan,normal,Creature — Giant,,True
+Sunscorched Divide,normal,Land,,True
+Syphon Mind,normal,Sorcery,,True
+"Tamiyo, Field Researcher",normal,Legendary Planeswalker — Tamiyo,,True
+Tataru Taru,normal,Legendary Creature — Dwarf Advisor,,True
+Tempt with Discovery,normal,Sorcery,,True
+Tezzeret's Gambit,normal,Sorcery,,True
+Thassa's Oracle,normal,Creature — Merfolk Wizard,,True
+The Gitrog Monster,normal,Legendary Creature — Frog Horror,,True
+The One Ring,normal,Legendary Artifact,,True
+Thrummingbird,normal,Creature — Phyrexian Bird Horror,,True
+Torrential Gearhulk,normal,Artifact Creature — Construct,,True
+Unclaimed Territory,normal,Land,,True
+Underworld Breach,normal,Enchantment,,True
+Urza's Incubator,normal,Artifact,,True
+Vanquish the Horde,normal,Sorcery,,True
+Viridescent Bog,normal,Land,,True
+"Vraska, Betrayal's Sting",normal,Legendary Planeswalker — Vraska,,True
+Waste Not,normal,Enchantment,,True
+Welcoming Vampire,normal,Creature — Vampire,,True
+Withering Torment,normal,Instant,,True
+"Yahenni, Undying Partisan",normal,Legendary Creature — Aetherborn Vampire,,True
+Access Tunnel,normal,Land,,True
+Accursed Marauder,normal,Creature — Zombie Warrior,,True
+Adarkar Wastes,normal,Land,,True
+"Adeline, Resplendent Cathar",normal,Legendary Creature — Human Knight,,True
+"Aerith, Last Ancient",normal,Legendary Creature — Human Cleric Druid,,True
+Afterlife from the Loam,normal,Sorcery,,True
+Agent Frank Horrigan,normal,Legendary Creature — Mutant Warrior,,True
+Ainok Strike Leader,normal,Creature — Dog Warrior,,True
+Alisaie Leveilleur,normal,Legendary Creature — Elf Wizard,,True
+Alpha Deathclaw,normal,Creature — Lizard Mutant,,True
+Alphinaud Leveilleur,normal,Legendary Creature — Elf Wizard,,True
+Ancient Copper Dragon,normal,Creature — Elder Dragon,,True
+Ancient Den,normal,Artifact Land,,True
+Annie Joins Up,normal,Legendary Enchantment,,True
+Archangel of Tithes,normal,Creature — Angel,,True
+Archfiend of Depravity,normal,Creature — Demon,,True
+Archfiend of Ifnir,normal,Creature — Demon,,True
+Archivist of Oghma,normal,Creature — Halfling Cleric,,True
+"Ashiok, Dream Render",normal,Legendary Planeswalker — Ashiok,,True
+Astral Cornucopia,normal,Artifact,,True
+"Atarka, World Render",normal,Legendary Creature — Dragon,,True
+Atomize,normal,Instant,,True
+"Atraxa, Praetors' Voice",normal,Legendary Creature — Phyrexian Angel Horror,,True
+Augur of Autumn,normal,Creature — Human Druid,,True
+"Aurelia, the Warleader",normal,Legendary Creature — Angel,,True
+"Avacyn, Angel of Hope",normal,Legendary Creature — Angel,,True
+Aven Interrupter,normal,Creature — Bird Rogue,,True
+Aven Mindcensor,normal,Creature — Bird Wizard,,True
+"Ayara, First of Locthwain",normal,Legendary Creature — Elf Noble,,True
+"Azula, Cunning Usurper",normal,Legendary Creature — Human Noble Rogue,,True
+Badlands,normal,Land — Swamp Mountain,,True
+Balefire Dragon,normal,Creature — Dragon,,True
+Baloth Prime,normal,Creature — Beast,,True
+"Barret, Avalanche Leader",normal,Legendary Creature — Human Rebel,,True
+Bastion Protector,normal,Creature — Human Soldier,,True
+Beast Whisperer,normal,Creature — Elf Druid,,True
+Bedevil,normal,Instant,,True
+Beetleback Chief,normal,Creature — Goblin Warrior,,True
+Behemoth Sledge,normal,Artifact — Equipment,,True
+Big Score,normal,Instant,,True
+Binding the Old Gods,saga,Enchantment — Saga,,True
+Bitterblossom,normal,Kindred Enchantment — Faerie,,True
+Blackblade Reforged,normal,Legendary Artifact — Equipment,,True
+Blasted Landscape,normal,Land,,True
+Bloodchief Ascension,normal,Enchantment,,True
+Bloodghast,normal,Creature — Vampire Spirit,,True
+Bonders' Enclave,normal,Land,,True
+Borne Upon a Wind,normal,Instant,,True
+Boros Signet,normal,Artifact,,True
+"Boseiju, Who Endures",normal,Legendary Land,,True
+"Breena, the Demagogue",normal,Legendary Creature — Bird Warlock,,True
+"Bugenhagen, Wise Elder",normal,Legendary Creature — Human Shaman,,True
+Buried Ruin,normal,Land,,True
+Cabaretti Courtyard,normal,Land,,True
+Castle Embereth,normal,Land,,True
+Caustic Bronco,normal,Creature — Snake Horse Mount,,True
+Cephalid Coliseum,normal,Land,,True
+Chain Reaction,normal,Sorcery,,True
+Chain of Vapor,normal,Instant,,True
+Champion's Helm,normal,Artifact — Equipment,,True
+Charismatic Conqueror,normal,Creature — Vampire Soldier,,True
+Chasm Skulker,normal,Creature — Squid Horror,,True
+Chrome Mox,normal,Artifact,,True
+"Cid, Freeflier Pilot",normal,Legendary Creature — Human Warrior Pilot,,True
+Circle of Power,normal,Sorcery,,True
+Clearwater Pathway // Murkwater Pathway,modal_dfc,Land,Clearwater Pathway // Murkwater Pathway,False
+Cloud's Limit Break,normal,Instant,,True
+"Cloud, Ex-SOLDIER",normal,Legendary Creature — Human Soldier Mercenary,,True
+Colossus Hammer,normal,Artifact — Equipment,,True
+Combustible Gearhulk,normal,Artifact Creature — Construct,,True
+Conformer Shuriken,normal,Legendary Artifact — Equipment,,True
+Conqueror's Flail,normal,Artifact — Equipment,,True
+Consider,normal,Instant,,True
+Contaminated Aquifer,normal,Land — Island Swamp,,True
+Crawling Sensation,normal,Enchantment,,True
+Crypt of Agadeem,normal,Land,,True
+Curiosity,normal,Enchantment — Aura,,True
+Dakmor Salvage,normal,Land,,True
+Dancer's Chakrams,normal,Artifact — Equipment,,True
+Darkstar Augur,normal,Creature — Bat Warlock,,True
+Darksteel Plate,normal,Artifact — Equipment,,True
+Dauntless Dismantler,normal,Creature — Human Artificer,,True
+Delighted Halfling,normal,Creature — Halfling Citizen,,True
+Demolition Field,normal,Land,,True
+Desert of the Mindful,normal,Land — Desert,,True
+Despark,normal,Instant,,True
+Diabolic Intent,normal,Sorcery,,True
+Distant Melody,normal,Sorcery,,True
+Dragon's Hoard,normal,Artifact,,True
+Dragonlord Dromoka,normal,Legendary Creature — Elder Dragon,,True
+Dragonlord's Servant,normal,Creature — Goblin Shaman,,True
+Dreadhorde Invasion,normal,Enchantment,,True
+Dreamroot Cascade,normal,Land,,True
+Drown in Ichor,normal,Sorcery,,True
+Dryad of the Ilysian Grove,normal,Enchantment Creature — Nymph Dryad,,True
+Dualcaster Mage,normal,Creature — Human Wizard,,True
+Echoing Deeps,normal,Land — Cave,,True
+Electrodominance,normal,Instant,,True
+Elvish Mystic,normal,Creature — Elf Druid,,True
+Emet-Selch of the Third Seat,normal,Legendary Creature — Elder Wizard,,True
+Encroaching Dragonstorm,normal,Enchantment,,True
+Enlightened Tutor,normal,Instant,,True
+Eternal Witness,normal,Creature — Human Shaman,,True
+Eumidian Hatchery,normal,Land,,True
+Evendo Brushrazer,normal,Creature — Insect Warrior,,True
+Evolution Witness,normal,Creature — Elf Shaman Mutant,,True
+Experimental Augury,normal,Instant,,True
+Exploration Broodship,normal,Artifact — Spacecraft,,True
+Exsanguinate,normal,Sorcery,,True
+"Fandaniel, Telophoroi Ascian",normal,Legendary Creature — Elder Wizard,,True
+Fated Firepower,normal,Enchantment,,True
+Feral Ghoul,normal,Creature — Zombie Mutant,,True
+Field of the Dead,normal,Land,,True
+Fire Covenant,normal,Instant,,True
+Fire Lord Azula,normal,Legendary Creature — Human Noble,,True
+Fire Nation Palace,normal,Land,,True
+Fire-Lit Thicket,normal,Land,,True
+Firebending Student,normal,Creature — Human Monk,,True
+Firemane Commando,normal,Creature — Angel Soldier,,True
+Floral Evoker,normal,Creature — Snake Druid,,True
+Flusterstorm,normal,Instant,,True
+Force of Negation,normal,Instant,,True
+Foreboding Landscape,normal,Land,,True
+Foreboding Ruins,normal,Land,,True
+Forgotten Ancient,normal,Creature — Elemental,,True
+"G'raha Tia, Scion Reborn",normal,Legendary Creature — Cat Wizard,,True
+Gitaxian Probe,normal,Sorcery,,True
+Giver of Runes,normal,Creature — Kor Cleric,,True
+Glowing One,normal,Creature — Zombie Mutant,,True
+"Gluntch, the Bestower",normal,Legendary Creature — Jellyfish,,True
+God-Eternal Bontu,normal,Legendary Creature — Zombie God,,True
+Goldspan Dragon,normal,Creature — Dragon,,True
+Grapple with the Past,normal,Instant,,True
+"Grenzo, Havoc Raiser",normal,Legendary Creature — Goblin Rogue,,True
+Grisly Salvage,normal,Instant,,True
+Growth Spiral,normal,Instant,,True
+Gruul Turf,normal,Land,,True
+Guardian Project,normal,Enchantment,,True
+Guttersnipe,normal,Creature — Goblin Shaman,,True
+"Hancock, Ghoulish Mayor",normal,Legendary Creature — Zombie Mutant Advisor,,True
+Haunted Mire,normal,Land — Swamp Forest,,True
+Haven of the Spirit Dragon,normal,Land,,True
+Haywire Mite,normal,Artifact Creature — Insect,,True
+"Hearthhull, the Worldseed",normal,Legendary Artifact — Spacecraft,,True
+Hedron Crab,normal,Creature — Crab,,True
+Helitrooper,normal,Creature — Human Soldier,,True
+Hellkite Courser,normal,Creature — Dragon,,True
+Hellkite Tyrant,normal,Creature — Dragon,,True
+Hero of Bladehold,normal,Creature — Human Knight,,True
+Hero's Blade,normal,Artifact — Equipment,,True
+Hero's Heirloom,normal,Artifact — Equipment,,True
+Horizon Explorer,normal,Creature — Insect Scout,,True
+Icetill Explorer,normal,Creature — Insect Scout,,True
+Idyllic Beachfront,normal,Land — Plains Island,,True
+Ignoble Hierarch,normal,Creature — Goblin Shaman,,True
+Incubation Druid,normal,Creature — Elf Druid,,True
+Infesting Radroach,normal,Creature — Insect Mutant,,True
+Inspiring Call,normal,Instant,,True
+Inspiring Statuary,normal,Artifact,,True
+Irrigated Farmland,normal,Land — Plains Island,,True
+"Isshin, Two Heavens as One",normal,Legendary Creature — Human Samurai,,True
+"Jadar, Ghoulcaller of Nephalia",normal,Legendary Creature — Human Wizard,,True
+"Jarad, Golgari Lich Lord",normal,Legendary Creature — Zombie Elf,,True
+Jeska's Will,normal,Sorcery,,True
+"Jhoira, Weatherlight Captain",normal,Legendary Creature — Human Artificer,,True
+"Juri, Master of the Revue",normal,Legendary Creature — Human Shaman,,True
+"Kambal, Consul of Allocation",normal,Legendary Creature — Human Advisor,,True
+Kami of Whispered Hopes,normal,Creature — Spirit,,True
+"Kefka, Dancing Mad",normal,Legendary Creature — Human Wizard,,True
+"Kenrith, the Returned King",normal,Legendary Creature — Human Noble,,True
+Ketria Triome,normal,Land — Forest Island Mountain,,True
+Kishla Skimmer,normal,Creature — Bird Scout,,True
+"Korvold, Fae-Cursed King",normal,Legendary Creature — Dragon Noble,,True
+"Kotis, Sibsig Champion",normal,Legendary Creature — Zombie Warrior,,True
+"Krenko, Tin Street Kingpin",normal,Legendary Creature — Goblin,,True
+"Kutzil, Malamet Exemplar",normal,Legendary Creature — Cat Warrior,,True
+Land Tax,normal,Enchantment,,True
+"Lathliss, Dragon Queen",normal,Legendary Creature — Dragon,,True
+Legion Warboss,normal,Creature — Goblin Soldier,,True
+Leyline of Anticipation,normal,Enchantment,,True
+Life from the Loam,normal,Sorcery,,True
+Liliana's Caress,normal,Enchantment,,True
+Lingering Souls,normal,Sorcery,,True
+"Linvala, Keeper of Silence",normal,Legendary Creature — Angel,,True
+Liquimetal Torque,normal,Artifact,,True
+Loran of the Third Path,normal,Legendary Creature — Human Artificer,,True
+Lotus Cobra,normal,Creature — Snake,,True
+Lyse Hext,normal,Legendary Creature — Human Rebel Monk,,True
+Maelstrom Wanderer,normal,Legendary Creature — Elemental,,True
+Maestros Theater,normal,Land,,True
+Mana Vault,normal,Artifact,,True
+"Marcus, Mutant Mayor",normal,Legendary Creature — Mutant Advisor,,True
+Mariposa Military Base,normal,Land,,True
+Mayhem Devil,normal,Creature — Devil,,True
+Memorial to Folly,normal,Land,,True
+Meren of Clan Nel Toth,normal,Legendary Creature — Human Shaman,,True
+Mesmeric Orb,normal,Artifact,,True
+Migration Path,normal,Sorcery,,True
+Millikin,normal,Artifact Creature — Construct,,True
+Mindcrank,normal,Artifact,,True
+Moldervine Reclamation,normal,Enchantment,,True
+Mortify,normal,Instant,,True
+Mortuary Mire,normal,Land,,True
+Mountain Valley,normal,Land,,True
+Mox Amber,normal,Legendary Artifact,,True
+"Multani, Yavimaya's Avatar",normal,Legendary Creature — Elemental Avatar,,True
+Mutational Advantage,normal,Instant,,True
+Narset's Reversal,normal,Instant,,True
+Necroblossom Snarl,normal,Land,,True
+Nesting Grounds,normal,Land,,True
+Nether Traitor,normal,Creature — Spirit,,True
+"Nicol Bolas, Dragon-God",normal,Legendary Planeswalker — Bolas,,True
+"Nicol Bolas, God-Pharaoh",normal,Legendary Planeswalker — Bolas,,True
+"Nicol Bolas, Planeswalker",normal,Legendary Planeswalker — Bolas,,True
+Night Market,normal,Land,,True
+Nightkin Ambusher,normal,Creature — Mutant Warrior,,True
+"Niv-Mizzet, Parun",normal,Legendary Creature — Dragon Wizard,,True
+Notion Thief,normal,Creature — Human Rogue,,True
+Nuclear Fallout,normal,Sorcery,,True
+"Nykthos, Shrine to Nyx",normal,Legendary Land,,True
+Nyx Weaver,normal,Enchantment Creature — Spider,,True
+"Ob Nixilis, the Fallen",normal,Legendary Creature — Demon,,True
+Ophidian Eye,normal,Enchantment — Aura,,True
+Oracle of Mul Daya,normal,Creature — Elf Shaman,,True
+"Ozai, the Phoenix King",normal,Legendary Creature — Human Noble,,True
+Painful Quandary,normal,Enchantment,,True
+Papalymo Totolymo,normal,Legendary Creature — Dwarf Wizard,,True
+Patriar's Seal,normal,Artifact,,True
+Pawn of Ulamog,normal,Creature — Vampire Shaman,,True
+Phyrexian Reclamation,normal,Enchantment,,True
+Pitiless Plunderer,normal,Creature — Human Pirate,,True
+Planetary Annihilation,normal,Sorcery,,True
+Plumb the Forbidden,normal,Instant,,True
+Pongify,normal,Instant,,True
+Primevals' Glorious Rebirth,normal,Legendary Sorcery,,True
+Professional Face-Breaker,normal,Creature — Human Warrior,,True
+Professor Hojo,normal,Legendary Creature — Human Scientist,,True
+Promise of Loyalty,normal,Sorcery,,True
+Prosperous Thief,normal,Creature — Human Ninja,,True
+Pull from Tomorrow,normal,Instant,,True
+Puresteel Paladin,normal,Creature — Human Knight,,True
+Rain-Slicked Copse,normal,Land — Forest Island,,True
+Rakdos Carnarium,normal,Land,,True
+Rampaging Baloths,normal,Creature — Beast,,True
+Ranger-Captain of Eos,normal,Creature — Human Soldier Ranger,,True
+"Raul, Trouble Shooter",normal,Legendary Creature — Zombie Mutant Rogue,,True
+Razortide Bridge,normal,Artifact Land,,True
+Realmwalker,normal,Creature — Shapeshifter,,True
+Reassembling Skeleton,normal,Creature — Skeleton Warrior,,True
+"Red XIII, Proud Warrior",normal,Legendary Creature — Beast Warrior,,True
+Redirect Lightning,normal,Instant — Lesson,,True
+Remote Isle,normal,Land,,True
+Resourceful Defense,normal,Enchantment,,True
+Return of the Wildspeaker,normal,Instant,,True
+Rewind,normal,Instant,,True
+Rhythm of the Wild,normal,Enchantment,,True
+Ripples of Undeath,normal,Enchantment,,True
+Rise of the Dark Realms,normal,Sorcery,,True
+Rising of the Day,normal,Enchantment,,True
+River Kelpie,normal,Creature — Beast,,True
+Riverpyre Verge,normal,Land,,True
+Rockfall Vale,normal,Land,,True
+Ruin Crab,normal,Creature — Crab,,True
+Sacred Peaks,normal,Land — Mountain Plains,,True
+"Sarkhan, Soul Aflame",normal,Legendary Creature — Human Shaman,,True
+Satyr Wayfinder,normal,Creature — Satyr,,True
+Savage Lands,normal,Land,,True
+Scampering Surveyor,normal,Artifact Creature — Gnome,,True
+Scouring Swarm,normal,Creature — Insect,,True
+Screeching Scorchbeast,normal,Creature — Bat Mutant,,True
+Scute Swarm,normal,Creature — Insect,,True
+Seat of the Synod,normal,Artifact Land,,True
+Secluded Steppe,normal,Land,,True
+Secret Rendezvous,normal,Sorcery,,True
+Seedborn Muse,normal,Creature — Spirit,,True
+Seething Song,normal,Instant,,True
+Selfless Spirit,normal,Creature — Spirit Cleric,,True
+Selvala's Stampede,normal,Sorcery,,True
+"Selvala, Explorer Returned",normal,Legendary Creature — Elf Scout,,True
+"Sephara, Sky's Blade",normal,Legendary Creature — Angel,,True
+"Sephiroth, Fallen Hero",normal,Legendary Creature — Human Avatar Soldier,,True
+Serra's Emissary,normal,Creature — Angel,,True
+Shared Animosity,normal,Enchantment,,True
+Shattered Sanctum,normal,Land,,True
+"Shigeki, Jukai Visionary",normal,Legendary Enchantment Creature — Snake Druid,,True
+Shineshadow Snarl,normal,Land,,True
+Shipwreck Marsh,normal,Land,,True
+Siege-Gang Commander,normal,Creature — Goblin,,True
+Simic Guildgate,normal,Land — Gate,,True
+"Skrelv, Defector Mite",normal,Legendary Artifact Creature — Phyrexian Mite,,True
+Slayers' Stronghold,normal,Land,,True
+Sodden Verdure,normal,Land — Forest Island,,True
+Soul of Windgrace,normal,Legendary Creature — Cat Avatar,,True
+Soul's Fire,normal,Instant,,True
+Sozin's Comet,normal,Sorcery,,True
+Spara's Headquarters,normal,Land — Forest Plains Island,,True
+Spark Double,normal,Creature — Illusion,,True
+Spectator Seating,normal,Land,,True
+Splendid Reclamation,normal,Sorcery,,True
+Spore Frog,normal,Creature — Frog,,True
+Staff of Domination,normal,Artifact,,True
+Steel Hellkite,normal,Artifact Creature — Dragon,,True
+Steward of the Harvest,normal,Creature — Human Druid,,True
+"Sting, the Glinting Dagger",normal,Legendary Artifact — Equipment,,True
+Storm-Kiln Artist,normal,Creature — Dwarf Shaman,,True
+"Strong, the Brutish Thespian",normal,Legendary Creature — Mutant Berserker,,True
+Summoning Materia,normal,Artifact — Equipment,,True
+Sunlit Marsh,normal,Land — Plains Swamp,,True
+Sunscorch Regent,normal,Creature — Dragon,,True
+Sword of Feast and Famine,normal,Artifact — Equipment,,True
+Sylvan Safekeeper,normal,Creature — Human Wizard,,True
+"Szarel, Genesis Shepherd",normal,Legendary Creature — Insect Druid,,True
+Tainted Isle,normal,Land,,True
+Tainted Wood,normal,Land,,True
+"Takenuma, Abandoned Mire",normal,Legendary Land,,True
+Talisman of Progress,normal,Artifact,,True
+Talon Gates of Madara,normal,Land — Gate,,True
+"Tannuk, Memorial Ensign",normal,Legendary Creature — Kavu Pilot,,True
+Tato Farmer,normal,Creature — Zombie Mutant Peasant,,True
+"Teferi, Time Raveler",normal,Legendary Planeswalker — Teferi,,True
+"Tekuthal, Inquiry Dominus",normal,Legendary Creature — Phyrexian Horror,,True
+Temple of Abandon,normal,Land,,True
+Temple of Deceit,normal,Land,,True
+Temple of Enlightenment,normal,Land,,True
+Temple of Epiphany,normal,Land,,True
+Temple of Plenty,normal,Land,,True
+Temple of Silence,normal,Land,,True
+Temple of Triumph,normal,Land,,True
+Temple of the False God,normal,Land,,True
+Temur Ascendancy,normal,Enchantment,,True
+"Tergrid, God of Fright // Tergrid's Lantern",modal_dfc,Legendary Creature — God,"Tergrid, God of Fright // Tergrid's Lantern",False
+Terror of the Peaks,normal,Creature — Dragon,,True
+Teval's Judgment,normal,Enchantment,,True
+"Teval, the Balanced Scale",normal,Legendary Creature — Spirit Dragon,,True
+The Chain Veil,normal,Legendary Artifact,,True
+The Last Agni Kai,normal,Instant,,True
+The Locust God,normal,Legendary Creature — God,,True
+"The Master, Transcendent",normal,Legendary Artifact Creature — Mutant,,True
+The Mycosynth Gardens,normal,Land — Sphere,,True
+The Wise Mothman,normal,Legendary Creature — Insect Mutant,,True
+The World Tree,normal,Land,,True
+Thirst for Knowledge,normal,Instant,,True
+Thought Monitor,normal,Artifact Creature — Construct,,True
+Thrill of Possibility,normal,Instant,,True
+Thriving Grove,normal,Land,,True
+Thriving Isle,normal,Land,,True
+Thriving Moor,normal,Land,,True
+"Tifa, Martial Artist",normal,Legendary Creature — Human Monk,,True
+Timeless Lotus,normal,Legendary Artifact,,True
+Timeless Witness,normal,Creature — Human Shaman,,True
+"Tinybones, Bauble Burglar",normal,Legendary Creature — Skeleton Rogue,,True
+Tireless Provisioner,normal,Creature — Elf Scout,,True
+Tireless Tracker,normal,Creature — Human Scout,,True
+Titan of Industry,normal,Creature — Elemental,,True
+"Titania, Protector of Argoth",normal,Legendary Creature — Elemental,,True
+Together Forever,normal,Enchantment,,True
+Trailblazer's Boots,normal,Artifact — Equipment,,True
+Transpose,normal,Instant,,True
+Treasure Cruise,normal,Sorcery,,True
+Trumpeting Carnosaur,normal,Creature — Dinosaur,,True
+Twinflame Tyrant,normal,Creature — Dragon,,True
+Ultimate Magic: Holy,normal,Instant,,True
+Underground Sea,normal,Land — Island Swamp,,True
+Undergrowth Stadium,normal,Land,,True
+Unexpected Windfall,normal,Instant,,True
+Unfinished Business,normal,Sorcery,,True
+"Urborg, Tomb of Yawgmoth",normal,Legendary Land,,True
+Ureni of the Unwritten,normal,Legendary Creature — Spirit Dragon,,True
+Urza's Ruinous Blast,normal,Legendary Sorcery,,True
+Vanquisher's Banner,normal,Artifact,,True
+Vault 12: The Necropolis,saga,Enchantment — Saga,,True
+Vault of the Archangel,normal,Land,,True
+Vexing Radgull,normal,Creature — Bird Mutant,,True
+"Veyran, Voice of Duality",normal,Legendary Creature — Efreet Wizard,,True
+Village Rites,normal,Instant,,True
+"Vincent, Vengeful Atoner",normal,Legendary Creature — Assassin,,True
+Vindicate,normal,Sorcery,,True
+"Vito, Thorn of the Dusk Rose",normal,Legendary Creature — Vampire Cleric,,True
+Vivi Ornitier,normal,Legendary Creature — Wizard,,True
+Voice of Victory,normal,Creature — Human Bard,,True
+Void Rend,normal,Instant,,True
+Volcanic Island,normal,Land — Island Mountain,,True
+Walking Ballista,normal,Artifact Creature — Construct,,True
+War Room,normal,Land,,True
+Waterlogged Teachings // Inundated Archive,modal_dfc,Instant,Waterlogged Teachings // Inundated Archive,False
+Wayfarer's Bauble,normal,Artifact,,True
+Welcome the Dead,normal,Sorcery,,True
+White Auracite,normal,Artifact,,True
+Will of the Sultai,normal,Sorcery,,True
+Windcrag Siege,normal,Enchantment,,True
+Winds of Abandon,normal,Sorcery,,True
+Witch Enchanter // Witch-Blessed Meadow,modal_dfc,Creature — Human Warlock,Witch Enchanter // Witch-Blessed Meadow,False
+Within Range,normal,Enchantment,,True
+Woe Strider,normal,Creature — Horror,,True
+Wonder,normal,Creature — Incarnation,,True
+Worldsoul's Rage,normal,Sorcery,,True
+Wrecking Ball Arm,normal,Legendary Artifact — Equipment,,True
+"Y'shtola, Night's Blessed",normal,Legendary Creature — Cat Warlock,,True
+Yavimaya Coast,normal,Land,,True
+"Yavimaya, Cradle of Growth",normal,Legendary Land,,True
+"Yuffie, Materia Hunter",normal,Legendary Creature — Human Ninja,,True
+Zack Fair,normal,Legendary Creature — Human Soldier,,True
+Zagoth Triome,normal,Land — Swamp Forest Island,,True
+"Zetalpa, Primal Dawn",normal,Legendary Creature — Elder Dinosaur,,True
+Zulaport Cutthroat,normal,Creature — Human Rogue Ally,,True
+Zuran Orb,normal,Artifact,,True
+Zurgo Stormrender,normal,Legendary Creature — Orc Warrior,,True
+Abandoned Air Temple,normal,Land,,True
+Aberrant Return,normal,Sorcery,,True
+Abeyance,normal,Instant,,True
+Abomination of Llanowar,normal,Legendary Creature — Elf Horror,,True
+Abundant Countryside,normal,Land,,True
+Abundant Growth,normal,Enchantment — Aura,,True
+Academy Ruins,normal,Legendary Land,,True
+Acidic Slime,normal,Creature — Ooze,,True
+"Agadeem's Awakening // Agadeem, the Undercrypt",modal_dfc,Sorcery,"Agadeem's Awakening // Agadeem, the Undercrypt",False
+Agatha of the Vile Cauldron,normal,Legendary Creature — Human Warlock,,True
+Agatha's Soul Cauldron,normal,Legendary Artifact,,True
+Ajani Unyielding,normal,Legendary Planeswalker — Ajani,,True
+"Ajani, Sleeper Agent",normal,Legendary Planeswalker — Ajani,,True
+"Ajani, the Greathearted",normal,Legendary Planeswalker — Ajani,,True
+"Akiri, Fearless Voyager",normal,Legendary Creature — Kor Warrior,,True
+"Alela, Cunning Conqueror",normal,Legendary Creature — Faerie Warlock,,True
+"Alesha, Who Laughs at Fate",normal,Legendary Creature — Human Warrior,,True
+"Alibou, Ancient Witness",normal,Legendary Artifact Creature — Golem,,True
+All-Seeing Arbiter,normal,Creature — Avatar,,True
+Altar of Dementia,normal,Artifact,,True
+Altar of the Brood,normal,Artifact,,True
+Altered Ego,normal,Creature — Shapeshifter,,True
+Amphin Mutineer,normal,Creature — Salamander Pirate,,True
+Amulet of Vigor,normal,Artifact,,True
+Ancient Excavation,normal,Instant,,True
+Ancient Gold Dragon,normal,Creature — Elder Dragon,,True
+Ancient Silver Dragon,normal,Creature — Elder Dragon,,True
+Ancient Tomb,normal,Land,,True
+Ancient Ziggurat,normal,Land,,True
+Angel of Despair,normal,Creature — Angel,,True
+Angel of Destiny,normal,Creature — Angel Cleric,,True
+Angel of Finality,normal,Creature — Angel,,True
+Angel of Invention,normal,Creature — Angel,,True
+Angel of Jubilation,normal,Creature — Angel,,True
+Angel of Serenity,normal,Creature — Angel,,True
+Angel of Vitality,normal,Creature — Angel,,True
+Angel's Grace,normal,Instant,,True
+Angelic Accord,normal,Enchantment,,True
+Angelic Arbiter,normal,Creature — Angel,,True
+Angelic Field Marshal,normal,Creature — Angel,,True
+"Anim Pakal, Thousandth Moon",normal,Legendary Creature — Human Soldier,,True
+Animate Dead,normal,Enchantment — Aura,,True
+Anje's Ravager,normal,Creature — Vampire Berserker,,True
+Ankh of Mishra,normal,Artifact,,True
+Annoyed Altisaur,normal,Creature — Dinosaur,,True
+Anointed Procession,normal,Enchantment,,True
+"Anowon, the Ruin Thief",normal,Legendary Creature — Vampire Rogue,,True
+Apex Altisaur,normal,Creature — Dinosaur,,True
+"April O'Neil, Live on the Scene",normal,Legendary Creature — Human Detective,,True
+"Aragorn, the Uniter",normal,Legendary Creature — Human Noble,,True
+Arasta of the Endless Web,normal,Legendary Enchantment Creature — Spider,,True
+Arbor Adherent,normal,Creature — Dog Druid,,True
+Arboreal Grazer,normal,Creature — Sloth Beast,,True
+Arcade Cabinet,normal,Artifact,,True
+Arch of Orazca,normal,Land,,True
+Archangel of Thune,normal,Creature — Angel,,True
+Archfiend of Despair,normal,Creature — Demon,,True
+Archon of Emeria,normal,Creature — Archon,,True
+"Ardbert, Warrior of Darkness",normal,Legendary Creature — Spirit Warrior,,True
+Arena Rector,normal,Creature — Human Cleric,,True
+Arena of Glory,normal,Land,,True
+"Arixmethes, Slumbering Isle",normal,Legendary Creature — Kraken,,True
+Armed // Dangerous,split,Sorcery,Armed // Dangerous,False
+Armory Automaton,normal,Artifact Creature — Construct,,True
+"Aron, Benalia's Ruin",normal,Legendary Creature — Phyrexian Human,,True
+Arterial Flow,normal,Sorcery,,True
+Arvad the Cursed,normal,Legendary Creature — Vampire Knight,,True
+"Ashaya, Soul of the Wild",normal,Legendary Creature — Elemental,,True
+"Ashiok, Nightmare Muse",normal,Legendary Planeswalker — Ashiok,,True
+"Ashling, Flame Dancer",normal,Legendary Creature — Elemental Shaman,,True
+"Ashling, the Limitless",normal,Legendary Creature — Elemental Sorcerer,,True
+Ashnod's Altar,normal,Artifact,,True
+Assault Formation,normal,Enchantment,,True
+Assault Intercessor,normal,Creature — Astartes Warrior,,True
+Assemble the Players,normal,Enchantment,,True
+Astral Drift,normal,Enchantment,,True
+Astral Slide,normal,Enchantment,,True
+Astrologian's Planisphere,normal,Artifact — Equipment,,True
+Asylum Visitor,normal,Creature — Vampire Wizard,,True
+"Athreos, God of Passage",normal,Legendary Enchantment Creature — God,,True
+"Atsushi, the Blazing Sky",normal,Legendary Creature — Dragon Spirit,,True
+Atzocan Seer,normal,Creature — Human Druid,,True
+Audacious Thief,normal,Creature — Human Rogue,,True
+"Auntie Ool, Cursewretch",normal,Legendary Creature — Goblin Warlock,,True
+Aura of Silence,normal,Enchantment,,True
+"Aurelia, the Law Above",normal,Legendary Creature — Angel,,True
+"Auron, Venerated Guardian",normal,Legendary Creature — Human Spirit Samurai,,True
+Aurora Phoenix,normal,Creature — Phoenix,,True
+Avalanche of Sector 7,normal,Legendary Creature — Human Rebel,,True
+"Avatar Kyoshi, Earthbender",normal,Legendary Creature — Human Avatar,,True
+Awakening Zone,normal,Enchantment,,True
+Axebane Guardian,normal,Creature — Human Druid,,True
+Azra Oddsmaker,normal,Creature — Azra Warrior,,True
+Azula Always Lies,normal,Instant — Lesson,,True
+"Azula, On the Hunt",normal,Legendary Creature — Human Noble,,True
+"Azusa, Lost but Seeking",normal,Legendary Creature — Human Monk,,True
+Ba Sing Se,normal,Land,,True
+Badgermole,normal,Creature — Badger Mole,,True
+Badgermole Cub,normal,Creature — Badger Mole,,True
+"Baldin, Century Herdmaster",normal,Legendary Creature — Human Warrior,,True
+Baldur's Gate,normal,Legendary Land — Gate,,True
+Baleful Mastery,normal,Instant,,True
+Bandit's Talent,class,Enchantment — Class,,True
+Banner of Kinship,normal,Artifact,,True
+"Banon, the Returners' Leader",normal,Legendary Creature — Human Cleric Rebel,,True
+Barad-dûr,normal,Legendary Land,,True
+"Baral, Chief of Compliance",normal,Legendary Creature — Human Wizard,,True
+Barrels of Blasting Jelly,normal,Artifact,,True
+Barren Moor,normal,Land,,True
+Barret Wallace,normal,Legendary Creature — Human Rebel,,True
+Barrowgoyf,normal,Creature — Lhurgoyf,,True
+Basilisk Gate,normal,Land — Gate,,True
+Battle Angels of Tyr,normal,Creature — Angel Knight,,True
+Battle Cry Goblin,normal,Creature — Goblin,,True
+Battle Hymn,normal,Instant,,True
+"Baxter, Fly in the Ointment",normal,Legendary Creature — Insect Mutant Scientist,,True
+Bayou,normal,Land — Swamp Forest,,True
+Beamtown Beatstick,normal,Artifact — Equipment,,True
+"Bebop, Skull & Crossbones",normal,Legendary Creature — Boar Mutant,,True
+Become Immense,normal,Instant,,True
+Become the Avalanche,normal,Sorcery,,True
+Behind the Scenes,normal,Enchantment,,True
+Beledros Witherbloom,normal,Legendary Creature — Elder Dragon,,True
+Belonging,normal,Creature — Elemental Incarnation,,True
+Bender's Waterskin,normal,Artifact,,True
+"Betor, Ancestor's Voice",normal,Legendary Creature — Spirit Dragon,,True
+"Big Apple, 3 a.m.",normal,Land,,True
+Big Mother Mouser,normal,Artifact Creature — Robot,,True
+Bigger on the Inside,normal,Enchantment — Aura,,True
+Bighorner Rancher,normal,Creature — Human Ranger,,True
+Bilbo's Gambit,normal,Instant,,True
+Biogenic Ooze,normal,Creature — Ooze,,True
+Biomancer's Familiar,normal,Creature — Mutant,,True
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",modal_dfc,Legendary Creature — God,"Birgi, God of Storytelling // Harnfel, Horn of Bounty",False
+Bishop of Wings,normal,Creature — Human Cleric,,True
+Bite Down,normal,Instant,,True
+Bitter Triumph,normal,Instant,,True
+Bitter Work,normal,Enchantment,,True
+Black Sun's Zenith,normal,Sorcery,,True
+Black Waltz No. 3,normal,Legendary Creature — Wizard,,True
+Blackcleave Cliffs,normal,Land,,True
+Blade of Selves,normal,Artifact — Equipment,,True
+Blade of the Bloodchief,normal,Artifact — Equipment,,True
+Bladegriff Prototype,normal,Artifact Creature — Griffin,,True
+Bladewing the Risen,normal,Legendary Creature — Zombie Dragon,,True
+Blasphemous Edict,normal,Sorcery,,True
+Blazing Crescendo,normal,Instant,,True
+Bleachbone Verge,normal,Land,,True
+Blight Mound,normal,Enchantment,,True
+Blight Pile,normal,Creature — Phyrexian,,True
+Blightbelly Rat,normal,Creature — Phyrexian Rat,,True
+Blighted Agent,normal,Creature — Phyrexian Human Rogue,,True
+Blighted Woodland,normal,Land,,True
+Blightwing Bandit,normal,Creature — Faerie Rogue,,True
+Blind Obedience,normal,Enchantment,,True
+Blinkmoth Nexus,normal,Land,,True
+Blitzball Stadium,normal,Artifact,,True
+Bloated Contaminator,normal,Creature — Phyrexian Beast,,True
+Bloatfly Swarm,normal,Creature — Insect Mutant,,True
+Blood Moon,normal,Enchantment,,True
+Bloodbraid Challenger,normal,Creature — Elf Berserker,,True
+Bloodletter of Aclazotz,normal,Creature — Vampire Demon,,True
+Bloodline Keeper // Lord of Lineage,transform,Creature — Vampire,Bloodline Keeper // Lord of Lineage,False
+Bloodthirsty Conqueror,normal,Creature — Vampire Knight,,True
+Blossoming Bogbeast,normal,Creature — Beast,,True
+Blossoming Defense,normal,Instant,,True
+Blowfly Infestation,normal,Enchantment,,True
+Blue Mage's Cane,normal,Artifact — Equipment,,True
+Body of Knowledge,normal,Creature — Avatar,,True
+Boggart Shenanigans,normal,Kindred Enchantment — Goblin,,True
+Bone Devourer,normal,Creature — Dragon,,True
+Bone Miser,normal,Creature — Zombie Wizard,,True
+Bonehoard Dracosaur,normal,Creature — Dinosaur Dragon,,True
+Bontu's Monument,normal,Legendary Artifact,,True
+Boon of the Wish-Giver,normal,Sorcery,,True
+Bottomless Pit,normal,Enchantment,,True
+Bountiful Landscape,normal,Land,,True
+Brain Freeze,normal,Instant,,True
+Branching Evolution,normal,Enchantment,,True
+Brave the Elements,normal,Instant,,True
+Brazen Borrower // Petty Theft,adventure,Creature — Faerie Rogue,Brazen Borrower // Petty Theft,False
+Breaching Dragonstorm,normal,Enchantment,,True
+Bred for the Hunt,normal,Enchantment,,True
+Brightclimb Pathway // Grimclimb Pathway,modal_dfc,Land,Brightclimb Pathway // Grimclimb Pathway,False
+Brightstone Ritual,normal,Instant,,True
+Brokers Ascendancy,normal,Enchantment,,True
+Bronze Guardian,normal,Artifact Creature — Golem,,True
+Bronzebeak Foragers,normal,Creature — Dinosaur,,True
+Broodcaller Scourge,normal,Creature — Dragon,,True
+"Bruna, the Fading Light",meld,Legendary Creature — Angel Horror,,True
+Brutal Hordechief,normal,Creature — Orc Warrior,,True
+Brute Force,normal,Instant,,True
+Bulk Up,normal,Instant,,True
+"Bumi, Eclectic Earthbender",normal,Legendary Creature — Human Noble Ally,,True
+"Bumi, Unleashed",normal,Legendary Creature — Human Noble Ally,,True
+Burglar Rat,normal,Creature — Rat,,True
+Burning Curiosity,normal,Sorcery,,True
+Buster Sword,normal,Artifact — Equipment,,True
+Byway Barterer,normal,Creature — Raccoon Rogue,,True
+Cabal Coffers,normal,Land,,True
+Cabal Ritual,normal,Instant,,True
+Cabal Stronghold,normal,Land,,True
+Cactus Preserve,normal,Land — Desert,,True
+"Caesar, Legion's Emperor",normal,Legendary Creature — Human Soldier,,True
+Caged Sun,normal,Artifact,,True
+"Cait Sith, Fortune Teller",normal,Legendary Artifact Creature — Cat Moogle,,True
+Calamity's Wake,normal,Instant,,True
+Call of the Ring,normal,Enchantment,,True
+Call the Spirit Dragons,normal,Enchantment,,True
+Call to the Netherworld,normal,Sorcery,,True
+Cankerbloom,normal,Creature — Phyrexian Fungus,,True
+Canopy Gargantuan,normal,Creature — Dragon,,True
+Canopy Tactician,normal,Creature — Elf Warrior,,True
+Capsize,normal,Instant,,True
+Captain Lannery Storm,normal,Legendary Creature — Human Pirate,,True
+Captain Sisay,normal,Legendary Creature — Human Soldier,,True
+Captivating Cave,normal,Land — Cave,,True
+Captivating Crew,normal,Creature — Human Pirate,,True
+Captivating Vampire,normal,Creature — Vampire,,True
+Carnifex Demon,normal,Creature — Phyrexian Demon,,True
+Carrion Feeder,normal,Creature — Zombie,,True
+Carven Caryatid,normal,Creature — Spirit,,True
+Case of the Crimson Pulse,case,Enchantment — Case,,True
+Case of the Locked Hothouse,case,Enchantment — Case,,True
+"Casey Jones, Back Alley Brute",normal,Legendary Creature — Human Berserker,,True
+Castle Ardenvale,normal,Land,,True
+Castle Vantress,normal,Land,,True
+Cataclysmic Gearhulk,normal,Artifact Creature — Construct,,True
+Cathartic Pyre,normal,Instant,,True
+Cathartic Reunion,normal,Sorcery,,True
+Cathedral Acolyte,normal,Creature — Human Cleric,,True
+Cauldron of Essence,normal,Artifact,,True
+Cavalier of Thorns,normal,Creature — Elemental Knight,,True
+Cave of Temptation,normal,Land,,True
+Cavernous Maw,normal,Land — Cave,,True
+"Celes, Rune Knight",normal,Legendary Creature — Human Wizard Knight,,True
+Centaur Vinecrasher,normal,Creature — Plant Centaur,,True
+"Chainer, Nightmare Adept",normal,Legendary Creature — Human Minion,,True
+Champion of Dusk,normal,Creature — Vampire Knight,,True
+Champions from Beyond,normal,Enchantment,,True
+Champions of the Perfect,normal,Creature — Elf Warrior,,True
+Chandra's Ignition,normal,Sorcery,,True
+"Chandra, Flameshaper",normal,Legendary Planeswalker — Chandra,,True
+Changeling Outcast,normal,Creature — Shapeshifter,,True
+Channeler Initiate,normal,Creature — Human Druid,,True
+"Chimil, the Inner Sun",normal,Legendary Artifact,,True
+Chittering Witch,normal,Creature — Human Warlock,,True
+Chocobo Knights,normal,Creature — Human Knight,,True
+Chrome Host Seedshark,normal,Creature — Phyrexian Shark,,True
+"Chulane, Teller of Tales",normal,Legendary Creature — Human Druid,,True
+Circle of Dreams Druid,normal,Creature — Elf Druid,,True
+Circuitous Route,normal,Sorcery,,True
+Claim the Precious,normal,Sorcery,,True
+"Clavileño, First of the Blessed",normal,Legendary Creature — Vampire Cleric,,True
+Cling to Dust,normal,Instant,,True
+Cloud Key,normal,Artifact,,True
+"Cloud, Midgar Mercenary",normal,Legendary Creature — Human Soldier Mercenary,,True
+"Cloud, Planet's Champion",normal,Legendary Creature — Human Soldier Mercenary,,True
+Coat of Arms,normal,Artifact,,True
+Coiling Oracle,normal,Creature — Snake Elf Druid,,True
+Coin of Fate,normal,Artifact,,True
+Coin of Mastery,normal,Artifact,,True
+Cold-Eyed Selkie,normal,Creature — Merfolk Rogue,,True
+Colfenor's Urn,normal,Artifact,,True
+Collective Effort,normal,Sorcery,,True
+Collision // Colossus,split,Instant,Collision // Colossus,False
+Colossal Growth,normal,Instant,,True
+Combat Research,normal,Enchantment — Aura,,True
+Comet Storm,normal,Instant,,True
+Commandeer,normal,Instant,,True
+Commander's Insignia,normal,Enchantment,,True
+Commissar Severina Raine,normal,Legendary Creature — Human Soldier,,True
+Communal Brewing,normal,Enchantment,,True
+Concealed Courtyard,normal,Land,,True
+Consecrated Sphinx,normal,Creature — Sphinx,,True
+Conspicuous Snoop,normal,Creature — Goblin Rogue,,True
+Consuming Aberration,normal,Creature — Horror,,True
+Contagion Clasp,normal,Artifact,,True
+Contagion Engine,normal,Artifact,,True
+Contaminant Grafter,normal,Creature — Phyrexian Druid,,True
+Contaminated Drink,normal,Instant,,True
+Continue?,normal,Instant,,True
+Copperline Gorge,normal,Land,,True
+Cordial Vampire,normal,Creature — Vampire,,True
+Coretapper,normal,Artifact Creature — Myr,,True
+Corsairs of Umbar,normal,Creature — Human Pirate,,True
+Coruscation Mage,normal,Creature — Otter Wizard,,True
+Cosmic Hunger,normal,Instant,,True
+Cosmium Confluence,normal,Sorcery,,True
+Countervailing Winds,normal,Instant,,True
+Court of Cunning,normal,Enchantment,,True
+Court of Grace,normal,Enchantment,,True
+Cover of Darkness,normal,Enchantment,,True
+Coveted Jewel,normal,Artifact,,True
+Crackle with Power,normal,Sorcery,,True
+Crackling Doom,normal,Instant,,True
+Crashing Drawbridge,normal,Artifact Creature — Wall,,True
+Craterhoof Behemoth,normal,Creature — Beast,,True
+Crawling Barrens,normal,Land,,True
+Creakwood Liege,normal,Creature — Horror,,True
+Cream of the Crop,normal,Enchantment,,True
+Creative Technique,normal,Sorcery,,True
+Crib Swap,normal,Kindred Instant — Shapeshifter,,True
+Crown of Skemfar,normal,Enchantment — Aura,,True
+Cruel Administrator,normal,Creature — Human Soldier,,True
+Cruel Celebrant,normal,Creature — Vampire,,True
+Crypt Ghast,normal,Creature — Spirit,,True
+Cryptic Caves,normal,Land,,True
+Crystal Vein,normal,Land,,True
+Crystalline Crawler,normal,Artifact Creature — Construct,,True
+Culling Ritual,normal,Sorcery,,True
+Culling the Weak,normal,Instant,,True
+Cunning Lethemancer,normal,Creature — Human Wizard,,True
+Curiosity Crafter,normal,Creature — Bird Wizard,,True
+Curious Altisaur,normal,Creature — Dinosaur,,True
+Currency Converter,normal,Artifact,,True
+Curse of Opulence,normal,Enchantment — Aura Curse,,True
+Cut // Ribbons,split,Sorcery,Cut // Ribbons,False
+Cut a Deal,normal,Sorcery,,True
+"Cyan, Vengeful Samurai",normal,Legendary Creature — Human Samurai,,True
+Cyberdrive Awakener,normal,Artifact Creature — Construct,,True
+Cycle of Renewal,normal,Instant — Lesson,,True
+Damnation,normal,Sorcery,,True
+Damning Verdict,normal,Sorcery,,True
+"Danitha Capashen, Paragon",normal,Legendary Creature — Human Knight,,True
+Dark Confidant,normal,Creature — Human Wizard,,True
+Dark Deal,normal,Sorcery,,True
+Dark Depths,normal,Legendary Snow Land,,True
+Dark Intimations,normal,Sorcery,,True
+Darksteel Citadel,normal,Artifact Land,,True
+Darksteel Reactor,normal,Artifact,,True
+Dawn's Truce,normal,Instant,,True
+Dazzling Angel,normal,Creature — Angel,,True
+Deadly Brew,normal,Sorcery,,True
+Deadly Tempest,normal,Sorcery,,True
+Deafening Silence,normal,Enchantment,,True
+Deathcap Glade,normal,Land,,True
+Deathrite Shaman,normal,Creature — Elf Shaman,,True
+Decanter of Endless Water,normal,Artifact,,True
+Deceptive Frostkite,normal,Creature — Dragon,,True
+Deceptive Landscape,normal,Land,,True
+Decimate,normal,Sorcery,,True
+Decisive Denial,normal,Instant,,True
+Deeproot Wayfinder,normal,Creature — Merfolk Scout,,True
+Defiling Daemogoth,normal,Creature — Demon,,True
+Delay,normal,Instant,,True
+Delirium Skeins,normal,Sorcery,,True
+Deliver Unto Evil,normal,Sorcery,,True
+"Delney, Streetwise Lookout",normal,Legendary Creature — Human Scout,,True
+Demand Answers,normal,Instant,,True
+Demonic Counsel,normal,Sorcery,,True
+Den of the Bugbear,normal,Land,,True
+Deploy the Gatewatch,normal,Sorcery,,True
+Depthshaker Titan,normal,Artifact Creature — Robot,,True
+Descendants' Fury,normal,Enchantment,,True
+Descendants' Path,normal,Enchantment,,True
+Desert of the Glorified,normal,Land — Desert,,True
+Desert of the Indomitable,normal,Land — Desert,,True
+Desert of the True,normal,Land — Desert,,True
+Deserted Temple,normal,Land,,True
+Destroy Evil,normal,Instant,,True
+Detective's Phoenix,normal,Enchantment Creature — Phoenix,,True
+Devoted Druid,normal,Creature — Elf Druid,,True
+Dictate of Erebos,normal,Enchantment,,True
+"Dihada, Binder of Wills",normal,Legendary Planeswalker — Dihada,,True
+Dimension X Pizzasaur,normal,Artifact Creature — Food Alien Mutant,,True
+Dimir Aqueduct,normal,Land,,True
+"Dina, Essence Brewer",normal,Legendary Creature — Dryad Druid,,True
+"Dina, Soul Steeper",normal,Legendary Creature — Dryad Druid,,True
+"Dionus, Elvish Archdruid",normal,Legendary Creature — Elf Druid,,True
+Disciple of Bolas,normal,Creature — Human Wizard,,True
+Disciple of Freyalise // Garden of Freyalise,modal_dfc,Creature — Elf Druid,Disciple of Freyalise // Garden of Freyalise,False
+Dismantling Wave,normal,Sorcery,,True
+Dismember,normal,Instant,,True
+Dispel,normal,Instant,,True
+Displacer Kitten,normal,Creature — Cat Beast,,True
+Disruptor Flute,normal,Artifact,,True
+Divine Visitation,normal,Enchantment,,True
+Diviner of Mist,normal,Creature — Dragon,,True
+Djinn Illuminatus,normal,Creature — Djinn,,True
+Dolmen Gate,normal,Artifact,,True
+"Donatello, the Brains",normal,Legendary Creature — Mutant Ninja Turtle,,True
+Double Jump // Flying Kick,split,Instant,Double Jump // Flying Kick,False
+Dracogenesis,normal,Enchantment,,True
+Draconic Lore,normal,Instant,,True
+Dragon Fodder,normal,Sorcery,,True
+Dragonlord Atarka,normal,Legendary Creature — Elder Dragon,,True
+Dragonmaster Outcast,normal,Creature — Human Shaman,,True
+Dragonspeaker Shaman,normal,Creature — Human Barbarian Shaman,,True
+"Drakuseth, Maw of Flames",normal,Legendary Creature — Dragon,,True
+Drana and Linvala,normal,Legendary Creature — Vampire Angel,,True
+"Drana, Liberator of Malakir",normal,Legendary Creature — Vampire Ally,,True
+Drannith Healer,normal,Creature — Human Cleric,,True
+Drannith Magistrate,normal,Creature — Human Wizard,,True
+Dread Return,normal,Sorcery,,True
+Dread Statuary,normal,Land,,True
+Dread Tiller,normal,Artifact Creature — Scarecrow,,True
+Dreamtide Whale,normal,Creature — Whale,,True
+Drifting Meadow,normal,Land,,True
+"Drivnod, Carnage Dominus",normal,Legendary Creature — Phyrexian Horror,,True
+Dryad Arbor,normal,Land Creature — Forest Dryad,,True
+Dubious Delicacy,normal,Artifact — Food,,True
+Duelist's Heritage,normal,Enchantment,,True
+Dusk // Dawn,split,Sorcery,Dusk // Dawn,False
+Dusk Urchins,normal,Creature — Ouphe,,True
+Duskshell Crawler,normal,Creature — Insect,,True
+"Dwynen, Gilt-Leaf Daen",normal,Legendary Creature — Elf Warrior,,True
+Eagles of the North,normal,Creature — Bird Soldier,,True
+Earth Rumble,normal,Sorcery,,True
+Earthbender Ascension,normal,Enchantment,,True
+Earthbending Lesson,normal,Sorcery — Lesson,,True
+Earthbending Student,normal,Creature — Human Warrior Ally,,True
+Earthshaker Dreadmaw,normal,Creature — Dinosaur,,True
+Earthshape,normal,Instant,,True
+Eccentric Pestfinder // Turn Stones,prepare,Creature — Troll Druid,Eccentric Pestfinder // Turn Stones,False
+Echo of Eons,normal,Sorcery,,True
+Eclipsed Flamekin,normal,Creature — Elemental Scout,,True
+Edgar Markov,normal,Legendary Creature — Vampire Knight,,True
+"Edgar, Charmed Groom // Edgar Markov's Coffin",transform,Legendary Creature — Vampire Noble,"Edgar, Charmed Groom // Edgar Markov's Coffin",False
+"Edgar, Master Machinist",normal,Legendary Creature — Human Artificer Noble,,True
+"Eiganjo, Seat of the Empire",normal,Legendary Land,,True
+Elderfang Venom,normal,Enchantment,,True
+Electric Seaweed,normal,Creature — Plant Wall,,True
+"Electro, Assaulting Battery",normal,Legendary Creature — Human Villain,,True
+Electrolyze,normal,Instant,,True
+Elegy Acolyte,normal,Creature — Human Cleric,,True
+Elemental Spectacle,normal,Sorcery,,True
+"Elena, Turk Recruit",normal,Legendary Creature — Human Assassin,,True
+"Elenda, the Dusk Rose",normal,Legendary Creature — Vampire Knight,,True
+Eliminate the Competition,normal,Sorcery,,True
+Elixir of Immortality,normal,Artifact,,True
+"Elspeth, Sun's Champion",normal,Legendary Planeswalker — Elspeth,,True
+Elven Ambush,normal,Instant,,True
+Elven Chorus,normal,Enchantment,,True
+Elves of Deep Shadow,normal,Creature — Elf Druid,,True
+Elvish Archdruid,normal,Creature — Elf Druid,,True
+Elvish Champion,normal,Creature — Elf,,True
+Elvish Harbinger,normal,Creature — Elf Druid,,True
+Elvish Promenade,normal,Kindred Sorcery — Elf,,True
+Elvish Warmaster,normal,Creature — Elf Warrior,,True
+Emergence Zone,normal,Land,,True
+Emergent Woodwurm,normal,Creature — Wurm,,True
+Emeria Angel,normal,Creature — Angel,,True
+Emeria Shepherd,normal,Creature — Angel,,True
+"Emeria, the Sky Ruin",normal,Land,,True
+Emperor of Bones,normal,Creature — Skeleton Noble,,True
+Empowered Autogenerator,normal,Artifact,,True
+"Emry, Lurker of the Loch",normal,Legendary Creature — Merfolk Wizard,,True
+Endless Detour,normal,Instant,,True
+Endless Foot Assault,normal,Enchantment,,True
+"Endrek Sahr, Master Breeder",normal,Legendary Creature — Human Wizard,,True
+Endurance,normal,Creature — Elemental Incarnation,,True
+Enduring Curiosity,normal,Enchantment Creature — Cat Glimmer,,True
+Enduring Innocence,normal,Enchantment Creature — Sheep Glimmer,,True
+Enthusiastic Mechanaut,normal,Artifact Creature — Goblin Artificer,,True
+Entreat the Angels,normal,Sorcery,,True
+Ephemerate,normal,Instant,,True
+Ertai Resurrected,normal,Legendary Creature — Phyrexian Human Wizard,,True
+Escape Protocol,normal,Enchantment,,True
+Escape to the Wilds,normal,Sorcery,,True
+"Eshki, Temur's Roar",normal,Legendary Creature — Human Warrior,,True
+"Esika, God of the Tree // The Prismatic Bridge",modal_dfc,Legendary Creature — God,"Esika, God of the Tree // The Prismatic Bridge",False
+Espers to Magicite,normal,Instant,,True
+Essence Anchor,normal,Artifact,,True
+Essence Flux,normal,Instant,,True
+Estinien Varlineau,normal,Legendary Creature — Elf Warrior,,True
+"Etali, Primal Conqueror // Etali, Primal Sickness",transform,Legendary Creature — Elder Dinosaur,"Etali, Primal Conqueror // Etali, Primal Sickness",False
+Etched Oracle,normal,Artifact Creature — Wizard,,True
+Etherium Sculptor,normal,Artifact Creature — Vedalken Artificer,,True
+Ethersworn Canonist,normal,Artifact Creature — Human Cleric,,True
+Eumidian Wastewaker,normal,Creature — Insect Cleric,,True
+Eureka Moment,normal,Instant,,True
+Eventide's Shadow,normal,Sorcery,,True
+Everlasting Torment,normal,Enchantment,,True
+Everything Pizza,normal,Artifact — Food,,True
+Exemplar of Light,normal,Creature — Angel,,True
+Expel the Interlopers,normal,Sorcery,,True
+Exploding Barrel,normal,Artifact,,True
+Exploration,normal,Enchantment,,True
+Explorer's Scope,normal,Artifact — Equipment,,True
+Explosive Vegetation,normal,Sorcery,,True
+Expressive Iteration,normal,Sorcery,,True
+Exquisite Blood,normal,Enchantment,,True
+Eye of Nidhogg,normal,Legendary Enchantment — Aura,,True
+"Ezuri, Renegade Leader",normal,Legendary Creature — Elf Warrior,,True
+"Ezuri, Stalker of Spheres",normal,Legendary Creature — Phyrexian Elf Warrior,,True
+Fabricate,normal,Sorcery,,True
+Faceless Haven,normal,Snow Land,,True
+Faerie Conclave,normal,Land,,True
+Faerie Seer,normal,Creature — Faerie Wizard,,True
+Fallen Shinobi,normal,Creature — Zombie Ninja,,True
+Famished Worldsire,normal,Creature — Leviathan,,True
+Farsight Ritual,normal,Instant,,True
+Fast Forward,normal,Sorcery,,True
+Fate Unraveler,normal,Enchantment Creature — Hag,,True
+Fathom Mage,normal,Creature — Human Wizard,,True
+Felidar Retreat,normal,Enchantment,,True
+Felothar the Steadfast,normal,Legendary Creature — Human Warrior,,True
+Feral Appetite,normal,Enchantment,,True
+"Ferrafor, Young Yew",normal,Legendary Creature — Treefolk Druid,,True
+Fertile Ground,normal,Enchantment — Aura,,True
+Fervent Charge,normal,Enchantment,,True
+Fevered Visions,normal,Enchantment,,True
+Fiery Confluence,normal,Sorcery,,True
+Fiery Inscription,normal,Enchantment,,True
+Fight Rigging,normal,Enchantment,,True
+Fighter Class,class,Enchantment — Class,,True
+Filigree Angel,normal,Artifact Creature — Angel,,True
+Final Act,normal,Sorcery,,True
+Final Judgment,normal,Sorcery,,True
+Finale of Devastation,normal,Sorcery,,True
+Find // Finality,split,Sorcery,Find // Finality,False
+Fire Magic,normal,Instant,,True
+Fire Nation Archers,normal,Creature — Human Archer,,True
+Fire Nation Attacks,normal,Instant,,True
+Fire Nation Turret,normal,Artifact,,True
+Fire Sages,normal,Creature — Human Cleric,,True
+Fireglass Mentor,normal,Creature — Lizard Warlock,,True
+"Firion, Wild Rose Warrior",normal,Legendary Creature — Human Rebel Warrior,,True
+Fists of Flame,normal,Instant,,True
+Flameblast Dragon,normal,Creature — Dragon,,True
+Flamebraider,normal,Creature — Elemental Bard,,True
+Flamekin Village,normal,Land,,True
+Flare of Denial,normal,Instant,,True
+Flare of Fortitude,normal,Instant,,True
+Flare of Malice,normal,Instant,,True
+Flashback,normal,Instant,,True
+Flayer of the Hatebound,normal,Creature — Devil,,True
+Fleshbag Marauder,normal,Creature — Zombie Warrior,,True
+"Florian, Voldaren Scion",normal,Legendary Creature — Vampire Noble,,True
+Flourishing Defenses,normal,Enchantment,,True
+Flourishing Fox,normal,Creature — Fox,,True
+Flowering of the White Tree,normal,Legendary Enchantment,,True
+Fluctuator,normal,Artifact,,True
+Folk Hero,normal,Legendary Enchantment — Background,,True
+Fomori Vault,normal,Land,,True
+Font of Mythos,normal,Artifact,,True
+Foot Chopper,normal,Artifact — Equipment,,True
+Foray of Orcs,normal,Sorcery,,True
+Forbidden Alchemy,normal,Instant,,True
+Force of Despair,normal,Instant,,True
+Forced Fruition,normal,Enchantment,,True
+Forerunner of the Legion,normal,Creature — Vampire Knight,,True
+Forge Anew,normal,Enchantment,,True
+Forge of Heroes,normal,Land,,True
+Formless Genesis,normal,Kindred Sorcery — Shapeshifter,,True
+Forsaken Miner,normal,Creature — Skeleton Rogue,,True
+Foundation Breaker,normal,Creature — Elemental,,True
+Fountainport,normal,Land,,True
+Fraying Sanity,normal,Enchantment — Aura Curse,,True
+From the Rubble,normal,Enchantment,,True
+Frontier Siege,normal,Enchantment,,True
+Frostboil Snarl,normal,Land,,True
+Frostwalk Bastion,normal,Snow Land,,True
+Fully Grown,normal,Instant,,True
+Fumigate,normal,Sorcery,,True
+Furious Rise,normal,Enchantment,,True
+Fury,normal,Creature — Elemental Incarnation,,True
+Fyndhorn Elves,normal,Creature — Elf Druid,,True
+"Gadrak, the Crown-Scourge",normal,Legendary Creature — Dragon,,True
+Gaea's Gift,normal,Instant,,True
+Galadhrim Ambush,normal,Instant,,True
+Galadriel's Dismissal,normal,Instant,,True
+Game Over,normal,Sorcery,,True
+Garruk's Packleader,normal,Creature — Beast,,True
+"Garruk, Cursed Huntsman",normal,Legendary Planeswalker — Garruk,,True
+Gateway Plaza,normal,Land — Gate,,True
+Gatta and Luzzu,normal,Legendary Creature — Human Soldier,,True
+"Gau, Feral Youth",normal,Legendary Creature — Human Berserker,,True
+Gavel of the Righteous,normal,Artifact — Equipment,,True
+Gaze of Granite,normal,Sorcery,,True
+Geier Reach Sanitarium,normal,Legendary Land,,True
+Gempalm Incinerator,normal,Creature — Goblin,,True
+"General Kreat, the Boltbringer",normal,Legendary Creature — Goblin Soldier,,True
+General Leo Cristophe,normal,Legendary Creature — Human Soldier,,True
+Generous Patron,normal,Creature — Elf Advisor,,True
+Genji Glove,normal,Artifact — Equipment,,True
+Geode Golem,normal,Artifact Creature — Golem,,True
+Geothermal Bog,normal,Land — Swamp Mountain,,True
+Geth's Grimoire,normal,Artifact — Book,,True
+Ghalta and Mavren,normal,Legendary Creature — Dinosaur Vampire,,True
+"Ghalta, Primal Hunger",normal,Legendary Creature — Elder Dinosaur,,True
+"Ghalta, Stampede Tyrant",normal,Legendary Creature — Elder Dinosaur,,True
+Ghost Vacuum,normal,Artifact,,True
+Ghostly Flicker,normal,Instant,,True
+"Ghyrson Starn, Kelermorph",normal,Legendary Creature — Tyranid Human,,True
+"Giada, Font of Hope",normal,Legendary Creature — Angel,,True
+Giant Growth,normal,Instant,,True
+Gilded Goose,normal,Creature — Bird,,True
+Gilded Lotus,normal,Artifact,,True
+Gilt-Leaf Palace,normal,Land,,True
+Gingerbrute,normal,Artifact Creature — Food Golem,,True
+"Gisela, Blade of Goldnight",normal,Legendary Creature — Angel,,True
+"Gisela, the Broken Blade",meld,Legendary Creature — Angel Horror,,True
+"Gishath, Sun's Avatar",normal,Legendary Creature — Dinosaur Avatar,,True
+"Gix, Yawgmoth Praetor",normal,Legendary Creature — Phyrexian Praetor,,True
+Glacial Chasm,normal,Land,,True
+Glasswing Grace // Age-Graced Chapel,modal_dfc,Enchantment — Aura,Glasswing Grace // Age-Graced Chapel,False
+Glimmer Lens,normal,Artifact — Equipment,,True
+Glissa Sunslayer,normal,Legendary Creature — Phyrexian Zombie Elf,,True
+Glistening Sphere,normal,Artifact,,True
+Glittering Massif,normal,Land — Mountain Plains,,True
+Gloomlake Verge,normal,Land,,True
+Glorybringer,normal,Creature — Dragon,,True
+Goblin Bombardment,normal,Enchantment,,True
+Goblin Chieftain,normal,Creature — Goblin,,True
+Goblin Chirurgeon,normal,Creature — Goblin Shaman,,True
+Goblin Electromancer,normal,Creature — Goblin Wizard,,True
+Goblin Grenade,normal,Sorcery,,True
+Goblin Instigator,normal,Creature — Goblin Rogue,,True
+Goblin King,normal,Creature — Goblin,,True
+Goblin Lackey,normal,Creature — Goblin,,True
+Goblin Matron,normal,Creature — Goblin,,True
+Goblin Piledriver,normal,Creature — Goblin Warrior,,True
+Goblin Recruiter,normal,Creature — Goblin,,True
+Goblin Ringleader,normal,Creature — Goblin,,True
+Goblin Trashmaster,normal,Creature — Goblin Warrior,,True
+Goblin War Strike,normal,Sorcery,,True
+Goblin Warchief,normal,Creature — Goblin Warrior,,True
+God-Pharaoh's Gift,normal,Artifact,,True
+"Gogo, Mysterious Mime",normal,Legendary Creature — Wizard,,True
+Goldlust Triad,normal,Creature — Dragon,,True
+Goldmire Bridge,normal,Artifact Land,,True
+Goldnight Commander,normal,Creature — Human Cleric Soldier,,True
+Goldvein Pick,normal,Artifact — Equipment,,True
+Golem Foundry,normal,Artifact,,True
+Golgari Charm,normal,Instant,,True
+"Golos, Tireless Pilgrim",normal,Legendary Artifact Creature — Scout,,True
+Gond Gate,normal,Land — Gate,,True
+"Gorma, the Gullet",normal,Legendary Creature — Pest Frog,,True
+"Gothmog, Morgul Lieutenant",normal,Legendary Creature — Human Soldier,,True
+Grafdigger's Cage,normal,Artifact,,True
+Grand Coliseum,normal,Land,,True
+Grand Crescendo,normal,Instant,,True
+Grapeshot,normal,Sorcery,,True
+Grateful Apparition,normal,Creature — Spirit,,True
+Grave Pact,normal,Enchantment,,True
+Grave Titan,normal,Creature — Giant,,True
+Grave Venerations,normal,Enchantment,,True
+Gray Merchant of Asphodel,normal,Creature — Zombie,,True
+Great Divide Guide,normal,Creature — Human Scout Ally,,True
+Great Furnace,normal,Artifact Land,,True
+Great Hall of the Citadel,normal,Land,,True
+Greenwarden of Murasa,normal,Creature — Elemental,,True
+Grim Backwoods,normal,Land,,True
+Grim Hireling,normal,Creature — Tiefling Rogue,,True
+Grim Monolith,normal,Artifact,,True
+Grim Poppet,normal,Artifact Creature — Scarecrow,,True
+"Grishnákh, Brash Instigator",normal,Legendary Creature — Goblin Soldier,,True
+Groundskeeper,normal,Creature — Human Druid,,True
+Groundswell,normal,Instant,,True
+"Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",transform,Legendary Enchantment,"Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",False
+Gruul Guildgate,normal,Land — Gate,,True
+Gruul Ragebeast,normal,Creature — Beast,,True
+"Gyome, Master Chef",normal,Legendary Creature — Troll Warlock,,True
+Gyre Sage,normal,Creature — Elf Druid,,True
+Hagra Mauling // Hagra Broodpit,modal_dfc,Instant,Hagra Mauling // Hagra Broodpit,False
+"Hajar, Loyal Bodyguard",normal,Legendary Creature — Human Soldier,,True
+Hall of Heliod's Generosity,normal,Legendary Land,,True
+Hall of Oracles,normal,Land,,True
+Hall of Storm Giants,normal,Land,,True
+Hammer of Nazahn,normal,Legendary Artifact — Equipment,,True
+Hammer of Purphoros,normal,Legendary Enchantment Artifact,,True
+Hammerhead Tyrant,normal,Creature — Dragon,,True
+Hangarback Walker,normal,Artifact Creature — Construct,,True
+Hanweir Garrison,meld,Creature — Human Soldier,,True
+"Hapatra, Vizier of Poisons",normal,Legendary Creature — Human Cleric,,True
+Harbinger of the Hunt,normal,Creature — Dragon,,True
+"Harold and Bob, First Numens",normal,Legendary Creature — Treefolk Mutant,,True
+Harvest Season,normal,Sorcery,,True
+Hashep Oasis,normal,Land — Desert,,True
+Haunted Ridge,normal,Land,,True
+Haunting Voyage,normal,Sorcery,,True
+Hazoret's Monument,normal,Legendary Artifact,,True
+Heap Gate,normal,Land — Gate,,True
+Heartless Act,normal,Instant,,True
+Hedge Maze,normal,Land — Forest Island,,True
+Hedge Shredder,normal,Artifact — Vehicle,,True
+"Heidegger, Shinra Executive",normal,Legendary Creature — Human Soldier,,True
+"Heliod, Sun-Crowned",normal,Legendary Enchantment Creature — God,,True
+Helm of the Ghastlord,normal,Enchantment — Aura,,True
+Herald of War,normal,Creature — Angel,,True
+Herald of the Forgotten,normal,Creature — Cat Beast,,True
+Here Comes a New Hero!,normal,Sorcery,,True
+"Hermes, Overseer of Elpis",normal,Legendary Creature — Elder Wizard,,True
+Heroes in a Half Shell,normal,Legendary Creature — Mutant Ninja Turtle,,True
+Heroes' Podium,normal,Legendary Artifact,,True
+Hidden Hideout,normal,Land,,True
+Hidden Nursery,normal,Land — Cave,,True
+Hidden Volcano,normal,Land — Cave,,True
+Hideous Taskmaster,normal,Creature — Eldrazi,,True
+High Fae Trickster,normal,Creature — Faerie Wizard,,True
+High Perfect Morcant,normal,Legendary Creature — Elf Noble,,True
+High Score,normal,Enchantment,,True
+"Higure, the Still Wind",normal,Legendary Creature — Human Ninja,,True
+Hildibrand Manderville // Gentleman's Rise,adventure,Legendary Creature — Human Detective,Hildibrand Manderville // Gentleman's Rise,False
+Hoarder's Greed,normal,Sorcery,,True
+Hobgoblin Bandit Lord,normal,Creature — Goblin Rogue,,True
+Hoofprints of the Stag,normal,Kindred Enchantment — Elemental,,True
+Horde of Notions,normal,Legendary Creature — Elemental,,True
+Hordeling Outburst,normal,Sorcery,,True
+Horizon of Progress,normal,Land,,True
+Hornet Nest,normal,Creature — Insect,,True
+Hostile Desert,normal,Land — Desert,,True
+Hour of Reckoning,normal,Sorcery,,True
+Hour of Revelation,normal,Sorcery,,True
+Howling Mine,normal,Artifact,,True
+Howlsquad Heavy,normal,Creature — Goblin Mercenary,,True
+Hraesvelgr of the First Brood,normal,Legendary Creature — Elder Dragon,,True
+"Hugs, Grisly Guardian",normal,Legendary Creature — Badger Warrior,,True
+Hulking Raptor,normal,Creature — Dinosaur,,True
+Hullbreaker Horror,normal,Creature — Kraken Horror,,True
+Hunted Horror,normal,Creature — Horror,,True
+Hunter's Insight,normal,Instant,,True
+Hunting Velociraptor,normal,Creature — Dinosaur,,True
+Hypnotic Sprite // Mesmeric Glare,adventure,Creature — Faerie,Hypnotic Sprite // Mesmeric Glare,False
+Ichor Rats,normal,Creature — Phyrexian Rat,,True
+Ichor Wellspring,normal,Artifact,,True
+Ichormoon Gauntlet,normal,Artifact,,True
+Idol of Oblivion,normal,Artifact,,True
+Ifnir Deadlands,normal,Land — Desert,,True
+Ignite the Beacon,normal,Instant,,True
+"Ikra Shidiqi, the Usurper",normal,Legendary Creature — Snake Wizard,,True
+Illusionist's Gambit,normal,Instant,,True
+Immaculate Magistrate,normal,Creature — Elf Shaman,,True
+Immersturm Predator,normal,Creature — Vampire Dragon,,True
+Immoral Bargain,normal,Sorcery,,True
+Impact Tremors,normal,Enchantment,,True
+Imperious Perfect,normal,Creature — Elf Warrior,,True
+Imposing Vantasaur,normal,Creature — Dinosaur,,True
+Impulsivity,normal,Creature — Elemental Incarnation,,True
+In the Darkness Bind Them,saga,Enchantment — Saga,,True
+Incandescent Soulstoke,normal,Creature — Elemental Shaman,,True
+Incremental Blight,normal,Sorcery,,True
+Indatha Triome,normal,Land — Plains Swamp Forest,,True
+Indomitable Ancients,normal,Creature — Treefolk Warrior,,False
+Indulgent Aristocrat,normal,Creature — Vampire Noble,,True
+Indulging Patrician,normal,Creature — Vampire Noble,,True
+Infantry Shield,normal,Artifact — Equipment,,True
+Infectious Bite,normal,Instant,,True
+Infectious Inquiry,normal,Sorcery,,True
+Inga and Esika,normal,Legendary Creature — Human God,,True
+Ingenious Infiltrator,normal,Creature — Vedalken Ninja,,True
+Ingot Chewer,normal,Creature — Elemental,,True
+"Ink-Eyes, Servant of Oni",normal,Legendary Creature — Rat Ninja,,True
+Inkmoth Nexus,normal,Land,,True
+Innkeeper's Talent,class,Enchantment — Class,,True
+Inscription of Abundance,normal,Instant,,True
+Insidious Roots,normal,Enchantment,,True
+Insight Engine,normal,Artifact,,True
+Inspiring Overseer,normal,Creature — Angel Cleric,,True
+"Inspirit, Flagship Vessel",normal,Legendary Artifact — Spacecraft,,True
+"Interceptor, Shadow's Hound",normal,Legendary Creature — Dog,,True
+Interplanar Beacon,normal,Land,,True
+"Inti, Seneschal of the Sun",normal,Legendary Creature — Human Knight,,True
+Into the Story,normal,Instant,,True
+Invasion of Zendikar // Awakened Skyclave,transform,Battle — Siege,Invasion of Zendikar // Awakened Skyclave,False
+Inventors' Fair,normal,Legendary Land,,True
+Invigorate,normal,Instant,,True
+Irenicus's Vile Duplication,normal,Sorcery,,True
+"Irma, Part-Time Mutant",normal,Legendary Creature — Human Mutant Shapeshifter,,True
+"Iroas, God of Victory",normal,Legendary Enchantment Creature — God,,True
+Ironwill Forger,normal,Creature — Orc Artificer,,True
+"Ivora, Insatiable Heir",normal,Legendary Creature — Vampire Warrior,,True
+"Ixhel, Scion of Atraxa",normal,Legendary Creature — Phyrexian Angel,,True
+Izzet Boilerworks,normal,Land,,True
+Izzet Guildgate,normal,Land — Gate,,True
+Jace's Archivist,normal,Creature — Vedalken Wizard,,True
+"Jace, Unraveler of Secrets",normal,Legendary Planeswalker — Jace,,True
+Jaddi Offshoot,normal,Creature — Plant,,True
+Jaws of Defeat,normal,Enchantment,,True
+"Jegantha, the Wellspring",normal,Legendary Creature — Elemental Elk,,True
+"Jenova, Ancient Calamity",normal,Legendary Creature — Alien,,True
+Jet Medallion,normal,Artifact,,True
+"Jodah, the Unifier",normal,Legendary Creature — Human Wizard,,True
+Joint Exploration,normal,Instant,,True
+"Jolrael, Mwonvuli Recluse",normal,Legendary Creature — Human Druid,,True
+Jubilation,normal,Creature — Elemental Incarnation,,True
+Jungle Hollow,normal,Land,,True
+"Junji, the Midnight Sky",normal,Legendary Creature — Dragon Spirit,,True
+Kaalia of the Vast,normal,Legendary Creature — Human Cleric,,True
+"Kaalia, Zenith Seeker",normal,Legendary Creature — Human Cleric,,True
+"Kaito, Bane of Nightmares",normal,Legendary Planeswalker — Kaito,,True
+Kalonian Hydra,normal,Creature — Hydra,,True
+Kami of the Crescent Moon,normal,Legendary Creature — Spirit,,True
+Kappa Cannoneer,normal,Artifact Creature — Turtle Warrior,,True
+"Kardur, Doomscourge",normal,Legendary Creature — Demon Berserker,,True
+"Karlach, Fury of Avernus",normal,Legendary Creature — Tiefling Barbarian,,True
+"Kataki, War's Wage",normal,Legendary Creature — Spirit,,True
+"Kaya, Geist Hunter",normal,Legendary Planeswalker — Kaya,,True
+Kederekt Parasite,normal,Creature — Horror,,True
+Keen Duelist,normal,Creature — Human Wizard,,True
+"Kefka, Court Mage // Kefka, Ruler of Ruin",transform,Legendary Creature — Human Wizard,"Kefka, Court Mage // Kefka, Ruler of Ruin",False
+"Keiga, the Tide Star",normal,Legendary Creature — Dragon Spirit,,True
+"Kellan, the Kid",normal,Legendary Creature — Human Faerie Rogue,,True
+"Kellogg, Dangerous Mind",normal,Legendary Creature — Human Mercenary,,True
+"Kethis, the Hidden Hand",normal,Legendary Creature — Elf Advisor,,True
+Key to the City,normal,Artifact,,True
+Khalni Ambush // Khalni Territory,modal_dfc,Instant,Khalni Ambush // Khalni Territory,False
+Kheru Goldkeeper,normal,Creature — Dragon,,True
+"Kiki-Jiki, Mirror Breaker",normal,Legendary Creature — Goblin Shaman,,True
+"Kilo, Apogee Mind",normal,Legendary Artifact Creature — Robot Artificer,,True
+"Kimahri, Valiant Guardian",normal,Legendary Creature — Cat Warrior,,True
+Kindred Discovery,normal,Enchantment,,True
+Kindred Dominance,normal,Sorcery,,True
+Kindred Summons,normal,Instant,,True
+Kinjalli's Sunwing,normal,Creature — Dinosaur,,True
+"Kinnan, Bonder Prodigy",normal,Legendary Creature — Human Druid,,True
+"Kiora, the Crashing Wave",normal,Legendary Planeswalker — Kiora,,True
+Kitchen,normal,Land,,True
+"Klauth, Unrivaled Ancient",normal,Legendary Creature — Dragon,,True
+Knight of the Ebon Legion,normal,Creature — Vampire Knight,,True
+Kogla and Yidaro,normal,Legendary Creature — Ape Dinosaur Turtle,,True
+"Kogla, the Titan Ape",normal,Legendary Creature — Ape,,True
+Kolaghan's Command,normal,Instant,,True
+"Krang, the All-Powerful",normal,Legendary Artifact Creature — Utrom Robot,,True
+Krenko's Command,normal,Sorcery,,True
+"Krenko, Mob Boss",normal,Legendary Creature — Goblin Warrior,,True
+Krile Baldesion,normal,Legendary Creature — Dwarf Wizard,,True
+"Kroxa, Titan of Death's Hunger",normal,Legendary Creature — Elder Giant,,True
+"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",transform,Legendary Creature — Human Mutant Wizard,"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",False
+Kulrath Knight,normal,Creature — Elemental Knight,,True
+"Kwain, Itinerant Meddler",normal,Legendary Creature — Rabbit Wizard,,True
+Labyrinth of Skophos,normal,Land,,True
+"Laelia, the Blade Reforged",normal,Legendary Creature — Spirit Warrior,,True
+Lair of the Hydra,normal,Land,,True
+Lamentation,normal,Creature — Elemental Incarnation,,True
+Lasting Tarfire,normal,Enchantment,,True
+"Lathril, Blade of the Elves",normal,Legendary Creature — Elf Noble,,True
+Laughing Mad,normal,Instant,,True
+Lazotep Plating,normal,Instant,,True
+Leaf-Crowned Visionary,normal,Creature — Elf Druid,,True
+"Leatherhead, Iron Gator",normal,Legendary Creature — Crocodile Mutant Rogue,,True
+Ledger Shredder,normal,Creature — Bird Advisor,,True
+Legion Lieutenant,normal,Creature — Vampire Knight,,True
+Legion Loyalty,normal,Enchantment,,True
+Legions to Ashes,normal,Sorcery,,True
+"Leonardo, the Balance",normal,Legendary Creature — Mutant Ninja Turtle,,True
+Lessons from Life,normal,Sorcery,,True
+Let the Galaxy Burn,normal,Sorcery,,True
+Let's Play a Game,normal,Sorcery,,True
+Level Up,normal,Enchantment — Aura,,True
+Leyline Tyrant,normal,Creature — Dragon,,True
+"Liberator, Urza's Battlethopter",normal,Legendary Artifact Creature — Thopter,,True
+"Liesa, Forgotten Archangel",normal,Legendary Creature — Angel,,True
+"Liesa, Shroud of Dusk",normal,Legendary Creature — Angel,,True
+Lifestream's Blessing,normal,Instant,,True
+Lightning Strike,normal,Instant,,True
+"Liliana, Death Wielder",normal,Legendary Planeswalker — Liliana,,True
+Lim-Dûl's Vault,normal,Instant,,True
+Liquimetal Coating,normal,Artifact,,True
+"Lita, Little Orphan Amphibian",normal,Legendary Creature — Mutant Ninja Turtle,,True
+Littjara Mirrorlake,normal,Land,,True
+Llanowar Elves,normal,Creature — Elf Druid,,True
+Loamcrafter Faun,normal,Creature — Satyr Druid,,True
+"Locke, Treasure Hunter",normal,Legendary Creature — Human Rogue,,True
+Long River's Pull,normal,Instant,,True
+Long-Range Sensor,normal,Artifact,,True
+Lord Jyscal Guado,normal,Legendary Creature — Spirit Cleric,,True
+Lord of Extinction,normal,Creature — Elemental,,True
+Lord of the Forsaken,normal,Creature — Demon,,True
+Lord of the Nazgûl,normal,Legendary Creature — Wraith Noble,,True
+Lord of the Void,normal,Creature — Demon,,True
+Loyal Apprentice,normal,Creature — Human Artificer,,True
+"Lulu, Stern Guardian",normal,Legendary Creature — Human Wizard,,True
+Lumbering Falls,normal,Land,,True
+Luminarch Ascension,normal,Enchantment,,True
+Luminous Broodmoth,normal,Creature — Insect,,True
+Lux Artillery,normal,Artifact,,True
+Lux Cannon,normal,Artifact,,True
+Lyra Dawnbringer,normal,Legendary Creature — Angel,,True
+Lys Alana Huntmaster,normal,Creature — Elf Warrior,,True
+Lórien Revealed,normal,Sorcery,,True
+"MacCready, Lamplight Mayor",normal,Legendary Creature — Human Advisor,,True
+Maddening Cacophony,normal,Sorcery,,True
+Maelstrom of the Spirit Dragon,normal,Land,,True
+Maester Seymour,normal,Legendary Creature — Human Elf Cleric,,True
+Magic Damper,normal,Instant,,True
+Magister Sphinx,normal,Artifact Creature — Sphinx,,True
+"Magosi, the Waterveil",normal,Land,,True
+Magus of the Wheel,normal,Creature — Human Wizard,,True
+"Mai, Scornful Striker",normal,Legendary Creature — Human Noble Ally,,True
+Malakir Bloodwitch,normal,Creature — Vampire Shaman,,True
+Malboro,normal,Creature — Plant Horror,,True
+Malfegor,normal,Legendary Creature — Demon Dragon,,True
+Mana Geyser,normal,Sorcery,,True
+Managorger Hydra,normal,Creature — Hydra,,True
+"Mangara, the Diplomat",normal,Legendary Creature — Human Cleric,,True
+Manor Gate,normal,Land — Gate,,True
+Map the Frontier,normal,Sorcery,,True
+Marauding Raptor,normal,Creature — Dinosaur,,True
+March from the Black Gate,normal,Enchantment,,True
+Mardu Ascendancy,normal,Enchantment,,True
+Mardu Siegebreaker,normal,Creature — Human Warrior,,True
+Marionette Apprentice,normal,Creature — Human Artificer,,True
+Markov Baron,normal,Creature — Vampire Noble,,True
+"Marwyn, the Nurturer",normal,Legendary Creature — Elf Druid,,True
+Mask of Memory,normal,Artifact — Equipment,,True
+Mass of Mysteries,normal,Legendary Creature — Elemental,,True
+"Massacre Girl, Known Killer",normal,Legendary Creature — Human Assassin,,True
+Massacre Wurm,normal,Creature — Phyrexian Wurm,,True
+Massive Raid,normal,Instant,,True
+Master of Ceremonies,normal,Creature — Rhino Druid,,True
+Master of Cruelties,normal,Creature — Demon,,True
+Master of Dark Rites,normal,Creature — Vampire Cleric,,True
+Master of the Feast,normal,Enchantment Creature — Demon,,True
+Master's Rebuke,normal,Instant,,True
+"Mauhúr, Uruk-hai Captain",normal,Legendary Creature — Orc Soldier,,True
+"Mavren Fein, Dusk Apostle",normal,Legendary Creature — Vampire Cleric,,True
+Maze of Ith,normal,Land,,True
+Maze's End,normal,Land,,True
+Megrim,normal,Enchantment,,True
+Merchant of Venom,normal,Creature — Cat Warlock,,True
+Merciless Eviction,normal,Sorcery,,True
+Merciless Executioner,normal,Creature — Orc Warrior,,True
+Mercurial Spelldancer,normal,Creature — Phyrexian Rogue,,True
+Metastatic Evangel,normal,Creature — Phyrexian Human Cleric,,True
+Meteor Golem,normal,Artifact Creature — Golem,,True
+Metropolis Reformer,normal,Creature — Angel Cleric,,True
+"Michelangelo, the Heart",normal,Legendary Creature — Mutant Ninja Turtle,,True
+"Midgar, City of Mako // Reactor Raid",adventure,Land — Town,"Midgar, City of Mako // Reactor Raid",False
+Midnight Banshee,normal,Creature — Spirit,,True
+Midnight Clock,normal,Artifact,,True
+"Miirym, Sentinel Wyrm",normal,Legendary Creature — Dragon Spirit,,True
+"Minas Morgul, Dark Fortress",normal,Legendary Land,,True
+Minas Tirith,normal,Legendary Land,,True
+Mind Rake,normal,Sorcery,,True
+Mindblade Render,normal,Creature — Azra Warrior,,True
+Mindbreak Trap,normal,Instant — Trap,,True
+Mindless Automaton,normal,Artifact Creature — Construct,,True
+Mirelurk Queen,normal,Creature — Crab Mutant,,True
+Mirrex,normal,Land — Sphere,,True
+Miscalculation,normal,Instant,,True
+Mischievous Catgeist // Catlike Curiosity,transform,Creature — Cat Spirit,Mischievous Catgeist // Catlike Curiosity,False
+Misdirection,normal,Instant,,True
+Mishra's Bauble,normal,Artifact,,True
+Mishra's Factory,normal,Land,,True
+Mishra's Foundry,normal,Land,,True
+"Mishra, Claimed by Gix",meld,Legendary Creature — Phyrexian Human Artificer,,True
+Misleading Signpost,normal,Artifact,,True
+Mist-Cloaked Herald,normal,Creature — Merfolk Warrior,,True
+Mist-Syndicate Naga,normal,Creature — Snake Ninja,,True
+Mistblade Shinobi,normal,Creature — Human Ninja,,True
+Mistrise Village,normal,Land,,True
+Mistvault Bridge,normal,Artifact Land,,True
+Mizzium Mortars,normal,Sorcery,,True
+Mobilized District,normal,Land,,True
+Mocking Doppelganger,normal,Creature — Shapeshifter,,True
+"Mog, Moogle Warrior",normal,Legendary Creature — Moogle Warrior,,True
+Mogg War Marshal,normal,Creature — Goblin Warrior,,True
+Mole Module,normal,Artifact — Vehicle,,True
+Molten Psyche,normal,Sorcery,,True
+"Mona Lisa, Science Geek",normal,Legendary Creature — Lizard Mutant,,True
+Monster Manual // Zoological Study,adventure,Artifact — Book,Monster Manual // Zoological Study,False
+Monstrosity of the Lake,normal,Legendary Creature — Kraken,,True
+Monument to Endurance,normal,Artifact,,True
+Monumental Henge,normal,Land,,True
+Moon-Circuit Hacker,normal,Enchantment Creature — Human Ninja,,True
+Morcant's Loyalist,normal,Creature — Elf Warrior,,True
+Moria Scavenger,normal,Creature — Orc Rogue,,True
+"Morophon, the Boundless",normal,Legendary Creature — Shapeshifter,,True
+Mortality Spear,normal,Instant,,True
+Mothdust Changeling,normal,Creature — Shapeshifter,,True
+Mount Doom,normal,Legendary Land,,True
+Mox Jasper,normal,Legendary Artifact,,True
+Mox Opal,normal,Legendary Artifact,,True
+Moxite Refinery,normal,Artifact,,True
+Ms. Bumbleflower,normal,Legendary Creature — Rabbit Citizen,,True
+Muddle the Mixture,normal,Instant,,True
+Mulldrifter,normal,Creature — Elemental,,True
+Murderous Rider // Swift End,adventure,Creature — Zombie Knight,Murderous Rider // Swift End,False
+Mutagenic Growth,normal,Instant,,True
+Mutavault,normal,Land,,True
+"Muxus, Goblin Grandee",normal,Legendary Creature — Goblin Noble,,True
+Mycoloth,normal,Creature — Fungus,,True
+Mycosynth Lattice,normal,Artifact,,True
+Myr Battlesphere,normal,Artifact Creature — Myr Construct,,True
+"Myrel, Shield of Argive",normal,Legendary Creature — Human Soldier,,True
+Mysterious Stranger,normal,Creature — Human Rogue,,True
+Mystic Confluence,normal,Instant,,True
+Mystic Monastery,normal,Land,,True
+"Najeela, the Blade-Blossom",normal,Legendary Creature — Human Warrior,,True
+Narset Transcendent,normal,Legendary Planeswalker — Narset,,True
+"Nashi, Moon Sage's Scion",normal,Legendary Creature — Rat Ninja,,True
+Natural Reclamation,normal,Instant,,True
+Necrogoyf,normal,Creature — Lhurgoyf,,True
+Necromantic Selection,normal,Sorcery,,True
+Necron Deathmark,normal,Artifact Creature — Necron,,True
+Necropolis Fiend,normal,Creature — Demon,,True
+Necroskitter,normal,Creature — Elemental,,True
+"Neheb, Dreadhorde Champion",normal,Legendary Creature — Zombie Minotaur Warrior,,True
+"Nekusar, the Mindrazer",normal,Legendary Creature — Zombie Wizard,,True
+"Neriv, Crackling Vanguard",normal,Legendary Creature — Spirit Dragon,,True
+Nesting Dragon,normal,Creature — Dragon,,True
+Neutralize,normal,Instant,,True
+New Blood,normal,Sorcery,,True
+Nexus of Becoming,normal,Artifact,,True
+Nicol Bolas,normal,Legendary Creature — Elder Dragon,,True
+"Nicol Bolas, the Deceiver",normal,Legendary Planeswalker — Bolas,,True
+"Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",transform,Legendary Creature — Elder Dragon,"Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",False
+Nimble Obstructionist,normal,Creature — Bird Wizard,,True
+Nine-Lives Familiar,normal,Creature — Cat,,True
+Ninja Pizza,normal,Enchantment,,True
+Ninja of the Deep Hours,normal,Creature — Human Ninja,,True
+"Niv-Mizzet, Visionary",normal,Legendary Creature — Dragon Wizard,,True
+Noble Hierarch,normal,Creature — Human Druid,,True
+"Nogi, Draco-Zealot",normal,Legendary Creature — Kobold Shaman,,True
+Noise Marine,normal,Creature — Astartes Warrior,,True
+Norn's Decree,normal,Enchantment,,True
+Notorious Throng,normal,Kindred Sorcery — Rogue,,True
+Nowhere to Run,normal,Enchantment,,True
+Nuka-Nuke Launcher,normal,Artifact — Equipment,,True
+"Nymris, Oona's Trickster",normal,Legendary Creature — Faerie Knight,,True
+Nyx-Fleece Ram,normal,Enchantment Creature — Sheep,,True
+"O'aka, Traveling Merchant",normal,Legendary Creature — Human Citizen,,True
+Oakhame Adversary,normal,Creature — Elf Warrior,,True
+Oath of Ajani,normal,Legendary Enchantment,,True
+Oath of Gideon,normal,Legendary Enchantment,,True
+Oath of Nissa,normal,Legendary Enchantment,,True
+Oath of Teferi,normal,Legendary Enchantment,,True
+Ob Nixilis Reignited,normal,Legendary Planeswalker — Nixilis,,True
+"Ob Nixilis, the Hate-Twisted",normal,Legendary Planeswalker — Nixilis,,True
+"Obeka, Brute Chronologist",normal,Legendary Creature — Ogre Wizard,,True
+Observed Stasis,normal,Enchantment — Aura,,True
+"Obyra, Dreaming Duelist",normal,Legendary Creature — Faerie Warrior,,True
+"Odric, Lunarch Marshal",normal,Legendary Creature — Human Soldier,,True
+Oft-Nabbed Goat,normal,Creature — Goat,,True
+Ogre Battledriver,normal,Creature — Ogre Warrior,,True
+Ohran Frostfang,normal,Snow Creature — Snake,,True
+Ohran Viper,normal,Snow Creature — Snake,,True
+Oketra's Monument,normal,Legendary Artifact,,True
+"Oko, Thief of Crowns",normal,Legendary Planeswalker — Oko,,True
+Old Gnawbone,normal,Legendary Creature — Dragon,,True
+Olivia's Wrath,normal,Sorcery,,True
+Omen of the Sea,normal,Enchantment,,True
+Omenpath Journey,normal,Enchantment,,True
+Ominous Harvest,normal,Sorcery,,True
+"Omnath, Locus of the Roil",normal,Legendary Creature — Elemental,,True
+One Ring to Rule Them All,saga,Enchantment — Saga,,True
+Oona's Blackguard,normal,Creature — Faerie Rogue,,True
+Opal Palace,normal,Land,,True
+Opportunistic Dragon,normal,Creature — Dragon,,True
+Opposition Agent,normal,Creature — Human Rogue,,True
+Orcish Medicine,normal,Instant,,True
+Orcish Siegemaster,normal,Creature — Orc Soldier,,True
+Organic Extinction,normal,Sorcery,,True
+Origin of Metalbending,normal,Instant — Lesson,,True
+Orim's Chant,normal,Instant,,True
+Ornithopter,normal,Artifact Creature — Thopter,,True
+Orzhov Basilica,normal,Land,,True
+Oscorp Industries,normal,Land,,True
+Otepec Huntmaster,normal,Creature — Human Shaman,,True
+"Otharri, Suns' Glory",normal,Legendary Creature — Phoenix,,True
+Overgrown Battlement,normal,Creature — Wall,,True
+Overgrown Farmland,normal,Land,,True
+Oversold Cemetery,normal,Enchantment,,True
+Ox of Agonas,normal,Creature — Ox,,True
+Pact of Negation,normal,Instant,,True
+Pain Magnification,normal,Enchantment,,True
+Painful Truths,normal,Sorcery,,True
+Palace Jailer,normal,Creature — Human Soldier,,True
+"Pantlaza, Sun-Favored",normal,Legendary Creature — Dinosaur,,True
+Parapet Thrasher,normal,Creature — Dragon,,True
+Pashalik Mons,normal,Legendary Creature — Goblin Warrior,,True
+Patchwork Banner,normal,Artifact,,True
+Path of Discovery,normal,Enchantment,,True
+Path of the Animist,normal,Sorcery,,True
+Patrolling Peacemaker,normal,Artifact Creature — Robot Soldier,,True
+Patron of the Vein,normal,Creature — Vampire Shaman,,True
+Pearl Medallion,normal,Artifact,,True
+Peer into the Abyss,normal,Sorcery,,True
+Peerless Recycling,normal,Instant,,True
+Pendelhaven,normal,Legendary Land,,True
+Pentad Prism,normal,Artifact,,True
+Perch Protection,normal,Instant,,True
+Perplex,normal,Instant,,True
+Perplexing Test,normal,Instant,,True
+Persist,normal,Sorcery,,True
+Pest Rescuer,normal,Creature — Dryad Druid,,True
+"Phenax, God of Deception",normal,Legendary Enchantment Creature — God,,True
+Phoenix Down,normal,Artifact,,True
+Phyresis Outbreak,normal,Sorcery,,True
+Phyrexian Altar,normal,Artifact,,True
+Phyrexian Censor,normal,Creature — Phyrexian Wizard,,True
+Phyrexian Metamorph,normal,Artifact Creature — Phyrexian Shapeshifter,,True
+Phyrexian Tower,normal,Legendary Land,,True
+Phyrexian Tyranny,normal,Enchantment,,True
+Pinnacle Monk // Mystic Peak,modal_dfc,Creature — Djinn Monk,Pinnacle Monk // Mystic Peak,False
+Pit of Offerings,normal,Land — Cave,,True
+Pithing Needle,normal,Artifact,,True
+Plague Stinger,normal,Creature — Phyrexian Insect Horror,,True
+Plaguecrafter,normal,Creature — Human Shaman,,True
+Plateau,normal,Land — Mountain Plains,,True
+Plaza of Heroes,normal,Land,,True
+Poison-Tip Archer,normal,Creature — Elf Archer,,True
+Polluted Bonds,normal,Enchantment,,True
+Polluted Mire,normal,Land,,True
+Portable Hole,normal,Artifact,,True
+Portal to Phyrexia,normal,Artifact,,True
+Power Depot,normal,Artifact Land,,True
+Power Fist,normal,Artifact — Equipment,,True
+Priest of Fell Rites,normal,Creature — Human Warlock,,True
+Priest of Forgotten Gods,normal,Creature — Human Cleric,,True
+Priest of Titania,normal,Creature — Elf Druid,,True
+Primal Beyond,normal,Land,,True
+Primeval Bounty,normal,Enchantment,,True
+Primeval Herald,normal,Creature — Elf Scout,,True
+Prismatic Vista,normal,Land,,True
+Prologue to Phyresis,normal,Instant,,True
+Prosperity,normal,Sorcery,,True
+Protection Magic,normal,Instant,,True
+Protector of the Wastes,normal,Creature — Dragon,,True
+Prowess of the Fair,normal,Kindred Enchantment — Elf,,True
+Psychic Strike,normal,Instant,,True
+Puca's Covenant,normal,Enchantment,,True
+Puppeteer Clique,normal,Creature — Faerie Wizard,,True
+"Purphoros, God of the Forge",normal,Legendary Enchantment Creature — God,,True
+Pyretic Ritual,normal,Instant,,True
+Pyroblast,normal,Instant,,True
+Pyrokinesis,normal,Instant,,True
+Qarsi Revenant,normal,Creature — Vampire,,True
+Quartzwood Crasher,normal,Creature — Dinosaur Beast,,True
+Queen Marchesa,normal,Legendary Creature — Human Assassin,,True
+Quest for the Goblin Lord,normal,Enchantment,,True
+Quick Study,normal,Instant,,True
+Quicksilver Elemental,normal,Creature — Elemental,,True
+Radagast the Brown,normal,Legendary Creature — Avatar Wizard,,True
+"Radha, Heir to Keld",normal,Legendary Creature — Elf Warrior,,True
+Radiant Summit,normal,Land — Mountain Plains,,True
+Radstorm,normal,Instant,,True
+"Raff Capashen, Ship's Mage",normal,Legendary Creature — Human Wizard,,True
+"Ragavan, Nimble Pilferer",normal,Legendary Creature — Monkey Pirate,,True
+Raging Ravine,normal,Land,,True
+Raid Bombardment,normal,Enchantment,,True
+"Rakdos, Patron of Chaos",normal,Legendary Creature — Demon,,True
+Ral Zarek,normal,Legendary Planeswalker — Ral,,True
+Ram Through,normal,Instant,,True
+"Ramos, Dragon Engine",normal,Legendary Artifact Creature — Dragon,,True
+Rampaging Brontodon,normal,Creature — Dinosaur,,True
+Rampaging Yao Guai,normal,Creature — Bear Mutant,,True
+Rampant Rejuvenator,normal,Creature — Plant Hydra,,True
+Rampart Architect,normal,Creature — Elephant Advisor,,True
+Ramunap Excavator,normal,Creature — Snake Cleric,,True
+Ranger of Eos,normal,Creature — Human Soldier Ranger,,True
+Ranger's Path,normal,Sorcery,,True
+"Rankle, Master of Pranks",normal,Legendary Creature — Faerie Rogue,,True
+Rapacious Dragon,normal,Creature — Dragon,,True
+"Raphael, the Muscle",normal,Legendary Creature — Mutant Ninja Turtle,,True
+Rapid Hybridization,normal,Instant,,True
+"Rat King, Pale Piper",normal,Legendary Creature — Rat Avatar,,True
+Ratadrabik of Urborg,normal,Legendary Creature — Zombie Wizard,,True
+"Ray Fillet, Wave Warrior",normal,Legendary Creature — Fish Mutant,,True
+"Razaketh, the Foulblooded",normal,Legendary Creature — Demon,,True
+Razorkin Needlehead,normal,Creature — Human Assassin,,True
+Razorverge Thicket,normal,Land,,True
+Reaper's Scythe,normal,Artifact — Equipment,,True
+Rebuff the Wicked,normal,Instant,,True
+Reclamation Sage,normal,Creature — Elf Shaman,,True
+Reconnaissance,normal,Enchantment,,True
+Reconnaissance Mission,normal,Enchantment,,True
+Recruiter of the Guard,normal,Creature — Human Soldier,,True
+Red Elemental Blast,normal,Instant,,True
+Redoubled Stormsinger,normal,Creature — Orc Wizard,,True
+Reflections of Littjara,normal,Enchantment,,True
+Reforge the Soul,normal,Sorcery,,True
+Refurbished Familiar,normal,Artifact Creature — Zombie Rat,,True
+Regal Behemoth,normal,Creature — Dinosaur,,True
+Regisaur Alpha,normal,Creature — Dinosaur,,True
+"Reidane, God of the Worthy // Valkmira, Protector's Shield",modal_dfc,Legendary Creature — God,"Reidane, God of the Worthy // Valkmira, Protector's Shield",False
+Rejoin the Fight,normal,Sorcery,,True
+"Reki, the History of Kamigawa",normal,Legendary Creature — Human Shaman,,True
+Release the Dogs,normal,Sorcery,,True
+Relic of Sauron,normal,Artifact,,True
+Reprieve,normal,Instant,,True
+Resplendent Angel,normal,Creature — Angel,,True
+Rest in Peace,normal,Enchantment,,True
+Restless Vents,normal,Land,,True
+Restless Vinestalk,normal,Land,,True
+Reunion of the House,normal,Sorcery,,True
+Reverberate,normal,Instant,,True
+Reya Dawnbringer,normal,Legendary Creature — Angel,,True
+Rhox Faithmender,normal,Creature — Rhino Monk,,True
+Ribtruss Roaster,normal,Creature — Troll Druid,,True
+Righteous Valkyrie,normal,Creature — Angel Cleric,,True
+"Rikku, Resourceful Guardian",normal,Legendary Creature — Human Artificer,,True
+Ringsight,normal,Sorcery,,True
+Riot Control,normal,Instant,,True
+Ripjaw Raptor,normal,Creature — Dinosaur,,True
+Riptide Gearhulk,normal,Artifact Creature — Construct,,True
+Risen Reef,normal,Creature — Elemental,,True
+Rishkar's Expertise,normal,Sorcery,,True
+"Rishkar, Peema Renegade",normal,Legendary Creature — Elf Druid,,True
+Risky Shortcut,normal,Sorcery,,True
+Rite of Flame,normal,Sorcery,,True
+Rite of Replication,normal,Sorcery,,True
+Rites of Flourishing,normal,Enchantment,,True
+"Rith, Liberated Primeval",normal,Legendary Creature — Dragon,,True
+Rivaz of the Claw,normal,Legendary Creature — Lizard Warlock,,True
+River of Tears,normal,Land,,True
+"Rix Maadi, Dungeon Palace",normal,Land,,True
+Roadkill Rodney,normal,Artifact Creature — Robot,,True
+Roaming Throne,normal,Artifact Creature — Golem,,True
+Roar of Challenge,normal,Sorcery,,True
+Rockalanche,normal,Sorcery — Lesson,,True
+"Rocksteady, Mutant Marauder",normal,Legendary Creature — Rhino Mutant,,True
+Rocky Tar Pit,normal,Land,,True
+Rowan's Grim Search,normal,Instant,,True
+Rowdy Research,normal,Instant,,True
+Ruby Medallion,normal,Artifact,,True
+Ruin Grinder,normal,Artifact Creature — Construct,,True
+Rule of Law,normal,Enchantment,,True
+Rumble Arena,normal,Land,,True
+Rundvelt Hordemaster,normal,Creature — Goblin Warrior,,True
+Rune-Scarred Demon,normal,Creature — Demon,,True
+Runic Armasaur,normal,Creature — Dinosaur,,True
+Rustvale Bridge,normal,Artifact Land,,True
+Ruthless Winnower,normal,Creature — Elf Rogue,,True
+SOLDIER Military Program,normal,Enchantment,,True
+"Sabin, Master Monk",normal,Legendary Creature — Human Noble Monk,,True
+Sage's Nouliths,normal,Artifact — Equipment,,True
+Sakashima's Student,normal,Creature — Human Ninja,,True
+Sanctum Seeker,normal,Creature — Vampire Knight,,True
+Sangromancer,normal,Creature — Vampire Shaman,,True
+Sanguine Bond,normal,Enchantment,,True
+Sarkhan Unbroken,normal,Legendary Planeswalker — Sarkhan,,True
+Sarkhan the Masterless,normal,Legendary Planeswalker — Sarkhan,,True
+Sarkhan's Triumph,normal,Instant,,True
+Saruman's Trickery,normal,Instant,,True
+"Saruman, the White Hand",normal,Legendary Creature — Avatar Wizard,,True
+"Satoru, the Infiltrator",normal,Legendary Creature — Human Ninja Rogue,,True
+Sauron's Ransom,normal,Instant,,True
+"Sauron, Lord of the Rings",normal,Legendary Creature — Avatar Horror,,True
+"Sauron, the Dark Lord",normal,Legendary Creature — Avatar Horror,,True
+"Sauron, the Necromancer",normal,Legendary Creature — Avatar Horror,,True
+Savage Order,normal,Sorcery,,True
+Savage Ventmaw,normal,Creature — Dragon,,True
+Savannah,normal,Land — Forest Plains,,True
+Saw in Half,normal,Instant,,True
+Scapeshift,normal,Sorcery,,True
+Scarring Memories,normal,Sorcery — Lesson,,True
+Scene of the Crime,normal,Artifact Land — Clue,,True
+Scholar of New Horizons,normal,Creature — Human Scout,,True
+Scion of Calamity,normal,Creature — Dinosaur,,True
+Scion of Draco,normal,Artifact Creature — Dragon,,True
+Scion of Oona,normal,Creature — Faerie Soldier,,True
+Scion of the Ur-Dragon,normal,Legendary Creature — Dragon Avatar,,True
+Scourge of Valkas,normal,Creature — Dragon,,True
+Scourge of the Throne,normal,Creature — Dragon,,True
+Scrapyard Recombiner,normal,Artifact Creature — Construct,,True
+Scrawling Crawler,normal,Artifact Creature — Phyrexian Construct,,True
+Screamer-Killer,normal,Creature — Tyranid,,True
+Scroll Rack,normal,Artifact,,True
+Scrubland,normal,Land — Plains Swamp,,True
+Sea Gate,normal,Land — Gate,,True
+"Sea Gate Restoration // Sea Gate, Reborn",modal_dfc,Sorcery,"Sea Gate Restoration // Sea Gate, Reborn",False
+Sea Gate Wreckage,normal,Land,,True
+Seachrome Coast,normal,Land,,True
+Season of Growth,normal,Enchantment,,True
+Season of the Bold,normal,Sorcery,,True
+Secret Tunnel,normal,Land — Cave,,True
+Seething Landscape,normal,Land,,True
+Segovian Angel,normal,Creature — Angel,,True
+Seismic Sense,normal,Sorcery — Lesson,,True
+"Seizan, Perverter of Truth",normal,Legendary Creature — Demon Spirit,,True
+Selesnya Signet,normal,Artifact,,True
+"Selvala, Heart of the Wilds",normal,Legendary Creature — Elf Scout,,True
+"Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",transform,Legendary Creature — Human Avatar Soldier,"Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",False
+Sepulchral Primordial,normal,Creature — Avatar,,True
+Serah Farron // Crystallized Serah,transform,Legendary Creature — Human Citizen,Serah Farron // Crystallized Serah,False
+Seraph Sanctuary,normal,Land,,True
+Serra the Benevolent,normal,Legendary Planeswalker — Serra,,True
+Serum Visions,normal,Sorcery,,True
+"Setzer, Wandering Gambler",normal,Legendary Creature — Human Rogue Pilot,,True
+Sevinne's Reclamation,normal,Sorcery,,True
+Shadow Rift,normal,Instant,,True
+Shadow Summoning,normal,Sorcery,,True
+Shadow of Mortality,normal,Creature — Avatar,,True
+"Shadow, Mysterious Assassin",normal,Legendary Creature — Human Assassin,,True
+Shadowy Backstreet,normal,Land — Plains Swamp,,True
+Shadrix Silverquill,normal,Legendary Creature — Elder Dragon,,True
+Shaman of the Pack,normal,Creature — Elf Shaman,,True
+Shamanic Revelation,normal,Sorcery,,True
+"Shanid, Sleepers' Scourge",normal,Legendary Creature — Human Knight,,True
+Sharuum the Hegemon,normal,Legendary Artifact Creature — Sphinx,,True
+Shatter the Sky,normal,Sorcery,,True
+Shattered Landscape,normal,Land,,True
+Shefet Monitor,normal,Creature — Lizard,,True
+"Shelinda, Yevon Acolyte",normal,Legendary Creature — Human Cleric,,True
+Shellshock,normal,Instant,,True
+Sheoldred's Edict,normal,Instant,,True
+Shimmercreep,normal,Creature — Elemental,,True
+"Shizo, Death's Storehouse",normal,Legendary Land,,True
+Shore Up,normal,Instant,,True
+"Shorikai, Genesis Engine",normal,Legendary Artifact — Vehicle,,True
+"Shredder, Shadow Master",normal,Legendary Creature — Human Ninja,,True
+Shriekmaw,normal,Creature — Elemental,,True
+Sidar Kondo of Jamuraa,normal,Legendary Creature — Human Knight,,True
+"Sidisi, Brood Tyrant",normal,Legendary Creature — Snake Shaman,,True
+"Siegfried, Famed Swordsman",normal,Legendary Creature — Human Warrior Rogue,,True
+Sigarda's Aid,normal,Enchantment,,True
+Sigil of Sleep,normal,Enchantment — Aura,,True
+Sign in Blood,normal,Sorcery,,True
+Silence,normal,Instant,,True
+Silent-Blade Oni,normal,Creature — Demon Ninja,,True
+"Silumgar, the Drifting Death",normal,Legendary Creature — Dragon,,True
+Silundi Vision // Silundi Isle,modal_dfc,Instant,Silundi Vision // Silundi Isle,False
+Silver-Fur Master,normal,Creature — Rat Ninja,,True
+Silverbluff Bridge,normal,Artifact Land,,True
+Simic Ascendancy,normal,Enchantment,,True
+Simic Charm,normal,Instant,,True
+Simic Growth Chamber,normal,Land,,True
+"Sin, Unending Cataclysm",normal,Legendary Creature — Leviathan Avatar,,True
+Sinister Gnarlbark,normal,Creature — Treefolk Warlock,,True
+Siphon Insight,normal,Instant,,True
+"Sisay, Weatherlight Captain",normal,Legendary Creature — Human Soldier,,True
+Six,normal,Legendary Creature — Treefolk,,True
+Skarrgan Hellkite,normal,Creature — Dragon,,True
+Skemfar Shadowsage,normal,Creature — Elf Cleric,,True
+Skinrender,normal,Creature — Phyrexian Zombie,,True
+Skirk Prospector,normal,Creature — Goblin,,True
+"Skithiryx, the Blight Dragon",normal,Legendary Creature — Phyrexian Dragon Skeleton,,True
+Skull Rend,normal,Sorcery,,True
+Skullsnatcher,normal,Creature — Rat Ninja,,True
+Skyclave Apparition,normal,Creature — Kor Spirit,,True
+Skyhunter Strike Force,normal,Creature — Cat Knight,,True
+Skyknight Vanguard,normal,Creature — Human Knight,,True
+Slaughter the Strong,normal,Sorcery,,True
+Slippery Karst,normal,Land,,True
+Slither Blade,normal,Creature — Snake Rogue,,True
+Slithermuse,normal,Creature — Elemental,,True
+Smoke Shroud,normal,Enchantment — Aura,,True
+Smokebraider,normal,Creature — Elemental Shaman,,True
+Smothering Abomination,normal,Creature — Eldrazi,,True
+Snake Umbra,normal,Enchantment — Aura,,True
+Snakeskin Veil,normal,Instant,,True
+Snort,normal,Sorcery,,True
+Solar Array,normal,Artifact,,True
+Solitude,normal,Creature — Elemental Incarnation,,True
+"Solphim, Mayhem Dominus",normal,Legendary Creature — Phyrexian Horror,,True
+Soothing of Sméagol,normal,Instant,,True
+"Sorin, Imperious Bloodlord",normal,Legendary Planeswalker — Sorin,,True
+Soul Partition,normal,Instant,,True
+Soul Snuffers,normal,Creature — Elemental Shaman,,True
+Soul of the Harvest,normal,Creature — Elemental,,True
+Soul-Guide Lantern,normal,Artifact,,True
+Soulfire Eruption,normal,Sorcery,,True
+Soulless Jailer,normal,Artifact Creature — Phyrexian Golem,,True
+Soulstone Sanctuary,normal,Land,,True
+Special Move,normal,Instant,,True
+Spectacular Pileup,normal,Sorcery,,True
+Spectral Sailor,normal,Creature — Spirit Pirate,,True
+Spell Pierce,normal,Instant,,True
+Spellstutter Sprite,normal,Creature — Faerie Wizard,,True
+Spelunking,normal,Enchantment,,True
+Sphere Grid,normal,Enchantment,,True
+Sphinx Summoner,normal,Artifact Creature — Sphinx,,True
+Sphinx of Forgotten Lore,normal,Creature — Sphinx,,True
+Spinerock Knoll,normal,Land,,True
+Spire Garden,normal,Land,,True
+Spit Flame,normal,Instant,,True
+Spiteful Visions,normal,Enchantment,,True
+"Splinter, the Mentor",normal,Legendary Creature — Mutant Ninja Rat,,True
+Spoils of the Vault,normal,Instant,,True
+Springleaf Parade,normal,Enchantment,,True
+Sprouting Goblin,normal,Creature — Goblin Druid,,True
+Spymaster's Vault,normal,Land,,True
+"Sram, Senior Edificer",normal,Legendary Creature — Dwarf Advisor,,True
+Staff of Compleation,normal,Artifact,,True
+Stalking Stones,normal,Land,,True
+Starfield Shepherd,normal,Creature — Angel,,True
+Starnheim Aspirant,normal,Creature — Human Cleric,,True
+Steel Overseer,normal,Artifact Creature — Construct,,True
+Steelbane Hydra,normal,Creature — Turtle Hydra,,True
+Steelshaper's Gift,normal,Sorcery,,True
+Stensian Sanguinist // Exsanguinate,prepare,Creature — Vampire Cleric,Stensian Sanguinist // Exsanguinate,False
+Step Through,normal,Sorcery,,True
+Stern Lesson,normal,Instant,,True
+Sticky Fingers,normal,Enchantment — Aura,,True
+Stitch Together,normal,Sorcery,,True
+Stoneforge Mystic,normal,Creature — Kor Artificer,,True
+Storm's Wrath,normal,Sorcery,,True
+Stormbreath Dragon,normal,Creature — Dragon,,True
+Stormcatch Mentor,normal,Creature — Otter Wizard,,True
+Stormchaser Drake,normal,Creature — Drake,,True
+Stormfist Crusader,normal,Creature — Human Knight,,True
+Stormshriek Feral // Flush Out,adventure,Creature — Dragon,Stormshriek Feral // Flush Out,False
+Strago and Relm,normal,Legendary Creature — Human Wizard,,True
+Street Wraith,normal,Creature — Wraith,,True
+Strike It Rich,normal,Sorcery,,True
+Stromkirk Captain,normal,Creature — Vampire Soldier,,True
+Stromkirk Occultist,normal,Creature — Vampire Horror,,True
+Stronghold Rats,normal,Creature — Rat,,True
+Struggle for Project Purity,normal,Enchantment,,True
+Study Hall,normal,Land,,True
+Sublime Epiphany,normal,Instant,,True
+Subterfuge,normal,Creature — Elemental Incarnation,,True
+Summon: Esper Valigarmanda,saga,Enchantment Creature — Saga Drake,,True
+Summon: Good King Mog XII,saga,Enchantment Creature — Saga Moogle,,True
+Summon: Ixion,saga,Enchantment Creature — Saga Unicorn,,True
+Summon: Kujata,saga,Enchantment Creature — Saga Ox,,True
+Summon: Magus Sisters,saga,Enchantment Creature — Saga Faerie,,True
+Summon: Valefor,saga,Enchantment Creature — Saga Drake,,True
+Summon: Yojimbo,saga,Enchantment Creature — Saga Samurai,,True
+Summoner's Sending,normal,Enchantment,,True
+Summons of Saruman,normal,Sorcery,,True
+Sunbird's Invocation,normal,Enchantment,,True
+Sunder Shaman,normal,Creature — Giant Shaman,,True
+Sundown Pass,normal,Land,,True
+Sunfrill Imitator,normal,Creature — Dinosaur,,True
+Super Combo,normal,Sorcery,,True
+Supreme Verdict,normal,Sorcery,,True
+Surge Conductor,normal,Artifact Creature — Robot,,True
+Surge of Salvation,normal,Instant,,True
+Surrak Dragonclaw,normal,Legendary Creature — Human Warrior,,True
+Surrakar Spellblade,normal,Creature — Surrakar,,True
+Suture Priest,normal,Creature — Phyrexian Cleric,,True
+Sweet-Gum Recluse,normal,Creature — Spider,,True
+Swift Demise,normal,Instant,,True
+Sylvan Caryatid,normal,Creature — Plant,,True
+Taiga,normal,Land — Mountain Forest,,True
+Tainted Observer,normal,Creature — Phyrexian Bird,,True
+Tainted Pact,normal,Instant,,True
+Tainted Peak,normal,Land,,True
+Talisman of Curiosity,normal,Artifact,,True
+Talisman of Impulse,normal,Artifact,,True
+Talisman of Resilience,normal,Artifact,,True
+"Tameshi, Reality Architect",normal,Legendary Creature — Moonfolk Wizard,,True
+Tamiyo's Safekeeping,normal,Instant,,True
+"Tamiyo, Collector of Tales",normal,Legendary Planeswalker — Tamiyo,,True
+"Tamiyo, the Moon Sage",normal,Legendary Planeswalker — Tamiyo,,True
+Tandem Lookout,normal,Creature — Human Scout,,True
+Tangled Islet,normal,Land — Forest Island,,True
+Tanglepool Bridge,normal,Artifact Land,,True
+Tarmogoyf,normal,Creature — Lhurgoyf,,True
+Tasigur's Cruelty,normal,Sorcery,,True
+"Tasigur, the Golden Fang",normal,Legendary Creature — Human Shaman,,True
+"Tatyova, Benthic Druid",normal,Legendary Creature — Merfolk Druid,,True
+Taurean Mauler,normal,Creature — Shapeshifter,,True
+Teacher's Pest,normal,Creature — Skeleton Pest,,True
+Tectonic Giant,normal,Creature — Elemental Giant,,True
+Teferi's Puzzle Box,normal,Artifact,,True
+"Teferi, Hero of Dominaria",normal,Legendary Planeswalker — Teferi,,True
+"Teferi, Master of Time",normal,Legendary Planeswalker — Teferi,,True
+"Teferi, Temporal Archmage",normal,Legendary Planeswalker — Teferi,,True
+"Tegwyll, Duke of Splendor",normal,Legendary Creature — Faerie Noble,,True
+"Tempestra, Dame of Games",normal,Legendary Creature — Elemental Illusion,,True
+Temple Altisaur,normal,Creature — Dinosaur,,True
+Temple of Malice,normal,Land,,True
+Temple of the Dragon Queen,normal,Land,,True
+Temporal Mastery,normal,Sorcery,,True
+Temporal Trespass,normal,Sorcery,,True
+Tempt with Bunnies,normal,Sorcery,,True
+Tempt with Vengeance,normal,Sorcery,,True
+Temur Battle Rage,normal,Instant,,True
+Temur Charm,normal,Instant,,True
+Tendershoot Dryad,normal,Creature — Dryad,,True
+Tenuous Truce,normal,Enchantment — Aura,,True
+Terisiare's Devastation,normal,Sorcery,,True
+Terra Eternal,normal,Enchantment,,True
+"Terra, Herald of Hope",normal,Legendary Creature — Human Wizard Warrior,,True
+Terrain Generator,normal,Land,,True
+Terrasymbiosis,normal,Enchantment,,True
+Territorial Hellkite,normal,Creature — Dragon,,True
+Tersa Lightshatter,normal,Legendary Creature — Orc Wizard,,True
+"Tetsuko Umezawa, Fugitive",normal,Legendary Creature — Human Rogue,,True
+"Tezzeret, Cruel Captain",normal,Legendary Planeswalker — Tezzeret,,True
+"Thalia, Guardian of Thraben",normal,Legendary Creature — Human Soldier,,True
+"Thalia, Heretic Cathar",normal,Legendary Creature — Human Soldier,,True
+"Thalisse, Reverent Medium",normal,Legendary Creature — Human Cleric,,True
+Thancred Waters,normal,Legendary Creature — Human Warrior,,True
+The Balrog of Moria,normal,Legendary Creature — Avatar Demon,,True
+The Black Gate,normal,Legendary Land — Gate,,True
+The Blue Spirit,normal,Legendary Creature — Human Rogue Ally,,True
+The Book of Exalted Deeds,normal,Legendary Artifact — Book,,True
+"The Boulder, Ready to Rumble",normal,Legendary Creature — Human Warrior Performer,,True
+The Earth Crystal,normal,Legendary Artifact,,True
+The Eldest Reborn,saga,Enchantment — Saga,,True
+"The Falcon, Airship Restored",normal,Legendary Artifact — Vehicle,,True
+The Fire Nation Drill,normal,Legendary Artifact — Vehicle,,True
+The Great Goblin,normal,Legendary Creature — Goblin Noble,,True
+The Great Henge,normal,Legendary Artifact,,True
+The Legend of Kyoshi // Avatar Kyoshi,transform,Enchantment — Saga,The Legend of Kyoshi // Avatar Kyoshi,False
+The Masamune,normal,Legendary Artifact — Equipment,,True
+The Meathook Massacre,normal,Legendary Enchantment,,True
+The Mind Stone,normal,Legendary Artifact — Infinity Stone,,True
+The Mouth of Sauron,normal,Legendary Creature — Human Advisor,,True
+The Ozolith,normal,Legendary Artifact,,True
+"The Reaper, King No More",normal,Legendary Artifact Creature — Scarecrow,,True
+The Reaver Cleaver,normal,Legendary Artifact — Equipment,,True
+The Rise of Sozin // Fire Lord Sozin,transform,Enchantment — Saga,The Rise of Sozin // Fire Lord Sozin,False
+The Scarab God,normal,Legendary Creature — God,,True
+The Scorpion God,normal,Legendary Creature — God,,True
+The Seedcore,normal,Land — Sphere,,True
+The Skullspore Nexus,normal,Legendary Artifact,,True
+The Stasis Coffin,normal,Legendary Artifact,,True
+"The Theorist, Jace Beleren",normal,Legendary Planeswalker — Jace,,True
+The Ur-Dragon,normal,Legendary Creature — Dragon Avatar,,True
+The Warring Triad,normal,Legendary Artifact Creature — God,,True
+The Water Crystal,normal,Legendary Artifact,,True
+Thespian's Stage,normal,Land,,True
+Thirst for Discovery,normal,Instant,,True
+Thorn Mammoth,normal,Creature — Elephant,,True
+Thought Scour,normal,Instant,,True
+Thousand-Faced Shadow,normal,Creature — Human Ninja,,True
+Thousand-Year Elixir,normal,Artifact,,True
+Thraben Watcher,normal,Creature — Angel,,True
+Thran Portal,normal,Land — Gate,,True
+Thrash // Threat,split,Instant,Thrash // Threat,False
+Thrashing Brontodon,normal,Creature — Dinosaur,,True
+Three Tree City,normal,Legendary Land,,True
+Threefold Thunderhulk,normal,Artifact Creature — Gnome,,True
+Thriving Bluff,normal,Land,,True
+Thriving Heath,normal,Land,,True
+Throat Slitter,normal,Creature — Rat Ninja,,True
+Thunderbreak Regent,normal,Creature — Dragon,,True
+Thunderfoot Baloth,normal,Creature — Beast,,True
+Thunderherd Migration,normal,Sorcery,,True
+Thundering Falls,normal,Land — Island Mountain,,True
+Thundermane Dragon,normal,Creature — Dragon,,True
+Tiamat,normal,Legendary Creature — Dragon God,,True
+"Tidus, Yuna's Guardian",normal,Legendary Creature — Human Warrior,,True
+Timberwatch Elf,normal,Creature — Elf,,True
+Timeless Dragon,normal,Creature — Dragon,,True
+Tip the Scales,normal,Sorcery,,True
+Titan Forge,normal,Artifact,,True
+Titan's Grave,normal,Land,,True
+Titan's Strength,normal,Instant,,True
+Titanic Growth,normal,Instant,,True
+Tocasia's Welcome,normal,Enchantment,,True
+"Tokka & Rahzar, Unsupervised",normal,Legendary Creature — Turtle Wolf Mutant,,True
+Tolaria West,normal,Land,,True
+Tome of Legends,normal,Artifact — Book,,True
+"Toph, Earthbending Master",normal,Legendary Creature — Human Warrior Ally,,True
+"Toph, Greatest Earthbender",normal,Legendary Creature — Human Warrior Ally,,True
+"Toph, Hardheaded Teacher",normal,Legendary Creature — Human Warrior Ally,,True
+"Toph, the Blind Bandit",normal,Legendary Creature — Human Warrior Ally,,True
+"Toph, the First Metalbender",normal,Legendary Creature — Human Warrior Ally,,True
+Topiary Stomper,normal,Creature — Plant Dinosaur,,True
+Torment of Hailfire,normal,Sorcery,,True
+Tormented Soul,normal,Creature — Spirit,,True
+Tortured Existence,normal,Enchantment,,True
+"Toski, Bearer of Secrets",normal,Legendary Creature — Squirrel,,True
+Tower Defense,normal,Instant,,True
+Towering Titan,normal,Creature — Giant,,True
+Tragic Arrogance,normal,Sorcery,,True
+Training Grounds,normal,Enchantment,,True
+Tranquil Thicket,normal,Land,,True
+Transit Mage,normal,Creature — Human Wizard,,True
+Treason of Isengard,normal,Sorcery,,True
+Treasure Mage,normal,Creature — Human Wizard,,True
+Treasure Vault,normal,Artifact Land,,True
+Tree of Perdition,normal,Creature — Plant,,True
+Tree of Redemption,normal,Creature — Plant,,True
+Tree of Tales,normal,Artifact Land,,True
+Treetop Village,normal,Land,,True
+Tribute Mage,normal,Creature — Human Wizard,,True
+Trinket Mage,normal,Creature — Human Wizard,,True
+Triskaidekaphile,normal,Creature — Human Wizard,,True
+Triskelion,normal,Artifact Creature — Construct,,True
+Triton Shorestalker,normal,Creature — Merfolk Rogue,,True
+Troll of Khazad-dûm,normal,Creature — Troll,,True
+"Tromell, Seymour's Butler",normal,Legendary Creature — Elf Advisor,,True
+Tropical Island,normal,Land — Forest Island,,True
+Trudge Garden,normal,Enchantment,,True
+Trygon Predator,normal,Creature — Beast,,True
+Tundra,normal,Land — Plains Island,,True
+Turbulent Fen,normal,Land — Swamp Forest,,True
+Turtle Lair,normal,Land,,True
+Twenty-Toed Toad,normal,Creature — Frog Wizard,,True
+Twilight Drover,normal,Creature — Spirit,,True
+Twilight Prophet,normal,Creature — Vampire Cleric,,True
+Twinning Staff,normal,Artifact,,True
+Tyrant of Discord,normal,Creature — Elemental,,True
+Tyrant's Familiar,normal,Creature — Dragon,,True
+Tyvar Kell,normal,Legendary Planeswalker — Tyvar,,True
+Tyvar's Stand,normal,Instant,,True
+"Tyvar, Jubilant Brawler",normal,Legendary Planeswalker — Tyvar,,True
+"Ugin, the Spirit Dragon",normal,Legendary Planeswalker — Ugin,,True
+Ultimate Magic: Meteor,normal,Sorcery,,True
+"Umaro, Raging Yeti",normal,Legendary Creature — Yeti Berserker,,True
+Umbral Collar Zealot,normal,Creature — Human Cleric,,True
+Undercity Sewers,normal,Land — Island Swamp,,True
+Underground Mortuary,normal,Land — Swamp Forest,,True
+Underworld Dreams,normal,Enchantment,,True
+Unearth,normal,Sorcery,,True
+Universal Surveillance,normal,Sorcery,,True
+Unleash Fury,normal,Instant,,True
+Unlicensed Hearse,normal,Artifact — Vehicle,,True
+Unnatural Restoration,normal,Sorcery,,True
+Unnerve,normal,Sorcery,,True
+Unwind,normal,Instant,,True
+Urborg Scavengers,normal,Creature — Spirit,,True
+Urianger Augurelt,normal,Legendary Creature — Elf Advisor,,True
+Urza's Cave,normal,Land — Urza's Cave,,True
+Urza's Saga,saga,Enchantment Land — Urza's Saga,,True
+Uthros Research Craft,normal,Artifact — Spacecraft,,True
+Utvara Hellkite,normal,Creature — Dragon,,True
+"Uurg, Spawn of Turg",normal,Legendary Creature — Frog Beast,,True
+Valakut Exploration,normal,Enchantment,,True
+"Valgavoth, Terror Eater",normal,Legendary Creature — Elder Demon,,True
+Valkyrie Harbinger,normal,Creature — Angel Cleric,,True
+Valley Floodcaller,normal,Creature — Otter Wizard,,True
+Vampire Nighthawk,normal,Creature — Vampire Shaman,,True
+Vampire Socialite,normal,Creature — Vampire Noble,,True
+Vampire of the Dire Moon,normal,Creature — Vampire,,True
+Vastwood Surge,normal,Sorcery,,True
+Vat Emergence,normal,Sorcery,,True
+Vault 87: Forced Evolution,saga,Enchantment — Saga,,True
+Vault of Whispers,normal,Artifact Land,,True
+Vedalken Aethermage,normal,Creature — Vedalken Wizard,,True
+Vedalken Heretic,normal,Creature — Vedalken Rogue,,True
+"Vega, the Watcher",normal,Legendary Creature — Bird Spirit,,True
+Veinwitch Coven,normal,Creature — Vampire Warlock,,True
+"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",transform,Legendary Creature — Elder Wizard,"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",False
+Venerated Rotpriest,normal,Creature — Phyrexian Druid,,True
+Vengeful Ancestor,normal,Creature — Spirit Dragon,,True
+Vengeful Bloodwitch,normal,Creature — Vampire Warlock,,True
+Verdant Sun's Avatar,normal,Creature — Dinosaur Avatar,,True
+Verix Bladewing,normal,Legendary Creature — Dragon,,True
+Vernal Sovereign,normal,Creature — Elemental Elk,,True
+Vesuva,normal,Land,,True
+Vexing Bauble,normal,Artifact,,True
+Vibrant Cityscape,normal,Land,,True
+Vigor,normal,Creature — Elemental Incarnation,,True
+"Vilis, Broker of Blood",normal,Legendary Creature — Demon,,True
+Village Pillagers,normal,Creature — Goblin Warrior,,True
+Villainous Wrath,normal,Sorcery,,True
+Vineglimmer Snarl,normal,Land,,True
+Vines of Vastwood,normal,Instant,,True
+Vitalize,normal,Instant,,True
+Vivien on the Hunt,normal,Legendary Planeswalker — Vivien,,True
+Voidwing Hybrid,normal,Creature — Phyrexian Bat,,True
+Volcanic Torrent,normal,Sorcery,,True
+Voldaren Estate,normal,Land,,True
+Voracious Hydra,normal,Creature — Hydra,,True
+"Vorinclex, Monstrous Raider",normal,Legendary Creature — Phyrexian Praetor,,True
+Vraska Joins Up,normal,Legendary Enchantment,,True
+Vraska's Fall,normal,Instant,,True
+"Vraska, Relic Seeker",normal,Legendary Planeswalker — Vraska,,True
+Vryn Wingmare,normal,Creature — Pegasus,,True
+Wake the Past,normal,Sorcery,,True
+Wakening Sun's Avatar,normal,Creature — Dinosaur Avatar,,True
+Wakestone Gargoyle,normal,Creature — Gargoyle,,True
+"Wakka, Devoted Guardian",normal,Legendary Creature — Human Warrior,,True
+Walk-In Closet // Forgotten Cellar,split,Enchantment — Room,Walk-In Closet // Forgotten Cellar,False
+Walking Bulwark,normal,Artifact Creature — Golem,,True
+Wall of Blossoms,normal,Creature — Plant Wall,,True
+Wall of Limbs,normal,Creature — Zombie Wall,,True
+Wall of Omens,normal,Creature — Wall,,True
+Wall of Reverence,normal,Creature — Spirit Wall,,True
+Wall of Roots,normal,Creature — Plant Wall,,True
+Warg Rider,normal,Creature — Orc Warrior,,True
+Warren Instigator,normal,Creature — Goblin Berserker,,True
+Warren Soultrader,normal,Creature — Zombie Goblin Wizard,,True
+Wastes,normal,Basic Land,,True
+Watchful Radstag,normal,Creature — Elk Mutant,,True
+Wave Goodbye,normal,Sorcery,,True
+Wavebreak Hippocamp,normal,Enchantment Creature — Horse Fish,,True
+Waxen Shapethief,normal,Creature — Shapeshifter,,True
+Wayward Swordtooth,normal,Creature — Dinosaur,,True
+Wear Down,normal,Sorcery,,True
+Weathered Sentinels,normal,Artifact Creature — Wall,,True
+Weathered Wayfarer,normal,Creature — Human Nomad Cleric,,True
+Wedding Ring,normal,Artifact,,True
+Welcome to . . . // Jurassic Park,transform,Enchantment — Saga,Welcome to . . . // Jurassic Park,False
+Wheel and Deal,normal,Instant,,True
+Wheel of Fortune,normal,Sorcery,,True
+Whirlwing Stormbrood // Dynamic Soar,adventure,Creature — Dragon,Whirlwing Stormbrood // Dynamic Soar,False
+Whispering Madness,normal,Sorcery,,True
+Wickerbough Elder,normal,Creature — Treefolk Shaman,,True
+Wickersmith's Tools,normal,Artifact,,True
+Wight of the Reliquary,normal,Creature — Zombie Knight,,True
+Wilderness Reclamation,normal,Enchantment,,True
+Wildfire Devils,normal,Creature — Devil,,True
+Will of the Abzan,normal,Sorcery,,True
+Will of the Mardu,normal,Instant,,True
+Will of the Temur,normal,Sorcery,,True
+Windborn Muse,normal,Creature — Spirit,,True
+Windbrisk Heights,normal,Land,,True
+Windgrace's Judgment,normal,Instant,,True
+Winding Constrictor,normal,Creature — Snake,,True
+Winds of Change,normal,Sorcery,,True
+Wingcrafter,normal,Creature — Human Wizard,,True
+Wingmantle Chaplain,normal,Creature — Human Cleric,,True
+Wirewood Channeler,normal,Creature — Elf Druid,,True
+Wirewood Lodge,normal,Land,,True
+Wishclaw Talisman,normal,Artifact,,True
+Witch of the Moors,normal,Creature — Human Warlock,,True
+Witch-king of Angmar,normal,Legendary Creature — Wraith Noble,,True
+Witchstalker Frenzy,normal,Instant,,True
+Witherbloom Campus,normal,Land,,True
+Witherbloom Charm,normal,Instant,,True
+Witherbloom Command,normal,Sorcery,,True
+Wizard Class,class,Enchantment — Class,,True
+Wizard's Staff,normal,Artifact — Equipment,,True
+Wolverine Riders,normal,Creature — Elf Warrior,,True
+Wondrous Crucible,normal,Artifact,,True
+Wooded Ridgeline,normal,Land — Mountain Forest,,True
+World Breaker,normal,Creature — Eldrazi,,True
+Wound Reflection,normal,Enchantment,,True
+Wrath of God,normal,Sorcery,,True
+Wrathful Raptors,normal,Creature — Dinosaur,,True
+Wreck Remover,normal,Artifact Creature — Construct,,True
+"X-23, Deadly Weapon",normal,Legendary Creature — Mutant Berserker Hero,,True
+"Xyris, the Writhing Storm",normal,Legendary Creature — Snake Leviathan,,True
+"Yarok, the Desecrated",normal,Legendary Creature — Elemental Horror,,True
+"Yawgmoth, Thran Physician",normal,Legendary Creature — Human Cleric,,True
+"Yoshimaru, Ever Faithful",normal,Legendary Creature — Dog,,True
+Young Deathclaws,normal,Creature — Lizard Mutant,,True
+Youthful Valkyrie,normal,Creature — Angel,,True
+Yuna's Decision,normal,Sorcery,,True
+Yuna's Whistle,normal,Instant,,True
+"Yuna, Grand Summoner",normal,Legendary Creature — Human Cleric,,True
+"Yuriko, the Tiger's Shadow",normal,Legendary Creature — Human Ninja,,True
+"Zacama, Primal Calamity",normal,Legendary Creature — Elder Dinosaur,,True
+Zenith Festival,normal,Sorcery,,True
+"Zirda, the Dawnwaker",normal,Legendary Creature — Elemental Fox,,True
+"Zodiark, Umbral God",normal,Legendary Creature — God,,True
+"Zuko, Exiled Prince",normal,Legendary Creature — Human Noble,,True
+"Zuko, Firebending Master",normal,Legendary Creature — Human Noble Ally,,True
+Zur the Enchanter,normal,Legendary Creature — Human Wizard,,True

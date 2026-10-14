@@ -1,0 +1,9 @@
+slots 4432 with no rank 3
+  25% of nonbasic slots hold a card with edhrec_rank <= 126
+  50% of nonbasic slots hold a card with edhrec_rank <= 798
+  75% of nonbasic slots hold a card with edhrec_rank <= 2943
+  90% of nonbasic slots hold a card with edhrec_rank <= 5764
+  95% of nonbasic slots hold a card with edhrec_rank <= 8030
+edhrec-average {'50%': 437, '90%': 3767}
+archidekt {'50%': 1370, '90%': 7879}
+nonland {'50%': 1325, '90%': 6663}

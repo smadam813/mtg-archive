@@ -1,0 +1,575 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pilot wire protocol, version 2",
+  "description": "Messages between the MtgArchive service and the XMage sidecar: 4-byte big-endian length, then UTF-8 JSON. Version 1 is the original contract. Version 2 adds start_game.opponent, the scripted opponent of interactive disruption (docs/adr/0013-interactive-disruption.md), the reply do=oppose, the event opposed and the decide respond.",
+  "oneOf": [
+    { "$ref": "#/$defs/hello" },
+    { "$ref": "#/$defs/hello_reply" },
+    { "$ref": "#/$defs/load_deck" },
+    { "$ref": "#/$defs/deck" },
+    { "$ref": "#/$defs/start_game" },
+    { "$ref": "#/$defs/decide" },
+    { "$ref": "#/$defs/event" },
+    { "$ref": "#/$defs/game_over" },
+    { "$ref": "#/$defs/reply" },
+    { "$ref": "#/$defs/scenario" },
+    { "$ref": "#/$defs/scenario_result" }
+  ],
+  "$defs": {
+    "card": { "type": "string", "minLength": 1 },
+    "cards": { "type": "array", "items": { "$ref": "#/$defs/card" } },
+    "face": { "enum": ["front", "back"] },
+    "mana": { "type": "string", "pattern": "^(\\{[^{}]+\\})*$" },
+    "seq": { "type": "integer", "minimum": 1 },
+    "deck_id": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "step": { "enum": ["mulligan", "untap", "upkeep", "draw", "main", "end", "cleanup"] },
+    "hello": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "protocol"],
+      "properties": {
+        "type": { "const": "hello" },
+        "protocol": { "const": 2 }
+      }
+    },
+    "hello_reply": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "engine", "version", "threads", "protocol"],
+      "properties": {
+        "type": { "const": "hello" },
+        "engine": { "const": "xmage" },
+        "version": { "type": "string", "pattern": "^xmage-[^+]+\\+[0-9a-f]{8}$" },
+        "threads": { "type": "integer", "minimum": 1 },
+        "protocol": { "const": 2 }
+      }
+    },
+    "load_deck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "commanders", "cards"],
+      "properties": {
+        "type": { "const": "load_deck" },
+        "commanders": { "$ref": "#/$defs/cards" },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "quantity"],
+            "properties": {
+              "name": { "$ref": "#/$defs/card" },
+              "quantity": { "type": "integer", "minimum": 1 }
+            }
+          }
+        }
+      }
+    },
+    "deck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "deck_id", "unimplemented"],
+      "properties": {
+        "type": { "const": "deck" },
+        "deck_id": { "$ref": "#/$defs/deck_id" },
+        "unimplemented": { "$ref": "#/$defs/cards" }
+      }
+    },
+    "start_game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "deck_id", "seed", "horizon", "start_life", "commander_damage", "starting_player_draws", "free_mulligans", "watch_casts", "log", "opponent"],
+      "properties": {
+        "type": { "const": "start_game" },
+        "deck_id": { "$ref": "#/$defs/deck_id" },
+        "seed": { "type": "integer", "minimum": -2147483648, "maximum": 2147483647 },
+        "horizon": { "type": "integer", "minimum": 1, "maximum": 30 },
+        "start_life": { "type": "integer", "minimum": 1 },
+        "commander_damage": { "type": "boolean" },
+        "starting_player_draws": { "type": "boolean" },
+        "free_mulligans": { "type": "integer", "minimum": 0 },
+        "watch_casts": { "type": "boolean" },
+        "log": { "type": "boolean" },
+        "opponent": {
+          "description": "null seats the idle opponent. An object seats the scripted opponent, with the names of its disruption cards.",
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["cards"],
+              "properties": {
+                "cards": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/card" } }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "decide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "seq", "kind", "view"],
+      "properties": {
+        "type": { "const": "decide" },
+        "seq": { "$ref": "#/$defs/seq" },
+        "kind": { "enum": ["keep", "bottom", "action", "pick", "discard", "respond"] },
+        "view": { "$ref": "#/$defs/view" },
+        "keep": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["hand", "mulligans_taken", "keep_size"],
+          "properties": {
+            "hand": { "$ref": "#/$defs/cards" },
+            "mulligans_taken": { "type": "integer", "minimum": 0 },
+            "keep_size": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "count": { "type": "integer", "minimum": 1 },
+        "pick": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["purpose", "options", "seen"],
+          "properties": {
+            "purpose": { "enum": ["tutor", "scry", "order_top", "shuffle", "put_back", "name", "trigger_order", "other"] },
+            "options": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["id", "label", "card"],
+                "properties": {
+                  "id": { "type": "string", "minLength": 1 },
+                  "label": { "type": "string" },
+                  "card": { "anyOf": [{ "$ref": "#/$defs/card" }, { "type": "null" }] }
+                }
+              }
+            },
+            "seen": { "anyOf": [{ "$ref": "#/$defs/cards" }, { "type": "null" }] }
+          }
+        },
+        "respond": {
+          "description": "respond: the response window. threat is the scripted opponent's disruption card on top of the stack; victims are the cards it aims at. The view lists our legal actions; the reply is {seq, action}, a listed id or null to pass.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["threat", "victims"],
+          "properties": {
+            "threat": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "card"],
+              "properties": {
+                "id": { "type": "string", "minLength": 1 },
+                "card": { "$ref": "#/$defs/card" }
+              }
+            },
+            "victims": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["id", "card", "face"],
+                "properties": {
+                  "id": { "type": "string", "minLength": 1 },
+                  "card": { "$ref": "#/$defs/card" },
+                  "face": { "$ref": "#/$defs/face" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "allOf": [
+        { "if": { "properties": { "kind": { "const": "keep" } } }, "then": { "required": ["keep"] }, "else": { "not": { "required": ["keep"] } } },
+        { "if": { "properties": { "kind": { "enum": ["bottom", "discard"] } } }, "then": { "required": ["count"] }, "else": { "not": { "required": ["count"] } } },
+        { "if": { "properties": { "kind": { "const": "pick" } } }, "then": { "required": ["pick"] }, "else": { "not": { "required": ["pick"] } } },
+        { "if": { "properties": { "kind": { "const": "respond" } } }, "then": { "required": ["respond"] }, "else": { "not": { "required": ["respond"] } } },
+        { "if": { "properties": { "kind": { "enum": ["action", "respond"] } } }, "else": { "properties": { "view": { "properties": { "actions": { "maxItems": 0 } } } } } }
+      ]
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "seq", "kind", "view"],
+      "properties": {
+        "type": { "const": "event" },
+        "seq": { "$ref": "#/$defs/seq" },
+        "kind": { "enum": ["end_of_turn", "resolved", "cast", "opposed"] },
+        "view": { "$ref": "#/$defs/view" },
+        "after_disruption": { "type": "boolean" },
+        "spell": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "card", "face"],
+          "properties": {
+            "id": { "type": "string", "minLength": 1 },
+            "card": { "$ref": "#/$defs/card" },
+            "face": { "$ref": "#/$defs/face" }
+          }
+        },
+        "card": {
+          "description": "opposed: the scripted opponent's disruption card, a name from start_game.opponent.cards.",
+          "$ref": "#/$defs/card"
+        },
+        "outcome": {
+          "description": "opposed: hit (the card resolved and took a victim), answered (it took none) or not_cast (it was never cast).",
+          "enum": ["hit", "answered", "not_cast"]
+        },
+        "reason": {
+          "description": "opposed, not_cast only: no_target (no candidate it can legally target and affect) or cannot_cast (a lock stopped the cast).",
+          "enum": ["no_target", "cannot_cast"]
+        },
+        "victims": {
+          "description": "opposed: the candidate the card aimed at, with hit; empty when it had no target.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "card", "face", "hit"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "card": { "$ref": "#/$defs/card" },
+              "face": { "$ref": "#/$defs/face" },
+              "hit": { "type": "boolean" }
+            }
+          }
+        },
+        "lost": {
+          "description": "opposed: our cards the disruption card took: the spells it countered, then our permanents gone since its cast.",
+          "$ref": "#/$defs/cards"
+        }
+      },
+      "allOf": [
+        { "if": { "properties": { "kind": { "const": "cast" } } }, "then": { "required": ["spell"] }, "else": { "not": { "required": ["spell"] } } },
+        { "if": { "properties": { "kind": { "const": "end_of_turn" } } }, "then": { "required": ["after_disruption"] }, "else": { "not": { "required": ["after_disruption"] } } },
+        {
+          "if": { "properties": { "kind": { "const": "opposed" } } },
+          "then": { "required": ["card", "outcome", "victims", "lost"] },
+          "else": { "not": { "anyOf": [{ "required": ["card"] }, { "required": ["outcome"] }, { "required": ["victims"] }, { "required": ["lost"] }] } }
+        },
+        {
+          "if": { "required": ["outcome"], "properties": { "outcome": { "const": "not_cast" } } },
+          "then": { "required": ["reason"] },
+          "else": { "not": { "required": ["reason"] } }
+        },
+        { "properties": { "view": { "properties": { "actions": { "maxItems": 0 } } } } }
+      ]
+    },
+    "game_over": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "turns", "reason", "digest", "error", "log", "view"],
+      "properties": {
+        "type": { "const": "game_over" },
+        "turns": { "type": "integer", "minimum": 0 },
+        "reason": { "enum": ["horizon", "stopped", "life", "win", "engine_error"] },
+        "digest": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "error": { "type": ["string", "null"] },
+        "log": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["turn", "step", "message"],
+                "properties": {
+                  "turn": { "type": "integer", "minimum": 0 },
+                  "step": { "$ref": "#/$defs/step" },
+                  "message": { "type": "string" }
+                }
+              }
+            }
+          ]
+        },
+        "view": {
+          "description": "The final view, in the event form, on a win or a life ending; null on every other reason. The service scores a win or a life ending on it.",
+          "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/view" }]
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "reason": { "const": "engine_error" } } },
+          "then": { "properties": { "error": { "type": "string" } } },
+          "else": { "properties": { "error": { "type": "null" } } }
+        },
+        {
+          "if": { "properties": { "reason": { "enum": ["win", "life"] } } },
+          "then": { "properties": { "view": { "$ref": "#/$defs/view", "properties": { "actions": { "maxItems": 0 } } } } },
+          "else": { "properties": { "view": { "type": "null" } } }
+        }
+      ]
+    },
+    "reply": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["seq"],
+      "properties": {
+        "seq": { "$ref": "#/$defs/seq" },
+        "action": { "type": ["string", "null"] },
+        "keep": { "type": "boolean" },
+        "cards": { "$ref": "#/$defs/cards" },
+        "option": { "type": "string", "minLength": 1 },
+        "do": { "enum": ["continue", "stop", "counter", "disrupt", "oppose"] },
+        "remove": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "card": {
+          "description": "oppose: the disruption card, a name from start_game.opponent.cards.",
+          "$ref": "#/$defs/card"
+        },
+        "targets": {
+          "description": "oppose: the candidate ids in order; the card takes the first it can legally target and affect. Empty for a card with no target.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "oneOf": [
+        { "required": ["action"] },
+        { "required": ["keep"] },
+        { "required": ["cards"] },
+        { "required": ["option"] },
+        { "required": ["do"] }
+      ],
+      "allOf": [
+        {
+          "if": { "required": ["do"], "properties": { "do": { "const": "disrupt" } } },
+          "then": { "required": ["remove"] },
+          "else": { "not": { "required": ["remove"] } }
+        },
+        {
+          "if": { "required": ["do"], "properties": { "do": { "const": "oppose" } } },
+          "then": { "required": ["card", "targets"] },
+          "else": { "not": { "anyOf": [{ "required": ["card"] }, { "required": ["targets"] }] } }
+        }
+      ]
+    },
+    "scenario": {
+      "description": "Card-correctness fixtures only (spec §6.2): our zones on turn 1 with no draw, then the script. library is top first.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "commanders", "cards", "seed", "start", "actions"],
+      "properties": {
+        "type": { "const": "scenario" },
+        "commanders": { "$ref": "#/$defs/cards" },
+        "cards": { "$ref": "#/$defs/load_deck/properties/cards" },
+        "seed": { "type": "integer", "minimum": -2147483648, "maximum": 2147483647 },
+        "start": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["hand", "battlefield", "library", "graveyard"],
+          "properties": {
+            "hand": { "$ref": "#/$defs/cards" },
+            "battlefield": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["card", "tapped", "named"],
+                "properties": {
+                  "card": { "$ref": "#/$defs/card" },
+                  "tapped": { "type": "boolean" },
+                  "named": { "anyOf": [{ "$ref": "#/$defs/card" }, { "type": "null" }] }
+                }
+              }
+            },
+            "library": { "$ref": "#/$defs/cards" },
+            "graveyard": { "$ref": "#/$defs/cards" }
+          }
+        },
+        "actions": { "type": "array", "items": { "$ref": "#/$defs/scenario_action" } }
+      }
+    },
+    "scenario_action": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "card"],
+          "properties": { "type": { "const": "cast" }, "card": { "$ref": "#/$defs/card" } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "permanent", "ability"],
+          "properties": {
+            "type": { "const": "activate" },
+            "permanent": { "$ref": "#/$defs/card" },
+            "ability": { "type": "integer", "minimum": 0 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "pick"],
+          "properties": { "type": { "const": "choose" }, "pick": { "type": "string", "minLength": 1 } }
+        }
+      ]
+    },
+    "scenario_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "error", "view", "library", "named", "abilities", "picks", "log"],
+      "properties": {
+        "type": { "const": "scenario_result" },
+        "error": { "type": ["string", "null"] },
+        "view": { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/view" }] },
+        "library": { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/cards" }] },
+        "named": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["permanent_id", "card", "value"],
+                "properties": {
+                  "permanent_id": { "type": "string", "minLength": 1 },
+                  "card": { "$ref": "#/$defs/card" },
+                  "value": { "$ref": "#/$defs/card" }
+                }
+              }
+            }
+          ]
+        },
+        "abilities": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["permanent_id", "card", "index", "mana", "locked", "activatable"],
+                "properties": {
+                  "permanent_id": { "type": "string", "minLength": 1 },
+                  "card": { "$ref": "#/$defs/card" },
+                  "index": { "type": "integer", "minimum": 0 },
+                  "mana": { "type": "boolean" },
+                  "locked": { "type": "boolean" },
+                  "activatable": { "type": "boolean" }
+                }
+              }
+            }
+          ]
+        },
+        "picks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["purpose", "options", "seen", "chosen"],
+            "properties": {
+              "purpose": { "$ref": "#/$defs/decide/properties/pick/properties/purpose" },
+              "options": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+              "seen": { "anyOf": [{ "$ref": "#/$defs/cards" }, { "type": "null" }] },
+              "chosen": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "log": { "$ref": "#/$defs/game_over/properties/log" }
+      },
+      "if": { "properties": { "error": { "type": "string" } } },
+      "then": { "properties": { "view": { "type": "null" }, "library": { "type": "null" }, "named": { "type": "null" }, "abilities": { "type": "null" } } },
+      "else": {
+        "properties": {
+          "view": { "$ref": "#/$defs/view", "properties": { "actions": { "maxItems": 0 } } },
+          "library": { "$ref": "#/$defs/cards" },
+          "named": { "type": "array" },
+          "abilities": { "type": "array" }
+        }
+      }
+    },
+    "view": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["turn", "step", "life", "land_drop_used", "pool", "hand", "graveyard", "exile", "command_zone", "battlefield", "library_count", "mana_sources", "hand_mana", "resolved", "finds", "actions"],
+      "properties": {
+        "turn": { "type": "integer", "minimum": 0 },
+        "step": { "$ref": "#/$defs/step" },
+        "life": { "type": "integer" },
+        "land_drop_used": { "type": "boolean" },
+        "pool": { "$ref": "#/$defs/mana" },
+        "hand": { "$ref": "#/$defs/cards" },
+        "graveyard": { "$ref": "#/$defs/cards" },
+        "exile": { "$ref": "#/$defs/cards" },
+        "command_zone": { "$ref": "#/$defs/cards" },
+        "battlefield": { "type": "array", "items": { "$ref": "#/$defs/permanent" } },
+        "library_count": { "type": "integer", "minimum": 0 },
+        "mana_sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "options"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "options": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/mana" } }
+            }
+          }
+        },
+        "hand_mana": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["card", "options"],
+            "properties": {
+              "card": { "$ref": "#/$defs/card" },
+              "options": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/mana" } }
+            }
+          }
+        },
+        "resolved": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["card", "face", "turn"],
+            "properties": {
+              "card": { "$ref": "#/$defs/card" },
+              "face": { "$ref": "#/$defs/face" },
+              "turn": { "type": "integer", "minimum": 1 }
+            }
+          }
+        },
+        "finds": { "type": "object", "additionalProperties": { "$ref": "#/$defs/cards" } },
+        "actions": { "type": "array", "items": { "$ref": "#/$defs/action" } }
+      }
+    },
+    "permanent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "card", "face", "tapped"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "card": { "$ref": "#/$defs/card" },
+        "face": { "$ref": "#/$defs/face" },
+        "tapped": { "type": "boolean" }
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "card", "face", "zone", "cost", "permanent_id", "spends_source"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["land", "cast", "cast_commander", "activate"] },
+        "card": { "$ref": "#/$defs/card" },
+        "face": { "$ref": "#/$defs/face" },
+        "zone": { "enum": ["hand", "command_zone", "battlefield", "graveyard", "exile", "library"] },
+        "cost": { "$ref": "#/$defs/mana" },
+        "permanent_id": { "type": ["string", "null"] },
+        "spends_source": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "const": "activate" } } },
+          "then": { "properties": { "permanent_id": { "type": "string" } } },
+          "else": { "properties": { "permanent_id": { "type": "null" } } }
+        }
+      ]
+    }
+  }
+}

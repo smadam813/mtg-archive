@@ -1,0 +1,4627 @@
+{
+  "embedding_state": {
+    "model_tag": "qwen3-embedding:0.6b",
+    "dimensions": 1024,
+    "prefix_set_version": "9D84B9513202418B"
+  },
+  "run_at": "2026-08-30T20:58:15.0012926+00:00",
+  "service_url": "http://127.0.0.1:8080/",
+  "summary": {
+    "overall": {
+      "queries": 78,
+      "ndcg_at10": 0.28086207345728226,
+      "recall_at30": 0.37450651200651197
+    },
+    "card_search": {
+      "queries": 65,
+      "ndcg_at10": 0.1807897068137795,
+      "recall_at30": 0.26479242979242973
+    },
+    "card_search_archetype_vocab": {
+      "queries": 15,
+      "ndcg_at10": 0.08726100489262234,
+      "recall_at30": 0.1112962962962963
+    },
+    "card_search_other": {
+      "queries": 50,
+      "ndcg_at10": 0.2088483173901267,
+      "recall_at30": 0.3108412698412698
+    },
+    "rules_search": {
+      "queries": 13,
+      "ndcg_at10": 0.7812239066747962,
+      "recall_at30": 0.9230769230769231
+    }
+  },
+  "queries": [
+    {
+      "id": "cs-001",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.29931124879850973,
+      "recall_at30": 0.375,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "45e5135b-274c-46b4-8249-7e05e37aaff7",
+          "label": "Heroes for Hire"
+        },
+        {
+          "type": "card",
+          "id": "81fa8e6a-5fb8-43de-802f-df5b985c6a7d",
+          "label": "Spell Swindle"
+        },
+        {
+          "type": "card",
+          "id": "a784481f-eccb-4112-bb38-04a659319660",
+          "label": "Pitiless Plunderer"
+        },
+        {
+          "type": "card",
+          "id": "00225c40-27ff-410f-a591-5c788c6a2bd6",
+          "label": "Ruthless Knave"
+        },
+        {
+          "type": "card",
+          "id": "cc3fcd26-c088-4335-9a35-0e11019e3d5b",
+          "label": "Revel in Riches"
+        },
+        {
+          "type": "card",
+          "id": "04152e7a-969c-4858-841b-0a569a9fc1bf",
+          "label": "Professional Face-Breaker"
+        },
+        {
+          "type": "card",
+          "id": "f688f839-c7c2-45a9-8c60-9fdb030803e6",
+          "label": "Evin, Waterdeep Opportunist"
+        },
+        {
+          "type": "card",
+          "id": "89738595-dafb-400a-bfba-91a53a37e717",
+          "label": "Grim Hireling"
+        },
+        {
+          "type": "card",
+          "id": "e69279f6-50a1-4db5-83be-30a2ea7fc6a9",
+          "label": "Trash for Treasure"
+        },
+        {
+          "type": "card",
+          "id": "45687a24-e8cb-4864-8721-410eb8320aab",
+          "label": "Gold Rush"
+        }
+      ]
+    },
+    {
+      "id": "cs-002",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "f61c1dc4-2f09-4b50-957f-ee656c659072",
+          "label": "Dina, Essence Brewer"
+        },
+        {
+          "type": "card",
+          "id": "97079964-7a2e-42c5-ad4a-9015c18a1e97",
+          "label": "Descendants\u0027 Fury"
+        },
+        {
+          "type": "card",
+          "id": "4e58ad76-37c7-4531-b207-6890b39a2679",
+          "label": "Ruthless Technomancer"
+        },
+        {
+          "type": "card",
+          "id": "3e1a6337-bb29-450f-bf29-ff71b357a983",
+          "label": "Reign of the Pit"
+        },
+        {
+          "type": "card",
+          "id": "3c86541c-3601-4a38-8872-39705e41303a",
+          "label": "Rise of the Witch-king"
+        },
+        {
+          "type": "card",
+          "id": "df39fbee-6ddc-4733-a32e-cdaf369ecccf",
+          "label": "Bound // Determined"
+        },
+        {
+          "type": "card",
+          "id": "a6c28bde-10d9-471b-acd0-32a1c6195805",
+          "label": "Swarm Culler"
+        },
+        {
+          "type": "card",
+          "id": "2699005b-a471-429f-a9d8-fbf2077ee2fd",
+          "label": "Disciple of Freyalise // Garden of Freyalise"
+        },
+        {
+          "type": "card",
+          "id": "4443345d-a292-4394-97dd-0e6f4d9aedf7",
+          "label": "Bag of Devouring"
+        },
+        {
+          "type": "card",
+          "id": "b831d3f8-07ce-4172-ba29-213cac414c9a",
+          "label": "Deadly Brew"
+        }
+      ]
+    },
+    {
+      "id": "cs-003",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.08482961268642891,
+      "recall_at30": 0.3333333333333333,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "cb184995-700f-4900-994a-4ce7fd12f942",
+          "label": "It\u0027ll Quench Ya!"
+        },
+        {
+          "type": "card",
+          "id": "d799a2c4-628a-45da-b9ca-0337c46e3e14",
+          "label": "Lofty Denial"
+        },
+        {
+          "type": "card",
+          "id": "cfdae813-7241-4f6c-99f0-c772af34af91",
+          "label": "Spell Snip"
+        },
+        {
+          "type": "card",
+          "id": "6d56bd32-f47a-4e54-a88e-b69d16283ea4",
+          "label": "Dazzling Denial"
+        },
+        {
+          "type": "card",
+          "id": "a2845761-7e43-4a88-8fc2-2d95d471b00c",
+          "label": "Override"
+        },
+        {
+          "type": "card",
+          "id": "98709d61-4da4-4d3a-a654-bb2a7a0edb6b",
+          "label": "Amulet of Safekeeping"
+        },
+        {
+          "type": "card",
+          "id": "198fed4c-297e-41c0-a172-e471c7401fbb",
+          "label": "Reject"
+        },
+        {
+          "type": "card",
+          "id": "d64b0848-0193-4025-ba62-63ecd8fb9f50",
+          "label": "Spell Pierce"
+        },
+        {
+          "type": "card",
+          "id": "fc09cbc0-2d28-44c6-b9a9-b95e9e58bb1b",
+          "label": "Complicate"
+        },
+        {
+          "type": "card",
+          "id": "ba9e129d-a3cf-431c-93af-f2e4902d40a0",
+          "label": "Whirlwind Denial"
+        }
+      ]
+    },
+    {
+      "id": "cs-004",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.4934706535380056,
+      "recall_at30": 0.2,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+          "label": "Rhystic Study"
+        },
+        {
+          "type": "card",
+          "id": "3cb86deb-f4e5-41c5-bfcd-614a24f3499c",
+          "label": "Reparations"
+        },
+        {
+          "type": "card",
+          "id": "de64eab5-9d7a-4408-8358-47d30a14ce40",
+          "label": "Customs Depot"
+        },
+        {
+          "type": "card",
+          "id": "cfdae813-7241-4f6c-99f0-c772af34af91",
+          "label": "Spell Snip"
+        },
+        {
+          "type": "card",
+          "id": "1525cbc1-0d95-4f58-99fb-136e54c4d486",
+          "label": "Unravel"
+        },
+        {
+          "type": "card",
+          "id": "5fae52ed-1b84-406e-951d-b0d329dc48a7",
+          "label": "Glimpse of Nature"
+        },
+        {
+          "type": "card",
+          "id": "c77afbeb-cc9b-4770-9a48-e7460562895f",
+          "label": "Insight"
+        },
+        {
+          "type": "card",
+          "id": "adad1be7-8d3d-4857-a3b0-be33db4c5746",
+          "label": "Multani\u0027s Presence"
+        },
+        {
+          "type": "card",
+          "id": "a8c9f91a-b1e7-451d-b6db-ae865e2b853c",
+          "label": "Exclude"
+        },
+        {
+          "type": "card",
+          "id": "4c67359d-5590-4eb0-827e-b411967ee238",
+          "label": "Uncover the Moon-Letters"
+        }
+      ]
+    },
+    {
+      "id": "cs-005",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.125,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "8c95d823-6bbd-4484-8f38-b1bb20403085",
+          "label": "Filter Out"
+        },
+        {
+          "type": "card",
+          "id": "285ecbd5-ff7c-4919-ab0b-7fc05e5a0a0a",
+          "label": "Worldpurge"
+        },
+        {
+          "type": "card",
+          "id": "12c71296-1243-49e6-a196-8b016a7b635c",
+          "label": "Scalding Viper // Steam Clean"
+        },
+        {
+          "type": "card",
+          "id": "3d92f2e6-27df-4329-b552-cf905f7616ba",
+          "label": "Flood of Tears"
+        },
+        {
+          "type": "card",
+          "id": "9b3bcd57-bf3f-4d72-810a-fdb5c8ea1551",
+          "label": "Run Ashore"
+        },
+        {
+          "type": "card",
+          "id": "2b3fc609-7b19-441a-ab7e-58ccd70d955b",
+          "label": "Displacement Wave"
+        },
+        {
+          "type": "card",
+          "id": "6f23621e-eceb-402e-a8d3-8e2b734762b3",
+          "label": "Banishing Knack"
+        },
+        {
+          "type": "card",
+          "id": "54748cb1-d92a-4212-ad76-417ee79b5ef1",
+          "label": "Wash Out"
+        },
+        {
+          "type": "card",
+          "id": "acd881eb-f3b4-4174-9fc2-e3c7c213886b",
+          "label": "Boomerang Basics"
+        },
+        {
+          "type": "card",
+          "id": "b1f2b26c-91b2-4f3c-9f48-6429ec3fde48",
+          "label": "Repeal"
+        }
+      ]
+    },
+    {
+      "id": "cs-006",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "28f55673-7aa0-497e-8434-aa70df1b5e04",
+          "label": "Annihilate"
+        },
+        {
+          "type": "card",
+          "id": "f3f01fe8-0a2c-4afa-94d2-268d27c0d252",
+          "label": "Extinction"
+        },
+        {
+          "type": "card",
+          "id": "d06f0f7c-0270-44be-991a-a5ebbddb0900",
+          "label": "Purge"
+        },
+        {
+          "type": "card",
+          "id": "c23aaf6d-151e-481a-a345-ca00c14940d1",
+          "label": "Desolation Giant"
+        },
+        {
+          "type": "card",
+          "id": "b75e667a-1ceb-445a-acf4-ae1fd2dae9e7",
+          "label": "Destroy Evil"
+        },
+        {
+          "type": "card",
+          "id": "a610c77c-fe31-4465-a1c1-392db4ce4ed1",
+          "label": "Cleanse"
+        },
+        {
+          "type": "card",
+          "id": "7b2e2c4b-b8fd-440c-8a79-de6532022745",
+          "label": "End Hostilities"
+        },
+        {
+          "type": "card",
+          "id": "cf307f81-488c-4df5-8b08-ba46e3e7f3d9",
+          "label": "Eliminate"
+        },
+        {
+          "type": "card",
+          "id": "052838cb-dcf0-46f5-82b1-c3ed863b42b7",
+          "label": "Devastation"
+        },
+        {
+          "type": "card",
+          "id": "7e465cfe-d2ee-4420-87f4-945728f58f87",
+          "label": "Vengeful Pharaoh"
+        }
+      ]
+    },
+    {
+      "id": "cs-007",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "85e9a43e-5676-4d12-ac27-e8cf57307d5e",
+          "label": "Cemetery Desecrator"
+        },
+        {
+          "type": "card",
+          "id": "89c89499-23a8-412d-9406-1a7ffc88c64d",
+          "label": "Wreck Remover"
+        },
+        {
+          "type": "card",
+          "id": "3ae456e4-cb35-47be-b654-051e288622fe",
+          "label": "Release to Memory"
+        },
+        {
+          "type": "card",
+          "id": "c6a2e410-b182-48d1-aeb2-bc8de27e9cd2",
+          "label": "Cremate"
+        },
+        {
+          "type": "card",
+          "id": "20e7a93f-77ce-466b-8586-35d390689d0c",
+          "label": "Consecrate // Consume"
+        },
+        {
+          "type": "card",
+          "id": "fa857e9d-dfe4-4348-9c1f-16aa240d69cd",
+          "label": "Extirpate"
+        },
+        {
+          "type": "card",
+          "id": "22f1a4a4-c423-4d1c-8775-0ed604a9fa51",
+          "label": "Deathrite Shaman"
+        },
+        {
+          "type": "card",
+          "id": "ba4d644f-1931-4fc4-aed5-681a476a5a58",
+          "label": "Cease // Desist"
+        },
+        {
+          "type": "card",
+          "id": "9e6a3df4-67a3-452e-a6ef-f04dbadb21ef",
+          "label": "Living Death"
+        },
+        {
+          "type": "card",
+          "id": "81dda1a8-72ac-4e69-8367-4f72c445197c",
+          "label": "Disruptor Wanderglyph"
+        }
+      ]
+    },
+    {
+      "id": "cs-008",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "7777fab1-df3f-467f-b9e2-46dd2bd2166e",
+          "label": "Forsaken Monument"
+        },
+        {
+          "type": "card",
+          "id": "d8afd7b0-7cd0-4caf-ac43-a0e24a93ca09",
+          "label": "Firemind Vessel"
+        },
+        {
+          "type": "card",
+          "id": "7a5a81f7-1597-4972-8565-fd2a5667df99",
+          "label": "Adverse Conditions"
+        },
+        {
+          "type": "card",
+          "id": "c924e240-02a0-46b5-b004-d5c42db277ec",
+          "label": "Blinding Drone"
+        },
+        {
+          "type": "card",
+          "id": "171a3ac4-0c9c-46ac-b273-089d566cca05",
+          "label": "Altar of the Lost"
+        },
+        {
+          "type": "card",
+          "id": "4c702b96-3288-435d-9154-5b7454419896",
+          "label": "Corrupted Grafstone"
+        },
+        {
+          "type": "card",
+          "id": "78e3a3c3-3091-46ab-a47a-86b7db68ced4",
+          "label": "Pale Moon"
+        },
+        {
+          "type": "card",
+          "id": "bdeb440d-a714-40e8-9038-f651e6ae45fb",
+          "label": "Springleaf Drum"
+        },
+        {
+          "type": "card",
+          "id": "2e03e44a-9fff-4490-859f-b42e89e8563a",
+          "label": "Chromatic Sphere"
+        },
+        {
+          "type": "card",
+          "id": "21d700e8-0255-418e-96a0-6fe05b3f836d",
+          "label": "Coldsteel Heart"
+        }
+      ]
+    },
+    {
+      "id": "cs-009",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.12636656378135944,
+      "recall_at30": 0.2857142857142857,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "08528c5e-9a01-42a4-a00b-c1ec5eaae64d",
+          "label": "Renegade Doppelganger"
+        },
+        {
+          "type": "card",
+          "id": "88929ea9-900f-4dbb-b16c-cf3bad4e410c",
+          "label": "Progenitor Mimic"
+        },
+        {
+          "type": "card",
+          "id": "148331cc-24de-481f-9131-c3089d1ff7ce",
+          "label": "Protean Thaumaturge"
+        },
+        {
+          "type": "card",
+          "id": "42226b87-0746-4ebf-9fd0-108d508462af",
+          "label": "Clone"
+        },
+        {
+          "type": "card",
+          "id": "724767ca-bd84-4137-9133-4ad2e96b8428",
+          "label": "Dack\u0027s Duplicate"
+        },
+        {
+          "type": "card",
+          "id": "9eaeb54b-73a8-43cc-b4d8-ed8b5eb19646",
+          "label": "Mirror of the Forebears"
+        },
+        {
+          "type": "card",
+          "id": "e7bef318-2720-45bc-b663-aafd724bc511",
+          "label": "Cryptoplasm"
+        },
+        {
+          "type": "card",
+          "id": "efe7e212-5c91-42f0-9dff-591131b4f6d8",
+          "label": "Theoretical Duplication"
+        },
+        {
+          "type": "card",
+          "id": "5e719329-612e-4ad5-ac95-6eb5328738ab",
+          "label": "Permeating Mass"
+        },
+        {
+          "type": "card",
+          "id": "ad16f918-5603-437b-b143-49c69ceae17d",
+          "label": "Radiant Performer"
+        }
+      ]
+    },
+    {
+      "id": "cs-010",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "a54f0869-94c8-42af-9080-166efb9486a4",
+          "label": "Gamble"
+        },
+        {
+          "type": "card",
+          "id": "212af747-2ac1-4d33-9456-8b3cc8988f5d",
+          "label": "Find // Finality"
+        },
+        {
+          "type": "card",
+          "id": "0b6c74a7-d7d3-4c05-84b1-bcb580bb476f",
+          "label": "Argivian Find"
+        },
+        {
+          "type": "card",
+          "id": "d2043685-f091-444f-9c35-d238afa24d7b",
+          "label": "Uncage the Menagerie"
+        },
+        {
+          "type": "card",
+          "id": "d4ed4260-5f38-4b55-ba6e-9f54f04d2360",
+          "label": "Commune with Nature"
+        },
+        {
+          "type": "card",
+          "id": "47a785ed-8095-4685-8daa-02c4e2b0ffcd",
+          "label": "Spellseeker"
+        },
+        {
+          "type": "card",
+          "id": "97b97728-bfe6-483a-a323-c758f41ff9dc",
+          "label": "Fossil Find"
+        },
+        {
+          "type": "card",
+          "id": "ffc95093-24a2-4616-a44a-24788e8df9c8",
+          "label": "Trinket Mage"
+        },
+        {
+          "type": "card",
+          "id": "90f54959-2c9b-4b8a-84c9-d6893eb43553",
+          "label": "Personal Tutor"
+        },
+        {
+          "type": "card",
+          "id": "9a378964-2c04-4d60-a905-c819d37ed4c3",
+          "label": "Invert // Invent"
+        }
+      ]
+    },
+    {
+      "id": "cs-011",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.503134029426682,
+      "recall_at30": 0.5555555555555556,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "dbd6a94b-62ff-4a10-9d52-bdd90b26e425",
+          "label": "Time Warp"
+        },
+        {
+          "type": "card",
+          "id": "d5b9b75d-4bf0-4328-9bb3-7b260a0c46af",
+          "label": "Savor the Moment"
+        },
+        {
+          "type": "card",
+          "id": "6b6ac99a-7548-4cad-9fe5-ea611618ab9e",
+          "label": "Temporal Manipulation"
+        },
+        {
+          "type": "card",
+          "id": "360039a5-1cbd-4ee3-8f94-21b5348e106a",
+          "label": "Last Chance"
+        },
+        {
+          "type": "card",
+          "id": "f349f58b-8cc8-45e4-9565-2b46fdf976c9",
+          "label": "Trouble in Pairs"
+        },
+        {
+          "type": "card",
+          "id": "fe2afa18-54d0-4595-af27-256398793a42",
+          "label": "Ugin\u0027s Nexus"
+        },
+        {
+          "type": "card",
+          "id": "574044cf-2e2f-4b5c-b4d1-cf05ba814ab2",
+          "label": "Warrior\u0027s Oath"
+        },
+        {
+          "type": "card",
+          "id": "d49c94fa-712a-47c0-b571-4db7e064a590",
+          "label": "Ride the Avalanche"
+        },
+        {
+          "type": "card",
+          "id": "5c58b8e6-c572-461e-893e-a8c05f20ba17",
+          "label": "Temporal Mastery"
+        },
+        {
+          "type": "card",
+          "id": "89aa65d9-2502-40b0-90b6-b25a8e9f6155",
+          "label": "Capture of Jingzhou"
+        }
+      ]
+    },
+    {
+      "id": "cs-012",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "de5b995c-9691-4555-9070-66bcbc29f955",
+          "label": "Public Thoroughfare"
+        },
+        {
+          "type": "card",
+          "id": "660d44a2-391a-416c-b46c-ddcc3739f527",
+          "label": "Valgavoth\u0027s Lair"
+        },
+        {
+          "type": "card",
+          "id": "d23c3613-bc5e-4fc5-939c-62a090c53a79",
+          "label": "Uncharted Haven"
+        },
+        {
+          "type": "card",
+          "id": "87c8e1ed-258a-4a89-bcc6-211405e49692",
+          "label": "Command Bridge"
+        },
+        {
+          "type": "card",
+          "id": "17b60106-a4c7-410a-8ac3-ec8e74e29a7c",
+          "label": "Mystic Sanctuary"
+        },
+        {
+          "type": "card",
+          "id": "15f1fe23-5af4-4fc4-8cde-2e0bf9f9be0c",
+          "label": "Citadel Gate"
+        },
+        {
+          "type": "card",
+          "id": "91fceb34-0f2d-4392-be27-00dcd765637f",
+          "label": "Thriving Bluff"
+        },
+        {
+          "type": "card",
+          "id": "6bb00a28-8b5a-4049-93b7-3db02de88aeb",
+          "label": "Forsaken City"
+        },
+        {
+          "type": "card",
+          "id": "dde6bce5-8bbe-4866-b5aa-2c05c7d37241",
+          "label": "Black Dragon Gate"
+        },
+        {
+          "type": "card",
+          "id": "5a70ccfa-d12d-4e62-a1a4-f05cda2fd442",
+          "label": "Abandoned Outpost"
+        }
+      ]
+    },
+    {
+      "id": "cs-013",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.33207072849685926,
+      "recall_at30": 0.625,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "1dae6f39-2cbd-485c-b190-017a26401fd4",
+          "label": "Zealous Conscripts"
+        },
+        {
+          "type": "card",
+          "id": "1afb9ce6-658e-40e4-a4a2-9a68182a1e73",
+          "label": "Vengeful Possession"
+        },
+        {
+          "type": "card",
+          "id": "9d08af23-9f4a-4097-9abc-3b17475ab744",
+          "label": "Act of Treason"
+        },
+        {
+          "type": "card",
+          "id": "145ef633-a2e0-4bd9-a866-5767821eb44f",
+          "label": "Dominating Vampire"
+        },
+        {
+          "type": "card",
+          "id": "5599ddb6-1404-4884-b6ca-c1852a521079",
+          "label": "Mark of Mutiny"
+        },
+        {
+          "type": "card",
+          "id": "f5e18b27-c5cc-4f5e-b767-4b1b43e00fd0",
+          "label": "Dominus of Fealty"
+        },
+        {
+          "type": "card",
+          "id": "1049bc06-83de-4ed6-ae38-f259e5038a95",
+          "label": "Captivating Crew"
+        },
+        {
+          "type": "card",
+          "id": "8f48c43e-fa70-4c4f-bb88-be0526303453",
+          "label": "Hideous Taskmaster"
+        },
+        {
+          "type": "card",
+          "id": "140b58b9-7e82-4feb-99d7-5e8b707b845c",
+          "label": "Conquering Manticore"
+        },
+        {
+          "type": "card",
+          "id": "344cdec9-60b3-42ec-a3d5-41ee1d4f7c6c",
+          "label": "Traitorous Greed"
+        }
+      ]
+    },
+    {
+      "id": "cs-014",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.37339763954258004,
+      "recall_at30": 0.375,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "e1e96802-fd0c-41f1-aa21-3287d75a0e88",
+          "label": "Overwhelming Stampede"
+        },
+        {
+          "type": "card",
+          "id": "cd6250ae-9079-4a62-8a70-0d94fbac21bc",
+          "label": "Earthshaker Giant"
+        },
+        {
+          "type": "card",
+          "id": "3ecc4b57-3e0c-48b8-9952-e4b63b6bc45d",
+          "label": "Appeal // Authority"
+        },
+        {
+          "type": "card",
+          "id": "3f008b57-6471-4785-9571-3b90193da7e2",
+          "label": "Ashroot Animist"
+        },
+        {
+          "type": "card",
+          "id": "3c652a31-3b56-4050-9613-d0481e54dfd7",
+          "label": "Stampede Driver"
+        },
+        {
+          "type": "card",
+          "id": "0765c18b-25a0-4f79-aa1e-7adba7f5c91e",
+          "label": "Chorus of Might"
+        },
+        {
+          "type": "card",
+          "id": "7e52e91b-70e6-4f26-a5d4-b8e33d1debbf",
+          "label": "Pathbreaker Ibex"
+        },
+        {
+          "type": "card",
+          "id": "b92e97f5-a307-471f-be06-afa4fcdab757",
+          "label": "Fanatical Strength"
+        },
+        {
+          "type": "card",
+          "id": "87fca901-678d-4c9a-be4a-9dce2a53074b",
+          "label": "Driven // Despair"
+        },
+        {
+          "type": "card",
+          "id": "23195903-04e1-4461-a4ac-f0ce39f21c20",
+          "label": "Strength in Numbers"
+        }
+      ]
+    },
+    {
+      "id": "cs-015",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.4460488164524804,
+      "recall_at30": 0.6666666666666666,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "c26887e1-27f4-4550-921b-53460e43c079",
+          "label": "Undead Augur"
+        },
+        {
+          "type": "card",
+          "id": "f47659b5-d834-4153-b9fc-6a0702c503d9",
+          "label": "Dark Prophecy"
+        },
+        {
+          "type": "card",
+          "id": "742cb752-dd20-4b1f-8d96-7e9a8f864e75",
+          "label": "Inheritance"
+        },
+        {
+          "type": "card",
+          "id": "e8c7566d-7cc0-48af-a986-83223ec7e06c",
+          "label": "Midnight Reaper"
+        },
+        {
+          "type": "card",
+          "id": "ffa64ac6-fe55-48b8-b015-849982cd7ad8",
+          "label": "Fecundity"
+        },
+        {
+          "type": "card",
+          "id": "06eb43af-637a-4f73-8071-a7036d4c8c3d",
+          "label": "Corpse Augur"
+        },
+        {
+          "type": "card",
+          "id": "dff3cfff-69f9-4afd-af28-b75504d30ffa",
+          "label": "Ulvenwald Observer"
+        },
+        {
+          "type": "card",
+          "id": "b26e3596-5b28-4eb6-b3e2-03f63d8c6d49",
+          "label": "Deathreap Ritual"
+        },
+        {
+          "type": "card",
+          "id": "4e5e81e1-ab47-4f08-9c42-dba0adc5cf9a",
+          "label": "Runed Servitor"
+        },
+        {
+          "type": "card",
+          "id": "fd55d686-510e-4b6c-b8eb-458ee7c19fff",
+          "label": "Caldaia Guardian"
+        }
+      ]
+    },
+    {
+      "id": "cs-016",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.20913915736581384,
+      "recall_at30": 0.42857142857142855,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "0772c5d2-9189-47e2-b0ee-13babd94ea93",
+          "label": "Subversion"
+        },
+        {
+          "type": "card",
+          "id": "8164b1e8-3350-465e-8a17-75f57d326344",
+          "label": "Exsanguinate"
+        },
+        {
+          "type": "card",
+          "id": "25877c41-39a4-4cc3-ac4b-8f3dd06d579b",
+          "label": "Stensian Sanguinist // Exsanguinate"
+        },
+        {
+          "type": "card",
+          "id": "6130f22d-7901-4f9f-b777-27bb0dacc063",
+          "label": "Debt to the Deathless"
+        },
+        {
+          "type": "card",
+          "id": "883a4180-9ede-4249-a4b8-3a29c998fb63",
+          "label": "Tithing Blade // Consuming Sepulcher"
+        },
+        {
+          "type": "card",
+          "id": "bdb319a6-a1cd-44f5-999d-af1bb55b2fc4",
+          "label": "Epicure of Blood"
+        },
+        {
+          "type": "card",
+          "id": "814b87fe-2a75-4ff2-8637-7e69e3fb285b",
+          "label": "Marauding Blight-Priest"
+        },
+        {
+          "type": "card",
+          "id": "15d2176b-ab3d-4738-bcbc-bcebf891d16e",
+          "label": "Life Goes On"
+        },
+        {
+          "type": "card",
+          "id": "c82665b7-d011-4bdc-b4a2-eca5861b16d2",
+          "label": "Blood Tithe"
+        },
+        {
+          "type": "card",
+          "id": "632ccf7e-eaf4-42a6-9069-6ad915d03a5b",
+          "label": "Agent of Masks"
+        }
+      ]
+    },
+    {
+      "id": "cs-017",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "c1d54d0c-53fc-474c-ba89-2aa1be3bf27d",
+          "label": "Grim Return"
+        },
+        {
+          "type": "card",
+          "id": "175c76c8-f36c-4948-aaa8-0208eac5f0d3",
+          "label": "Continue?"
+        },
+        {
+          "type": "card",
+          "id": "15afdd88-05fc-4335-8a55-c6ee702f3bef",
+          "label": "Genesis"
+        },
+        {
+          "type": "card",
+          "id": "f7920a2c-d14a-4ed6-8341-96751322f4e7",
+          "label": "Enslaved Horror"
+        },
+        {
+          "type": "card",
+          "id": "4e769107-0f32-4181-9e57-ffebc2228d3a",
+          "label": "Rise from the Grave"
+        },
+        {
+          "type": "card",
+          "id": "c3df3574-c4da-415f-a56b-807ed8e41d73",
+          "label": "Crime // Punishment"
+        },
+        {
+          "type": "card",
+          "id": "10e286b0-7245-4c30-a7a9-6d4a9c49b0a7",
+          "label": "Dredge the Mire"
+        },
+        {
+          "type": "card",
+          "id": "8bd2af55-5a48-4300-a893-ae6cd548db24",
+          "label": "Mortuary"
+        },
+        {
+          "type": "card",
+          "id": "f06fca68-593b-4fbd-a5a9-618060311172",
+          "label": "Hymn of Rebirth"
+        },
+        {
+          "type": "card",
+          "id": "f95fda8c-0737-447f-9212-1c459062b9e7",
+          "label": "Gruesome Menagerie"
+        }
+      ]
+    },
+    {
+      "id": "cs-018",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.211619514050933,
+      "recall_at30": 0.7777777777777778,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "c008d60a-ee06-4411-b8e7-c2df13616105",
+          "label": "Pigment Wrangler // Striking Palette"
+        },
+        {
+          "type": "card",
+          "id": "946675f5-8998-4f1b-934b-85ffe6e2f002",
+          "label": "Doublecast"
+        },
+        {
+          "type": "card",
+          "id": "8f878efc-850f-43d2-a6fe-5ea8d1dd5afb",
+          "label": "Twincast"
+        },
+        {
+          "type": "card",
+          "id": "99140891-face-4015-aacd-1309e87d8f9f",
+          "label": "Display of Power"
+        },
+        {
+          "type": "card",
+          "id": "d85ba214-fa05-44ca-a7f9-ab2c5dc07962",
+          "label": "Teach by Example"
+        },
+        {
+          "type": "card",
+          "id": "61495793-b0c7-40a5-ad3e-9df8e2b8096b",
+          "label": "Choreographed Sparks"
+        },
+        {
+          "type": "card",
+          "id": "50c53ae0-51ba-4046-ac74-87c65e688032",
+          "label": "Fork"
+        },
+        {
+          "type": "card",
+          "id": "f5c5f462-10fa-422a-90da-07f46257f22f",
+          "label": "Storm King\u0027s Thunder"
+        },
+        {
+          "type": "card",
+          "id": "76d9c310-9d06-43e8-87a9-fb03318a6cb8",
+          "label": "Howl of the Horde"
+        },
+        {
+          "type": "card",
+          "id": "c51ed6e3-813b-49c4-b1de-7f92a77f8f6e",
+          "label": "Galvanic Iteration"
+        }
+      ]
+    },
+    {
+      "id": "cs-019",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.18883659702687935,
+      "recall_at30": 0.3333333333333333,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "8a0e35ac-6c03-4922-b3b4-e419419fe3d7",
+          "label": "Bofur, Reliable Guardian // Concerted Care"
+        },
+        {
+          "type": "card",
+          "id": "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27",
+          "label": "Heroic Intervention"
+        },
+        {
+          "type": "card",
+          "id": "ada82f93-dc93-4a95-a13f-42b5942b3413",
+          "label": "Magic Damper"
+        },
+        {
+          "type": "card",
+          "id": "5c5b308c-07d5-422a-8b45-b8b19cb967ca",
+          "label": "Blacksmith\u0027s Skill"
+        },
+        {
+          "type": "card",
+          "id": "77aaaad5-7960-453d-b024-6dacbca3d606",
+          "label": "Sheltering Word"
+        },
+        {
+          "type": "card",
+          "id": "1102524d-7287-496f-a18a-5fdae6d4c271",
+          "label": "Join Shields"
+        },
+        {
+          "type": "card",
+          "id": "ddbe0d17-5cac-417c-afc0-e4aebae83205",
+          "label": "Restoration Magic"
+        },
+        {
+          "type": "card",
+          "id": "b9a62c6b-5848-44b1-932b-8d5de2560976",
+          "label": "Surge of Salvation"
+        },
+        {
+          "type": "card",
+          "id": "78b86f23-650b-4347-917c-3ee8c6007e4e",
+          "label": "Elusive Tormentor // Insidious Mist"
+        },
+        {
+          "type": "card",
+          "id": "c915f815-77d7-4e08-b178-82b29a58bb03",
+          "label": "Fleeting Reflection"
+        }
+      ]
+    },
+    {
+      "id": "cs-020",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.2222222222222222,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "5c6c8fe7-3520-423b-a224-1c0af516871a",
+          "label": "Casualties of War"
+        },
+        {
+          "type": "card",
+          "id": "b9d51e07-851f-4b7b-bffe-7c1efff0714c",
+          "label": "Break the Spell"
+        },
+        {
+          "type": "card",
+          "id": "8d03d050-391c-4311-8c42-4ee632d40fdc",
+          "label": "Aura Shards"
+        },
+        {
+          "type": "card",
+          "id": "25012c1f-c069-43d7-b930-a3a5a7eb1389",
+          "label": "Dismantling Wave"
+        },
+        {
+          "type": "card",
+          "id": "b75e667a-1ceb-445a-acf4-ae1fd2dae9e7",
+          "label": "Destroy Evil"
+        },
+        {
+          "type": "card",
+          "id": "daa90a75-c600-41bd-9311-ec21cf51480b",
+          "label": "Detonate"
+        },
+        {
+          "type": "card",
+          "id": "a4e5693f-12a0-451e-818d-d6efc7b4ed25",
+          "label": "Decimate"
+        },
+        {
+          "type": "card",
+          "id": "e04ca2dc-873e-4d80-b1d7-4873ffdb3af5",
+          "label": "Echoing Ruin"
+        },
+        {
+          "type": "card",
+          "id": "d0783be9-e518-431a-8e71-121610da50e1",
+          "label": "Clear"
+        },
+        {
+          "type": "card",
+          "id": "08c6d2fd-d9ae-4f95-bb9d-7e16b1039814",
+          "label": "Demolish"
+        }
+      ]
+    },
+    {
+      "id": "cs-021",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "b917f39a-3176-47ad-afda-08d09b873c02",
+          "label": "Fungal Rebirth"
+        },
+        {
+          "type": "card",
+          "id": "d6bf5e22-8d33-43a9-8824-435068e0a87a",
+          "label": "Reincarnation"
+        },
+        {
+          "type": "card",
+          "id": "f747b39a-28a0-46a8-a161-182939556d39",
+          "label": "Devourer of Memory"
+        },
+        {
+          "type": "card",
+          "id": "cea73a4b-e10a-4517-a92b-24a08321009f",
+          "label": "Miraculous Recovery"
+        },
+        {
+          "type": "card",
+          "id": "ddc85b23-113a-46e9-ab09-fae9312c72fa",
+          "label": "Spirit of Resilience"
+        },
+        {
+          "type": "card",
+          "id": "5049da27-f38b-4fe6-a387-51510bd1f44e",
+          "label": "Nine-Lives Familiar"
+        },
+        {
+          "type": "card",
+          "id": "eff736bc-d311-4bef-9c7e-de4ebe32e46f",
+          "label": "Twilight Shepherd"
+        },
+        {
+          "type": "card",
+          "id": "51991d28-137e-4690-a674-d852b904bd1a",
+          "label": "Revive"
+        },
+        {
+          "type": "card",
+          "id": "7a4ddb8f-08ad-4bf9-82f6-72b073dd859a",
+          "label": "Wildwood Rebirth"
+        },
+        {
+          "type": "card",
+          "id": "7a0168c5-e258-4c50-96aa-95deb2198e6f",
+          "label": "Reclusive Taxidermist"
+        }
+      ]
+    },
+    {
+      "id": "cs-022",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.07184186084370228,
+      "recall_at30": 0.2222222222222222,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "33d6a17a-0112-4d4f-a24a-0769360408a8",
+          "label": "Last Word"
+        },
+        {
+          "type": "card",
+          "id": "ba9e129d-a3cf-431c-93af-f2e4902d40a0",
+          "label": "Whirlwind Denial"
+        },
+        {
+          "type": "card",
+          "id": "11ed8209-2184-4416-a8f0-72de00599574",
+          "label": "Glen Elendra\u0027s Answer"
+        },
+        {
+          "type": "card",
+          "id": "d4246e4d-390d-4925-a5a8-89cd096a237c",
+          "label": "Sphinx of the Final Word"
+        },
+        {
+          "type": "card",
+          "id": "0230de18-8d15-4cfa-9d42-7ccddd9f9570",
+          "label": "Supreme Verdict"
+        },
+        {
+          "type": "card",
+          "id": "df39fbee-6ddc-4733-a32e-cdaf369ecccf",
+          "label": "Bound // Determined"
+        },
+        {
+          "type": "card",
+          "id": "3adc3af3-5086-4d61-b38c-c1dddeaeebe6",
+          "label": "Stubborn Denial"
+        },
+        {
+          "type": "card",
+          "id": "d64b0848-0193-4025-ba62-63ecd8fb9f50",
+          "label": "Spell Pierce"
+        },
+        {
+          "type": "card",
+          "id": "96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b",
+          "label": "Hexing Squelcher"
+        },
+        {
+          "type": "card",
+          "id": "4d31d3f4-4748-4713-808f-24699fcd7b10",
+          "label": "Slice from the Shadows"
+        }
+      ]
+    },
+    {
+      "id": "cs-023",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.08574728547026557,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "f18d8939-7ee8-4a44-a1c8-6ae3a08f52fd",
+          "label": "Road // Ruin"
+        },
+        {
+          "type": "card",
+          "id": "dc85c659-f2ed-4b13-807c-d853f74de410",
+          "label": "Natural Connection"
+        },
+        {
+          "type": "card",
+          "id": "e6acafb7-856f-4125-a908-a620635b8ba3",
+          "label": "Boundless Realms"
+        },
+        {
+          "type": "card",
+          "id": "b3b4c21d-f8d7-455f-be46-d5eb909d54df",
+          "label": "Untamed Wilds"
+        },
+        {
+          "type": "card",
+          "id": "58b0c737-0a84-4f9a-b3b7-300c5de43874",
+          "label": "Studious First-Year // Rampant Growth"
+        },
+        {
+          "type": "card",
+          "id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+          "label": "Rampant Growth"
+        },
+        {
+          "type": "card",
+          "id": "f825c98f-a327-440b-8c0d-ebe02e23bfb7",
+          "label": "Field of Ruin"
+        },
+        {
+          "type": "card",
+          "id": "3e229329-65e4-4240-959a-b97b26908c0e",
+          "label": "From the Ashes"
+        },
+        {
+          "type": "card",
+          "id": "ca7964a1-b4ce-412b-bcae-e0dfbb95389a",
+          "label": "Murasa Rootgrazer"
+        },
+        {
+          "type": "card",
+          "id": "65d63518-3261-40b5-87b8-19c152b29ee3",
+          "label": "Roiling Regrowth"
+        }
+      ]
+    },
+    {
+      "id": "cs-024",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "7c47876d-143f-4e4c-b151-90c099e452a1",
+          "label": "Storm, Force of Nature"
+        },
+        {
+          "type": "card",
+          "id": "1dc816b5-8918-4a0c-bb10-74abe579a98c",
+          "label": "Command the Storm"
+        },
+        {
+          "type": "card",
+          "id": "d4cde3d5-eb13-4ad5-8178-08780dc85d39",
+          "label": "Radstorm"
+        },
+        {
+          "type": "card",
+          "id": "3a091f7b-efc9-4aaa-9da8-157ef8099a36",
+          "label": "Weather the Storm"
+        },
+        {
+          "type": "card",
+          "id": "a0b97e33-2d0c-4800-a9f5-9cd9be651ea8",
+          "label": "Ice Storm"
+        },
+        {
+          "type": "card",
+          "id": "5d936655-8e46-4e30-8f9c-4fa1a4d34a17",
+          "label": "Storm, Shaker of Skies"
+        },
+        {
+          "type": "card",
+          "id": "96ce2403-4607-440a-92ae-80aceb458c5d",
+          "label": "Shatterstorm"
+        },
+        {
+          "type": "card",
+          "id": "d5021db4-64d3-4a0f-9167-499ccbe16e1e",
+          "label": "Storm of Steel"
+        },
+        {
+          "type": "card",
+          "id": "eeb6f5eb-0e16-468e-9dfe-6ec8d8172f86",
+          "label": "Storm\u0027s Wrath"
+        },
+        {
+          "type": "card",
+          "id": "d74c3871-018a-4450-a613-f67703bb0d72",
+          "label": "Dragonstorm"
+        }
+      ]
+    },
+    {
+      "id": "cs-025",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "a85197ab-dc94-4b72-9716-8dbdbbe90ff8",
+          "label": "Butcher of Malakir"
+        },
+        {
+          "type": "card",
+          "id": "ef75be00-1a88-47a1-a1ae-fe2c9881a798",
+          "label": "Desecration Demon"
+        },
+        {
+          "type": "card",
+          "id": "da1d1f64-e239-4b92-9eb9-fe9ea06aa18a",
+          "label": "Mire in Misery"
+        },
+        {
+          "type": "card",
+          "id": "97079964-7a2e-42c5-ad4a-9015c18a1e97",
+          "label": "Descendants\u0027 Fury"
+        },
+        {
+          "type": "card",
+          "id": "348201c4-79de-4278-9896-d8b1567cc5cc",
+          "label": "Infernal Offering"
+        },
+        {
+          "type": "card",
+          "id": "169728d6-7820-4a6d-a815-70714ad3e887",
+          "label": "Perilous Predicament"
+        },
+        {
+          "type": "card",
+          "id": "2c7b0034-7eb5-4950-b6dc-8e1d07d26899",
+          "label": "Retribution"
+        },
+        {
+          "type": "card",
+          "id": "e0445c80-fa53-4c3e-881e-940e9fce7f57",
+          "label": "Braids, Arisen Nightmare"
+        },
+        {
+          "type": "card",
+          "id": "2ad8ff62-d090-4835-9274-3b755ba0f8e6",
+          "label": "Priest of Forgotten Gods"
+        },
+        {
+          "type": "card",
+          "id": "3e1a6337-bb29-450f-bf29-ff71b357a983",
+          "label": "Reign of the Pit"
+        }
+      ]
+    },
+    {
+      "id": "cs-026",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.7733728181250997,
+      "recall_at30": 0.5,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "a85197ab-dc94-4b72-9716-8dbdbbe90ff8",
+          "label": "Butcher of Malakir"
+        },
+        {
+          "type": "card",
+          "id": "6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2",
+          "label": "Grave Pact"
+        },
+        {
+          "type": "card",
+          "id": "4954181c-cb46-4cac-adc3-2c8b7693a211",
+          "label": "Abyssal Gatekeeper"
+        },
+        {
+          "type": "card",
+          "id": "7c777a41-e40a-4b40-96bf-8ddd5c12924c",
+          "label": "Dictate of Erebos"
+        },
+        {
+          "type": "card",
+          "id": "a2f8cde8-bf7b-4234-89f0-a95f9dc937e3",
+          "label": "Cauldron of Essence"
+        },
+        {
+          "type": "card",
+          "id": "68957dca-df5c-4051-af22-407cb7e47200",
+          "label": "Meathook Massacre II"
+        },
+        {
+          "type": "card",
+          "id": "5e958212-6a5b-4288-8d31-f1572619d7dc",
+          "label": "Liliana, Dreadhorde General"
+        },
+        {
+          "type": "card",
+          "id": "6dc7f837-158f-4ccf-86a5-a07a20891ec5",
+          "label": "Vindictive Lich"
+        },
+        {
+          "type": "card",
+          "id": "511e35cd-2e19-4803-a404-b790af0cea60",
+          "label": "Kheru Bloodsucker"
+        },
+        {
+          "type": "card",
+          "id": "760ede92-a826-4144-9de8-84ba9b8743d1",
+          "label": "Sothera, the Supervoid"
+        }
+      ]
+    },
+    {
+      "id": "cs-027",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.4444444444444444,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "e71863a7-0de1-4ab5-95e8-c39e6810d899",
+          "label": "Pegasus Guardian // Rescue the Foal"
+        },
+        {
+          "type": "card",
+          "id": "0634091a-a74c-4cea-b6d1-7324a725554a",
+          "label": "Eerie Interlude"
+        },
+        {
+          "type": "card",
+          "id": "f17e6c85-4813-4b0f-a0e9-d295822e9bb5",
+          "label": "Liberate"
+        },
+        {
+          "type": "card",
+          "id": "fab8d954-807b-426f-8057-99a5d2fec618",
+          "label": "Fell Horseman // Deathly Ride"
+        },
+        {
+          "type": "card",
+          "id": "00b36996-43c6-42a5-892c-c7c8864cf973",
+          "label": "Blur"
+        },
+        {
+          "type": "card",
+          "id": "58776b25-794e-4a87-bc71-a77c025b9b03",
+          "label": "Expel"
+        },
+        {
+          "type": "card",
+          "id": "1aa1cf50-ee79-4bef-826b-5f1a9e1aa1a5",
+          "label": "Acrobatic Maneuver"
+        },
+        {
+          "type": "card",
+          "id": "334e2147-5944-4558-b2bc-2f2bfb96dfa5",
+          "label": "Displace"
+        },
+        {
+          "type": "card",
+          "id": "9357fc7f-c9d0-4ce2-a6dd-0ff1f24bfc56",
+          "label": "Spellscorn Coven // Take It Back"
+        },
+        {
+          "type": "card",
+          "id": "2db17cfc-0947-407f-bd53-d64a48eec314",
+          "label": "Order of Midnight // Alter Fate"
+        }
+      ]
+    },
+    {
+      "id": "cs-028",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.15187934339676792,
+      "recall_at30": 0.4444444444444444,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "f9b02a7c-c122-4282-90e2-81fcfa663193",
+          "label": "Diminishing Returns"
+        },
+        {
+          "type": "card",
+          "id": "a8abd966-de7b-46a3-8ac7-8747ab35653a",
+          "label": "Wheel of Fortune"
+        },
+        {
+          "type": "card",
+          "id": "c78783e5-868d-4a8b-a4f8-95a92853cf0a",
+          "label": "Naktamun Lorespinner // Wheel of Fortune"
+        },
+        {
+          "type": "card",
+          "id": "cc519689-031c-48ba-9c79-3f5a435a0848",
+          "label": "Drastic Revelation"
+        },
+        {
+          "type": "card",
+          "id": "810a6cf5-e9f4-48e1-8e06-3e0af85633ce",
+          "label": "Day\u0027s Undoing"
+        },
+        {
+          "type": "card",
+          "id": "686cce6e-18ec-45b0-8d2e-74fa353a905e",
+          "label": "Tolarian Winds"
+        },
+        {
+          "type": "card",
+          "id": "c7c1e7cf-0be2-4129-9bdf-0862be2fba7f",
+          "label": "Illuminate History"
+        },
+        {
+          "type": "card",
+          "id": "eab71e4e-27c3-4c41-b95f-259c1d14b97a",
+          "label": "Dragon Mage"
+        },
+        {
+          "type": "card",
+          "id": "c4fccdd5-5b51-46b9-9937-9167c108743d",
+          "label": "Sway of the Stars"
+        },
+        {
+          "type": "card",
+          "id": "62411ced-843e-4b63-bdf6-dafb2ac27047",
+          "label": "Fast // Furious"
+        }
+      ]
+    },
+    {
+      "id": "cs-029",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "3212e47a-5492-4c50-9d4a-6ea562f1a6e1",
+          "label": "Millstone"
+        },
+        {
+          "type": "card",
+          "id": "0bbab99f-2ff6-4d48-b7c1-1ab0500c9422",
+          "label": "Demogorgon\u0027s Clutches"
+        },
+        {
+          "type": "card",
+          "id": "5f928e54-3027-4f2f-9fef-d63b9ca416aa",
+          "label": "Psychic Spiral"
+        },
+        {
+          "type": "card",
+          "id": "bb7c069b-8d3f-4ba2-874b-8ec575fd6dd4",
+          "label": "Jace\u0027s Erasure"
+        },
+        {
+          "type": "card",
+          "id": "29d828fa-a813-48f6-8dcb-43f6047b88a3",
+          "label": "Ray of Erasure"
+        },
+        {
+          "type": "card",
+          "id": "9f1c5040-ac46-4e8f-a5ff-8205e13a8893",
+          "label": "Atrocious Experiment"
+        },
+        {
+          "type": "card",
+          "id": "72a7faa0-cb0c-4841-84f3-e340b19fe045",
+          "label": "Predict"
+        },
+        {
+          "type": "card",
+          "id": "5ea5d171-a7b8-4269-9405-d2f4ccf0cbcb",
+          "label": "Screaming Swarm"
+        },
+        {
+          "type": "card",
+          "id": "cc94462f-a207-4fdb-8704-aa979c244cab",
+          "label": "Gravepurge"
+        },
+        {
+          "type": "card",
+          "id": "0a88d1b1-ac3c-41da-b3f5-b689af0e45d7",
+          "label": "Mind Drain"
+        }
+      ]
+    },
+    {
+      "id": "cs-030",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.7800698002721661,
+      "recall_at30": 0.625,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "01546b7d-a233-4176-8843-d732074dc5b6",
+          "label": "Doubling Season"
+        },
+        {
+          "type": "card",
+          "id": "84dc94b2-95fb-4d53-aaa2-191cb645639f",
+          "label": "Parallel Lives"
+        },
+        {
+          "type": "card",
+          "id": "c665544f-557b-4631-a1dc-39571470ca2e",
+          "label": "Primal Vigor"
+        },
+        {
+          "type": "card",
+          "id": "d04c6375-25dd-4882-b8b3-a3b0d3081f32",
+          "label": "Doppelgang"
+        },
+        {
+          "type": "card",
+          "id": "7246d45b-2185-4cdd-981b-5419b7d52bce",
+          "label": "Anointed Procession"
+        },
+        {
+          "type": "card",
+          "id": "2ef063d2-8702-43a3-a7d0-fc255f8512d3",
+          "label": "Double Trouble"
+        },
+        {
+          "type": "card",
+          "id": "9afd8f12-0796-4500-aaa3-10b4a46ef6ec",
+          "label": "Doubling Cube"
+        },
+        {
+          "type": "card",
+          "id": "12a6cad9-eb42-43bd-9e68-aaf862cd83db",
+          "label": "Adrix and Nev, Twincasters"
+        },
+        {
+          "type": "card",
+          "id": "61a6341e-0d36-44b6-8026-9c87c8ef61cb",
+          "label": "Second Harvest"
+        },
+        {
+          "type": "card",
+          "id": "144d0817-348c-4171-aa7e-3468b23cf97d",
+          "label": "See Double"
+        }
+      ]
+    },
+    {
+      "id": "cs-031",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "8f59e4d9-67ba-4dc6-ae3e-183e63673318",
+          "label": "Corpse Cur"
+        },
+        {
+          "type": "card",
+          "id": "4d18bea4-c9b2-4fc7-948f-2583589994d7",
+          "label": "Diseased Vermin"
+        },
+        {
+          "type": "card",
+          "id": "95a53dd7-76dc-46f1-8833-fafd02ba49c4",
+          "label": "Tainted Strike"
+        },
+        {
+          "type": "card",
+          "id": "f595c7f6-783f-4825-9c1a-e7f8edd380fd",
+          "label": "Hand of the Praetors"
+        },
+        {
+          "type": "card",
+          "id": "4fc2755c-ae7b-4147-a573-b33679a461e8",
+          "label": "Phyrexian Swarmlord"
+        },
+        {
+          "type": "card",
+          "id": "3ded0c0c-40ce-4d14-a9a6-b023bc19ee0e",
+          "label": "Triumph of the Hordes"
+        },
+        {
+          "type": "card",
+          "id": "1950067a-cc57-42a8-b1ee-f03e1b50591b",
+          "label": "Vector Asp"
+        },
+        {
+          "type": "card",
+          "id": "c4779671-2a01-4eef-847c-ede36091fc4a",
+          "label": "Pestilent Souleater"
+        },
+        {
+          "type": "card",
+          "id": "02d4fe7d-ade4-40b1-b323-73a52c440525",
+          "label": "Contagious Nim"
+        },
+        {
+          "type": "card",
+          "id": "7b740cd6-e07d-4273-8a7f-e084bdaf0f1c",
+          "label": "Infectious Bite"
+        }
+      ]
+    },
+    {
+      "id": "cs-032",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.11222719725097613,
+      "recall_at30": 0.3333333333333333,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "b2faa8b6-e433-4171-9774-9170484530c4",
+          "label": "Teferi\u0027s Response"
+        },
+        {
+          "type": "card",
+          "id": "c5632f18-7904-4a29-82be-6a6ef8e85e18",
+          "label": "Emerald Dragon // Dissonant Wave"
+        },
+        {
+          "type": "card",
+          "id": "2b9557df-7158-4ada-be77-5c346851a568",
+          "label": "Bind"
+        },
+        {
+          "type": "card",
+          "id": "88b51e15-6630-4e14-a6b8-db0aa12e34ef",
+          "label": "Disallow"
+        },
+        {
+          "type": "card",
+          "id": "85fa4ed3-14e3-4eb0-b31b-62e2088321d0",
+          "label": "Cathedral Acolyte"
+        },
+        {
+          "type": "card",
+          "id": "93771480-2672-4bc7-81a8-011d3b8878b0",
+          "label": "Interdict"
+        },
+        {
+          "type": "card",
+          "id": "b8fe20ee-d52d-4494-acf4-202808a2a22d",
+          "label": "Squelch"
+        },
+        {
+          "type": "card",
+          "id": "0f730bd9-2060-46b1-9208-0ac6562e8b2a",
+          "label": "Essence Capture"
+        },
+        {
+          "type": "card",
+          "id": "2c51e20b-07b2-4c96-8d73-87379aafbc7c",
+          "label": "Countervailing Winds"
+        },
+        {
+          "type": "card",
+          "id": "667cffdd-8951-4223-8895-fa46e9f14b96",
+          "label": "Fuel for the Cause"
+        }
+      ]
+    },
+    {
+      "id": "cs-033",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.09045647020469931,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "6bb00a28-8b5a-4049-93b7-3db02de88aeb",
+          "label": "Forsaken City"
+        },
+        {
+          "type": "card",
+          "id": "4faa5a70-ac0c-4a29-8bec-218a35a29fdf",
+          "label": "Reset"
+        },
+        {
+          "type": "card",
+          "id": "e38b8ecb-e7ae-474d-b6a4-29cc1aa8ccd9",
+          "label": "Unwind"
+        },
+        {
+          "type": "card",
+          "id": "5563427d-ffdc-4bea-ad7d-1605894b8a6c",
+          "label": "Awakening"
+        },
+        {
+          "type": "card",
+          "id": "bfec4d0a-3792-4bc3-bae1-e639da5bb9a6",
+          "label": "Land Cap"
+        },
+        {
+          "type": "card",
+          "id": "9837287b-d821-4655-8f01-93fc6c7f0ecc",
+          "label": "Nature\u0027s Will"
+        },
+        {
+          "type": "card",
+          "id": "2ffb2647-60bb-4916-b919-cbcf18e5e424",
+          "label": "Lava Tubes"
+        },
+        {
+          "type": "card",
+          "id": "d4cbf380-1a05-48ea-9187-de931b00866d",
+          "label": "Rising Waters"
+        },
+        {
+          "type": "card",
+          "id": "10b9bfb3-c478-45c6-b227-9c66b63bc79b",
+          "label": "Veldt"
+        },
+        {
+          "type": "card",
+          "id": "cac993d5-28a1-48b6-9c2f-f216cb5f521d",
+          "label": "Reduce // Rubble"
+        }
+      ]
+    },
+    {
+      "id": "cs-034",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "c77c23bc-efde-43ce-bf6f-7a8531d81d89",
+          "label": "Stave Off"
+        },
+        {
+          "type": "card",
+          "id": "3d036f68-5f3a-4182-88f0-cdd685817dd0",
+          "label": "Angelic Intervention"
+        },
+        {
+          "type": "card",
+          "id": "33a5ad42-cd81-4724-9f68-7f32a1c8a047",
+          "label": "Midvast Protector"
+        },
+        {
+          "type": "card",
+          "id": "4ec85850-f274-4c0c-9a03-0488267caa14",
+          "label": "Giver of Runes"
+        },
+        {
+          "type": "card",
+          "id": "aee5dda1-2181-40d5-9846-85d154e1d5da",
+          "label": "Prismatic Boon"
+        },
+        {
+          "type": "card",
+          "id": "60433b48-d27f-413c-905c-43839b1943f1",
+          "label": "Mother of Runes"
+        },
+        {
+          "type": "card",
+          "id": "d54e4e37-042b-44a5-918d-757308545d4d",
+          "label": "Sejiri Shelter // Sejiri Glacier"
+        },
+        {
+          "type": "card",
+          "id": "c1909d70-d8f4-4c54-8587-0a910f123238",
+          "label": "Shelter"
+        },
+        {
+          "type": "card",
+          "id": "ab0dd461-25bc-4374-bed8-72fc2d51b5e1",
+          "label": "Sanctuary Blade"
+        },
+        {
+          "type": "card",
+          "id": "b4f7b1eb-6cd4-40f9-b259-3c39291edf27",
+          "label": "Reverent Mantra"
+        }
+      ]
+    },
+    {
+      "id": "cs-035",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.267925070065729,
+      "recall_at30": 0.4444444444444444,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "0c2841bb-038c-4fbf-8360-bc0a1522b58d",
+          "label": "Exploration"
+        },
+        {
+          "type": "card",
+          "id": "5a51b168-02d1-4eb4-8ccc-614ab6f6cffa",
+          "label": "Storm Cauldron"
+        },
+        {
+          "type": "card",
+          "id": "e5df4597-1647-4ac2-bdb3-a517598d1431",
+          "label": "Summer Bloom"
+        },
+        {
+          "type": "card",
+          "id": "b2bd58ea-b2c6-47f1-b082-7969f093bbc6",
+          "label": "Animate Land"
+        },
+        {
+          "type": "card",
+          "id": "b8f566ea-8283-4afa-9ac8-737e26419283",
+          "label": "Explore"
+        },
+        {
+          "type": "card",
+          "id": "75b73eb2-dafd-43db-9e96-7e1995d9849f",
+          "label": "Song of Creation"
+        },
+        {
+          "type": "card",
+          "id": "7536eb66-959d-4dca-9b75-895572ef733c",
+          "label": "Emergence Zone"
+        },
+        {
+          "type": "card",
+          "id": "59a82f57-fe2f-4834-a4ee-4b948eef1e12",
+          "label": "Horizon of Progress"
+        },
+        {
+          "type": "card",
+          "id": "67f43ac6-2a58-4b53-b5d7-0330e2a252e2",
+          "label": "Reflecting Pool"
+        },
+        {
+          "type": "card",
+          "id": "a2192c80-c48f-44e2-807c-2f9ee1aa1152",
+          "label": "Beanstalk Wurm // Plant Beans"
+        }
+      ]
+    },
+    {
+      "id": "cs-036",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "5859fd59-8732-414a-8932-007980af495d",
+          "label": "Woodland Bellower"
+        },
+        {
+          "type": "card",
+          "id": "5b8e0913-47e9-4d56-971d-abd91b0f7587",
+          "label": "Campus Guide"
+        },
+        {
+          "type": "card",
+          "id": "3faab84f-7055-4554-b948-181928d8d4e2",
+          "label": "Kindly Customer"
+        },
+        {
+          "type": "card",
+          "id": "f7920a2c-d14a-4ed6-8341-96751322f4e7",
+          "label": "Enslaved Horror"
+        },
+        {
+          "type": "card",
+          "id": "e7aeabd9-a72c-47ee-b275-b025d7142766",
+          "label": "Bashful Beastie"
+        },
+        {
+          "type": "card",
+          "id": "e3fc10d2-2733-4265-8275-112c285fd11a",
+          "label": "Topiary Stomper"
+        },
+        {
+          "type": "card",
+          "id": "63c8f510-eba8-4f00-9f80-fbbc74801a4a",
+          "label": "Scampering Surveyor"
+        },
+        {
+          "type": "card",
+          "id": "00c0543c-2a1f-4425-8283-4062d74a1637",
+          "label": "Solemn Simulacrum"
+        },
+        {
+          "type": "card",
+          "id": "43b8456a-3333-4936-a09c-324327619c36",
+          "label": "Fiend Artisan"
+        },
+        {
+          "type": "card",
+          "id": "0aaefa00-86f4-4e12-87ae-3a362d862fa4",
+          "label": "Centaur Rootcaster"
+        }
+      ]
+    },
+    {
+      "id": "cs-037",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.7387207481761133,
+      "recall_at30": 0.75,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "7194a262-5e7a-4c12-b271-2bc5e0799477",
+          "label": "Font of Mythos"
+        },
+        {
+          "type": "card",
+          "id": "1ed24fc6-b1d5-47f8-a1d1-3243372e0c9f",
+          "label": "Well of Ideas"
+        },
+        {
+          "type": "card",
+          "id": "7080fb43-5d93-41f5-87d3-bc1801805ea0",
+          "label": "Rites of Flourishing"
+        },
+        {
+          "type": "card",
+          "id": "be74a4c1-d569-4203-b28a-3e2ac6a82990",
+          "label": "Dictate of Kruphix"
+        },
+        {
+          "type": "card",
+          "id": "1c9e1f75-73f0-4846-b53f-458a0984b1bb",
+          "label": "Teferi\u0027s Ageless Insight"
+        },
+        {
+          "type": "card",
+          "id": "7d540860-ae94-4773-a526-aaffca3eb057",
+          "label": "Academy Loremaster"
+        },
+        {
+          "type": "card",
+          "id": "7694887a-2f3b-4ef1-b598-f3323f018ef4",
+          "label": "Grafted Skullcap"
+        },
+        {
+          "type": "card",
+          "id": "d26b27db-a567-4631-b4b6-7294222fbdd1",
+          "label": "Howling Mine"
+        },
+        {
+          "type": "card",
+          "id": "92eed395-62ca-4293-882b-8565c40daab5",
+          "label": "Sylvan Library"
+        },
+        {
+          "type": "card",
+          "id": "9deb2a0b-f40c-4d13-8321-41dc41448d24",
+          "label": "Anvil of Bogardan"
+        }
+      ]
+    },
+    {
+      "id": "cs-038",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.4864462780847656,
+      "recall_at30": 0.4444444444444444,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "5e15ff93-99a0-4000-918e-4bd2c257188d",
+          "label": "Combat Celebrant"
+        },
+        {
+          "type": "card",
+          "id": "0836c8d1-c453-4a3a-a52a-eb66839b8542",
+          "label": "Tifa, Martial Artist"
+        },
+        {
+          "type": "card",
+          "id": "e554646f-27c0-49b3-a92c-2191e87d87b7",
+          "label": "Sunstrike Legionnaire"
+        },
+        {
+          "type": "card",
+          "id": "653e4b68-3184-4352-ac91-127f7e6d7c12",
+          "label": "Port Razer"
+        },
+        {
+          "type": "card",
+          "id": "3c2f87eb-b0f4-4578-b143-6fba313a82ec",
+          "label": "Full Throttle"
+        },
+        {
+          "type": "card",
+          "id": "e971249a-64a3-4a9b-9a0c-e9d858ca8a55",
+          "label": "Bloodthirster"
+        },
+        {
+          "type": "card",
+          "id": "a0e85762-e433-4a23-bbee-69daeebb5898",
+          "label": "Plargg, Dean of Chaos // Augusta, Dean of Order"
+        },
+        {
+          "type": "card",
+          "id": "9be9625e-b98b-416b-aac4-9f7b2dfbd39d",
+          "label": "Colossus of Sardia"
+        },
+        {
+          "type": "card",
+          "id": "20129459-a386-41eb-899d-1aede3427300",
+          "label": "Aggravated Assault"
+        },
+        {
+          "type": "card",
+          "id": "dc1c0e8c-d0c1-445c-968f-7dec91e5d5fc",
+          "label": "Relentless Assault"
+        }
+      ]
+    },
+    {
+      "id": "cs-039",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.5556820160761848,
+      "recall_at30": 0.875,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "4a782bf9-4051-4613-8852-33b0d85a0edd",
+          "label": "Ajani\u0027s Welcome"
+        },
+        {
+          "type": "card",
+          "id": "c7107a2d-2dcf-42e9-9ea9-d0fc0d6d2ec6",
+          "label": "Impassioned Orator"
+        },
+        {
+          "type": "card",
+          "id": "3f8f0ce9-d2ce-45cc-9fbf-0e2819b07a3e",
+          "label": "Kor Celebrant"
+        },
+        {
+          "type": "card",
+          "id": "d7721c5e-b3c5-45c8-b757-935603dfe44b",
+          "label": "Cleric of Life\u0027s Bond"
+        },
+        {
+          "type": "card",
+          "id": "e66b12ff-45da-46dc-9148-bd8ea9b7fde0",
+          "label": "Angelic Chorus"
+        },
+        {
+          "type": "card",
+          "id": "d812fc6d-b96d-4986-b171-9f3feee603dc",
+          "label": "Hinterland Sanctifier"
+        },
+        {
+          "type": "card",
+          "id": "6ca2a89e-7032-4864-b4e9-66f3178f90ab",
+          "label": "Essence Warden"
+        },
+        {
+          "type": "card",
+          "id": "0c77b805-728d-4ae4-88a9-223f4b7b52e0",
+          "label": "Corpse Knight"
+        },
+        {
+          "type": "card",
+          "id": "045a9d3d-c20d-427f-a77b-0bffc6f55526",
+          "label": "Soul\u0027s Attendant"
+        },
+        {
+          "type": "card",
+          "id": "f3fad295-1af2-4ecc-8546-b121ad6be27b",
+          "label": "Soul Warden"
+        }
+      ]
+    },
+    {
+      "id": "cs-040",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.45294173154324163,
+      "recall_at30": 0.5,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "3d960d33-623a-4415-ae00-f8cffbc15f5a",
+          "label": "Dictate of the Twin Gods"
+        },
+        {
+          "type": "card",
+          "id": "2ef063d2-8702-43a3-a7d0-fc255f8512d3",
+          "label": "Double Trouble"
+        },
+        {
+          "type": "card",
+          "id": "e4add901-3f2b-4f92-bb26-7f599e288802",
+          "label": "Bitter Feud"
+        },
+        {
+          "type": "card",
+          "id": "321b5cc6-8df6-4292-97a0-a6a3a22f3b55",
+          "label": "Twinflame Tyrant"
+        },
+        {
+          "type": "card",
+          "id": "7c340a39-4ee0-4ba1-bb66-6674f8020fda",
+          "label": "Gratuitous Violence"
+        },
+        {
+          "type": "card",
+          "id": "68715465-6cf9-4006-87e9-31f227fe9ed3",
+          "label": "Furnace of Rath"
+        },
+        {
+          "type": "card",
+          "id": "66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5",
+          "label": "Gisela, Blade of Goldnight"
+        },
+        {
+          "type": "card",
+          "id": "dbf64afa-ace6-44b9-b47f-750c7e52cc29",
+          "label": "Fire Servant"
+        },
+        {
+          "type": "card",
+          "id": "d8328d27-e27f-4c84-8ab5-cabb80a34f54",
+          "label": "Desperate Gambit"
+        },
+        {
+          "type": "card",
+          "id": "d86f3d5e-838c-4787-9417-85a6997c3bde",
+          "label": "Double Cleave"
+        }
+      ]
+    },
+    {
+      "id": "cs-041",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.3007314577713669,
+      "recall_at30": 0.375,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "cf6676b7-b40a-46bd-b166-bd3cbb49d80d",
+          "label": "Return to Battle"
+        },
+        {
+          "type": "card",
+          "id": "e4ab986d-662c-4879-b6f1-6887a2ec4d7c",
+          "label": "Disentomb"
+        },
+        {
+          "type": "card",
+          "id": "07792d72-d5db-41b9-871c-e720e12ce659",
+          "label": "Cemetery Recruitment"
+        },
+        {
+          "type": "card",
+          "id": "f4361602-63da-430b-adbb-36d74e987aa6",
+          "label": "Recover"
+        },
+        {
+          "type": "card",
+          "id": "cbc9c731-181a-4f00-a7b0-eb7e56eac2ea",
+          "label": "Raise Dead"
+        },
+        {
+          "type": "card",
+          "id": "fd01229f-1c4c-4ad1-bc6f-4023f24d8c71",
+          "label": "Cheerful Osteomancer // Raise Dead"
+        },
+        {
+          "type": "card",
+          "id": "952ef791-5c89-4965-9f34-0228acb18bc4",
+          "label": "Resourceful Return"
+        },
+        {
+          "type": "card",
+          "id": "175c76c8-f36c-4948-aaa8-0208eac5f0d3",
+          "label": "Continue?"
+        },
+        {
+          "type": "card",
+          "id": "fac310c7-c1e5-42f9-8140-17472be21d0d",
+          "label": "Soul Strings"
+        },
+        {
+          "type": "card",
+          "id": "212af747-2ac1-4d33-9456-8b3cc8988f5d",
+          "label": "Find // Finality"
+        }
+      ]
+    },
+    {
+      "id": "cs-042",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.19846372564991566,
+      "recall_at30": 0.25,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "ee334bd7-d344-4684-85c8-d0464bbaf2b4",
+          "label": "Tormented Soul"
+        },
+        {
+          "type": "card",
+          "id": "6279078a-5c77-4a9e-8e9b-e99310363b6f",
+          "label": "Prowling Nightstalker"
+        },
+        {
+          "type": "card",
+          "id": "416f9656-9247-4ef2-971b-1515fc8e031b",
+          "label": "Immobilizer Eldrazi"
+        },
+        {
+          "type": "card",
+          "id": "a323a3af-8a74-433c-8994-707a09ef3a0c",
+          "label": "Nezumi Cutthroat"
+        },
+        {
+          "type": "card",
+          "id": "1451b623-8214-4d81-9436-62dbe8b79539",
+          "label": "Hulking Goblin"
+        },
+        {
+          "type": "card",
+          "id": "1a137a67-4156-45c8-aae9-838f688e12bd",
+          "label": "Invisible Stalker"
+        },
+        {
+          "type": "card",
+          "id": "5791710d-c718-4f64-9c14-3668154716f1",
+          "label": "Dread Warlock"
+        },
+        {
+          "type": "card",
+          "id": "a61ef0cc-1da9-49f9-b0dc-01cf9f6205be",
+          "label": "Changeling Outcast"
+        },
+        {
+          "type": "card",
+          "id": "222fd9fc-7af4-4269-bbb9-cd7b8ac029bd",
+          "label": "Troll of Khazad-d\u00FBm"
+        },
+        {
+          "type": "card",
+          "id": "78b86f23-650b-4347-917c-3ee8c6007e4e",
+          "label": "Elusive Tormentor // Insidious Mist"
+        }
+      ]
+    },
+    {
+      "id": "cs-043",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "106ae855-574b-411d-8689-cbb9eeb4f602",
+          "label": "Energy Tap"
+        },
+        {
+          "type": "card",
+          "id": "bdeb440d-a714-40e8-9038-f651e6ae45fb",
+          "label": "Springleaf Drum"
+        },
+        {
+          "type": "card",
+          "id": "6543b60c-12b0-4e69-9074-6a2b468c5234",
+          "label": "Zhur-Taa Ancient"
+        },
+        {
+          "type": "card",
+          "id": "a7641ee0-9c0d-4201-9827-a775ed03797c",
+          "label": "Raggadragga, Goreguts Boss"
+        },
+        {
+          "type": "card",
+          "id": "48207d1c-448a-4e1b-974a-642dfea75933",
+          "label": "Mana Short"
+        },
+        {
+          "type": "card",
+          "id": "084e11d9-dd1d-4e8e-afc1-9be4ee04a510",
+          "label": "Savage Firecat"
+        },
+        {
+          "type": "card",
+          "id": "bd13392e-e72a-4dbb-ba9d-68f68e47e30e",
+          "label": "Law-Rune Enforcer"
+        },
+        {
+          "type": "card",
+          "id": "ba4e4afb-24bb-47de-aba8-89d21b11d45c",
+          "label": "War\u0027s Toll"
+        },
+        {
+          "type": "card",
+          "id": "3f15349a-6ac6-4091-95a3-ae9f593e4650",
+          "label": "Surgespanner"
+        },
+        {
+          "type": "card",
+          "id": "f758bad0-8f36-4985-ad1d-66b695f3bbb6",
+          "label": "Orphans of the Wheat"
+        }
+      ]
+    },
+    {
+      "id": "cs-044",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.6942263979412782,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "a33f6070-590c-4be8-9180-b1ac2608cbc4",
+          "label": "Leonin Arbiter"
+        },
+        {
+          "type": "card",
+          "id": "b66c6e3a-daed-43a3-95d6-4f9d6223bbf1",
+          "label": "Stranglehold"
+        },
+        {
+          "type": "card",
+          "id": "4baa6145-216e-476b-b178-aaaa1e633701",
+          "label": "Tempt with Discovery"
+        },
+        {
+          "type": "card",
+          "id": "d9517c5d-66d0-4178-96fb-a8c04f311ad8",
+          "label": "Aven Mindcensor"
+        },
+        {
+          "type": "card",
+          "id": "1f438b8f-fe23-4f3b-ab2e-f6c33676c462",
+          "label": "Opposition Agent"
+        },
+        {
+          "type": "card",
+          "id": "6c2e6447-c32b-4b92-a3e6-4d770e3dd250",
+          "label": "Rootweaver Druid"
+        },
+        {
+          "type": "card",
+          "id": "d412b175-2365-4b2c-a8f5-3e4e9d06280d",
+          "label": "Archive Trap"
+        },
+        {
+          "type": "card",
+          "id": "60e59923-ecd9-457e-b772-693138e05ab2",
+          "label": "Hide // Seek"
+        },
+        {
+          "type": "card",
+          "id": "08b13e1f-27ca-40a8-b5ed-88ac933d24bf",
+          "label": "Archivist of Oghma"
+        },
+        {
+          "type": "card",
+          "id": "71362163-2ac3-4f8b-86b9-34fe083e2095",
+          "label": "New Frontiers"
+        }
+      ]
+    },
+    {
+      "id": "cs-045",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.8283919882829478,
+      "recall_at30": 0.8888888888888888,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "e828b189-0e8f-43b8-b909-4c23e742e028",
+          "label": "Ghostly Prison"
+        },
+        {
+          "type": "card",
+          "id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+          "label": "Propaganda"
+        },
+        {
+          "type": "card",
+          "id": "75e09ac6-d789-4c4d-9aca-845d68f3899f",
+          "label": "Windborn Muse"
+        },
+        {
+          "type": "card",
+          "id": "efd8dc6c-8233-45b2-99bd-e38ca2e0b35f",
+          "label": "Forbidding Spirit"
+        },
+        {
+          "type": "card",
+          "id": "51f561db-ca7f-4661-bc04-99b8af02b8c9",
+          "label": "Collective Restraint"
+        },
+        {
+          "type": "card",
+          "id": "ff942899-a70d-4fca-b125-9712aa635fff",
+          "label": "Reclamation"
+        },
+        {
+          "type": "card",
+          "id": "92f6c063-a740-4c3c-a60a-569fd298854d",
+          "label": "Sphere of Safety"
+        },
+        {
+          "type": "card",
+          "id": "9a1fbe72-4a17-42be-8e23-d7d30a5e59c1",
+          "label": "Norn\u0027s Annex"
+        },
+        {
+          "type": "card",
+          "id": "ff5caed4-0276-476d-8fae-edae2536df7f",
+          "label": "Archangel of Tithes"
+        },
+        {
+          "type": "card",
+          "id": "5a81755f-bc44-47ac-8039-8847a5e37922",
+          "label": "Brainwash"
+        }
+      ]
+    },
+    {
+      "id": "cs-046",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.11624268884534893,
+      "recall_at30": 0.375,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "8e594801-4a8d-4dcd-b328-7eb3de65cf90",
+          "label": "Festival"
+        },
+        {
+          "type": "card",
+          "id": "8aed54cb-d1bb-45ad-adbe-38e55d84ff31",
+          "label": "Silence"
+        },
+        {
+          "type": "card",
+          "id": "6284ef01-d17d-4584-aecb-1b841ae638e5",
+          "label": "Deafening Silence"
+        },
+        {
+          "type": "card",
+          "id": "9e48eb8e-ec62-4d73-ac80-31e6fe74ec31",
+          "label": "Cease-Fire"
+        },
+        {
+          "type": "card",
+          "id": "e711a213-2a6b-4b34-a788-95b6c0b7ba48",
+          "label": "Inventive Iteration // Living Breakthrough"
+        },
+        {
+          "type": "card",
+          "id": "7d615b37-8dc6-4142-bf9a-9815dd99025a",
+          "label": "Sphinx\u0027s Decree"
+        },
+        {
+          "type": "card",
+          "id": "ec3471ad-b65c-4e35-a7d1-68da9555a9ec",
+          "label": "Ethersworn Canonist"
+        },
+        {
+          "type": "card",
+          "id": "fcd54631-ea47-49a7-ad5f-9a9a51a815ba",
+          "label": "Unstable Glyphbridge // Sandswirl Wanderglyph"
+        },
+        {
+          "type": "card",
+          "id": "edfc0a46-414e-467d-9f27-e42d08ec127a",
+          "label": "Tidal Barracuda"
+        },
+        {
+          "type": "card",
+          "id": "34dd789c-4d80-4ccc-a4f7-2e5388a9689d",
+          "label": "Angelic Arbiter"
+        }
+      ]
+    },
+    {
+      "id": "cs-047",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.407410996071609,
+      "recall_at30": 0.6,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "eabcbaca-6df9-455a-85e5-32d6ad4d1b44",
+          "label": "Triumph of Ferocity"
+        },
+        {
+          "type": "card",
+          "id": "1d725121-e50c-42f0-9128-56802f07c89e",
+          "label": "Selvala, Heart of the Wilds"
+        },
+        {
+          "type": "card",
+          "id": "cac95494-0db0-4bec-8665-998431a6f76b",
+          "label": "Colossal Majesty"
+        },
+        {
+          "type": "card",
+          "id": "2b76f9e9-cd28-4eaf-8674-215c34263f96",
+          "label": "Return of the Wildspeaker"
+        },
+        {
+          "type": "card",
+          "id": "97407cd0-2bd2-4074-94d3-4ec3d243fa78",
+          "label": "Rishkar\u0027s Expertise"
+        },
+        {
+          "type": "card",
+          "id": "264e60a3-3191-497d-ab06-1411e668b4aa",
+          "label": "Desecrator Hag"
+        },
+        {
+          "type": "card",
+          "id": "50fd4cf3-c347-4eb9-ab15-a9b0c5ea8b0f",
+          "label": "Soul\u0027s Majesty"
+        },
+        {
+          "type": "card",
+          "id": "34282c99-68ef-4855-b683-7bb205fa6374",
+          "label": "Rush of Knowledge"
+        },
+        {
+          "type": "card",
+          "id": "24645d9e-5e6d-411d-be41-c2bd1659937f",
+          "label": "Primal Empathy"
+        },
+        {
+          "type": "card",
+          "id": "4d60dae0-7be4-4859-99ac-781a27bcfd93",
+          "label": "Thickest in the Thicket"
+        }
+      ]
+    },
+    {
+      "id": "cs-048",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "aae4dd38-3b35-4c92-a0d4-5d37cfd93df8",
+          "label": "Dueling Coach"
+        },
+        {
+          "type": "card",
+          "id": "ca0cc02b-b106-4eca-9388-d4b48dd3be49",
+          "label": "Corpsejack Menace"
+        },
+        {
+          "type": "card",
+          "id": "d52e9255-62e7-479f-8def-e92b96efdb89",
+          "label": "Common Bond"
+        },
+        {
+          "type": "card",
+          "id": "8b9918c3-1135-4c63-991f-f0a38340a33b",
+          "label": "Ascendant Acolyte"
+        },
+        {
+          "type": "card",
+          "id": "f122624f-f30d-444e-a62a-939829241045",
+          "label": "Kami of Whispered Hopes"
+        },
+        {
+          "type": "card",
+          "id": "270a21c1-4c44-46ef-8c4f-e08484f360e1",
+          "label": "Enduring Scalelord"
+        },
+        {
+          "type": "card",
+          "id": "a2fe5937-212c-4e71-8d6e-f408b38100aa",
+          "label": "Conclave Mentor"
+        },
+        {
+          "type": "card",
+          "id": "5a6176cc-98bf-43ac-815a-1f19c4e9329c",
+          "label": "Boss\u0027s Chauffeur"
+        },
+        {
+          "type": "card",
+          "id": "96cf2810-35b8-437e-b609-f9765604b8cf",
+          "label": "Inspiring Roar"
+        },
+        {
+          "type": "card",
+          "id": "f0e7d147-379e-45b7-bfc4-d926637e060d",
+          "label": "High Sentinels of Arashin"
+        }
+      ]
+    },
+    {
+      "id": "cs-049",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0.06141343426762515,
+      "recall_at30": 0.5,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "d86f3d5e-838c-4787-9417-85a6997c3bde",
+          "label": "Double Cleave"
+        },
+        {
+          "type": "card",
+          "id": "34f5383b-21fe-45f5-9598-7382ee4c5b12",
+          "label": "Goring Ceratops"
+        },
+        {
+          "type": "card",
+          "id": "12dd664c-a279-4adc-b6cb-bec22eedca5c",
+          "label": "Siege Striker"
+        },
+        {
+          "type": "card",
+          "id": "581c2fb6-fcce-42c1-b198-1f8d62e862b1",
+          "label": "Arashin Foremost"
+        },
+        {
+          "type": "card",
+          "id": "0394846e-bc27-4d67-988e-b08a389690de",
+          "label": "Rover Blades"
+        },
+        {
+          "type": "card",
+          "id": "4957c166-9734-4ba0-a4b9-2a248c0ff38f",
+          "label": "Avenging Huntbonder"
+        },
+        {
+          "type": "card",
+          "id": "88b076a4-46ff-4a41-95a5-2821f4d8944d",
+          "label": "Twin Blades"
+        },
+        {
+          "type": "card",
+          "id": "85d2948c-1a79-418d-80c4-bc1012a4d313",
+          "label": "Berserkers\u0027 Onslaught"
+        },
+        {
+          "type": "card",
+          "id": "758dd2fd-d3ec-4782-9a60-12b0d79719da",
+          "label": "Kor Duelist"
+        },
+        {
+          "type": "card",
+          "id": "89ec0f03-47d0-4657-8987-95e680404f24",
+          "label": "Dual-Sun Technique"
+        }
+      ]
+    },
+    {
+      "id": "cs-050",
+      "surface": "card_search",
+      "archetype_vocab": false,
+      "ndcg_at10": 0,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "be7a38a3-c27f-4917-a59c-763d0b36e427",
+          "label": "Forge Devil"
+        },
+        {
+          "type": "card",
+          "id": "42fb1a1c-ab3d-4cdc-a6ff-a591f7481583",
+          "label": "Warstorm Surge"
+        },
+        {
+          "type": "card",
+          "id": "5bd806e7-3f9b-4bb4-9708-f87a578f531e",
+          "label": "Fire Imp"
+        },
+        {
+          "type": "card",
+          "id": "d7e2b2ba-cb5e-41f1-ad33-baf56c0b72ed",
+          "label": "Reckless Rage"
+        },
+        {
+          "type": "card",
+          "id": "b9538d53-480b-481a-abbf-83ab17e1a45b",
+          "label": "No Mercy"
+        },
+        {
+          "type": "card",
+          "id": "f1352a81-6fd5-4c4d-ada4-b81d3a9f74c0",
+          "label": "Dagger Caster"
+        },
+        {
+          "type": "card",
+          "id": "07947d01-ebb1-46b7-9bdd-ea00e034805b",
+          "label": "War Elemental"
+        },
+        {
+          "type": "card",
+          "id": "556dd333-4066-41f7-98f6-41794754de71",
+          "label": "Vile Entomber"
+        },
+        {
+          "type": "card",
+          "id": "15e83068-6253-4c65-8679-7295f3dc2075",
+          "label": "Aether Charge"
+        },
+        {
+          "type": "card",
+          "id": "16774611-c004-4383-b4e1-4a43a9b1f4aa",
+          "label": "Fatal Blow"
+        }
+      ]
+    },
+    {
+      "id": "cs-051",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0.125,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "8832b76b-58b7-41b2-b2f6-842563b55b36",
+          "label": "Crash the Ramparts"
+        },
+        {
+          "type": "card",
+          "id": "d1a665f1-b06f-4775-bcb1-c57a476fa651",
+          "label": "Invigorated Rampage"
+        },
+        {
+          "type": "card",
+          "id": "ec9975f4-dfff-4b72-9da8-8f2025f0524a",
+          "label": "Rush of Adrenaline"
+        },
+        {
+          "type": "card",
+          "id": "3501a839-eef5-44e4-8637-b5754780454e",
+          "label": "Expedite"
+        },
+        {
+          "type": "card",
+          "id": "ef0c0f28-e1ee-42a1-9878-95a0ceb0a9fa",
+          "label": "Rustler Rampage"
+        },
+        {
+          "type": "card",
+          "id": "63c7248e-a7a2-4e32-b4d2-55dbc63e51e5",
+          "label": "Rapid Fire"
+        },
+        {
+          "type": "card",
+          "id": "79189464-9645-4411-8886-68fd40a588ed",
+          "label": "Accelerate"
+        },
+        {
+          "type": "card",
+          "id": "40ee79dd-cf53-415c-8e3c-d1a125a735db",
+          "label": "Rallying Roar"
+        },
+        {
+          "type": "card",
+          "id": "b60d83ea-18bf-4c64-b4ee-981d54629362",
+          "label": "Banners Raised"
+        },
+        {
+          "type": "card",
+          "id": "9e5df175-5f91-47f7-957c-63bac31f0858",
+          "label": "Hog-Monkey Rampage"
+        }
+      ]
+    },
+    {
+      "id": "cs-052",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "d06f0f7c-0270-44be-991a-a5ebbddb0900",
+          "label": "Purge"
+        },
+        {
+          "type": "card",
+          "id": "cf307f81-488c-4df5-8b08-ba46e3e7f3d9",
+          "label": "Eliminate"
+        },
+        {
+          "type": "card",
+          "id": "28f55673-7aa0-497e-8434-aa70df1b5e04",
+          "label": "Annihilate"
+        },
+        {
+          "type": "card",
+          "id": "e4ab986d-662c-4879-b6f1-6887a2ec4d7c",
+          "label": "Disentomb"
+        },
+        {
+          "type": "card",
+          "id": "d0783be9-e518-431a-8e71-121610da50e1",
+          "label": "Clear"
+        },
+        {
+          "type": "card",
+          "id": "6fa90258-3c9f-4723-880f-31871c0772e0",
+          "label": "Disembowel"
+        },
+        {
+          "type": "card",
+          "id": "c547c9ab-a303-48fb-9579-37f9de9a558b",
+          "label": "Depose // Deploy"
+        },
+        {
+          "type": "card",
+          "id": "4b1fee86-360d-41d8-9238-eff216376732",
+          "label": "Expunge"
+        },
+        {
+          "type": "card",
+          "id": "b9d51e07-851f-4b7b-bffe-7c1efff0714c",
+          "label": "Break the Spell"
+        },
+        {
+          "type": "card",
+          "id": "24d2cbf6-6268-4da3-8413-6c76679576fe",
+          "label": "Execute"
+        }
+      ]
+    },
+    {
+      "id": "cs-053",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "d3491972-44c5-4962-a680-42b79357a189",
+          "label": "Stun"
+        },
+        {
+          "type": "card",
+          "id": "2313eef6-5414-462c-bf2f-f3283786735f",
+          "label": "Void Stalker"
+        },
+        {
+          "type": "card",
+          "id": "ce55c0a9-3334-440e-ae1b-c04a9e1c3d87",
+          "label": "Stall Out"
+        },
+        {
+          "type": "card",
+          "id": "9c0d7d7d-5513-4e2b-b834-1ff999ab24f5",
+          "label": "Stiltstrider"
+        },
+        {
+          "type": "card",
+          "id": "8b641cd3-bb08-4f2e-9dad-24f58a9c32e1",
+          "label": "Restock"
+        },
+        {
+          "type": "card",
+          "id": "b4ee6843-bb79-4665-9763-83f656863dc5",
+          "label": "Stab"
+        },
+        {
+          "type": "card",
+          "id": "34d112c3-cc2d-4428-bd7f-568bda61bd30",
+          "label": "Starstorm"
+        },
+        {
+          "type": "card",
+          "id": "57bda813-ad4b-40ab-aa35-3f8343ff8668",
+          "label": "Staggering Size"
+        },
+        {
+          "type": "card",
+          "id": "1ec365f8-bfb8-416f-b4db-868a8f5d042a",
+          "label": "Chain Stasis"
+        },
+        {
+          "type": "card",
+          "id": "0cc6d683-366f-4ae4-be60-20ad9621fdaf",
+          "label": "Stroke of Genius"
+        }
+      ]
+    },
+    {
+      "id": "cs-054",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "d06f0f7c-0270-44be-991a-a5ebbddb0900",
+          "label": "Purge"
+        },
+        {
+          "type": "card",
+          "id": "36c78a5f-0148-4596-a346-f8e35037b694",
+          "label": "Time Wipe"
+        },
+        {
+          "type": "card",
+          "id": "24d2cbf6-6268-4da3-8413-6c76679576fe",
+          "label": "Execute"
+        },
+        {
+          "type": "card",
+          "id": "28f55673-7aa0-497e-8434-aa70df1b5e04",
+          "label": "Annihilate"
+        },
+        {
+          "type": "card",
+          "id": "4b1fee86-360d-41d8-9238-eff216376732",
+          "label": "Expunge"
+        },
+        {
+          "type": "card",
+          "id": "d0783be9-e518-431a-8e71-121610da50e1",
+          "label": "Clear"
+        },
+        {
+          "type": "card",
+          "id": "cf307f81-488c-4df5-8b08-ba46e3e7f3d9",
+          "label": "Eliminate"
+        },
+        {
+          "type": "card",
+          "id": "ad9b6737-22c4-45cc-976b-32743ed48462",
+          "label": "Wipe Away"
+        },
+        {
+          "type": "card",
+          "id": "46b83657-1699-4162-a4bb-b792da396fe6",
+          "label": "Cleansing"
+        },
+        {
+          "type": "card",
+          "id": "f5cbc4f3-4e73-405f-9daf-e5b7c73fa6ee",
+          "label": "Wipe Clean"
+        }
+      ]
+    },
+    {
+      "id": "cs-055",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0.1111111111111111,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "72a7faa0-cb0c-4841-84f3-e340b19fe045",
+          "label": "Predict"
+        },
+        {
+          "type": "card",
+          "id": "965139fb-2e58-4ef2-b639-3ceaa2995c00",
+          "label": "Catalog"
+        },
+        {
+          "type": "card",
+          "id": "62411ced-843e-4b63-bdf6-dafb2ac27047",
+          "label": "Fast // Furious"
+        },
+        {
+          "type": "card",
+          "id": "efc0aa25-9ac2-4a25-956c-fff39ef536be",
+          "label": "Goblin Picker"
+        },
+        {
+          "type": "card",
+          "id": "be74a4c1-d569-4203-b28a-3e2ac6a82990",
+          "label": "Dictate of Kruphix"
+        },
+        {
+          "type": "card",
+          "id": "686cce6e-18ec-45b0-8d2e-74fa353a905e",
+          "label": "Tolarian Winds"
+        },
+        {
+          "type": "card",
+          "id": "1a4c6643-c48b-4e83-b0c4-96873c13408c",
+          "label": "Refresh"
+        },
+        {
+          "type": "card",
+          "id": "8038337b-aff9-49aa-800c-0e12d2688765",
+          "label": "Overwhelming Intellect"
+        },
+        {
+          "type": "card",
+          "id": "b22080d6-a9ed-4bdd-a604-058e0e3e9463",
+          "label": "Mental Discipline"
+        },
+        {
+          "type": "card",
+          "id": "b9720c63-5aa7-4fb8-8d71-8f55d8b1337b",
+          "label": "Secrets of the Dead"
+        }
+      ]
+    },
+    {
+      "id": "cs-056",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0.6905747892766487,
+      "recall_at30": 0.7777777777777778,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "fb81f95c-70f8-4eb7-8d15-15d0ae23ec03",
+          "label": "Mystical Tutor"
+        },
+        {
+          "type": "card",
+          "id": "90f54959-2c9b-4b8a-84c9-d6893eb43553",
+          "label": "Personal Tutor"
+        },
+        {
+          "type": "card",
+          "id": "106ae855-574b-411d-8689-cbb9eeb4f602",
+          "label": "Energy Tap"
+        },
+        {
+          "type": "card",
+          "id": "e8863518-0bfa-49c3-8c6e-6c9116a81051",
+          "label": "Worldly Tutor"
+        },
+        {
+          "type": "card",
+          "id": "14589b6b-1814-46f9-a364-83cc15dacac2",
+          "label": "Diabolic Tutor"
+        },
+        {
+          "type": "card",
+          "id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+          "label": "Vampiric Tutor"
+        },
+        {
+          "type": "card",
+          "id": "c5229c17-b7be-4b05-b683-f2277edc4849",
+          "label": "Enlightened Tutor"
+        },
+        {
+          "type": "card",
+          "id": "5c7e7c9e-00d1-497e-bee7-278bbd82e234",
+          "label": "Guiding Voice"
+        },
+        {
+          "type": "card",
+          "id": "d5a9fd97-535c-4aa4-9777-6cf8a413b6ec",
+          "label": "Trickster Mage"
+        },
+        {
+          "type": "card",
+          "id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+          "label": "Demonic Tutor"
+        }
+      ]
+    },
+    {
+      "id": "cs-057",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0.14514605925250643,
+      "recall_at30": 0.1,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "6cb8b8c4-0674-4f14-9d89-010969fbb80e",
+          "label": "Grave Researcher // Reanimate"
+        },
+        {
+          "type": "card",
+          "id": "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0",
+          "label": "Reanimate"
+        },
+        {
+          "type": "card",
+          "id": "ad8fb78b-5ca5-4ef1-8c68-ee57d1e32fec",
+          "label": "Reconstruction"
+        },
+        {
+          "type": "card",
+          "id": "b1f2b26c-91b2-4f3c-9f48-6429ec3fde48",
+          "label": "Repeal"
+        },
+        {
+          "type": "card",
+          "id": "1bd5fd97-f898-4e17-9e8f-5fa93b9eef71",
+          "label": "Renewing Touch"
+        },
+        {
+          "type": "card",
+          "id": "3f453aca-e14f-4460-9334-f0c3f4256a0e",
+          "label": "Mystic Repeal"
+        },
+        {
+          "type": "card",
+          "id": "1a4c6643-c48b-4e83-b0c4-96873c13408c",
+          "label": "Refresh"
+        },
+        {
+          "type": "card",
+          "id": "054c00b4-c940-455a-ad88-b8aa35931ecf",
+          "label": "Alter Reality"
+        },
+        {
+          "type": "card",
+          "id": "da46904c-8fb8-44c2-b2ab-775a1cc12ec3",
+          "label": "Dramatic Reversal"
+        },
+        {
+          "type": "card",
+          "id": "83ccbcb1-7cf0-41a0-8abd-18f4bc647b5f",
+          "label": "Katara\u0027s Reversal"
+        }
+      ]
+    },
+    {
+      "id": "cs-058",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0.23504554941448536,
+      "recall_at30": 0.2222222222222222,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "cc187110-1148-4090-bbb8-e205694a39f5",
+          "label": "Counterspell"
+        },
+        {
+          "type": "card",
+          "id": "ba9e129d-a3cf-431c-93af-f2e4902d40a0",
+          "label": "Whirlwind Denial"
+        },
+        {
+          "type": "card",
+          "id": "5168be9b-ffca-41c5-a944-92a1a2e30779",
+          "label": "Mutated Cultist"
+        },
+        {
+          "type": "card",
+          "id": "98709d61-4da4-4d3a-a654-bb2a7a0edb6b",
+          "label": "Amulet of Safekeeping"
+        },
+        {
+          "type": "card",
+          "id": "7d00fb28-ea6c-49a9-b4af-ffb38860a9a7",
+          "label": "Cancel"
+        },
+        {
+          "type": "card",
+          "id": "6d56bd32-f47a-4e54-a88e-b69d16283ea4",
+          "label": "Dazzling Denial"
+        },
+        {
+          "type": "card",
+          "id": "6df620b8-1e54-4f63-8556-12c75e5679af",
+          "label": "Countersquall"
+        },
+        {
+          "type": "card",
+          "id": "0f730bd9-2060-46b1-9208-0ac6562e8b2a",
+          "label": "Essence Capture"
+        },
+        {
+          "type": "card",
+          "id": "d64b0848-0193-4025-ba62-63ecd8fb9f50",
+          "label": "Spell Pierce"
+        },
+        {
+          "type": "card",
+          "id": "2c51e20b-07b2-4c96-8d73-87379aafbc7c",
+          "label": "Countervailing Winds"
+        }
+      ]
+    },
+    {
+      "id": "cs-059",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "f6479f7e-01f4-49f1-a444-04bf38934f6b",
+          "label": "Marneus Calgar"
+        },
+        {
+          "type": "card",
+          "id": "196962f0-6aff-4198-9e0c-eaf42aeaf147",
+          "label": "Astor, Bearer of Blades"
+        },
+        {
+          "type": "card",
+          "id": "9603e553-f72d-40bf-94ab-596afb7d6db3",
+          "label": "Cartel Aristocrat"
+        },
+        {
+          "type": "card",
+          "id": "be14d3be-295e-431c-b891-590164b730dd",
+          "label": "Court of Ardenvale"
+        },
+        {
+          "type": "card",
+          "id": "1f3f6336-6f99-4181-be3c-1814f7b8ef36",
+          "label": "Court of Garenbrig"
+        },
+        {
+          "type": "card",
+          "id": "7f0544e3-965f-4b12-baaf-d7dfea8d4d41",
+          "label": "Birth of the Imperium"
+        },
+        {
+          "type": "card",
+          "id": "464a930a-79d5-4436-864d-3ce9f29475ae",
+          "label": "Champions of Minas Tirith"
+        },
+        {
+          "type": "card",
+          "id": "7a0514d0-db8f-402d-abf1-cddda87405cf",
+          "label": "Cephalid Aristocrat"
+        },
+        {
+          "type": "card",
+          "id": "09f09d0a-6054-4545-b81e-0295773cc5f0",
+          "label": "The Arkenstone // Seek the Heart"
+        },
+        {
+          "type": "card",
+          "id": "e45a1c99-a020-49ab-8971-35c6bcd096c8",
+          "label": "Pride of Conquerors"
+        }
+      ]
+    },
+    {
+      "id": "cs-060",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "ce148a0c-6c63-49d5-a156-99efae4e367a",
+          "label": "Vastwood Fortification // Vastwood Thicket"
+        },
+        {
+          "type": "card",
+          "id": "0547e426-e23e-4c60-ba6b-cfd4b5ff8485",
+          "label": "Mobile Fort"
+        },
+        {
+          "type": "card",
+          "id": "a6933789-bb4f-4d45-975e-402b8e0b0e68",
+          "label": "Shielded Passage"
+        },
+        {
+          "type": "card",
+          "id": "5c3f45cb-d2f0-4dac-b124-18e8f6d7e2dc",
+          "label": "Escarpment Fortress"
+        },
+        {
+          "type": "card",
+          "id": "0b137853-7cb9-424b-8285-12938991eafb",
+          "label": "Pillage"
+        },
+        {
+          "type": "card",
+          "id": "ecfa6791-938a-4159-92bf-ff2b0ce69523",
+          "label": "Stonewise Fortifier"
+        },
+        {
+          "type": "card",
+          "id": "1dd64972-5713-4c25-b7a5-a35a56886ef4",
+          "label": "Defend the Hearth"
+        },
+        {
+          "type": "card",
+          "id": "48bf020e-45b9-4c27-82e0-80d942656a67",
+          "label": "Darksteel Garrison"
+        },
+        {
+          "type": "card",
+          "id": "f8d1fbec-6ec1-47fa-ba02-fcee906db0d7",
+          "label": "Festival of the Guildpact"
+        },
+        {
+          "type": "card",
+          "id": "449ed4b4-9e1e-4181-9090-af91802eba49",
+          "label": "Coastal Bulwark"
+        }
+      ]
+    },
+    {
+      "id": "cs-061",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "4e11c838-68a7-4c97-b064-a46833cf1d2f",
+          "label": "Volrath the Fallen"
+        },
+        {
+          "type": "card",
+          "id": "436501ca-0998-43fc-975f-87c2d34caab3",
+          "label": "Ultron, Unlimited"
+        },
+        {
+          "type": "card",
+          "id": "a3b226b9-f149-4578-882b-77447608380a",
+          "label": "Spelleater Wolverine"
+        },
+        {
+          "type": "card",
+          "id": "ab7609dd-f4c0-4636-8177-7a926c01e470",
+          "label": "Voltaic Brawler"
+        },
+        {
+          "type": "card",
+          "id": "d6fdfd94-cef5-482c-83ed-11c5ba40abe9",
+          "label": "Zurgo\u0027s Vanguard"
+        },
+        {
+          "type": "card",
+          "id": "dc0decb9-32da-47aa-a51a-0d9c623c534a",
+          "label": "Iron Will"
+        },
+        {
+          "type": "card",
+          "id": "ebc3ca0f-35eb-4606-90ab-eb64556f81fe",
+          "label": "Volatile Wanderglyph"
+        },
+        {
+          "type": "card",
+          "id": "6e53a43e-5a23-4057-9bb5-281508da57af",
+          "label": "Wolverine, Best There Is"
+        },
+        {
+          "type": "card",
+          "id": "43832745-5d7d-4957-8e30-2072ad012564",
+          "label": "Velomachus Lorehold"
+        },
+        {
+          "type": "card",
+          "id": "ae10eb15-28e7-46d1-9a2e-85763d93febf",
+          "label": "T\u0027Challa, the Black Panther"
+        }
+      ]
+    },
+    {
+      "id": "cs-062",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0.23814867544569443,
+      "recall_at30": 0.3333333333333333,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "e0935a0f-7087-40cd-a094-89f200da6ef0",
+          "label": "Spinning Wheel"
+        },
+        {
+          "type": "card",
+          "id": "df13dafb-f82e-42ac-b6dc-efe82af5db58",
+          "label": "Magus of the Wheel"
+        },
+        {
+          "type": "card",
+          "id": "a7c6f07c-3cc3-4271-bbc7-9f7d5bbed3e8",
+          "label": "Wheel and Deal"
+        },
+        {
+          "type": "card",
+          "id": "b0941bc2-f482-4821-a96b-720b08c7334a",
+          "label": "Big Wheel"
+        },
+        {
+          "type": "card",
+          "id": "58f70225-17b5-4aa6-a62a-89c57e31ecc1",
+          "label": "Flamecast Wheel"
+        },
+        {
+          "type": "card",
+          "id": "22000392-99e9-4927-a488-1bcb576f6275",
+          "label": "Runeboggle"
+        },
+        {
+          "type": "card",
+          "id": "10aff3f6-8347-4e1b-b8e7-c204c9e46657",
+          "label": "Wheel of Misfortune"
+        },
+        {
+          "type": "card",
+          "id": "5f928e54-3027-4f2f-9fef-d63b9ca416aa",
+          "label": "Psychic Spiral"
+        },
+        {
+          "type": "card",
+          "id": "c3162232-b713-44be-b2af-29d801279ab2",
+          "label": "Gempalm Sorcerer"
+        },
+        {
+          "type": "card",
+          "id": "ed37ce4e-d84e-442a-ac4e-0512f358c138",
+          "label": "Spinning Wheel Kick"
+        }
+      ]
+    },
+    {
+      "id": "cs-063",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "a30241b4-5e92-44cd-b19b-7d6d59e95ada",
+          "label": "Keeper of Progenitus"
+        },
+        {
+          "type": "card",
+          "id": "103d9ad0-d655-4bd5-a899-e9f8869e333d",
+          "label": "Gaze of Granite"
+        },
+        {
+          "type": "card",
+          "id": "a0af158b-f42a-4022-a438-e0a2e1fd6d9e",
+          "label": "Zendikar Resurgent"
+        },
+        {
+          "type": "card",
+          "id": "95c3976c-33f3-490b-bfd3-7f1af2fe0416",
+          "label": "Chromatic Orrery"
+        },
+        {
+          "type": "card",
+          "id": "58678469-77e5-4c1b-88d6-5e6642b0c8ca",
+          "label": "The Mana Rig"
+        },
+        {
+          "type": "card",
+          "id": "48207d1c-448a-4e1b-974a-642dfea75933",
+          "label": "Mana Short"
+        },
+        {
+          "type": "card",
+          "id": "6ec2794f-db1a-4448-a75e-ed7aff565378",
+          "label": "Geosurge"
+        },
+        {
+          "type": "card",
+          "id": "29e9cf1c-a6bd-4bee-9000-ac1b4e19d6b0",
+          "label": "Ritual of Soot"
+        },
+        {
+          "type": "card",
+          "id": "b52148c3-fe97-4cc0-a814-a5a0f5d426f6",
+          "label": "Deathbloom Ritualist"
+        },
+        {
+          "type": "card",
+          "id": "d1edb950-a118-4b4d-a0ef-9a6683d74c9f",
+          "label": "Purple Dragon Punks"
+        }
+      ]
+    },
+    {
+      "id": "cs-064",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "51acd176-e84d-42c2-acb2-cceeb28a9fec",
+          "label": "Blink of an Eye"
+        },
+        {
+          "type": "card",
+          "id": "5733c3fb-c533-456c-b30e-5d2b9e206b6b",
+          "label": "Don\u0027t Blink"
+        },
+        {
+          "type": "card",
+          "id": "6b7bbdb7-bdd5-4eb1-912e-f2f810772ac8",
+          "label": "Lightning Blow"
+        },
+        {
+          "type": "card",
+          "id": "88ce2017-83a6-4b55-afba-371875bf2172",
+          "label": "Blinding Spray"
+        },
+        {
+          "type": "card",
+          "id": "a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7",
+          "label": "Momentary Blink"
+        },
+        {
+          "type": "card",
+          "id": "9abeb38c-2243-424c-bfbc-87aa45b6ea4f",
+          "label": "Blindblast"
+        },
+        {
+          "type": "card",
+          "id": "ccc4f21f-cf8c-40bb-a6d6-1f624320c5b2",
+          "label": "Slitherwisp"
+        },
+        {
+          "type": "card",
+          "id": "02a7d95a-0a45-4aa3-b5b8-01c0b36462d8",
+          "label": "Blink Dog"
+        },
+        {
+          "type": "card",
+          "id": "b36271cb-cda2-434a-a580-6050dc460409",
+          "label": "Fleeting Distraction"
+        },
+        {
+          "type": "card",
+          "id": "7234bbf8-b962-4515-bedf-68d111c6137e",
+          "label": "Sabin, Master Monk"
+        }
+      ]
+    },
+    {
+      "id": "cs-065",
+      "surface": "card_search",
+      "archetype_vocab": true,
+      "ndcg_at10": 0,
+      "recall_at30": 0,
+      "top_hits": [
+        {
+          "type": "card",
+          "id": "6b4ee935-4474-4757-9fab-978a2e1e72a0",
+          "label": "Tribal Unity"
+        },
+        {
+          "type": "card",
+          "id": "8025313d-048d-4a43-bc01-22398939a7e7",
+          "label": "Heroic Teamwork"
+        },
+        {
+          "type": "card",
+          "id": "f8d1fbec-6ec1-47fa-ba02-fcee906db0d7",
+          "label": "Festival of the Guildpact"
+        },
+        {
+          "type": "card",
+          "id": "3c5c227a-335b-4995-9821-d4269a0a233a",
+          "label": "Hugs, Grisly Guardian"
+        },
+        {
+          "type": "card",
+          "id": "ef9b7588-9bf0-4632-ae5d-1dfebc4d88eb",
+          "label": "Shared Trauma"
+        },
+        {
+          "type": "card",
+          "id": "a8631e87-bfc3-463b-bdd1-974ea1d79ae4",
+          "label": "Band Together"
+        },
+        {
+          "type": "card",
+          "id": "212af747-2ac1-4d33-9456-8b3cc8988f5d",
+          "label": "Find // Finality"
+        },
+        {
+          "type": "card",
+          "id": "d22ea32b-2128-4dcc-8b1c-c4c52f0b2f45",
+          "label": "Rejoin the Fight"
+        },
+        {
+          "type": "card",
+          "id": "ff27ff96-afd2-45df-b799-3046179e27c6",
+          "label": "Reinforcements"
+        },
+        {
+          "type": "card",
+          "id": "fbd99a88-8926-455e-8e23-58fed6d14719",
+          "label": "Blossoming Wreath"
+        }
+      ]
+    },
+    {
+      "id": "rs-001",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "903.10",
+          "label": "903.10"
+        },
+        {
+          "type": "rule",
+          "id": "704.6",
+          "label": "704.6"
+        },
+        {
+          "type": "rule",
+          "id": "104.3",
+          "label": "104.3"
+        },
+        {
+          "type": "rule",
+          "id": "903.8",
+          "label": "903.8"
+        },
+        {
+          "type": "rule",
+          "id": "903.2",
+          "label": "903.2"
+        },
+        {
+          "type": "rule",
+          "id": "120.3",
+          "label": "120.3"
+        },
+        {
+          "type": "rule",
+          "id": "704.5",
+          "label": "704.5"
+        },
+        {
+          "type": "rule",
+          "id": "119.2",
+          "label": "119.2"
+        },
+        {
+          "type": "rule",
+          "id": "Lose the Game",
+          "label": "Lose the Game"
+        },
+        {
+          "type": "rule",
+          "id": "810.8",
+          "label": "810.8"
+        }
+      ]
+    },
+    {
+      "id": "rs-002",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "903.9",
+          "label": "903.9"
+        },
+        {
+          "type": "rule",
+          "id": "Command",
+          "label": "Command"
+        },
+        {
+          "type": "rule",
+          "id": "903.3",
+          "label": "903.3"
+        },
+        {
+          "type": "rule",
+          "id": "408.1",
+          "label": "408.1"
+        },
+        {
+          "type": "rule",
+          "id": "717.6",
+          "label": "717.6"
+        },
+        {
+          "type": "rule",
+          "id": "903.8",
+          "label": "903.8"
+        },
+        {
+          "type": "rule",
+          "id": "727.5",
+          "label": "727.5"
+        },
+        {
+          "type": "rule",
+          "id": "704.6",
+          "label": "704.6"
+        },
+        {
+          "type": "rule",
+          "id": "903.10",
+          "label": "903.10"
+        },
+        {
+          "type": "rule",
+          "id": "400.10",
+          "label": "400.10"
+        }
+      ]
+    },
+    {
+      "id": "rs-003",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "903.4",
+          "label": "903.4"
+        },
+        {
+          "type": "rule",
+          "id": "903.5",
+          "label": "903.5"
+        },
+        {
+          "type": "rule",
+          "id": "Color Identity",
+          "label": "Color Identity"
+        },
+        {
+          "type": "rule",
+          "id": "903.3",
+          "label": "903.3"
+        },
+        {
+          "type": "rule",
+          "id": "903.11",
+          "label": "903.11"
+        },
+        {
+          "type": "rule",
+          "id": "702.124",
+          "label": "702.124"
+        },
+        {
+          "type": "rule",
+          "id": "903.1",
+          "label": "903.1"
+        },
+        {
+          "type": "rule",
+          "id": "Commander",
+          "label": "Commander"
+        },
+        {
+          "type": "rule",
+          "id": "207.5",
+          "label": "207.5"
+        },
+        {
+          "type": "rule",
+          "id": "Choose a Background",
+          "label": "Choose a Background"
+        }
+      ]
+    },
+    {
+      "id": "rs-004",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "903.8",
+          "label": "903.8"
+        },
+        {
+          "type": "rule",
+          "id": "Commander Tax",
+          "label": "Commander Tax"
+        },
+        {
+          "type": "rule",
+          "id": "903.9",
+          "label": "903.9"
+        },
+        {
+          "type": "rule",
+          "id": "118.8",
+          "label": "118.8"
+        },
+        {
+          "type": "rule",
+          "id": "Command",
+          "label": "Command"
+        },
+        {
+          "type": "rule",
+          "id": "408.1",
+          "label": "408.1"
+        },
+        {
+          "type": "rule",
+          "id": "903.3",
+          "label": "903.3"
+        },
+        {
+          "type": "rule",
+          "id": "903.1",
+          "label": "903.1"
+        },
+        {
+          "type": "rule",
+          "id": "717.6",
+          "label": "717.6"
+        },
+        {
+          "type": "rule",
+          "id": "202.4",
+          "label": "202.4"
+        }
+      ]
+    },
+    {
+      "id": "rs-005",
+      "surface": "rules_search",
+      "ndcg_at10": 0,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "201.2",
+          "label": "201.2"
+        },
+        {
+          "type": "rule",
+          "id": "Legend Rule",
+          "label": "Legend Rule"
+        },
+        {
+          "type": "rule",
+          "id": "306.4",
+          "label": "306.4"
+        },
+        {
+          "type": "rule",
+          "id": "404.3",
+          "label": "404.3"
+        },
+        {
+          "type": "rule",
+          "id": "201.3",
+          "label": "201.3"
+        },
+        {
+          "type": "rule",
+          "id": "707.11",
+          "label": "707.11"
+        },
+        {
+          "type": "rule",
+          "id": "Legendary",
+          "label": "Legendary"
+        },
+        {
+          "type": "rule",
+          "id": "612.8",
+          "label": "612.8"
+        },
+        {
+          "type": "rule",
+          "id": "303.7",
+          "label": "303.7"
+        },
+        {
+          "type": "rule",
+          "id": "712.16",
+          "label": "712.16"
+        }
+      ]
+    },
+    {
+      "id": "rs-006",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "702.19",
+          "label": "702.19"
+        },
+        {
+          "type": "rule",
+          "id": "702.2",
+          "label": "702.2"
+        },
+        {
+          "type": "rule",
+          "id": "Trample Over Planeswalkers",
+          "label": "Trample Over Planeswalkers"
+        },
+        {
+          "type": "rule",
+          "id": "Declare Blockers",
+          "label": "Declare Blockers"
+        },
+        {
+          "type": "rule",
+          "id": "509.1",
+          "label": "509.1"
+        },
+        {
+          "type": "rule",
+          "id": "509.3",
+          "label": "509.3"
+        },
+        {
+          "type": "rule",
+          "id": "510.1",
+          "label": "510.1"
+        },
+        {
+          "type": "rule",
+          "id": "702.23",
+          "label": "702.23"
+        },
+        {
+          "type": "rule",
+          "id": "Damage Assignment Order (Obsolete)",
+          "label": "Damage Assignment Order (Obsolete)"
+        },
+        {
+          "type": "rule",
+          "id": "302.5",
+          "label": "302.5"
+        }
+      ]
+    },
+    {
+      "id": "rs-007",
+      "surface": "rules_search",
+      "ndcg_at10": 0.6309297535714575,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "208.5",
+          "label": "208.5"
+        },
+        {
+          "type": "rule",
+          "id": "704.5",
+          "label": "704.5"
+        },
+        {
+          "type": "rule",
+          "id": "702.2",
+          "label": "702.2"
+        },
+        {
+          "type": "rule",
+          "id": "302.4",
+          "label": "302.4"
+        },
+        {
+          "type": "rule",
+          "id": "208.2",
+          "label": "208.2"
+        },
+        {
+          "type": "rule",
+          "id": "Toughness",
+          "label": "Toughness"
+        },
+        {
+          "type": "rule",
+          "id": "302.7",
+          "label": "302.7"
+        },
+        {
+          "type": "rule",
+          "id": "120.6",
+          "label": "120.6"
+        },
+        {
+          "type": "rule",
+          "id": "208.3",
+          "label": "208.3"
+        },
+        {
+          "type": "rule",
+          "id": "208.4",
+          "label": "208.4"
+        }
+      ]
+    },
+    {
+      "id": "rs-008",
+      "surface": "rules_search",
+      "ndcg_at10": 0.6934264036172708,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "Resolve",
+          "label": "Resolve"
+        },
+        {
+          "type": "rule",
+          "id": "405.5",
+          "label": "405.5"
+        },
+        {
+          "type": "rule",
+          "id": "608.1",
+          "label": "608.1"
+        },
+        {
+          "type": "rule",
+          "id": "307.2",
+          "label": "307.2"
+        },
+        {
+          "type": "rule",
+          "id": "608.2",
+          "label": "608.2"
+        },
+        {
+          "type": "rule",
+          "id": "117.7",
+          "label": "117.7"
+        },
+        {
+          "type": "rule",
+          "id": "304.2",
+          "label": "304.2"
+        },
+        {
+          "type": "rule",
+          "id": "Stack",
+          "label": "Stack"
+        },
+        {
+          "type": "rule",
+          "id": "112.1",
+          "label": "112.1"
+        },
+        {
+          "type": "rule",
+          "id": "608.3",
+          "label": "608.3"
+        }
+      ]
+    },
+    {
+      "id": "rs-009",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "603.3",
+          "label": "603.3"
+        },
+        {
+          "type": "rule",
+          "id": "805.7",
+          "label": "805.7"
+        },
+        {
+          "type": "rule",
+          "id": "605.4",
+          "label": "605.4"
+        },
+        {
+          "type": "rule",
+          "id": "Trigger",
+          "label": "Trigger"
+        },
+        {
+          "type": "rule",
+          "id": "603.5",
+          "label": "603.5"
+        },
+        {
+          "type": "rule",
+          "id": "509.2",
+          "label": "509.2"
+        },
+        {
+          "type": "rule",
+          "id": "405.1",
+          "label": "405.1"
+        },
+        {
+          "type": "rule",
+          "id": "508.2",
+          "label": "508.2"
+        },
+        {
+          "type": "rule",
+          "id": "510.3",
+          "label": "510.3"
+        },
+        {
+          "type": "rule",
+          "id": "603.8",
+          "label": "603.8"
+        }
+      ]
+    },
+    {
+      "id": "rs-010",
+      "surface": "rules_search",
+      "ndcg_at10": 0.6131471927654584,
+      "recall_at30": 0.5,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "121.4",
+          "label": "121.4"
+        },
+        {
+          "type": "rule",
+          "id": "121.5",
+          "label": "121.5"
+        },
+        {
+          "type": "rule",
+          "id": "121.3",
+          "label": "121.3"
+        },
+        {
+          "type": "rule",
+          "id": "Draw",
+          "label": "Draw"
+        },
+        {
+          "type": "rule",
+          "id": "121.1",
+          "label": "121.1"
+        },
+        {
+          "type": "rule",
+          "id": "727.3",
+          "label": "727.3"
+        },
+        {
+          "type": "rule",
+          "id": "401.1",
+          "label": "401.1"
+        },
+        {
+          "type": "rule",
+          "id": "401.2",
+          "label": "401.2"
+        },
+        {
+          "type": "rule",
+          "id": "401.7",
+          "label": "401.7"
+        },
+        {
+          "type": "rule",
+          "id": "701.24",
+          "label": "701.24"
+        }
+      ]
+    },
+    {
+      "id": "rs-011",
+      "surface": "rules_search",
+      "ndcg_at10": 0.8315546295836225,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "702.124",
+          "label": "702.124"
+        },
+        {
+          "type": "rule",
+          "id": "Partner, \u201CPartner\u2014[text],\u201D \u201CPartner with [name]\u201D",
+          "label": "Partner, \u201CPartner\u2014[text],\u201D \u201CPartner with [name]\u201D"
+        },
+        {
+          "type": "rule",
+          "id": "Choose a Background",
+          "label": "Choose a Background"
+        },
+        {
+          "type": "rule",
+          "id": "Background",
+          "label": "Background"
+        },
+        {
+          "type": "rule",
+          "id": "Doctor\u2019s Companion",
+          "label": "Doctor\u2019s Companion"
+        },
+        {
+          "type": "rule",
+          "id": "903.3",
+          "label": "903.3"
+        },
+        {
+          "type": "rule",
+          "id": "903.13",
+          "label": "903.13"
+        },
+        {
+          "type": "rule",
+          "id": "903.2",
+          "label": "903.2"
+        },
+        {
+          "type": "rule",
+          "id": "702.139",
+          "label": "702.139"
+        },
+        {
+          "type": "rule",
+          "id": "903.1",
+          "label": "903.1"
+        }
+      ]
+    },
+    {
+      "id": "rs-012",
+      "surface": "rules_search",
+      "ndcg_at10": 1,
+      "recall_at30": 1,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "702.12",
+          "label": "702.12"
+        },
+        {
+          "type": "rule",
+          "id": "Indestructible",
+          "label": "Indestructible"
+        },
+        {
+          "type": "rule",
+          "id": "701.63",
+          "label": "701.63"
+        },
+        {
+          "type": "rule",
+          "id": "Instant",
+          "label": "Instant"
+        },
+        {
+          "type": "rule",
+          "id": "702.195",
+          "label": "702.195"
+        },
+        {
+          "type": "rule",
+          "id": "120.5",
+          "label": "120.5"
+        },
+        {
+          "type": "rule",
+          "id": "701.37",
+          "label": "701.37"
+        },
+        {
+          "type": "rule",
+          "id": "Endure",
+          "label": "Endure"
+        },
+        {
+          "type": "rule",
+          "id": "115.2",
+          "label": "115.2"
+        },
+        {
+          "type": "rule",
+          "id": "712.10",
+          "label": "712.10"
+        }
+      ]
+    },
+    {
+      "id": "rs-013",
+      "surface": "rules_search",
+      "ndcg_at10": 0.38685280723454163,
+      "recall_at30": 0.5,
+      "top_hits": [
+        {
+          "type": "rule",
+          "id": "707.12",
+          "label": "707.12"
+        },
+        {
+          "type": "rule",
+          "id": "707.10",
+          "label": "707.10"
+        },
+        {
+          "type": "rule",
+          "id": "112.1",
+          "label": "112.1"
+        },
+        {
+          "type": "rule",
+          "id": "Spell",
+          "label": "Spell"
+        },
+        {
+          "type": "rule",
+          "id": "707.2",
+          "label": "707.2"
+        },
+        {
+          "type": "rule",
+          "id": "112.2",
+          "label": "112.2"
+        },
+        {
+          "type": "rule",
+          "id": "707.1",
+          "label": "707.1"
+        },
+        {
+          "type": "rule",
+          "id": "709.3",
+          "label": "709.3"
+        },
+        {
+          "type": "rule",
+          "id": "707.3",
+          "label": "707.3"
+        },
+        {
+          "type": "rule",
+          "id": "702.40",
+          "label": "702.40"
+        }
+      ]
+    }
+  ]
+}

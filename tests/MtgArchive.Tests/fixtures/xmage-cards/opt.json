@@ -1,0 +1,131 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Opt",
+  "checks": [
+    {
+      "name": "Puts the top card on the bottom, then draws",
+      "start": {
+        "hand": [
+          "Opt"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Opt"
+        },
+        {
+          "type": "choose",
+          "pick": "Forest"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "scried-card-on-bottom",
+          "kind": "library_top",
+          "cards": [
+            "Swamp",
+            "Forest"
+          ]
+        },
+        {
+          "id": "draws-next-card",
+          "kind": "hand_contains",
+          "cards": [
+            "Sol Ring"
+          ]
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Opt"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Keeps the top card, then draws it",
+      "start": {
+        "hand": [
+          "Opt"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Sol Ring",
+          "Swamp"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Opt"
+        },
+        {
+          "type": "choose",
+          "pick": "keep the rest"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "draws-kept-card",
+          "kind": "hand_contains",
+          "cards": [
+            "Forest"
+          ]
+        },
+        {
+          "id": "library-order-kept",
+          "kind": "library_top",
+          "cards": [
+            "Sol Ring",
+            "Swamp"
+          ]
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Scry 1.",
+      "assertions": [
+        "scried-card-on-bottom",
+        "draws-kept-card",
+        "library-order-kept"
+      ]
+    },
+    {
+      "clause": "(Look at the top card of your library.",
+      "assertions": [
+        "scried-card-on-bottom",
+        "draws-kept-card"
+      ]
+    },
+    {
+      "clause": "You may put that card on the bottom.)",
+      "assertions": [
+        "scried-card-on-bottom",
+        "library-order-kept"
+      ]
+    },
+    {
+      "clause": "Draw a card.",
+      "assertions": [
+        "draws-next-card",
+        "draws-kept-card",
+        "spell-resolves"
+      ]
+    }
+  ]
+}

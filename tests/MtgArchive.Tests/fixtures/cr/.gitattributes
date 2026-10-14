@@ -1,0 +1,3 @@
+# Fixture bytes are the contract: the excerpt mirrors the published CR file
+# (UTF-8 BOM, CRLF), so git must never renormalize it.
+* -text

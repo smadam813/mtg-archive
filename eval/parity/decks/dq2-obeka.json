@@ -1,0 +1,2896 @@
+{
+  "name": "dq2-obeka",
+  "source": "../acceptance/done-query-2/final-99.json",
+  "substitutions": [
+    {
+      "card": "An Offer You Can\u0027t Refuse",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Arcane Denial",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Arcane Signet",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Baral, Chief of Compliance",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Chain of Vapor",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Chaos Warp",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Counterspell",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Cyclonic Rift",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Dauthi Voidwalker",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Deadly Dispute",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Delay",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Diabolic Intent",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Dispel",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Fabricate",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Faerie Mastermind",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Feed the Swarm",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Fellwar Stone",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Flusterstorm",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Frantic Search",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Gamble",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Gitaxian Probe",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Infernal Grasp",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Ledger Shredder",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Lightning Bolt",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Mana Drain",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Mind Stone",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Mindbreak Trap",
+      "mana_value": 4,
+      "filler": "Gilded Sentinel"
+    },
+    {
+      "card": "Mystic Remora",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Narset, Parter of Veils",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Night\u0027s Whisper",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Notion Thief",
+      "mana_value": 4,
+      "filler": "Gilded Sentinel"
+    },
+    {
+      "card": "Pact of Negation",
+      "mana_value": 0,
+      "filler": "Memnite"
+    },
+    {
+      "card": "Phyrexian Arena",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Pyroblast",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Red Elemental Blast",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Sensei\u0027s Divining Top",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Sign in Blood",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Spell Pierce",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Spoils of the Vault",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Swan Song",
+      "mana_value": 1,
+      "filler": "Metallic Sliver"
+    },
+    {
+      "card": "Tainted Pact",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Talisman of Creativity",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Talisman of Dominance",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Talisman of Indulgence",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Terminate",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Thassa\u0027s Oracle",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Toxic Deluge",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Underworld Breach",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    },
+    {
+      "card": "Windfall",
+      "mana_value": 3,
+      "filler": "Sliver Construct"
+    },
+    {
+      "card": "Wishclaw Talisman",
+      "mana_value": 2,
+      "filler": "Alpha Myr"
+    }
+  ],
+  "decklist": {
+    "commanders": [
+      {
+        "name": "Obeka, Brute Chronologist"
+      }
+    ],
+    "entries": [
+      {
+        "card": {
+          "name": "Alpha Myr"
+        },
+        "quantity": 26
+      },
+      {
+        "card": {
+          "name": "Arid Mesa"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Badlands"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Blood Crypt"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Bloodstained Mire"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Brainstorm"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Cascade Bluffs"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "City of Brass"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Command Tower"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Dark Ritual"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Demonic Tutor"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Dragonskull Summit"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Drowned Catacomb"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Fiery Islet"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Flooded Strand"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Gilded Sentinel"
+        },
+        "quantity": 2
+      },
+      {
+        "card": {
+          "name": "Gloomlake Verge"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Graven Cairns"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Island"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Mana Confluence"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Marsh Flats"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Memnite"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Metallic Sliver"
+        },
+        "quantity": 14
+      },
+      {
+        "card": {
+          "name": "Misty Rainforest"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Mountain"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Mystical Tutor"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Opt"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Pithing Needle"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Polluted Delta"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Ponder"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Preordain"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Reliquary Tower"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Riverpyre Verge"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Scalding Tarn"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Shivan Reef"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Simian Spirit Guide"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sliver Construct"
+        },
+        "quantity": 7
+      },
+      {
+        "card": {
+          "name": "Sol Ring"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Steam Vents"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sulfur Falls"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sunken Hollow"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Sunken Ruins"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Swamp"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Takenuma, Abandoned Mire"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Underground River"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Underground Sea"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Urza\u0027s Saga"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Vampiric Tutor"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Vault of Whispers"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Verdant Catacombs"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Volcanic Island"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Watery Grave"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Windswept Heath"
+        },
+        "quantity": 1
+      },
+      {
+        "card": {
+          "name": "Wooded Foothills"
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "deck": [
+    {
+      "id": 4731,
+      "oracle_id": "21b76a94-d9f3-4c34-ab24-7e89321b04f0",
+      "name": "Obeka, Brute Chronologist",
+      "quantity": 1,
+      "is_commander": true,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [
+        "Ogre",
+        "Wizard"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{1}{U}{B}{R}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 10760,
+      "oracle_id": "4caa8e68-e599-416f-b839-3d009569ff29",
+      "name": "Alpha Myr",
+      "quantity": 26,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Myr"
+      ],
+      "mana_value": 2.0,
+      "mana_cost": "{2}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 27792,
+      "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+      "name": "Arid Mesa",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Mountain",
+        "Plains"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 2860,
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "name": "Badlands",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Swamp",
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "id": 9469,
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "name": "Blood Crypt",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Swamp",
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "id": 35585,
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "name": "Bloodstained Mire",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Swamp",
+        "Mountain"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 7621,
+      "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+      "name": "Brainstorm",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 34083,
+      "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+      "name": "Cascade Bluffs",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C",
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "C",
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 34219,
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "name": "City of Brass",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 1231,
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "name": "Command Tower",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 11777,
+      "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b",
+      "name": "Dark Ritual",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{B}",
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 18239,
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "name": "Demonic Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 2.0,
+      "mana_cost": "{1}{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 13875,
+      "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+      "name": "Dragonskull Summit",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "R"
+      ]
+    },
+    {
+      "id": 18181,
+      "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+      "name": "Drowned Catacomb",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": 379,
+      "oracle_id": "026f4a4b-eedd-44e1-9d37-ca4fb8d6db98",
+      "name": "Fiery Islet",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 34417,
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "name": "Flooded Strand",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Plains",
+        "Island"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 23035,
+      "oracle_id": "a382165d-d715-4836-b1ce-9e5d8dc56fb4",
+      "name": "Gilded Sentinel",
+      "quantity": 2,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Golem"
+      ],
+      "mana_value": 4.0,
+      "mana_cost": "{4}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 30324,
+      "oracle_id": "d71bda4c-3dee-4398-8fd0-f77d8743b887",
+      "name": "Gloomlake Verge",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": 11217,
+      "oracle_id": "5004b84a-33b7-4f6f-b2c2-7086b9087535",
+      "name": "Graven Cairns",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "C",
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "C",
+        "R"
+      ]
+    },
+    {
+      "id": 25151,
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "name": "Island",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Island"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "U"
+      ]
+    },
+    {
+      "id": 29415,
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "name": "Mana Confluence",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    {
+      "id": 30840,
+      "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+      "name": "Marsh Flats",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Plains",
+        "Swamp"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 16618,
+      "oracle_id": "7663ac7c-1de3-4250-b96a-fae9dbd66a27",
+      "name": "Memnite",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Construct"
+      ],
+      "mana_value": 0.0,
+      "mana_cost": "{0}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 6352,
+      "oracle_id": "2dfafd63-83fb-4783-8e12-30018680a905",
+      "name": "Metallic Sliver",
+      "quantity": 14,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Sliver"
+      ],
+      "mana_value": 1.0,
+      "mana_cost": "{1}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 1409,
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "name": "Misty Rainforest",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Forest",
+        "Island"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 23113,
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "name": "Mountain",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 35500,
+      "oracle_id": "fb81f95c-70f8-4eb7-8d15-15d0ae23ec03",
+      "name": "Mystical Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 15894,
+      "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+      "name": "Opt",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 22763,
+      "oracle_id": "a188fe7e-68de-4c7c-806c-bfe8fc7b44bf",
+      "name": "Pithing Needle",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{1}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 33838,
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "name": "Polluted Delta",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Island",
+        "Swamp"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 314,
+      "oracle_id": "02090581-61aa-4348-ad57-451be8ee91c2",
+      "name": "Ponder",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 24234,
+      "oracle_id": "ac641490-ca14-48d7-8cc4-b69ce984befa",
+      "name": "Preordain",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Sorcery"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{U}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 27326,
+      "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f",
+      "name": "Reliquary Tower",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 11366,
+      "oracle_id": "510a6ac5-f098-4145-ac07-771b1b6f7cdf",
+      "name": "Riverpyre Verge",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 28561,
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "name": "Scalding Tarn",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Island",
+        "Mountain"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 2238,
+      "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+      "name": "Shivan Reef",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C",
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "C",
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 9651,
+      "oracle_id": "44e0ffa3-8915-4c1f-8f1a-4aeea1365f07",
+      "name": "Simian Spirit Guide",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Ape",
+        "Spirit"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{2}{R}",
+      "produced_colors": [
+        "R"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R"
+      ]
+    },
+    {
+      "id": 17626,
+      "oracle_id": "7d592d5b-95cf-4416-9ade-1c23a8ba01d1",
+      "name": "Sliver Construct",
+      "quantity": 7,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Creature"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Sliver",
+        "Construct"
+      ],
+      "mana_value": 3.0,
+      "mana_cost": "{3}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 15014,
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "name": "Sol Ring",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{1}",
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 3271,
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "name": "Steam Vents",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Island",
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 14964,
+      "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+      "name": "Sulfur Falls",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 28873,
+      "oracle_id": "cd2c90ac-2b04-461c-92f3-939871b6b6a3",
+      "name": "Sunken Hollow",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Island",
+        "Swamp"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": 32430,
+      "oracle_id": "e6415ffb-8b7a-41c3-bedf-0d4112b7b795",
+      "name": "Sunken Ruins",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "C",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "C",
+        "U"
+      ]
+    },
+    {
+      "id": 12114,
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "name": "Swamp",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": true,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Basic"
+      ],
+      "subtypes": [
+        "Swamp"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 24208,
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "name": "Takenuma, Abandoned Mire",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [
+        "Legendary"
+      ],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 18756,
+      "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+      "name": "Underground River",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "C",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "C",
+        "U"
+      ]
+    },
+    {
+      "id": 10533,
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "name": "Underground Sea",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Island",
+        "Swamp"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": 10721,
+      "oracle_id": "4c6a0c30-b547-4eff-8ff4-0ca25803c076",
+      "name": "Urza\u0027s Saga",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Enchantment",
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Urza\u0027s",
+        "Saga"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "C"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "C"
+      ]
+    },
+    {
+      "id": 33587,
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "name": "Vampiric Tutor",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": false,
+      "is_basic": false,
+      "is_permanent": false,
+      "card_types": [
+        "Instant"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 1.0,
+      "mana_cost": "{B}",
+      "fetch_basic_only": false,
+      "any_face_colors": []
+    },
+    {
+      "id": 1329,
+      "oracle_id": "09496421-74e4-466a-9546-56f2a0c8eef4",
+      "name": "Vault of Whispers",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Artifact",
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B"
+      ]
+    },
+    {
+      "id": 14554,
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "name": "Verdant Catacombs",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Swamp",
+        "Forest"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 27994,
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "name": "Volcanic Island",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Island",
+        "Mountain"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "R",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "R",
+        "U"
+      ]
+    },
+    {
+      "id": 35670,
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "name": "Watery Grave",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [
+        "Island",
+        "Swamp"
+      ],
+      "mana_value": 0.0,
+      "produced_colors": [
+        "B",
+        "U"
+      ],
+      "fetch_basic_only": false,
+      "any_face_colors": [
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": 5780,
+      "oracle_id": "29737a60-3ebd-40d9-b935-c4f54b90d45d",
+      "name": "Windswept Heath",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Forest",
+        "Plains"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    },
+    {
+      "id": 14222,
+      "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+      "name": "Wooded Foothills",
+      "quantity": 1,
+      "is_commander": false,
+      "is_land": true,
+      "is_basic": false,
+      "is_permanent": true,
+      "card_types": [
+        "Land"
+      ],
+      "supertypes": [],
+      "subtypes": [],
+      "mana_value": 0.0,
+      "fetch_land_types": [
+        "Mountain",
+        "Forest"
+      ],
+      "fetch_basic_only": false,
+      "fetch_activation": "untapped",
+      "any_face_colors": []
+    }
+  ],
+  "definitions": [
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Brainstorm",
+      "oracle": {
+        "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+        "sha256": "565cea493e38fbb7cdec078181bf5d74ffb23b0cabbb0896b9a67b223051ab9d"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "draw",
+              "count": 3
+            },
+            {
+              "op": "put_back",
+              "count": 2,
+              "from": "hand",
+              "to": "library_top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Dark Ritual",
+      "oracle": {
+        "text": "Add {B}{B}{B}.",
+        "sha256": "639f6e6a77582568b611b9f910c76dd765ae92ce0b8b1f28b0ba4a321761409c"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "add_mana",
+              "mana": "{B}{B}{B}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Demonic Tutor",
+      "oracle": {
+        "text": "Search your library for a card, put that card into your hand, then shuffle.",
+        "sha256": "e759f75c52513ff4702fecc196ac14e3c579969a34c8470c7f44ded97a3560bd"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "search_library",
+              "filter": {},
+              "count": 1,
+              "to": "hand",
+              "then_shuffle": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Mystical Tutor",
+      "oracle": {
+        "text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+        "sha256": "a81e5f38cd7aedb01cdc85e07d39e91dea090ca664510c672cb43d5d62e2f93d"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "search_library",
+              "filter": {
+                "type": [
+                  "Instant",
+                  "Sorcery"
+                ]
+              },
+              "count": 1,
+              "to": "library_top",
+              "then_shuffle": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Opt",
+      "oracle": {
+        "text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+        "sha256": "1eccd7bd99ba95e48986c4f2ca4d1db4fcee5a7dbf7bc749bf498e7a4aa66dbc"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "scry",
+              "count": 1
+            },
+            {
+              "op": "draw",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Pithing Needle",
+      "oracle": {
+        "text": "As this artifact enters, choose a card name.\nActivated abilities of sources with the chosen name can\u0027t be activated unless they\u0027re mana abilities.",
+        "sha256": "af7fa45b4559e63a7274eeec2e10398085abc2cc114a4a9377a4c884af7b723a"
+      },
+      "abilities": [
+        {
+          "kind": "enters",
+          "effects": [
+            {
+              "op": "name_card"
+            }
+          ]
+        },
+        {
+          "kind": "static",
+          "effects": [
+            {
+              "op": "prohibit_activation",
+              "scope": "named_card",
+              "except": "mana_abilities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Ponder",
+      "oracle": {
+        "text": "Look at the top three cards of your library, then put them back in any order. You may shuffle.\nDraw a card.",
+        "sha256": "feeeb322307f1e219306ec98ef88267cc65533cfb73cb4015ad672078d1d6b2e"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "look_at_top",
+              "count": 3,
+              "may_shuffle": true
+            },
+            {
+              "op": "draw",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Preordain",
+      "oracle": {
+        "text": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+        "sha256": "6a8ca45387333f89c488c09773e6ba22e6d443f71652839a294ca53c154ea9a1"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "scry",
+              "count": 2
+            },
+            {
+              "op": "draw",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Simian Spirit Guide",
+      "oracle": {
+        "text": "Exile this card from your hand: Add {R}.",
+        "sha256": "1bb0e6e3053815c62efc7fbe7246dcaa28e59a43efd3509163e4e57d7df88ae8"
+      },
+      "abilities": [
+        {
+          "kind": "activated",
+          "zone": "hand",
+          "cost": {
+            "exile_self": true
+          },
+          "effects": [
+            {
+              "op": "add_mana",
+              "mana": "{R}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Sol Ring",
+      "oracle": {
+        "text": "{T}: Add {C}{C}.",
+        "sha256": "8310b06afdea748af91bd3f1f23206140bba9309ef34fbd71e3211a8c3542d58"
+      },
+      "abilities": [
+        {
+          "kind": "activated",
+          "cost": {
+            "tap": true
+          },
+          "effects": [
+            {
+              "op": "add_mana",
+              "mana": "{C}{C}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$schema": "../../../src/MtgArchive/Simulation/Dsl/definition.schema.json",
+      "name": "Vampiric Tutor",
+      "oracle": {
+        "text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+        "sha256": "7385e3c971920475e4c1a0d64fe7252e38ae6cab1368987d0bed7822fc90eb27"
+      },
+      "abilities": [
+        {
+          "kind": "spell",
+          "effects": [
+            {
+              "op": "search_library",
+              "filter": {},
+              "count": 1,
+              "to": "library_top",
+              "then_shuffle": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "profiles": {
+    "Obeka, Brute Chronologist": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Alpha Myr": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Arid Mesa": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Badlands": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B",
+        "R"
+      ]
+    },
+    "Blood Crypt": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B",
+        "R"
+      ]
+    },
+    "Bloodstained Mire": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Brainstorm": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Cascade Bluffs": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}",
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C",
+        "R",
+        "U"
+      ]
+    },
+    "City of Brass": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Command Tower": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Dark Ritual": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "spell_mana": "{B}{B}{B}",
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Demonic Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "hand",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Dragonskull Summit": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "R"
+      ]
+    },
+    "Drowned Catacomb": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "U"
+      ]
+    },
+    "Fiery Islet": {
+      "develops": true,
+      "draws": true,
+      "tap_mana": [
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "U"
+      ]
+    },
+    "Flooded Strand": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Gilded Sentinel": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Gloomlake Verge": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "U"
+      ]
+    },
+    "Graven Cairns": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{C}",
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "C",
+        "R"
+      ]
+    },
+    "Island": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "U"
+      ]
+    },
+    "Mana Confluence": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{G}",
+        "{R}",
+        "{U}",
+        "{W}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ]
+    },
+    "Marsh Flats": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Memnite": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Metallic Sliver": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Misty Rainforest": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Mountain": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R"
+      ]
+    },
+    "Mystical Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "library_top",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Opt": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Pithing Needle": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Polluted Delta": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Ponder": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Preordain": {
+      "develops": false,
+      "draws": true,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Reliquary Tower": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Riverpyre Verge": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "U"
+      ]
+    },
+    "Scalding Tarn": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Shivan Reef": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}",
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C",
+        "R",
+        "U"
+      ]
+    },
+    "Simian Spirit Guide": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [
+        "{R}"
+      ],
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Sliver Construct": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Sol Ring": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Steam Vents": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R",
+        "U"
+      ]
+    },
+    "Sulfur Falls": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "R",
+        "U"
+      ]
+    },
+    "Sunken Hollow": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B",
+        "U"
+      ]
+    },
+    "Sunken Ruins": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{C}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "C",
+        "U"
+      ]
+    },
+    "Swamp": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Takenuma, Abandoned Mire": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Underground River": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{C}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B",
+        "C",
+        "U"
+      ]
+    },
+    "Underground Sea": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B",
+        "U"
+      ]
+    },
+    "Urza\u0027s Saga": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{C}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "C"
+      ]
+    },
+    "Vampiric Tutor": {
+      "develops": false,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "library_top",
+        "enters_tapped": false,
+        "via": "cast"
+      },
+      "has_activated_ability": false,
+      "produced_colors": []
+    },
+    "Vault of Whispers": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": true,
+      "produced_colors": [
+        "B"
+      ]
+    },
+    "Verdant Catacombs": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Volcanic Island": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{R}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "R",
+        "U"
+      ]
+    },
+    "Watery Grave": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [
+        "{B}",
+        "{U}"
+      ],
+      "hand_mana": [],
+      "has_activated_ability": false,
+      "produced_colors": [
+        "B",
+        "U"
+      ]
+    },
+    "Windswept Heath": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    },
+    "Wooded Foothills": {
+      "develops": true,
+      "draws": false,
+      "tap_mana": [],
+      "hand_mana": [],
+      "tutor": {
+        "destination": "battlefield",
+        "enters_tapped": false,
+        "via": "activate_on_battlefield"
+      },
+      "has_activated_ability": true,
+      "produced_colors": []
+    }
+  },
+  "unprofiled": [
+    "Urza\u0027s Saga"
+  ]
+}

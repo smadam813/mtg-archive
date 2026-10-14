@@ -1,0 +1,62 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Rampant Growth",
+  "checks": [
+    {
+      "name": "Fetches a basic land onto the battlefield, tapped",
+      "start": {
+        "hand": [
+          "Rampant Growth"
+        ],
+        "battlefield": [
+          "Forest",
+          "Forest"
+        ],
+        "library": [
+          "Forest",
+          "Island"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Rampant Growth"
+        },
+        {
+          "type": "choose",
+          "pick": "Island"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "basic-enters-tapped",
+          "kind": "battlefield_has",
+          "card": "Island",
+          "tapped": true
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Rampant Growth"
+          ]
+        },
+        {
+          "id": "library-searched",
+          "kind": "library_count",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+      "assertions": [
+        "basic-enters-tapped",
+        "spell-resolves",
+        "library-searched"
+      ]
+    }
+  ]
+}

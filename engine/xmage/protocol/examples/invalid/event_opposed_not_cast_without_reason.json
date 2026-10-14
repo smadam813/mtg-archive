@@ -1,0 +1,1 @@
+{"type":"event","seq":9,"kind":"opposed","view":{"turn":1,"step":"main","life":40,"land_drop_used":true,"pool":"","hand":[],"graveyard":[],"exile":[],"command_zone":[],"battlefield":[],"library_count":90,"mana_sources":[],"hand_mana":[],"resolved":[],"finds":{},"actions":[]},"card":"Counterspell","outcome":"not_cast","victims":[],"lost":[]}

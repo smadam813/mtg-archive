@@ -1,0 +1,105 @@
+{
+  "$schema": "xmage-card.schema.json",
+  "card": "Mystical Tutor",
+  "checks": [
+    {
+      "name": "Finds an instant or sorcery and puts it on top after the shuffle",
+      "start": {
+        "hand": [
+          "Mystical Tutor"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Brainstorm",
+          "Sol Ring"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Mystical Tutor"
+        },
+        {
+          "type": "choose",
+          "pick": "Brainstorm"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "found-spell-on-top",
+          "kind": "library_top",
+          "cards": [
+            "Brainstorm"
+          ]
+        },
+        {
+          "id": "library-keeps-found-spell",
+          "kind": "library_count",
+          "count": 3
+        },
+        {
+          "id": "spell-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Mystical Tutor"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "May fail to find",
+      "start": {
+        "hand": [
+          "Mystical Tutor"
+        ],
+        "battlefield": [
+          "Island"
+        ],
+        "library": [
+          "Forest",
+          "Brainstorm",
+          "Sol Ring"
+        ]
+      },
+      "actions": [
+        {
+          "type": "cast",
+          "card": "Mystical Tutor"
+        },
+        {
+          "type": "choose",
+          "pick": "fail to find"
+        }
+      ],
+      "assertions": [
+        {
+          "id": "nothing-found",
+          "kind": "library_count",
+          "count": 3
+        },
+        {
+          "id": "fails-and-resolves",
+          "kind": "graveyard_contains",
+          "cards": [
+            "Mystical Tutor"
+          ]
+        }
+      ]
+    }
+  ],
+  "clause_map": [
+    {
+      "clause": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+      "assertions": [
+        "found-spell-on-top",
+        "library-keeps-found-spell",
+        "spell-resolves",
+        "nothing-found",
+        "fails-and-resolves"
+      ]
+    }
+  ]
+}

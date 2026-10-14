@@ -1,0 +1,820 @@
+# run 0, seed -1742672592, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1742672592.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Cascade Bluffs, Metallic Sliver, Drowned Catacomb, Gilded Sentinel, Metallic Sliver, Sulfur Falls.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Dark Ritual.
+T2 Main: Played Drowned Catacomb.
+T2 Main: Drowned Catacomb enters the battlefield.
+T2 Main: Casting Dark Ritual for {B}.
+T2 Main: Paid {B} for Dark Ritual by tapping Drowned Catacomb and spending {B}.
+T2 Main: Dark Ritual adds {B}{B}{B} to the mana pool.
+T2 Main: Dark Ritual finishes resolving and goes to the graveyard.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Cascade Bluffs and spending {B}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Alpha Myr.
+T3 Main: Played Sulfur Falls.
+T3 Main: Sulfur Falls enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T3 Main: Metallic Sliver enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Drowned Catacomb, Sulfur Falls and spending {B}{R}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Cascade Bluffs, Drowned Catacomb and spending {B}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 1, seed 1477616048, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1477616048.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Windswept Heath, Urza's Saga, Alpha Myr, Alpha Myr, Reliquary Tower, Mystical Tutor, Alpha Myr.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Reliquary Tower.
+T1 Main: Reliquary Tower enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Reliquary Tower and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Urza's Saga.
+T2 Main: Urza's Saga enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Urza's Saga and spending {C}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Wooded Foothills.
+T3 Main: Played Windswept Heath.
+T3 Main: Windswept Heath enters the battlefield.
+T3 Main: Activated Windswept Heath: search_library.
+T3 Main: Sacrificed Windswept Heath.
+T3 Main: Windswept Heath goes to the graveyard.
+T3 Main: Windswept Heath: no card in the library matches Forest or Plains Land; the search finds nothing.
+T3 Main: Shuffled the library.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Urza's Saga and spending {C}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Demonic Tutor.
+T4 Main: Played Wooded Foothills.
+T4 Main: Wooded Foothills enters the battlefield.
+T4 Main: Activated Wooded Foothills: search_library.
+T4 Main: Sacrificed Wooded Foothills.
+T4 Main: Wooded Foothills goes to the graveyard.
+T4 Main: Shuffled the library.
+T4 Main: Wooded Foothills: found Badlands.
+T4 Main: Badlands enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Urza's Saga and spending {C}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Main: Casting Metallic Sliver for {1}.
+T4 Main: Paid {1} for Metallic Sliver by tapping Badlands and spending {B}.
+T4 Main: Metallic Sliver enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 4, seed -1068222394, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1068222394.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Sliver Construct, Alpha Myr, Sunken Hollow, Takenuma, Abandoned Mire, Alpha Myr, Alpha Myr, Mystical Tutor.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Sunken Hollow.
+T1 Main: Sunken Hollow enters the battlefield tapped.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Takenuma, Abandoned Mire.
+T2 Main: Takenuma, Abandoned Mire enters the battlefield.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Takenuma, Abandoned Mire and spending {B}.
+T2 Main: Metallic Sliver enters the battlefield.
+T2 Main: Casting Mystical Tutor for {U}.
+T2 Main: Paid {U} for Mystical Tutor by tapping Sunken Hollow and spending {U}.
+T2 Main: Shuffled the library.
+T2 Main: Mystical Tutor: found Brainstorm, put on top of the library.
+T2 Main: Mystical Tutor finishes resolving and goes to the graveyard.
+T3 Draw: Drew Brainstorm.
+T3 Main: Casting Brainstorm for {U}.
+T3 Main: Paid {U} for Brainstorm by tapping Sunken Hollow and spending {U}.
+T3 Main: Brainstorm: drew 3: Alpha Myr, Underground River, Sliver Construct.
+T3 Main: Brainstorm: put Sliver Construct on top of the library.
+T3 Main: Brainstorm: put Sliver Construct on top of the library.
+T3 Main: Brainstorm finishes resolving and goes to the graveyard.
+T3 Main: Played Underground River.
+T3 Main: Underground River enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Takenuma, Abandoned Mire, Underground River and spending {B}{B}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Sliver Construct.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Takenuma, Abandoned Mire, Sunken Hollow and spending {B}{B}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 6, seed -263219428, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -263219428.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Takenuma, Abandoned Mire, Graven Cairns, Alpha Myr, Alpha Myr, Gilded Sentinel, Drowned Catacomb, Metallic Sliver.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Reliquary Tower.
+T1 Main: Played Drowned Catacomb.
+T1 Main: Drowned Catacomb enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Drowned Catacomb and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Graven Cairns.
+T2 Main: Graven Cairns enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Graven Cairns, Drowned Catacomb and spending {B}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Sulfur Falls.
+T3 Main: Played Reliquary Tower.
+T3 Main: Reliquary Tower enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Graven Cairns, Reliquary Tower and spending {C}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Played Sulfur Falls.
+T4 Main: Sulfur Falls enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Graven Cairns, Reliquary Tower and spending {C}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Drowned Catacomb, Sulfur Falls and spending {B}{R}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 7, seed 1661301186, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1661301186.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Swamp, Gloomlake Verge, Metallic Sliver, Island, Mountain, Memnite, Opt.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Gloomlake Verge.
+T1 Main: Gloomlake Verge enters the battlefield.
+T1 Main: Casting Opt for {U}.
+T1 Main: Paid {U} for Opt by tapping Gloomlake Verge and spending {U}.
+T1 Main: Opt: looked at the top 1: Bloodstained Mire.
+T1 Main: Opt: put Bloodstained Mire on the bottom of the library.
+T1 Main: Opt: drew 1: Ponder.
+T1 Main: Opt finishes resolving and goes to the graveyard.
+T1 Main: Casting Memnite for .
+T1 Main: Paid  for Memnite.
+T1 Main: Memnite enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Island.
+T2 Main: Island enters the battlefield.
+T2 Main: Casting Ponder for {U}.
+T2 Main: Paid {U} for Ponder by tapping Gloomlake Verge and spending {U}.
+T2 Main: Ponder: looked at the top 3: Sunken Ruins, Riverpyre Verge, Alpha Myr.
+T2 Main: Ponder: put back on top, top card first: Riverpyre Verge, Sunken Ruins, Alpha Myr.
+T2 Main: Shuffled the library.
+T2 Main: Ponder: drew 1: Polluted Delta.
+T2 Main: Ponder finishes resolving and goes to the graveyard.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Island and spending {U}.
+T2 Main: Metallic Sliver enters the battlefield.
+T3 Draw: Drew Wooded Foothills.
+T3 Main: Played Mountain.
+T3 Main: Mountain enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Gloomlake Verge and spending {U}.
+T3 Main: Metallic Sliver enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Island, Mountain and spending {U}{R}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Misty Rainforest.
+T4 Main: Played Misty Rainforest.
+T4 Main: Misty Rainforest enters the battlefield.
+T4 Main: Activated Misty Rainforest: search_library.
+T4 Main: Sacrificed Misty Rainforest.
+T4 Main: Misty Rainforest goes to the graveyard.
+T4 Main: Shuffled the library.
+T4 Main: Misty Rainforest: found Sunken Hollow.
+T4 Main: Sunken Hollow enters the battlefield tapped.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 18, seed -2009878801, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -2009878801.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Polluted Delta, Alpha Myr, Alpha Myr, Metallic Sliver, Alpha Myr, Blood Crypt, Watery Grave.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Blood Crypt.
+T1 Main: Blood Crypt enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Blood Crypt and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Polluted Delta.
+T2 Main: Polluted Delta enters the battlefield.
+T2 Main: Activated Polluted Delta: search_library.
+T2 Main: Sacrificed Polluted Delta.
+T2 Main: Polluted Delta goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Polluted Delta: found Island.
+T2 Main: Island enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Island, Blood Crypt and spending {U}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Demonic Tutor.
+T3 Main: Played Watery Grave.
+T3 Main: Watery Grave enters the battlefield.
+T3 Main: Casting Sliver Construct for {3}.
+T3 Main: Paid {3} for Sliver Construct by tapping Island, Blood Crypt, Watery Grave and spending {U}{B}{B}.
+T3 Main: Sliver Construct enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Island, Blood Crypt and spending {U}{B}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 20, seed -277600195, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -277600195.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Graven Cairns, Sliver Construct, Alpha Myr, Gloomlake Verge, Alpha Myr, Alpha Myr.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Pithing Needle.
+T1 Main: Played Gloomlake Verge.
+T1 Main: Gloomlake Verge enters the battlefield.
+T1 Main: Casting Pithing Needle for {1}.
+T1 Main: Paid {1} for Pithing Needle by tapping Gloomlake Verge and spending {U}.
+T1 Main: Pithing Needle enters the battlefield.
+T1 Main: Pithing Needle names "Alpha Myr".
+T2 Draw: Drew Metallic Sliver.
+T2 Main: Played Graven Cairns.
+T2 Main: Graven Cairns enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Gloomlake Verge, Graven Cairns and spending {U}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Drowned Catacomb.
+T3 Main: Played Drowned Catacomb.
+T3 Main: Drowned Catacomb enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Gloomlake Verge, Graven Cairns and spending {U}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Drowned Catacomb and spending {B}.
+T3 Main: Metallic Sliver enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Gloomlake Verge, Graven Cairns and spending {U}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 21, seed -96823375, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -96823375.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Memnite, Metallic Sliver, Metallic Sliver, Simian Spirit Guide, Metallic Sliver, Alpha Myr, Sliver Construct.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Mulligan 2: Simian Spirit Guide, Metallic Sliver, Wooded Foothills, Metallic Sliver, Alpha Myr, Alpha Myr, Metallic Sliver.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Bottomed Alpha Myr.
+T1 Mulligan: Kept 6 cards after 2 mulligans: Sunken Hollow, Preordain, Alpha Myr, Reliquary Tower, Alpha Myr, Mystical Tutor.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Watery Grave.
+T1 Main: Played Reliquary Tower.
+T1 Main: Reliquary Tower enters the battlefield.
+T2 Draw: Drew Sliver Construct.
+T2 Main: Played Sunken Hollow.
+T2 Main: Sunken Hollow enters the battlefield tapped.
+T3 Draw: Drew Metallic Sliver.
+T3 Main: Played Watery Grave.
+T3 Main: Watery Grave enters the battlefield.
+T3 Main: Casting Preordain for {U}.
+T3 Main: Paid {U} for Preordain by tapping Sunken Hollow and spending {U}.
+T3 Main: Preordain: looked at the top 2: Island, Alpha Myr.
+T3 Main: Preordain: put Alpha Myr on the bottom of the library.
+T3 Main: Preordain: put back on top, top card first: Island.
+T3 Main: Preordain: drew 1: Island.
+T3 Main: Preordain finishes resolving and goes to the graveyard.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Reliquary Tower and spending {C}.
+T3 Main: Metallic Sliver enters the battlefield.
+T3 Main: Casting Mystical Tutor for {U}.
+T3 Main: Paid {U} for Mystical Tutor by tapping Watery Grave and spending {U}.
+T3 Main: Shuffled the library.
+T3 Main: Mystical Tutor: found Brainstorm, put on top of the library.
+T3 Main: Mystical Tutor finishes resolving and goes to the graveyard.
+T4 Draw: Drew Brainstorm.
+T4 Main: Played Island.
+T4 Main: Island enters the battlefield.
+T4 Main: Casting Brainstorm for {U}.
+T4 Main: Paid {U} for Brainstorm by tapping Island and spending {U}.
+T4 Main: Brainstorm: drew 3: Alpha Myr, Marsh Flats, Alpha Myr.
+T4 Main: Brainstorm: put Sliver Construct on top of the library.
+T4 Main: Brainstorm: put Alpha Myr on top of the library.
+T4 Main: Brainstorm finishes resolving and goes to the graveyard.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Sunken Hollow and spending {B}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 22, seed -212414534, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -212414534.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Misty Rainforest, Alpha Myr, Gilded Sentinel, Alpha Myr, Riverpyre Verge, Metallic Sliver.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Sulfur Falls.
+T1 Main: Played Misty Rainforest.
+T1 Main: Misty Rainforest enters the battlefield.
+T1 Main: Activated Misty Rainforest: search_library.
+T1 Main: Sacrificed Misty Rainforest.
+T1 Main: Misty Rainforest goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Misty Rainforest: found Island.
+T1 Main: Island enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Island and spending {U}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Windswept Heath.
+T2 Main: Played Riverpyre Verge.
+T2 Main: Riverpyre Verge enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Island, Riverpyre Verge and spending {U}{R}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Memnite.
+T3 Main: Played Sulfur Falls.
+T3 Main: Sulfur Falls enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Island, Riverpyre Verge and spending {U}{R}.
+T3 Main: Alpha Myr enters the battlefield.
+T3 Main: Casting Memnite for .
+T3 Main: Paid  for Memnite.
+T3 Main: Memnite enters the battlefield.
+T4 Draw: Drew Shivan Reef.
+T4 Main: Played Shivan Reef.
+T4 Main: Shivan Reef enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Island, Riverpyre Verge and spending {U}{R}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 24, seed -976732969, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -976732969.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Mountain, Memnite, Alpha Myr, Mystical Tutor, Mana Confluence, Metallic Sliver, Alpha Myr.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Mana Confluence.
+T1 Main: Mana Confluence enters the battlefield.
+T1 Main: Casting Memnite for .
+T1 Main: Paid  for Memnite.
+T1 Main: Memnite enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Mana Confluence and spending {B}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Mountain.
+T2 Main: Mountain enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Mountain, Mana Confluence and spending {B}{R}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Graven Cairns.
+T3 Main: Played Graven Cairns.
+T3 Main: Graven Cairns enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Mountain, Graven Cairns and spending {R}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T3 Main: Casting Mystical Tutor for {U}.
+T3 Main: Paid {U} for Mystical Tutor by tapping Mana Confluence and spending {U}.
+T3 Main: Shuffled the library.
+T3 Main: Mystical Tutor: found Brainstorm, put on top of the library.
+T3 Main: Mystical Tutor finishes resolving and goes to the graveyard.
+T4 Draw: Drew Brainstorm.
+T4 Main: Casting Brainstorm for {U}.
+T4 Main: Paid {U} for Brainstorm by tapping Mana Confluence and spending {U}.
+T4 Main: Brainstorm: drew 3: Alpha Myr, Reliquary Tower, Metallic Sliver.
+T4 Main: Brainstorm: put Alpha Myr on top of the library.
+T4 Main: Brainstorm: put Alpha Myr on top of the library.
+T4 Main: Brainstorm finishes resolving and goes to the graveyard.
+T4 Main: Played Reliquary Tower.
+T4 Main: Reliquary Tower enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Mountain, Graven Cairns and spending {R}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Main: Casting Metallic Sliver for {1}.
+T4 Main: Paid {1} for Metallic Sliver by tapping Reliquary Tower and spending {C}.
+T4 Main: Metallic Sliver enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 27, seed -1963257649, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1963257649.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Sunken Hollow, Dragonskull Summit, Cascade Bluffs, Metallic Sliver, Alpha Myr, Dark Ritual.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Pithing Needle.
+T2 Main: Played Dragonskull Summit.
+T2 Main: Dragonskull Summit enters the battlefield.
+T2 Main: Casting Dark Ritual for {B}.
+T2 Main: Paid {B} for Dark Ritual by tapping Dragonskull Summit and spending {B}.
+T2 Main: Dark Ritual adds {B}{B}{B} to the mana pool.
+T2 Main: Dark Ritual finishes resolving and goes to the graveyard.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Cascade Bluffs and spending {B}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Alpha Myr.
+T3 Main: Played Sunken Hollow.
+T3 Main: Sunken Hollow enters the battlefield tapped.
+T3 Main: Casting Pithing Needle for {1}.
+T3 Main: Paid {1} for Pithing Needle by tapping Cascade Bluffs and spending {C}.
+T3 Main: Pithing Needle enters the battlefield.
+T3 Main: Pithing Needle names "Alpha Myr".
+T4 Draw: Drew Alpha Myr.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Cascade Bluffs, Dragonskull Summit and spending {B}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 30, seed 324841653, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 324841653.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Metallic Sliver, Watery Grave, Vault of Whispers, Alpha Myr, Alpha Myr, Metallic Sliver, Graven Cairns.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Metallic Sliver.
+T1 Main: Played Graven Cairns.
+T1 Main: Graven Cairns enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Graven Cairns and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Dark Ritual.
+T2 Main: Played Vault of Whispers.
+T2 Main: Vault of Whispers enters the battlefield.
+T2 Main: Casting Dark Ritual for {B}.
+T2 Main: Paid {B} for Dark Ritual by tapping Vault of Whispers and spending {B}.
+T2 Main: Dark Ritual adds {B}{B}{B} to the mana pool.
+T2 Main: Dark Ritual finishes resolving and goes to the graveyard.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by spending {B}{B}.
+T2 Main: Alpha Myr enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Graven Cairns and spending {B}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Sliver Construct.
+T3 Main: Played Watery Grave.
+T3 Main: Watery Grave enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Graven Cairns and spending {C}.
+T3 Main: Metallic Sliver enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Vault of Whispers and spending {B}.
+T3 Main: Metallic Sliver enters the battlefield.
+T4 Draw: Drew Metallic Sliver.
+T4 Main: Casting Metallic Sliver for {1}.
+T4 Main: Paid {1} for Metallic Sliver by tapping Graven Cairns and spending {C}.
+T4 Main: Metallic Sliver enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 40, seed 1853799753, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 1853799753.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Alpha Myr, Steam Vents, Ponder, Metallic Sliver, Metallic Sliver, Alpha Myr, Alpha Myr.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Urza's Saga, Gloomlake Verge, Metallic Sliver, Alpha Myr, Sulfur Falls, Alpha Myr, Sunken Hollow.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Takenuma, Abandoned Mire.
+T1 Main: Played Gloomlake Verge.
+T1 Main: Gloomlake Verge enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Gloomlake Verge and spending {U}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Fiery Islet.
+T2 Main: Played Fiery Islet.
+T2 Main: Fiery Islet enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Gloomlake Verge, Fiery Islet and spending {U}{R}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Alpha Myr.
+T3 Main: Played Sulfur Falls.
+T3 Main: Sulfur Falls enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Gloomlake Verge, Fiery Islet and spending {U}{R}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Ponder.
+T4 Main: Played Sunken Hollow.
+T4 Main: Sunken Hollow enters the battlefield tapped.
+T4 Main: Casting Ponder for {U}.
+T4 Main: Paid {U} for Ponder by tapping Gloomlake Verge and spending {U}.
+T4 Main: Ponder: looked at the top 3: Steam Vents, Sliver Construct, Sliver Construct.
+T4 Main: Ponder: put back on top, top card first: Steam Vents, Sliver Construct, Sliver Construct.
+T4 Main: Shuffled the library.
+T4 Main: Ponder: drew 1: City of Brass.
+T4 Main: Ponder finishes resolving and goes to the graveyard.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Fiery Islet, Sulfur Falls and spending {R}{R}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 41, seed -2040875974, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -2040875974.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Mystical Tutor, Sliver Construct, Metallic Sliver, Metallic Sliver, Alpha Myr, Marsh Flats, Cascade Bluffs.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Marsh Flats.
+T2 Main: Marsh Flats enters the battlefield.
+T2 Main: Activated Marsh Flats: search_library.
+T2 Main: Sacrificed Marsh Flats.
+T2 Main: Marsh Flats goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Marsh Flats: found Badlands.
+T2 Main: Badlands enters the battlefield.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Cascade Bluffs and spending {C}.
+T2 Main: Metallic Sliver enters the battlefield.
+T3 Draw: Drew Sulfur Falls.
+T3 Main: Played Sulfur Falls.
+T3 Main: Sulfur Falls enters the battlefield.
+T3 Main: Casting Sliver Construct for {3}.
+T3 Main: Paid {3} for Sliver Construct by tapping Cascade Bluffs, Badlands, Sulfur Falls and spending {B}{R}{C}.
+T3 Main: Sliver Construct enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Cascade Bluffs, Badlands and spending {B}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Main: Casting Mystical Tutor for {U}.
+T4 Main: Paid {U} for Mystical Tutor by tapping Sulfur Falls and spending {U}.
+T4 Main: Shuffled the library.
+T4 Main: Mystical Tutor: found Brainstorm, put on top of the library.
+T4 Main: Mystical Tutor finishes resolving and goes to the graveyard.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 42, seed -72430883, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -72430883.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Mulligan 1 (free): Sunken Hollow, Gilded Sentinel, Arid Mesa, Scalding Tarn, Sunken Ruins, Takenuma, Abandoned Mire, Mana Confluence.
+T1 Mulligan: Shuffled the library.
+T1 Mulligan: Kept 7 cards after 1 mulligan: Sliver Construct, Vampiric Tutor, Windswept Heath, Urza's Saga, Sunken Hollow, Metallic Sliver, Misty Rainforest.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Alpha Myr.
+T1 Main: Played Misty Rainforest.
+T1 Main: Misty Rainforest enters the battlefield.
+T1 Main: Activated Misty Rainforest: search_library.
+T1 Main: Sacrificed Misty Rainforest.
+T1 Main: Misty Rainforest goes to the graveyard.
+T1 Main: Shuffled the library.
+T1 Main: Misty Rainforest: found Island.
+T1 Main: Island enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Island and spending {U}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Sunken Hollow.
+T2 Main: Sunken Hollow enters the battlefield tapped.
+T3 Draw: Drew Metallic Sliver.
+T3 Main: Played Urza's Saga.
+T3 Main: Urza's Saga enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Island, Urza's Saga and spending {U}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Sunken Hollow and spending {B}.
+T3 Main: Metallic Sliver enters the battlefield.
+T4 Draw: Drew Metallic Sliver.
+T4 Main: Played Windswept Heath.
+T4 Main: Windswept Heath enters the battlefield.
+T4 Main: Activated Windswept Heath: search_library.
+T4 Main: Sacrificed Windswept Heath.
+T4 Main: Windswept Heath goes to the graveyard.
+T4 Main: Windswept Heath: no card in the library matches Forest or Plains Land; the search finds nothing.
+T4 Main: Shuffled the library.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Island, Urza's Saga and spending {U}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Main: Casting Metallic Sliver for {1}.
+T4 Main: Paid {1} for Metallic Sliver by tapping Sunken Hollow and spending {B}.
+T4 Main: Metallic Sliver enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 47, seed 728827562, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 728827562.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Verdant Catacombs, Bloodstained Mire, Sliver Construct, Brainstorm, Underground River, Island, Blood Crypt.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Misty Rainforest.
+T1 Main: Played Blood Crypt.
+T1 Main: Blood Crypt enters the battlefield.
+T2 Draw: Drew Urza's Saga.
+T2 Main: Played Bloodstained Mire.
+T2 Main: Bloodstained Mire enters the battlefield.
+T2 Main: Activated Bloodstained Mire: search_library.
+T2 Main: Sacrificed Bloodstained Mire.
+T2 Main: Bloodstained Mire goes to the graveyard.
+T2 Main: Shuffled the library.
+T2 Main: Bloodstained Mire: found Steam Vents.
+T2 Main: Steam Vents enters the battlefield.
+T2 Main: Casting Brainstorm for {U}.
+T2 Main: Paid {U} for Brainstorm by tapping Steam Vents and spending {U}.
+T2 Main: Brainstorm: drew 3: Sliver Construct, Mountain, Metallic Sliver.
+T2 Main: Brainstorm: put Sliver Construct on top of the library.
+T2 Main: Brainstorm: put Sliver Construct on top of the library.
+T2 Main: Brainstorm finishes resolving and goes to the graveyard.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping Blood Crypt and spending {B}.
+T2 Main: Metallic Sliver enters the battlefield.
+T3 Draw: Drew Sliver Construct.
+T3 Main: Played Island.
+T3 Main: Island enters the battlefield.
+T3 Main: Casting Sliver Construct for {3}.
+T3 Main: Paid {3} for Sliver Construct by tapping Island, Blood Crypt, Steam Vents and spending {U}{B}{R}.
+T3 Main: Sliver Construct enters the battlefield.
+T4 Draw: Drew Sliver Construct.
+T4 Main: Played Misty Rainforest.
+T4 Main: Misty Rainforest enters the battlefield.
+T4 Main: Activated Misty Rainforest: search_library.
+T4 Main: Sacrificed Misty Rainforest.
+T4 Main: Misty Rainforest goes to the graveyard.
+T4 Main: Shuffled the library.
+T4 Main: Misty Rainforest: found Sunken Hollow.
+T4 Main: Sunken Hollow enters the battlefield tapped.
+T4 Main: Casting Sliver Construct for {3}.
+T4 Main: Paid {3} for Sliver Construct by tapping Island, Blood Crypt, Steam Vents and spending {U}{B}{R}.
+T4 Main: Sliver Construct enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 49, seed -541734267, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -541734267.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, City of Brass, Windswept Heath, Sliver Construct, Watery Grave, Preordain, Metallic Sliver.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Sunken Ruins.
+T1 Main: Played City of Brass.
+T1 Main: City of Brass enters the battlefield.
+T1 Main: Casting Preordain for {U}.
+T1 Main: Paid {U} for Preordain by tapping City of Brass and spending {U}.
+T1 Main: Preordain: looked at the top 2: Sunken Hollow, Opt.
+T1 Main: Preordain: put Opt on the bottom of the library.
+T1 Main: Preordain: put Sunken Hollow on the bottom of the library.
+T1 Main: Preordain: drew 1: Reliquary Tower.
+T1 Main: Preordain finishes resolving and goes to the graveyard.
+T2 Draw: Drew Command Tower.
+T2 Main: Played Command Tower.
+T2 Main: Command Tower enters the battlefield.
+T2 Main: Casting Metallic Sliver for {1}.
+T2 Main: Paid {1} for Metallic Sliver by tapping City of Brass and spending {B}.
+T2 Main: Metallic Sliver enters the battlefield.
+T3 Draw: Drew Metallic Sliver.
+T3 Main: Played Reliquary Tower.
+T3 Main: Reliquary Tower enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, City of Brass and spending {B}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Command Tower and spending {B}.
+T3 Main: Metallic Sliver enters the battlefield.
+T4 Draw: Drew Metallic Sliver.
+T4 Main: Played Sunken Ruins.
+T4 Main: Sunken Ruins enters the battlefield.
+T4 Main: Casting Sliver Construct for {3}.
+T4 Main: Paid {3} for Sliver Construct by tapping Reliquary Tower, Sunken Ruins, City of Brass and spending {B}{C}{C}.
+T4 Main: Sliver Construct enters the battlefield.
+T4 Main: Casting Metallic Sliver for {1}.
+T4 Main: Paid {1} for Metallic Sliver by tapping Command Tower and spending {B}.
+T4 Main: Metallic Sliver enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 55, seed 604048840, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 604048840.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Alpha Myr, Dark Ritual, Cascade Bluffs, Opt, Fiery Islet, Sol Ring, Sliver Construct.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Sliver Construct.
+T1 Main: Played Cascade Bluffs.
+T1 Main: Cascade Bluffs enters the battlefield.
+T1 Main: Casting Sol Ring for {1}.
+T1 Main: Paid {1} for Sol Ring by tapping Cascade Bluffs and spending {C}.
+T1 Main: Sol Ring enters the battlefield.
+T1 Main: Casting Alpha Myr for {2}.
+T1 Main: Sol Ring adds {C}{C} to the mana pool.
+T1 Main: Paid {2} for Alpha Myr by tapping Sol Ring and spending {C}{C}.
+T1 Main: Alpha Myr enters the battlefield.
+T2 Draw: Drew Shivan Reef.
+T2 Main: Played Fiery Islet.
+T2 Main: Fiery Islet enters the battlefield.
+T2 Main: Casting Opt for {U}.
+T2 Main: Paid {U} for Opt by tapping Fiery Islet and spending {U}.
+T2 Main: Opt: looked at the top 1: Mana Confluence.
+T2 Main: Opt: put Mana Confluence on the bottom of the library.
+T2 Main: Opt: drew 1: Urza's Saga.
+T2 Main: Opt finishes resolving and goes to the graveyard.
+T2 Main: Casting Sliver Construct for {3}.
+T2 Main: Sol Ring adds {C}{C} to the mana pool.
+T2 Main: Paid {3} for Sliver Construct by tapping Cascade Bluffs, Sol Ring and spending {C}{C}{C}.
+T2 Main: Sliver Construct enters the battlefield.
+T3 Draw: Drew Metallic Sliver.
+T3 Main: Played Shivan Reef.
+T3 Main: Shivan Reef enters the battlefield.
+T3 Main: Casting Sliver Construct for {3}.
+T3 Main: Sol Ring adds {C}{C} to the mana pool.
+T3 Main: Paid {3} for Sliver Construct by tapping Cascade Bluffs, Sol Ring and spending {C}{C}{C}.
+T3 Main: Sliver Construct enters the battlefield.
+T3 Main: Casting Metallic Sliver for {1}.
+T3 Main: Paid {1} for Metallic Sliver by tapping Fiery Islet and spending {R}.
+T3 Main: Metallic Sliver enters the battlefield.
+T4 Draw: Drew Riverpyre Verge.
+T4 Main: Played Riverpyre Verge.
+T4 Main: Riverpyre Verge enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 58, seed -1420947074, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed -1420947074.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Island, Alpha Myr, Sliver Construct, Sunken Ruins, Underground River, Alpha Myr, Riverpyre Verge.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Underground Sea.
+T1 Main: Played Island.
+T1 Main: Island enters the battlefield.
+T2 Draw: Drew Alpha Myr.
+T2 Main: Played Riverpyre Verge.
+T2 Main: Riverpyre Verge enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Island, Riverpyre Verge and spending {U}{R}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Sliver Construct.
+T3 Main: Played Sunken Ruins.
+T3 Main: Sunken Ruins enters the battlefield.
+T3 Main: Casting Sliver Construct for {3}.
+T3 Main: Paid {3} for Sliver Construct by tapping Island, Riverpyre Verge, Sunken Ruins and spending {U}{R}{C}.
+T3 Main: Sliver Construct enters the battlefield.
+T4 Draw: Drew Graven Cairns.
+T4 Main: Played Graven Cairns.
+T4 Main: Graven Cairns enters the battlefield.
+T4 Main: Casting Sliver Construct for {3}.
+T4 Main: Paid {3} for Sliver Construct by tapping Island, Riverpyre Verge, Sunken Ruins and spending {U}{R}{C}.
+T4 Main: Sliver Construct enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).
+
+# run 61, seed 942179770, class Unknown
+T1 Untap: Start: 7 in hand, 92 in library, seed 942179770.
+T1 Untap: Policies: play policy goal-aware-greedy, mulligan policy goal-aware.
+T1 Mulligan: Kept 7 cards after 0 mulligans: Reliquary Tower, Verdant Catacombs, Alpha Myr, Sulfur Falls, Metallic Sliver, Underground Sea, Wooded Foothills.
+T1 Untap: Goal: cast("Obeka, Brute Chronologist", by_turn 4).
+T1 Draw: Drew Riverpyre Verge.
+T1 Main: Played Reliquary Tower.
+T1 Main: Reliquary Tower enters the battlefield.
+T1 Main: Casting Metallic Sliver for {1}.
+T1 Main: Paid {1} for Metallic Sliver by tapping Reliquary Tower and spending {C}.
+T1 Main: Metallic Sliver enters the battlefield.
+T2 Draw: Drew Cascade Bluffs.
+T2 Main: Played Cascade Bluffs.
+T2 Main: Cascade Bluffs enters the battlefield.
+T2 Main: Casting Alpha Myr for {2}.
+T2 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Cascade Bluffs and spending {C}{C}.
+T2 Main: Alpha Myr enters the battlefield.
+T3 Draw: Drew Alpha Myr.
+T3 Main: Played Riverpyre Verge.
+T3 Main: Riverpyre Verge enters the battlefield.
+T3 Main: Casting Alpha Myr for {2}.
+T3 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Cascade Bluffs and spending {C}{C}.
+T3 Main: Alpha Myr enters the battlefield.
+T4 Draw: Drew Alpha Myr.
+T4 Main: Played Sulfur Falls.
+T4 Main: Sulfur Falls enters the battlefield.
+T4 Main: Casting Alpha Myr for {2}.
+T4 Main: Paid {2} for Alpha Myr by tapping Reliquary Tower, Cascade Bluffs and spending {C}{C}.
+T4 Main: Alpha Myr enters the battlefield.
+T4 Cleanup: Goal cast("Obeka, Brute Chronologist", by_turn 4) fails at the end of turn 4.
+T4 Cleanup: Goal missed: cast("Obeka, Brute Chronologist", by_turn 4).

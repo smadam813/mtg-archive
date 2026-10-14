@@ -1,0 +1,120 @@
+# Whole-stack runtime: `docker compose up` is the whole bootstrap — single
+# user, one instance. Dev loop: `docker compose up postgres ollama`, then
+# `dotnet run` on the host (appsettings.Development.json points at localhost).
+# GPU acceleration is opt-in: `docker compose -f compose.yaml -f compose.gpu.yml up`.
+x-healthcheck-defaults: &healthcheck-defaults
+  interval: 5s
+  timeout: 3s
+  retries: 10
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg18
+    environment:
+      POSTGRES_DB: mtg_archive
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    # Port published for host `psql` debugging and the dev loop; 127.0.0.1
+    # only — the trusted network boundary stops at this machine.
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      # postgres:18 images keep PGDATA under /var/lib/postgresql/18/ and
+      # document mounting the parent, not .../data.
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      <<: *healthcheck-defaults
+      test: ["CMD-SHELL", "pg_isready -U postgres -d mtg_archive"]
+
+  ollama:
+    # Stock image, never customized: the service pulls its own
+    # embedding model at startup, so a model switch is service configuration,
+    # not a compose change. Pinned so upstream changes are deliberate upgrades —
+    # the healthcheck below depends on this image's Ubuntu base shipping bash
+    # with /dev/tcp; re-check it when bumping the tag.
+    image: ollama/ollama:0.32.1
+    environment:
+      # Keep the embedding model resident forever: uniform query latency is
+      # worth the ~1GB resident RAM cost.
+      OLLAMA_KEEP_ALIVE: "-1"
+    # Port published for raw embedding-call debugging and the dev loop.
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+    healthcheck:
+      # The stock image has no curl or wget, so the probe uses bash /dev/tcp.
+      <<: *healthcheck-defaults
+      test:
+        - CMD-SHELL
+        - >-
+          bash -c 'exec 3<>/dev/tcp/127.0.0.1/11434
+          && printf "GET /api/version HTTP/1.1\r\nHost: 127.0.0.1\r\nConnection: close\r\n\r\n" >&3
+          && grep -q "HTTP/1.1 200" <&3'
+
+  xmage:
+    # The XMage sidecar (ADR 0011): plays one seeded game against an idle
+    # opponent per request for the service, over TCP 7070. No published
+    # port: only containers on the compose network reach it.
+    build:
+      context: ./engine/xmage
+      target: runtime
+    environment:
+      # The most games that play at once; hello reports it to the service.
+      XMAGE_THREADS: "24"
+    # run.sh sizes the heap at 1 GB + 160 MB per game thread (4.75 GB at
+    # 24 threads). The spike peaked at 4.5 GB RSS. The BQ2 run 3 deck at
+    # 1,000 runs peaked at 4.0 GB RSS with at most 121 MB live after a GC
+    #.
+    mem_limit: 6g
+    expose:
+      - "7070"
+    # run.sh ends the JVM on a heap error. Docker never restarts a container
+    # only because it is unhealthy, so the exit and this policy recover it.
+    restart: unless-stopped
+    healthcheck:
+      # health.sh sends a protocol hello and checks the reply. A TCP connect
+      # is not enough: the port stays open when the accept loop has died.
+      <<: *healthcheck-defaults
+      test: ["CMD", "bash", "/opt/xmage/health.sh"]
+      # The port opens only after the engine warm-up: give it time.
+      start_period: 120s
+
+  service:
+    build: src/MtgArchive
+    environment:
+      # Matches the appsettings.json default; override container configuration
+      # with env vars.
+      ConnectionStrings__Archive: Host=postgres;Port=5432;Database=mtg_archive;Username=postgres;Password=postgres
+      # Workstation GC. ASP.NET Core defaults to Server GC, which sizes one
+      # heap per core against the whole VM. This service runs one instance
+      # for one user. The bulk re-embed streams 64 rows per batch and clears
+      # the tracker each batch, so Workstation GC is enough.
+      DOTNET_gcServer: "0"
+      # The XMage sidecar behind /simulate (ADR 0011).
+      Simulation__Xmage__Endpoint: xmage:7070
+    # Under Workstation GC a forced GPU ingest peaks at 2.25 GiB in
+    # card_upsert and holds 1.1-1.4 GiB through re_embed. The
+    # limit leaves room for corpus growth. The runtime reads the limit and
+    # caps the heap at 75% of it.
+    mem_limit: 4g
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      # Curated files, snapshots, and ManaBox drops (see data/README.md).
+      # Read-only by design: the service archives into Postgres, never here.
+      - ./data:/data:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      xmage:
+        condition: service_healthy
+    healthcheck:
+      <<: *healthcheck-defaults
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/healthz"]
+
+volumes:
+  pgdata:
+  ollama-models:
