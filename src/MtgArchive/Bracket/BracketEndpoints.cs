@@ -33,7 +33,7 @@ public sealed class BracketEndpoints : IEndpointMapper
             var format = FormatParameter.Resolve(request.Format);
             if (format != Format.Commander)
             {
-                return TypedResults.Problem(Problems.CommanderOnly(FormatParameter.WireName(format)));
+                return TypedResults.Problem(Problems.CommanderOnly(format));
             }
 
             if (request.TargetBracket is not { } target)

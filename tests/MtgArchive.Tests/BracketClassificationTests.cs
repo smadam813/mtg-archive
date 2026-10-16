@@ -240,6 +240,44 @@ public sealed class BracketClassificationTests(PostgresFixture postgres) : IDisp
         Assert.Contains("Commander only", problem.GetProperty("detail").GetString());
     }
 
+    [Theory]
+    [InlineData("brawl")]
+    [InlineData("competitive_brawl")]
+    [InlineData("standard_brawl")]
+    public async Task A_brawl_format_detail_says_Arena_has_no_bracket_system(string format)
+    {
+        var problem = await CommanderOnlyProblemAsync(format, "bracket_brawl_detail");
+
+        var detail = problem.GetProperty("detail").GetString();
+        Assert.Contains(format, detail);
+        Assert.Contains("Commander only", detail);
+        Assert.Contains("Arena publishes no bracket system for Brawl.", detail);
+    }
+
+    [Fact]
+    public async Task The_standard_format_detail_names_standard_and_not_Brawl()
+    {
+        var problem = await CommanderOnlyProblemAsync("standard", "bracket_standard_detail");
+
+        Assert.Equal("urn:mtg-archive:problem:commander-only", problem.GetProperty("type").GetString());
+        var detail = problem.GetProperty("detail").GetString();
+        Assert.Contains("standard", detail);
+        Assert.Contains("Commander only", detail);
+        Assert.DoesNotContain("Brawl", detail);
+    }
+
+    private async Task<JsonElement> CommanderOnlyProblemAsync(string format, string databasePrefix)
+    {
+        using var app = new ArchiveApp(autoMigrate: true, await postgres.CreateDatabaseAsync($"{databasePrefix}_{Guid.NewGuid():N}"));
+        using var client = app.CreateClient();
+
+        var response = await client.PostAsJsonAsync("/bracket-classification",
+            new { decklist = Decklist("Test Commander"), target_bracket = 2, format });
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        return await response.Content.ReadFromJsonAsync<JsonElement>();
+    }
+
     [Fact]
     public async Task An_unknown_format_is_a_400_that_names_it()
     {

@@ -2,6 +2,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MtgArchive.CollectionImport;
+using MtgArchive.Data;
 using MtgArchive.Simulation;
 
 namespace MtgArchive.Api;
@@ -67,17 +68,33 @@ public static class Problems
         .WithExtension("served", served);
 
     /// <summary>The route serves Commander only: brackets, the bracket spec,
-    /// and the Game Changers list have no Brawl counterpart (ADR 0012).</summary>
-    public static ProblemDetails CommanderOnly(string format) => new ProblemDetails
+    /// and the Game Changers list exist for Commander alone (ADR 0012). The
+    /// detail names the rejected format and gives the reason that fits it:
+    /// a Brawl format has no Arena bracket system, and Standard has none
+    /// from Wizards.</summary>
+    public static ProblemDetails CommanderOnly(Format format)
     {
-        Type = "urn:mtg-archive:problem:commander-only",
-        Title = "Commander only",
-        Status = StatusCodes.Status400BadRequest,
-        Detail = $"Brackets apply to Commander only. The {format} format has no power target: "
-            + "Arena publishes no bracket system for Brawl. Omit format, or use commander.",
+        var reason = format switch
+        {
+            Format.Brawl or Format.CompetitiveBrawl or Format.StandardBrawl =>
+                "Arena publishes no bracket system for Brawl.",
+            Format.Standard => "Wizards publishes no bracket system for Standard.",
+            _ => throw new ArgumentOutOfRangeException(nameof(format), format,
+                "Commander has brackets, so it is never rejected as commander-only."),
+        };
+        var wireName = FormatParameter.WireName(format);
+
+        return new ProblemDetails
+        {
+            Type = "urn:mtg-archive:problem:commander-only",
+            Title = "Commander only",
+            Status = StatusCodes.Status400BadRequest,
+            Detail = $"Brackets apply to Commander only. The {wireName} format has no power target: "
+                + $"{reason} Omit format, or use commander.",
+        }
+            .WithExtension("parameter", "format")
+            .WithExtension("value", wireName);
     }
-        .WithExtension("parameter", "format")
-        .WithExtension("value", format);
 
     public static ProblemDetails UnknownCard(Guid oracleId) => new ProblemDetails
     {
