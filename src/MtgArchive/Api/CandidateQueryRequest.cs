@@ -19,8 +19,8 @@ public abstract record CandidateQueryRequest
         + "quantity).")]
     public bool CollectionScope { get; init; } = false;
 
-    [Description("The format candidates are judged in: commander, brawl, competitive_brawl, or "
-        + "standard_brawl. Commander when omitted, "
+    [Description("The format candidates are judged in: commander, brawl, competitive_brawl, "
+        + "standard_brawl, or standard. Commander when omitted, "
         + "and the versions block echoes it. An unknown format is a 400, never a silent fallback.")]
     public string? Format { get; init; }
 

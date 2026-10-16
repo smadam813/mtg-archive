@@ -1,6 +1,6 @@
 # MTG Archive
 
-A self-hosted MTG Commander and Arena Brawl knowledge base: a corpus of cards and rules, an index over it, and a simulation engine, exposed so an agent can reason over a specific deck. This file is the glossary. Scope lives in the ADRs, and the done-queries live in `eval/acceptance/`.
+A self-hosted MTG Commander, Arena Brawl, and Standard knowledge base: a corpus of cards and rules, an index over it, and a simulation engine. It lets an agent reason over a specific deck. This file is the glossary. Scope lives in the ADRs, and the done-queries live in `eval/acceptance/`.
 
 ## Language
 
@@ -32,7 +32,7 @@ The repo fixture of graded queries (65 card-search with expected `oracle_id` set
 The single-flight, on-demand background job that refreshes the corpus: fetch and validate, card upsert, source-profile derive, card-feature derive, CR refresh, banlist replay, legality rebuild, popularity load, bracket load, re-embed. Phases commit as they land; derived tables go live only by an atomic swap after every upstream phase succeeded. Recovery from any failure is running it again.
 
 **Ingest report**:
-The run's outcome record: new and changed card counts, drift detections, CR version found, stale cards, collection rows pointing at stale cards, unmatched search-lands, unmatched enters-tapped lands, unmatched opponent or combat sources, unprofiled card faces, each Brawl format's legality counts and status changes, skipped popularity export rows, errors. Surfaced with the run, never silently dropped — the ingest-side sibling of the quarantine report.
+The run's outcome record: new and changed card counts, drift detections, CR version found, stale cards, collection rows pointing at stale cards, unmatched search-lands, unmatched enters-tapped lands, unmatched opponent or combat sources, unprofiled card faces, each Brawl format's legality counts and status changes, skipped popularity export rows, errors. Standard's counts and status changes sit beside the Brawl ones. Surfaced with the run, never silently dropped — the ingest-side sibling of the quarantine report.
 
 **Drift**:
 Commander only. A detected mismatch between a curated file and Scryfall's current state — a `legalities.commander` flip the banlist files don't explain (a commander-only or companion ban leaves the card legal in the deck, so Scryfall says `legal` for it), or a `game_changer` flip absent from the latest Game Changers snapshot. Report-only: the curated file stays the source of truth until a human appends the dated event with real provenance and re-ingests.
@@ -181,20 +181,20 @@ The earliest turn a mana source counts as producing: lands on their drop turn (E
 A spell's per-color colored-pip requirement, demanded on the turn equal to its mana value. Hybrid pips form an "either X/Y" demand line, Phyrexian pips count zero, X adds nothing beyond printed pips. The commander's demand is included, flagged as commander. Its per-color casting probability is the category draw probability of the color's turn-available source set.
 
 **Format**:
-The rules set a deck is built and judged under: Commander, Brawl, Competitive Brawl, or Standard Brawl (ADR 0012). Each format has its own card pool, bans, commander rule, deck shape, and game rules. A request that names no format means Commander.
+The rules set a deck is built and judged under: Commander, Brawl, Competitive Brawl, Standard Brawl, or Standard (ADR 0012). Each format has its own card pool, bans, deck shape, and game rules. Each format with a commander seat has its own commander rule. Standard is the 60-card constructed format, not Standard Brawl. It serves card legality only so far. A request that names no format means Commander.
 _Avoid_: queue, variant, Historic Brawl
 
 **Brawl formats**:
 Brawl, Competitive Brawl, and Standard Brawl together: the three MTG Arena Brawl formats. "Brawl" alone means the 100-card Arena format, formerly Historic Brawl.
 
 **Role**:
-The seat a card occupies in a deck: commander, companion, or main deck. The main deck is the 99 in Commander, Brawl, and Competitive Brawl, and the 59 in Standard Brawl. Legality is judged per role.
+The seat a card occupies in a deck: commander, companion, or main deck. The main deck is the 99 in Commander, Brawl, and Competitive Brawl, and the 59 in Standard Brawl. Standard has no commander or companion seat, so every card sits in the main deck. Its sideboard is not a role yet. Legality is judged per role.
 
 **Legality**:
-A deterministic, structural attribute per (card, format, role), derived once at ingest. Commander adds the banlist version. Never a boolean per card, never a model judgment. One of: legal; banned (cites a dated ban event for Commander, or the Scryfall key and the legality as-of date for a Brawl format); not legal (outside the format's card pool); not eligible (fails the role's requirements in that format).
+A deterministic, structural attribute per (card, format, role), derived once at ingest. Commander adds the banlist version. Never a boolean per card, never a model judgment. One of: legal, banned, not legal (outside the format's card pool), or not eligible (fails the role's requirements in that format). A Commander ban cites a dated ban event; a Brawl or Standard ban cites the Scryfall key and the legality as-of date.
 
 **Legality as-of**:
-The Scryfall bulk `updated_at` that dates a Brawl format's legality. Brawl legality is current state only, so the as-of date cannot be pinned.
+The Scryfall bulk `updated_at` that dates the legality of a Brawl format or Standard. That legality is current state only, so the as-of date cannot be pinned.
 
 **Banlist version**:
 Commander only. A dated snapshot of the Commander banlist, produced by replaying ban events. A decklist is legal only relative to one. A pinned historical version means today's card pool under that date's ban state.
@@ -210,10 +210,10 @@ A line on the official list that bans a group of cards without naming them: ante
 _Avoid_: format rule, blanket ban
 
 **Copy limit**:
-A card's per-deck allowance, derived at ingest: 1 (singleton) by default; unlimited for basic lands and "any number" cards; 7 for Seven Dwarves.
+A card's per-deck allowance, derived at ingest: 1 (singleton) by default; unlimited for basic lands and "any number" cards; 7 for Seven Dwarves. The limit is per format: Standard allows four copies. Only the singleton limits are derived so far.
 
 **Deck shape**:
-A format's deck-level rules: deck size (100, or 60 in Standard Brawl), copy limit, color identity, commander pairing, and the companion slot.
+A format's deck-level rules: deck size (100, or 60 in Standard Brawl), copy limit, color identity, commander pairing, and the companion slot. Standard's shape is a 60-card minimum, a 15-card sideboard, and four copies. It is not modeled yet.
 _Avoid_: deck legality, deck validity
 
 **Deck verdict**:
@@ -275,7 +275,7 @@ The dedicated deterministic service query behind done-query 1: candidates = comm
 The candidates of a commander-alternatives query that share one retained count and one color-identity distance. The agent re-ranks within a tier by semantic distance to the old commander's Oracle text, and never across tiers. Semantic distance takes the place of popularity order as the tie-break; popularity order only breaks distance ties.
 
 **Popularity order**:
-The per-format order of candidates, from most played to least. Commander and Standard Brawl use EDHREC rank. Brawl and Competitive Brawl use the popularity export first, then EDHREC rank. Cards with no rank sort last, by name, then by oracle id. A commander search orders by the share of games with the card as commander first, where the source has one. A card's popularity rank is its 1-based position in that order. An answer states the source and its as-of date.
+The per-format order of candidates, from most played to least. Commander, Standard Brawl, and Standard use EDHREC rank. Brawl and Competitive Brawl use the popularity export first, then EDHREC rank. Cards with no rank sort last, by name, then by oracle id. A commander search orders by the share of games with the card as commander first, where the source has one. A card's popularity rank is its 1-based position in that order. An answer states the source and its as-of date.
 _Avoid_: EDHREC order (for a Brawl format)
 
 **Popularity export**:
@@ -286,7 +286,7 @@ _Avoid_: Untapped scrape, popularity feed
 The result envelope's report of the cards a floor does not fully cover, in two lists. Unimplemented cards are the cards the engine cannot run: XMage plays each as a blank card. Unprofiled cards run in full, but their card feature profile cannot prove every feature, so the pilot reads fewer features than the card has. Engine coverage replaced DSL coverage at cutover (ADR 0006, ADR 0011). Under interactive disruption a third list names the unprofiled response cards, so the answered rate is a lower bound.
 
 **Citation**:
-The structured reference every computed answer carries: `{ type, id, label }` with type one of card, rule, ban_event, legality, or snapshot. A `legality` citation is a Brawl format's legality status for one card; its id resolves through card detail, whose row holds the Scryfall URL, the key, and the as-of date. Every id is fetchable from a reference endpoint — no prose-only citations.
+The structured reference every computed answer carries: `{ type, id, label }` with type one of card, rule, ban_event, legality, or snapshot. A `legality` citation is one card's legality status in a Brawl format or Standard. Its id resolves through card detail, whose row holds the Scryfall URL, the key, and the as-of date. Every id is fetchable from a reference endpoint — no prose-only citations.
 
 **Reference endpoint**:
 A GET endpoint serving a citation target verbatim: card detail, CR rule or glossary entry, ban event, banlist version, corpus state. Citations are only useful to an agent if every one is fetchable.

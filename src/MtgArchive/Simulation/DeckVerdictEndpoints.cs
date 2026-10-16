@@ -24,7 +24,7 @@ public sealed class DeckVerdictEndpoints : IEndpointMapper
             BanlistVersionAxis banlist,
             CancellationToken cancellationToken) =>
         {
-            var format = FormatParameter.Resolve(request.Format);
+            var format = FormatParameter.ResolveDeck(request.Format);
             FormatParameter.RejectBanlistPin(format, request.BanlistVersion);
 
             ResolvedDecklist decklist;
@@ -56,7 +56,8 @@ public sealed record DeckVerdictRequest
 {
     public required Decklist Decklist { get; init; }
 
-    [Description("commander (default), brawl, competitive_brawl, or standard_brawl. The versions block echoes it. An unknown format is a 400.")]
+    [Description("commander (default), brawl, competitive_brawl, or standard_brawl. The versions block echoes it. "
+        + "An unknown format is a 400; standard is a 400 too, since it has card legality only.")]
     public string? Format { get; init; }
 
     [Description("Commander only; latest by default. A Brawl format has no banlist version, so a pin with one is a 400.")]

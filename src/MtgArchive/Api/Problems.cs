@@ -52,6 +52,20 @@ public static class Problems
         .WithExtension("parameter", parameter)
         .WithExtension("format", format);
 
+    /// <summary>The format is known, but the route does not serve it yet:
+    /// Standard has card legality only, so no deck route takes it.</summary>
+    public static ProblemDetails UnservedFormat(string format, IReadOnlyList<string> served) => new ProblemDetails
+    {
+        Type = "urn:mtg-archive:problem:unserved-format",
+        Title = "Format not served by this route",
+        Status = StatusCodes.Status400BadRequest,
+        Detail = $"This route does not serve the {format} format yet: it has card legality only. "
+            + $"The served formats are {string.Join(", ", served)}.",
+    }
+        .WithExtension("parameter", "format")
+        .WithExtension("value", format)
+        .WithExtension("served", served);
+
     /// <summary>The route serves Commander only: brackets, the bracket spec,
     /// and the Game Changers list have no Brawl counterpart (ADR 0012).</summary>
     public static ProblemDetails CommanderOnly(string format) => new ProblemDetails

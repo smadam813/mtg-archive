@@ -22,7 +22,7 @@ public sealed class Tier1Endpoints : IEndpointMapper
             ArchiveDbContext db,
             CancellationToken cancellationToken) =>
         {
-            var format = FormatParameter.Resolve(request.Format);
+            var format = FormatParameter.ResolveDeck(request.Format);
             var maxTurn = request.MaxTurn ?? Tier1ReportRequest.DefaultMaxTurn;
             if (maxTurn < 1)
             {
@@ -104,7 +104,7 @@ public sealed record Tier1ReportRequest
 
     [Description("The format whose game rules fix the cards seen by each turn and the mulligan looks: "
         + "commander, brawl, competitive_brawl, or standard_brawl. Commander when omitted, and the versions block echoes it. "
-        + "An unknown format is a 400, never a silent fallback.")]
+        + "An unknown format is a 400, never a silent fallback; standard is a 400 too, since it has card legality only.")]
     public string? Format { get; init; }
 }
 

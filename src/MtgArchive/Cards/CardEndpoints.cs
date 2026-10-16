@@ -78,9 +78,9 @@ public sealed class CardEndpoints : IEndpointMapper
     }
 
     /// <summary>
-    /// The card's materialized legality rows in all four formats (ADR 0012):
+    /// The card's materialized legality rows in all five formats (ADR 0012):
     /// Commander at the resolved version, each banned status carrying its
-    /// ban-event citation; each Brawl format's one current state, every row
+    /// ban-event citation; each unversioned format's one current state, every row
     /// carrying its <c>legality</c> citation. One statement: the citation
     /// subquery rides along, so a replay committing between round trips can
     /// never pair a row with a retired event. With no resolved version only

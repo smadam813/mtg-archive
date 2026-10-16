@@ -70,11 +70,12 @@ public sealed record UnprofiledCard(Guid OracleId, string Name, string Face, str
 public sealed record ResponseCard(Guid OracleId, string Name, string Face, bool Profiled, string? Sentence);
 
 /// <summary>
-/// One Brawl format after the legality rebuild (ADR 0012). The counts read
+/// One unversioned format after the legality rebuild (ADR 0012): a Brawl
+/// format or Standard. The wire list keeps its name, brawl_legality. The counts read
 /// the main role, where each card has one status. <paramref name="StatusChanges"/>
 /// lists each card whose main-role status differs from the prior ingest: a
 /// ban, an unban, or a rotation. A card with no prior row is not a change.
-/// Drift stays a Commander term, so a Brawl format has no drift entry.
+/// Drift stays a Commander term, so an unversioned format has no drift entry.
 /// </summary>
 public sealed record BrawlLegalityReport(
     Format Format,

@@ -58,7 +58,7 @@ public sealed class SimulateEndpoints(XmageSidecar xmage, IConfiguration configu
             BanlistVersionAxis banlist,
             CancellationToken cancellationToken) =>
         {
-            var format = FormatParameter.Resolve(request.Format);
+            var format = FormatParameter.ResolveDeck(request.Format);
             FormatParameter.RejectBanlistPin(format, request.BanlistVersion);
 
             var runs = request.Runs ?? MonteCarloOptions.DefaultRuns;
@@ -309,7 +309,7 @@ public sealed record SimulateRequest
 
     [Description("The format: commander, brawl, competitive_brawl, or standard_brawl. Commander when omitted, and the versions block echoes it. "
         + "The format fixes the game rules (start life, commander damage, free mulligans, turn-1 draw) and the deck verdict. "
-        + "An unknown format is a 400, never a silent fallback.")]
+        + "An unknown format is a 400, never a silent fallback; standard is a 400 too, since it has card legality only.")]
     public string? Format { get; init; }
 }
 

@@ -15,7 +15,8 @@ namespace MtgArchive.Tests;
 /// case — color identities from colorless to five-color, legendary and
 /// plain creatures, "can be your commander" text, the Companion keyword,
 /// Scryfall <c>not_legal</c>, bans of every scope with later unbans, the
-/// three Scryfall Brawl keys with pools and bans that differ by format, cards
+/// three Scryfall Brawl keys and the Standard key, with pools and bans that
+/// differ by format, cards
 /// that go stale on a second ingest, and every copy-limit case (basic land,
 /// "seven cards named", singleton) — put through the real pipeline (card
 /// upsert, banlist replay, legality rebuild), with a collection imported
@@ -154,11 +155,13 @@ internal static class IndexCorpus
                 },
                 // The two 100-card pools match and their bans differ;
                 // Standard Brawl is a smaller pool, and some records lack
-                // its key, as an older snapshot would.
+                // its key, as an older snapshot would. Standard is a pool
+                // of its own, with its own bans and missing keys.
                 new BrawlKeys(
                     i % 5 == 1 ? "not_legal" : i % 8 == 7 ? "banned" : "legal",
                     i % 5 == 1 ? "not_legal" : i % 8 == 6 ? "banned" : "legal",
-                    i % 16 == 15 ? null : i % 3 == 1 ? "legal" : "not_legal")));
+                    i % 16 == 15 ? null : i % 3 == 1 ? "legal" : "not_legal",
+                    i % 16 == 14 ? null : i % 10 == 9 ? "banned" : i % 4 == 3 ? "not_legal" : "legal")));
         }
 
         return seeds;

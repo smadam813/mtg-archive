@@ -71,12 +71,12 @@ internal static class IngestHarness
             ["legalities"] = Legalities(commanderLegality, brawl),
         });
 
-    /// <summary>The three Scryfall Brawl legality keys of a fixture card. A
-    /// null status leaves its key out of the record, as an older snapshot
-    /// would.</summary>
-    public sealed record BrawlKeys(string? Brawl, string? CompetitiveBrawl, string? StandardBrawl)
+    /// <summary>The three Scryfall Brawl legality keys of a fixture card,
+    /// and its Standard key. A null status leaves its key out of the record,
+    /// as an older snapshot would.</summary>
+    public sealed record BrawlKeys(string? Brawl, string? CompetitiveBrawl, string? StandardBrawl, string? Standard = null)
     {
-        /// <summary>In all three pools.</summary>
+        /// <summary>In all three Brawl pools; no Standard key.</summary>
         public static readonly BrawlKeys Legal = new("legal", "legal", "legal");
     }
 
@@ -96,6 +96,11 @@ internal static class IngestHarness
         if (brawl?.StandardBrawl is { } s)
         {
             legalities["standardbrawl"] = s;
+        }
+
+        if (brawl?.Standard is { } standard)
+        {
+            legalities["standard"] = standard;
         }
 
         return legalities;

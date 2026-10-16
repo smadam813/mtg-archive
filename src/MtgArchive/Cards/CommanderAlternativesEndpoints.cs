@@ -44,8 +44,9 @@ public sealed class CommanderAlternativesEndpoints : IEndpointMapper
                 return TypedResults.Problem(Problems.ParameterBelowOne("limit", request.Limit.Value));
             }
 
-            // The pin resolves before any decklist work so an unknown
-            // version is a 400 on its own.
+            // The format and the pin resolve before any decklist work, so an
+            // unserved format or an unknown version is a 400 on its own.
+            FormatParameter.ResolveDeck(request.Format);
             var query = await CandidateQuery.ResolveAsync(db, banlist, new CommanderPool
             {
                 CollectionScope = request.CollectionScope,
@@ -226,7 +227,7 @@ public sealed record CommanderAlternativesRequest
     [Description("The format the deck moves to: commander, brawl, competitive_brawl, or "
         + "standard_brawl. Commander when omitted, and the versions block echoes it. Candidates "
         + "are the format's commander-legal cards, and each card is judged in the format. An "
-        + "unknown format is a 400.")]
+        + "unknown format is a 400; standard is a 400 too, since a Standard deck has no commander.")]
     public string? Format { get; init; }
 
     [Description("Banlist version pin (effective_date, yyyy-MM-dd); latest when omitted. "

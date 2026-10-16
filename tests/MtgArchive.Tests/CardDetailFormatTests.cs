@@ -9,9 +9,9 @@ using static MtgArchive.Tests.IngestHarness;
 namespace MtgArchive.Tests;
 
 /// <summary>
-/// Brawl legality in card detail (ADR 0012): one card lookup
-/// shows per-role legality in all four formats. The <c>banlist_version</c>
-/// pin applies to the Commander rows only. Each Brawl row holds its
+/// Brawl and Standard legality in card detail (ADR 0012): one card lookup
+/// shows per-role legality in all five formats. The <c>banlist_version</c>
+/// pin applies to the Commander rows only. Each unversioned row holds its
 /// <c>legality</c> citation, the Scryfall key, the Scryfall URL, and the
 /// as-of date. Each test ingests its own fixture snapshot through the real
 /// pipeline and reads card detail over HTTP.
@@ -28,11 +28,11 @@ public sealed class CardDetailFormatTests(PostgresFixture postgres) : IDisposabl
     public void Dispose() => Directory.Delete(_eventsDir, recursive: true);
 
     [Fact]
-    public async Task Card_detail_returns_per_role_legality_in_all_four_formats()
+    public async Task Card_detail_returns_per_role_legality_in_all_five_formats()
     {
         var golos = Guid.NewGuid();
         using var app = await IngestAsync(CardLine(golos, Golos, typeLine: "Legendary Artifact Creature — Scout",
-            brawl: new BrawlKeys("legal", "banned", "not_legal")));
+            brawl: new BrawlKeys("legal", "banned", "not_legal", Standard: "legal")));
         using var client = app.CreateClient();
 
         var detail = await GetJsonAsync(client, $"/cards/{golos}");
@@ -46,6 +46,8 @@ public sealed class CardDetailFormatTests(PostgresFixture postgres) : IDisposabl
                 ("competitive_brawl", "main", "banned"),
                 ("standard_brawl", "commander", "not_legal"), ("standard_brawl", "companion", "not_legal"),
                 ("standard_brawl", "main", "not_legal"),
+                ("standard", "commander", "not_eligible"), ("standard", "companion", "not_eligible"),
+                ("standard", "main", "legal"),
             ],
             rows.Select(r => (
                 r.GetProperty("format").GetString()!,
@@ -61,13 +63,14 @@ public sealed class CardDetailFormatTests(PostgresFixture postgres) : IDisposabl
             Assert.False(r.TryGetProperty("citation", out _));
         });
 
-        // Every Brawl row, banned or not, holds the Scryfall URL, the key,
+        // Every Brawl and Standard row, banned or not, holds the Scryfall URL, the key,
         // the as-of date, and its legality citation.
         var keys = new Dictionary<string, string>
         {
             ["brawl"] = "brawl",
             ["competitive_brawl"] = "competitivebrawl",
             ["standard_brawl"] = "standardbrawl",
+            ["standard"] = "standard",
         };
         Assert.All(rows.Skip(3), r =>
         {
@@ -86,6 +89,13 @@ public sealed class CardDetailFormatTests(PostgresFixture postgres) : IDisposabl
             rows[11].GetProperty("citation").GetProperty("label").GetString());
         Assert.Equal("brawl legal as of 2026-10-03",
             rows[5].GetProperty("citation").GetProperty("label").GetString());
+        Assert.Equal("standard legal as of 2026-10-03",
+            rows[14].GetProperty("citation").GetProperty("label").GetString());
+
+        // A Standard deck has no commander seat, so a legendary creature
+        // is not eligible there, though the key says legal.
+        Assert.Equal("standard legal as of 2026-10-03; not eligible as commander",
+            rows[12].GetProperty("citation").GetProperty("label").GetString());
 
         // The key never holds not_eligible: the label gives what the key
         // says, then the role fact the service derives.
@@ -110,7 +120,7 @@ public sealed class CardDetailFormatTests(PostgresFixture postgres) : IDisposabl
         Assert.Equal(["banned", "not_eligible", "banned"], Statuses(latest, "commander"));
         Assert.Equal(["legal", "not_eligible", "legal"], Statuses(pinned, "commander"));
         Assert.False(Rows(pinned, "commander")[0].TryGetProperty("ban_event", out _));
-        foreach (var format in new[] { "brawl", "competitive_brawl", "standard_brawl" })
+        foreach (var format in new[] { "brawl", "competitive_brawl", "standard_brawl", "standard" })
         {
             Assert.Equal(
                 Rows(latest, format).Select(r => r.GetRawText()),

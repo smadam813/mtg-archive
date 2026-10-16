@@ -10,7 +10,8 @@ namespace MtgArchive.Tests;
 /// versions block echoes the format used, and an unknown format is a 400
 /// that names the value — never a silent fallback. A Brawl format has no
 /// banlist version: a pin with one is a 400, and the versions
-/// block dates it with <c>legality_as_of</c> instead. Driven over HTTP against the corpus
+/// block dates it with <c>legality_as_of</c> instead. Standard, the 60-card
+/// constructed format, is unversioned the same way. Driven over HTTP against the corpus
 /// <see cref="IndexCorpus"/> ingests through the real pipeline.
 /// </summary>
 [Collection(PostgresCollection.Name)]
@@ -32,8 +33,16 @@ public sealed class CandidateFormatTests(PostgresFixture postgres)
         Assert.Equal(CandidateIds(unnamed), CandidateIds(named));
     }
 
+    [Fact]
+    public void Standard_resolves_to_the_standard_format()
+    {
+        Assert.Equal(Data.Format.Standard, Api.FormatParameter.Resolve("standard"));
+        Assert.False(Api.FormatParameter.IsVersioned(Data.Format.Standard));
+    }
+
     [Theory]
     [InlineData("/cards/search", "modern")]
+    [InlineData("/cards/search", "Standard")]
     [InlineData("/cards/search", "Commander")]
     [InlineData("/cards/search", "historic_brawl")]
     [InlineData("/cards/semantic-search", "competitivebrawl")]
@@ -53,7 +62,7 @@ public sealed class CandidateFormatTests(PostgresFixture postgres)
         Assert.Equal(format, problem.RootElement.GetProperty("value").GetString());
         Assert.Contains($"'{format}'", problem.RootElement.GetProperty("detail").GetString());
         Assert.Equal(
-            ["commander", "brawl", "competitive_brawl", "standard_brawl"],
+            ["commander", "brawl", "competitive_brawl", "standard_brawl", "standard"],
             problem.RootElement.GetProperty("known").EnumerateArray().Select(k => k.GetString()!));
     }
 
@@ -61,6 +70,8 @@ public sealed class CandidateFormatTests(PostgresFixture postgres)
     [InlineData("/cards/search", "brawl")]
     [InlineData("/cards/search", "competitive_brawl")]
     [InlineData("/cards/semantic-search", "standard_brawl")]
+    [InlineData("/cards/search", "standard")]
+    [InlineData("/cards/semantic-search", "standard")]
     public async Task A_brawl_format_with_a_banlist_version_pin_is_a_400(string route, string format)
     {
         var connectionString = await IndexCorpus.ConnectionStringAsync(postgres);
@@ -82,6 +93,7 @@ public sealed class CandidateFormatTests(PostgresFixture postgres)
     [InlineData("brawl")]
     [InlineData("competitive_brawl")]
     [InlineData("standard_brawl")]
+    [InlineData("standard")]
     public async Task A_brawl_response_carries_legality_as_of_and_no_banlist_version(string format)
     {
         var connectionString = await IndexCorpus.ConnectionStringAsync(postgres);
@@ -99,6 +111,30 @@ public sealed class CandidateFormatTests(PostgresFixture postgres)
             new DateTimeOffset(2026, 1, 1, 0, 0, 2, TimeSpan.Zero),
             versions.GetProperty("legality_as_of").GetDateTimeOffset());
         Assert.NotEmpty(CandidateIds(response));
+    }
+
+    // Standard has no commander or companion seat, so those roles hold no
+    // candidate, and the main pool is exactly the corpus's Standard-legal set.
+    [Fact]
+    public async Task A_standard_query_returns_the_standard_pool_and_no_commanders()
+    {
+        var connectionString = await IndexCorpus.ConnectionStringAsync(postgres);
+        var oracle = await MaterializedLegality.LoadAsync(connectionString);
+        using var app = new ArchiveApp(autoMigrate: false, connectionString);
+        using var client = app.CreateClient();
+
+        var main = await PostAsync(client, "/cards/search", new { role = "main", limit = 200, format = "standard" });
+        var commanders = await PostAsync(client, "/cards/search", new { role = "commander", limit = 200, format = "standard" });
+        var companions = await PostAsync(client, "/cards/search", new { role = "companion", limit = 200, format = "standard" });
+
+        Assert.Equal(
+            oracle.Legal(null, Data.Role.Main, Data.Format.Standard).Order(),
+            CandidateIds(main).Order());
+        Assert.NotEqual(
+            oracle.Legal(null, Data.Role.Main, Data.Format.StandardBrawl).Order(),
+            CandidateIds(main).Order());
+        Assert.Empty(CandidateIds(commanders));
+        Assert.Empty(CandidateIds(companions));
     }
 
     [Fact]

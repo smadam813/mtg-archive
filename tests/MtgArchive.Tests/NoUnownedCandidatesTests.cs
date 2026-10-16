@@ -22,7 +22,10 @@ namespace MtgArchive.Tests;
 [Collection(PostgresCollection.Name)]
 public sealed class NoUnownedCandidatesTests(PostgresFixture postgres)
 {
-    private const int Seed = 43;
+    // The seed is arbitrary, but each run must exercise every endpoint.
+    // Seed 43 drew only empty /cards/search answers in the self-check once
+    // Standard joined the format axis.
+    private const int Seed = 44;
 
     [Fact]
     public async Task No_collection_scoped_index_endpoint_returns_an_unowned_candidate()

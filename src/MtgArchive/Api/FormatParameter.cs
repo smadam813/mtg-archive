@@ -17,10 +17,17 @@ public static class FormatParameter
     /// <summary>The formats whose legality the rebuild materializes. Only
     /// these resolve; every other wire value is unknown to a request.</summary>
     public static readonly IReadOnlyList<Format> Materialized =
+        [Format.Commander, Format.Brawl, Format.CompetitiveBrawl, Format.StandardBrawl, Format.Standard];
+
+    /// <summary>The formats the deck routes serve: the deck verdict, the
+    /// simulation routes, and commander alternatives. Standard has card
+    /// legality only so far, so a deck route rejects it.</summary>
+    public static readonly IReadOnlyList<Format> DeckFormats =
         [Format.Commander, Format.Brawl, Format.CompetitiveBrawl, Format.StandardBrawl];
 
     /// <summary>Whether the format has the banlist version axis. Only
-    /// Commander does; a Brawl format has one current state (ADR 0012).</summary>
+    /// Commander does; a Brawl format and Standard have one current state
+    /// (ADR 0012).</summary>
     public static bool IsVersioned(Format format) => format == Format.Commander;
 
     public static Format Resolve(string? value)
@@ -41,9 +48,22 @@ public static class FormatParameter
         throw new ProblemException(Problems.UnknownFormat(value, [.. Materialized.Select(WireName)]));
     }
 
+    /// <summary>Resolves the format of a deck route. A known format the deck
+    /// routes do not serve yet is a 400 problem that names the served ones.</summary>
+    public static Format ResolveDeck(string? value)
+    {
+        var format = Resolve(value);
+        if (!DeckFormats.Contains(format))
+        {
+            throw new ProblemException(Problems.UnservedFormat(WireName(format), [.. DeckFormats.Select(WireName)]));
+        }
+
+        return format;
+    }
+
     public static string WireName(Format format) => ArchiveDbContext.WireName(format);
 
-    /// <summary>Throws the 400 problem when a Brawl format comes with a
+    /// <summary>Throws the 400 problem when an unversioned format comes with a
     /// banlist version pin: only Commander has the version axis.</summary>
     public static void RejectBanlistPin(Format format, string? banlistVersion)
     {

@@ -54,9 +54,9 @@ public sealed class LegalityRebuildTests(PostgresFixture postgres) : IDisposable
 
         await using var db = PostgresFixture.CreateContext(connectionString);
         // Full materialization: 5 cards × 3 roles × 3 versions in Commander,
-        // and 5 cards × 3 roles in each of the three versionless Brawl
-        // formats.
-        Assert.Equal(90, await db.Legalities.CountAsync());
+        // and 5 cards × 3 roles in each of the four versionless formats:
+        // the three Brawl formats and Standard.
+        Assert.Equal(105, await db.Legalities.CountAsync());
         Assert.Equal(45, await db.Legalities.CountAsync(l => l.Format == Format.Commander));
 
         var status = await StatusMapAsync(db);
@@ -205,7 +205,7 @@ public sealed class LegalityRebuildTests(PostgresFixture postgres) : IDisposable
         await using var reader = PostgresFixture.CreateContext(connectionString);
         // The partial staging build is real — and was never published.
         Assert.Equal(1, await reader.Set<LegalityStaging>().CountAsync());
-        Assert.Equal(90, await reader.Legalities.CountAsync());
+        Assert.Equal(105, await reader.Legalities.CountAsync());
         Assert.Equal(before, await StatusMapAsync(reader));
     }
 
@@ -286,7 +286,7 @@ public sealed class LegalityRebuildTests(PostgresFixture postgres) : IDisposable
 
         await using var db = PostgresFixture.CreateContext(connectionString);
         var rows = await db.Legalities
-            .Where(l => l.Format != Format.Commander)
+            .Where(l => l.Format != Format.Commander && l.Format != Format.Standard)
             .Join(db.Cards, l => l.CardId, c => c.Id, (l, c) => new { l, c.Name })
             .ToListAsync();
         // 5 cards × 3 roles × 3 Brawl formats, none with a banlist version.
@@ -335,8 +335,64 @@ public sealed class LegalityRebuildTests(PostgresFixture postgres) : IDisposable
         // The re-run publishes through the swap and keeps canonical names.
         await WaitForCompletionAsync(client, await TriggerAsync(client, force: true), "succeeded");
         await using var reread = PostgresFixture.CreateContext(connectionString);
-        Assert.Equal(45, await reread.Legalities.CountAsync(l => l.Format != Format.Commander));
+        Assert.Equal(45, await reread.Legalities.CountAsync(l => l.Format != Format.Commander && l.Format != Format.Standard));
         await AssertCanonicalNamesAsync(connectionString);
+    }
+
+    // Standard, the 60-card constructed format, materializes from the
+    // Scryfall standard key: legal, banned, and not_legal map as for a
+    // Brawl format, and a record that lacks the key is outside the pool.
+    // Every Standard row stores its legality citation target: the key
+    // standard, the card's Scryfall URL, and the as-of date. A Standard
+    // deck has no commander or companion seat.
+    [Fact]
+    public async Task Rebuild_materializes_standard_from_the_standard_key()
+    {
+        var (connectionString, source) = await SetUpAsync();
+        using var app = NewApp(connectionString, source);
+        using var client = app.CreateClient();
+        source.OracleCards = Lines(
+            CardLine(_golos, Golos, typeLine: "Legendary Artifact Creature — Golem",
+                brawl: new BrawlKeys("legal", "legal", "legal", Standard: "legal")),
+            CardLine(_lutri, Lutri, typeLine: "Legendary Creature — Elemental Otter", keywords: ["Companion"],
+                brawl: new BrawlKeys("legal", "legal", "legal", Standard: "banned")),
+            CardLine(_braids, Braids, typeLine: "Legendary Creature — Human Minion",
+                brawl: new BrawlKeys("legal", "legal", "legal", Standard: "not_legal")),
+            CardLine(_solRing, SolRing));
+        var asOf = source.UpdatedAt;
+
+        await WaitForCompletionAsync(client, await TriggerAsync(client), "succeeded");
+
+        await using var db = PostgresFixture.CreateContext(connectionString);
+        var rows = await db.Legalities
+            .Where(l => l.Format == Format.Standard)
+            .Join(db.Cards, l => l.CardId, c => c.Id, (l, c) => new { l, c.Name })
+            .ToListAsync();
+        // 4 cards × 3 roles, none with a banlist version or ban event.
+        Assert.Equal(12, rows.Count);
+        Assert.All(rows, r => Assert.Null(r.l.BanlistVersionId));
+        Assert.All(rows, r => Assert.Null(r.l.Reason));
+        var status = rows.ToDictionary(r => (r.Name, r.l.Role), r => r.l);
+
+        Assert.Equal(LegalityStatus.Legal, status[(Golos, Role.Main)].Status);
+        Assert.Equal(LegalityStatus.Banned, status[(Lutri, Role.Main)].Status);
+        Assert.Equal(LegalityStatus.NotLegal, status[(Braids, Role.Main)].Status);
+        Assert.Equal(LegalityStatus.NotLegal, status[(SolRing, Role.Main)].Status);
+
+        // No card commands or accompanies a Standard deck, not even a
+        // legendary creature or a Companion-keyword card.
+        Assert.All(rows.Where(r => r.l.Role != Role.Main), r => Assert.Equal(LegalityStatus.NotEligible, r.l.Status));
+
+        var main = status[(Golos, Role.Main)];
+        Assert.Equal("standard", main.ScryfallKey);
+        Assert.Equal($"https://scryfall.com/card/tst/1/{_golos}", main.ScryfallUri);
+        Assert.Equal(asOf, main.LegalityAsOf);
+        Assert.All(rows, r =>
+        {
+            Assert.Equal("standard", r.l.ScryfallKey);
+            Assert.NotNull(r.l.ScryfallUri);
+            Assert.Equal(asOf, r.l.LegalityAsOf);
+        });
     }
 
     // A meld result's own all_parts entry marks it. Scryfall

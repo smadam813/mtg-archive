@@ -10,8 +10,8 @@ namespace MtgArchive.Tests;
 
 /// <summary>
 /// The Brawl section of the ingest report (ADR 0012): after
-/// each ingest the maintainer sees each Brawl format's as-of date, counts,
-/// and the cards whose status changed since the prior ingest. Drift stays a
+/// each ingest the maintainer sees each Brawl format's and Standard's as-of
+/// date, counts, and the cards whose status changed since the prior ingest. Drift stays a
 /// Commander term. Each test runs the real pipeline over HTTP, twice when it
 /// needs a prior state.
 /// </summary>
@@ -33,18 +33,19 @@ public sealed class BrawlIngestReportTests(PostgresFixture postgres) : IDisposab
         var report = await IngestAsync(client,
             CardLine(Guid.NewGuid(), "Everywhere", brawl: BrawlKeys.Legal),
             CardLine(Guid.NewGuid(), "Also Everywhere", brawl: BrawlKeys.Legal),
-            CardLine(Guid.NewGuid(), "Banned In Brawl", brawl: new BrawlKeys("banned", "legal", "not_legal")),
+            CardLine(Guid.NewGuid(), "Banned In Brawl", brawl: new BrawlKeys("banned", "legal", "not_legal", Standard: "banned")),
             CardLine(Guid.NewGuid(), "No Brawl Keys"));
 
         var sections = report.GetProperty("brawl_legality").EnumerateArray().ToList();
         Assert.Equal(
-            ["brawl", "competitive_brawl", "standard_brawl"],
+            ["brawl", "competitive_brawl", "standard_brawl", "standard"],
             sections.Select(s => s.GetProperty("format").GetString()));
         var asOf = _source.UpdatedAt;
         Assert.All(sections, s => Assert.Equal(asOf, s.GetProperty("legality_as_of").GetDateTimeOffset()));
         Assert.Equal((2, 1, 1), Counts(sections[0]));
         Assert.Equal((3, 0, 1), Counts(sections[1]));
         Assert.Equal((2, 0, 2), Counts(sections[2]));
+        Assert.Equal((0, 1, 3), Counts(sections[3]));
         // The first ingest has no prior state, so nothing changed.
         Assert.All(sections, s => Assert.Empty(s.GetProperty("status_changes").EnumerateArray()));
     }
@@ -93,6 +94,32 @@ public sealed class BrawlIngestReportTests(PostgresFixture postgres) : IDisposab
     }
 
     [Fact]
+    public async Task A_rotation_out_of_standard_shows_as_a_status_change()
+    {
+        var rotating = Guid.NewGuid();
+        var steady = Guid.NewGuid();
+        using var app = await NewAppAsync();
+        using var client = app.CreateClient();
+        await IngestAsync(client,
+            CardLine(rotating, "Rotating Card", brawl: new BrawlKeys("legal", "legal", "legal", Standard: "legal")),
+            CardLine(steady, "Steady Card", brawl: new BrawlKeys("legal", "legal", "legal", Standard: "legal")));
+
+        var report = await IngestAsync(client,
+            CardLine(rotating, "Rotating Card", brawl: new BrawlKeys("legal", "legal", "legal", Standard: "not_legal")),
+            CardLine(steady, "Steady Card", brawl: new BrawlKeys("legal", "legal", "legal", Standard: "legal")));
+
+        var standard = Section(report, "standard");
+        Assert.Equal(_source.UpdatedAt, standard.GetProperty("legality_as_of").GetDateTimeOffset());
+        var change = Assert.Single(standard.GetProperty("status_changes").EnumerateArray());
+        Assert.Equal(rotating, change.GetProperty("oracle_id").GetGuid());
+        Assert.Equal("Rotating Card", change.GetProperty("name").GetString());
+        Assert.Equal("legal", change.GetProperty("from").GetString());
+        Assert.Equal("not_legal", change.GetProperty("to").GetString());
+        Assert.Equal((1, 0, 1), Counts(standard));
+        Assert.Empty(Section(report, "standard_brawl").GetProperty("status_changes").EnumerateArray());
+    }
+
+    [Fact]
     public async Task A_brawl_ban_the_curated_files_do_not_name_is_not_drift()
     {
         var card = Guid.NewGuid();
@@ -104,7 +131,7 @@ public sealed class BrawlIngestReportTests(PostgresFixture postgres) : IDisposab
             CardLine(card, "Brawl Only Ban", brawl: new BrawlKeys("banned", "banned", "banned")));
 
         Assert.Empty(report.GetProperty("drift_detections").EnumerateArray());
-        Assert.All(report.GetProperty("brawl_legality").EnumerateArray(),
+        Assert.All(report.GetProperty("brawl_legality").EnumerateArray().Where(s => s.GetProperty("format").GetString() != "standard"),
             s => Assert.Single(s.GetProperty("status_changes").EnumerateArray()));
     }
 

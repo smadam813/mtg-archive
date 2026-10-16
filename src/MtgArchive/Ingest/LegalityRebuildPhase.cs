@@ -16,8 +16,10 @@ namespace MtgArchive.Ingest;
 /// own Scryfall key (ADR 0012): every card × 3 roles, one current state with
 /// no banlist version and no ban events, each status from
 /// <see cref="LegalityDerivation.DeriveBrawl"/>, dated by the Oracle Cards
-/// bulk <c>updated_at</c>. Every Brawl row stores its <c>legality</c> citation
-/// target: the key and the card's Scryfall URL. The phase rebuilds into the staging
+/// bulk <c>updated_at</c>. Standard reads the <c>standard</c> key the same
+/// way, each status from <see cref="LegalityDerivation.DeriveStandard"/>.
+/// Every unversioned row stores its <c>legality</c> citation target: the key
+/// and the card's Scryfall URL. The phase rebuilds into the staging
 /// twin (streamed over one binary COPY — ~9M narrow rows) and publishes
 /// through <see cref="DerivedStateSwap"/>, so the live table only flips
 /// between complete states, and only when every upstream phase succeeded — a
@@ -48,6 +50,12 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
         (Format.StandardBrawl, "standardbrawl"),
     ];
 
+    /// <summary>Every unversioned format and the Scryfall legality key it
+    /// reads: the three Brawl formats, then Standard. The ingest report
+    /// lists them in this order.</summary>
+    public static readonly IReadOnlyList<(Format Format, string Key)> ScryfallKeys =
+        [.. BrawlKeys, (Format.Standard, "standard")];
+
     public string Name => IngestPhases.LegalityRebuild;
 
     public async Task RunAsync(IngestContext context, CancellationToken cancellationToken)
@@ -73,11 +81,12 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
                 Brawl = c.Raw.RootElement.GetProperty("legalities").GetProperty("brawl").GetString(),
                 CompetitiveBrawl = c.Raw.RootElement.GetProperty("legalities").GetProperty("competitivebrawl").GetString(),
                 StandardBrawl = c.Raw.RootElement.GetProperty("legalities").GetProperty("standardbrawl").GetString(),
+                Standard = c.Raw.RootElement.GetProperty("legalities").GetProperty("standard").GetString(),
                 ScryfallUri = c.Raw.RootElement.GetProperty("scryfall_uri").GetString(),
             })
             .ToListAsync(cancellationToken);
 
-        // The live table still holds the prior ingest's Brawl rows: the
+        // The live table still holds the prior ingest's unversioned rows: the
         // status changes diff against them before the swap replaces them.
         var unversioned = FormatParameter.Materialized.Where(f => !FormatParameter.IsVersioned(f)).ToList();
         var prior = await db.Legalities
@@ -115,21 +124,25 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
                 }
             }
 
-            var tallies = BrawlKeys.ToDictionary(k => k.Format, k => new BrawlTally(k.Format));
+            var tallies = ScryfallKeys.ToDictionary(k => k.Format, k => new BrawlTally(k.Format));
             foreach (var card in cards)
             {
-                foreach (var (format, key) in BrawlKeys)
+                foreach (var (format, key) in ScryfallKeys)
                 {
                     var scryfallStatus = format switch
                     {
                         Format.Brawl => card.Brawl,
                         Format.CompetitiveBrawl => card.CompetitiveBrawl,
-                        _ => card.StandardBrawl,
+                        Format.StandardBrawl => card.StandardBrawl,
+                        Format.Standard => card.Standard,
+                        _ => throw new InvalidOperationException($"The format {format} has no Scryfall key."),
                     };
                     foreach (var role in Roles)
                     {
-                        var status = LegalityDerivation.DeriveBrawl(
-                            role, card.CanBeBrawlCommander, card.HasCompanionKeyword, scryfallStatus, card.IsMeldResult);
+                        var status = format == Format.Standard
+                            ? LegalityDerivation.DeriveStandard(role, scryfallStatus, card.IsMeldResult)
+                            : LegalityDerivation.DeriveBrawl(
+                                role, card.CanBeBrawlCommander, card.HasCompanionKeyword, scryfallStatus, card.IsMeldResult);
                         await WriteRowAsync(importer, new(
                             card.Id, format, VersionId: null, role, status, Reason: null,
                             asOf, key, card.ScryfallUri), cancellationToken);
@@ -147,7 +160,7 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
 
             await importer.CompleteAsync(cancellationToken);
             context.Report.BrawlLegality.Clear();
-            context.Report.BrawlLegality.AddRange(BrawlKeys.Select(k => tallies[k.Format].ToReport(asOf)));
+            context.Report.BrawlLegality.AddRange(ScryfallKeys.Select(k => tallies[k.Format].ToReport(asOf)));
         }
         finally
         {
@@ -157,7 +170,7 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
         await DerivedStateSwap.PublishAsync(db, SwappedTables, cancellationToken);
     }
 
-    /// <summary>One Brawl format's main-role counts and status changes,
+    /// <summary>One unversioned format's main-role counts and status changes,
     /// gathered as the rows stream.</summary>
     private sealed class BrawlTally(Format format)
     {

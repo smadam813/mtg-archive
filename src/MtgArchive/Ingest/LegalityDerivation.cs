@@ -82,6 +82,29 @@ public static class LegalityDerivation
         return scryfallStatus == "banned" ? LegalityStatus.Banned : LegalityStatus.Legal;
     }
 
+    /// <summary>
+    /// The status rule for Standard, the 60-card constructed format. A
+    /// Standard deck has no commander and no companion seat, so those roles
+    /// are <c>not_eligible</c> for every card, judged first. The main role
+    /// reads Scryfall's <c>standard</c> key as a Brawl format reads its key:
+    /// <c>legal</c> or <c>banned</c> is in the pool, anything else is
+    /// <c>not_legal</c>, as is a meld result.
+    /// </summary>
+    public static LegalityStatus DeriveStandard(Role role, string? scryfallStatus, bool isMeldResult)
+    {
+        if (role != Role.Main)
+        {
+            return LegalityStatus.NotEligible;
+        }
+
+        if (scryfallStatus is not ("legal" or "banned") || isMeldResult)
+        {
+            return LegalityStatus.NotLegal;
+        }
+
+        return scryfallStatus == "banned" ? LegalityStatus.Banned : LegalityStatus.Legal;
+    }
+
     /// <summary>Which roles a ban's scope reaches (<see cref="BanScope"/>).
     /// Exhaustive on purpose: a new scope must fail here, never silently
     /// mis-scope (the closed-vocabulary convention).</summary>

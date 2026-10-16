@@ -135,6 +135,14 @@ public class OpenApiTests
 
         Assert.Contains("trims it and unifies CRLF to LF before embedding", semantic.GetProperty("query").GetProperty("description").GetString());
 
+        // Standard is the fifth format value: candidate routes name it, and
+        // the Format schema that card detail rows use lists it.
+        Assert.Contains("standard_brawl, or standard.", structured.GetProperty("format").GetProperty("description").GetString());
+        Assert.Contains("standard_brawl, or standard.", semantic.GetProperty("format").GetProperty("description").GetString());
+        Assert.Equal(
+            ["commander", "brawl", "competitive_brawl", "standard_brawl", "standard"],
+            EnumLiterals(schemas, "Format").Where(v => v is not null));
+
         Assert.True(schemas.GetProperty("CardSearchHit").GetProperty("properties").TryGetProperty("enters_tapped", out _));
         // The hit's facet is nullable, so the schema lists null beside the states.
         Assert.Equal(["untapped", "tapped", "conditional"], EnumLiterals(schemas, "EntersTappedState").Where(v => v is not null));

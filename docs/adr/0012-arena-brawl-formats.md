@@ -1,6 +1,6 @@
 # Four formats: Commander and the three Arena Brawl formats
 
-The archive served Commander only, and the vision listed "Formats other than Commander" as a non-goal. The skills could not answer a question about an MTG Arena Brawl deck. **Format becomes a dimension of the corpus, the index, and the simulation engine.** It has four values: `commander`, `brawl`, `competitive_brawl`, and `standard_brawl`. This ADR overturns that non-goal. The model is general, but it holds these four formats only. One collection serves every format. A request that names no format means Commander, so the Commander skills, done-queries, and evals keep working unchanged.
+The archive served Commander only, and the vision listed "Formats other than Commander" as a non-goal. The skills could not answer a question about an MTG Arena Brawl deck. **Format becomes a dimension of the corpus, the index, and the simulation engine.** It has four values: `commander`, `brawl`, `competitive_brawl`, and `standard_brawl`. This ADR overturns that non-goal. The model is general. It held these four formats only until Standard joined as a fifth (see the 2026-10-15 note). One collection serves every format. A request that names no format means Commander, so the Commander skills, done-queries, and evals keep working unchanged.
 
 ## Format is a dimension of legality
 
@@ -43,6 +43,18 @@ Brackets, the bracket spec, and the Game Changers list stay Commander-only. Wiza
 The format's popularity order replaces `edhrec_rank` everywhere it orders candidates. Brawl and Competitive Brawl use the maintainer's manual Untapped.gg export first, then `edhrec_rank`, then name, then oracle id. Commander and Standard Brawl use `edhrec_rank`. The maintainer exports by hand and commits the CSV to this private repo. No agent calls Untapped's API or scrapes its pages. An answer that a proxy orders names the proxy and its as-of date.
 
 **Note (2026-10-13):** git does not hold the exports. The maintainer keeps them on disk under `data/popularity/`, and git ignores that directory. Compose mounts them read-only at `/data` as before. The old copies stay in the history of `main`. The rule that no agent calls Untapped's API or scrapes its pages does not change.
+
+## Standard joins as a fifth format
+
+**Note (2026-10-15):** Standard, the 60-card constructed format, becomes a fifth format value, `standard`. It is not Standard Brawl. Its first slice serves card legality only.
+
+- Ingest reads the Scryfall key `standard` from `oracle_cards`, as it reads a Brawl key. Commander stays curated under ADR 0004.
+- Standard has one current state, with no version axis and no ban events. The versions block carries `legality_as_of`.
+- A Standard deck has no commander and no companion seat. Those roles are `not_eligible` for every card.
+- Card detail returns legality for all five formats. The ingest report lists Standard after the Brawl formats.
+- Standard's popularity order is `edhrec_rank`, as for Standard Brawl.
+- The deck routes reject Standard with a 400 for now. The deck verdict, game rules, simulation, and skills follow in later slices.
+- Standard's deck shape differs from every Brawl format: a 60-card minimum, a 15-card sideboard, and four copies. The deck verdict slice owns it.
 
 ## Considered options
 

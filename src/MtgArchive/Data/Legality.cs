@@ -53,9 +53,9 @@ public abstract class LegalityRow
     /// <summary>See <see cref="LegalityAsOfContract"/>.</summary>
     public DateTimeOffset? LegalityAsOf { get; set; }
 
-    /// <summary>The Scryfall legality key a Brawl row's <c>legality</c>
-    /// citation names (<c>brawl</c>, <c>competitivebrawl</c>,
-    /// <c>standardbrawl</c>), whatever the status; null for
+    /// <summary>The Scryfall legality key a Brawl or Standard row's
+    /// <c>legality</c> citation names (<c>brawl</c>, <c>competitivebrawl</c>,
+    /// <c>standardbrawl</c>, <c>standard</c>), whatever the status; null for
     /// Commander.</summary>
     public string? ScryfallKey { get; set; }
 

@@ -38,8 +38,8 @@ One structured shape everywhere (`Api/Citation.cs`):
 ```
 
 Every citation `id` must be fetchable from a reference endpoint — no
-prose-only citations. A `legality` citation is a Brawl format's legality
-status for one card (ADR 0012). Its id is the oracle id, so it resolves
+prose-only citations. A `legality` citation is the legality status of one
+card in a Brawl format or Standard (ADR 0012). Its id is the oracle id, so it resolves
 through `GET /cards/{oracle_id}`, whose row for that format holds the
 Scryfall key, the Scryfall URL, and the as-of date. Its label states
 what the key says: "`<key> <key status> as of <yyyy-MM-dd>`", for example
@@ -47,7 +47,7 @@ what the key says: "`<key> <key status> as of <yyyy-MM-dd>`", for example
 `not_eligible`. A `not_eligible` row adds the fact the service derives, for
 example "brawl legal as of 2026-10-03; not eligible as commander".
 
-Card detail lists per-role legality for all four formats, one row per
+Card detail lists per-role legality for all five formats, one row per
 (format, role). The `banlist_version` pin applies to the Commander rows
 only.
 
@@ -60,7 +60,7 @@ carries the inputs the legality boundary needs:
 - `format`: optional, `commander` by default. The `versions` block echoes
   it. An unknown format is a 400 that names the value.
 - `banlist_version`: optional, latest by default, Commander only. A Brawl
-  format has no banlist version, so a pin with one is a 400. The `versions`
+  format or Standard has no banlist version, so a pin with one is a 400. The `versions`
   block then carries `legality_as_of`, the Scryfall bulk `updated_at`, in
   its place.
 - `role`: `commander | companion | main`, default `main`.
@@ -111,9 +111,13 @@ absent. `POST /decklist-parse` turns Arena export text or a plain
 `<qty> <name>` list into the `decklist` body plus `notes`. It reads no
 database and resolves no names.
 
+The deck routes serve Commander and the three Brawl formats. Standard has
+card legality only so far. `POST /deck-verdict`, `/simulate`, `/tier1-report`,
+and `/commander-alternatives` answer it with the 400 `unserved-format` problem.
+
 `POST /bracket-classification` takes `format` like the other deck routes
 and echoes it in `versions`. Brackets apply to Commander only (ADR 0012), so
-a Brawl format is the 400 `commander-only` problem, checked before any
+a Brawl format or Standard is the 400 `commander-only` problem, checked before any
 other field.
 
 ## Errors

@@ -221,6 +221,7 @@ public sealed class BracketClassificationTests(PostgresFixture postgres) : IDisp
     [InlineData("brawl")]
     [InlineData("competitive_brawl")]
     [InlineData("standard_brawl")]
+    [InlineData("standard")]
     public async Task A_brawl_format_is_a_400_that_names_the_format(string format)
     {
         using var app = new ArchiveApp(autoMigrate: true, await postgres.CreateDatabaseAsync($"bracket_brawl_{Guid.NewGuid():N}"));

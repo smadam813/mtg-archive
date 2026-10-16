@@ -6,7 +6,8 @@ namespace MtgArchive.Tests;
 /// <summary>
 /// The pure status rule behind materialized legality: each
 /// status, the role-eligibility requirements, ban-scope coverage, and the
-/// judging order not_legal → not_eligible → banned → legal.
+/// judging order not_legal → not_eligible → banned → legal. Standard judges
+/// the role first: it has no commander or companion seat.
 /// </summary>
 public class LegalityDerivationTests
 {
@@ -91,4 +92,32 @@ public class LegalityDerivationTests
     public void A_missing_scryfall_legality_stays_legal()
         => Assert.Equal(LegalityStatus.Legal, LegalityDerivation.Derive(
             Role.Main, canBeCommander: false, hasCompanionKeyword: false, null, null, isMeldResult: false));
+
+    [Theory]
+    [InlineData(Role.Commander, "legal")]
+    [InlineData(Role.Commander, "banned")]
+    [InlineData(Role.Commander, "not_legal")]
+    [InlineData(Role.Commander, null)]
+    [InlineData(Role.Companion, "legal")]
+    [InlineData(Role.Companion, "banned")]
+    [InlineData(Role.Companion, "not_legal")]
+    [InlineData(Role.Companion, null)]
+    public void Standard_has_no_commander_or_companion_seat(Role role, string? scryfallStatus)
+    {
+        Assert.Equal(LegalityStatus.NotEligible, LegalityDerivation.DeriveStandard(role, scryfallStatus, isMeldResult: false));
+        Assert.Equal(LegalityStatus.NotEligible, LegalityDerivation.DeriveStandard(role, scryfallStatus, isMeldResult: true));
+    }
+
+    [Theory]
+    [InlineData("legal", LegalityStatus.Legal)]
+    [InlineData("banned", LegalityStatus.Banned)]
+    [InlineData("not_legal", LegalityStatus.NotLegal)]
+    [InlineData("restricted", LegalityStatus.NotLegal)]
+    [InlineData(null, LegalityStatus.NotLegal)]
+    public void Standard_main_reads_the_scryfall_standard_key(string? scryfallStatus, LegalityStatus expected)
+        => Assert.Equal(expected, LegalityDerivation.DeriveStandard(Role.Main, scryfallStatus, isMeldResult: false));
+
+    [Fact]
+    public void A_meld_result_is_not_legal_in_the_standard_main_deck()
+        => Assert.Equal(LegalityStatus.NotLegal, LegalityDerivation.DeriveStandard(Role.Main, "legal", isMeldResult: true));
 }

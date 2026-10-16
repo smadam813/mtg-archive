@@ -69,8 +69,8 @@ public sealed record CardDetailResponse
     /// <summary>Per-face detail, front face first; empty for single-faced cards.</summary>
     public required IReadOnlyList<CardFaceDetail> Faces { get; init; }
 
-    [Description("Per-role legality in each of the four formats, ordered commander, brawl, "
-        + "competitive_brawl, standard_brawl, then by role. The banlist_version pin applies to the "
+    [Description("Per-role legality in each of the five formats, ordered commander, brawl, "
+        + "competitive_brawl, standard_brawl, standard, then by role. The banlist_version pin applies to the "
         + "commander rows only. Absent until a legality rebuild has run.")]
     public IReadOnlyList<RoleLegality>? Legality { get; init; }
 
@@ -122,7 +122,7 @@ public sealed record CardTagging(string Tag, bool Inherited, string? Weight);
 /// One row of per-role legality. A Commander row holds at the resolved
 /// banlist version, and its <see cref="LegalityStatus.Banned"/> status
 /// carries its dated ban event as a <c>{ type: ban_event, id, label }</c>
-/// citation. A Brawl row (card detail only) holds the format's one current
+/// citation. A Brawl or Standard row (card detail only) holds the format's one current
 /// state: the Scryfall key, the card's Scryfall URL, the as-of date, and its
 /// <c>{ type: legality }</c> citation, whatever the status (ADR 0012). A
 /// search hit leaves <see cref="Format"/> out: the versions block names it.
@@ -131,7 +131,7 @@ public sealed record RoleLegality(Role Role, LegalityStatus Status, Citation? Ba
 {
     public Format? Format { get; init; }
 
-    [Description("A Brawl format's Scryfall legality key: brawl, competitivebrawl, or standardbrawl.")]
+    [Description("An unversioned format's Scryfall legality key: brawl, competitivebrawl, standardbrawl, or standard.")]
     public string? ScryfallKey { get; init; }
 
     [Description("The card's Scryfall URL. It shows the current state; legality_as_of dates this row.")]
@@ -140,7 +140,7 @@ public sealed record RoleLegality(Role Role, LegalityStatus Status, Citation? Ba
     [Description(LegalityRow.LegalityAsOfContract)]
     public DateTimeOffset? LegalityAsOf { get; init; }
 
-    [Description("A Brawl row's { type: legality } citation. Its id is the oracle id, which resolves "
+    [Description("A Brawl or Standard row's { type: legality } citation. Its id is the oracle id, which resolves "
         + "here; its label is \"<key> <status> as of <yyyy-MM-dd>\".")]
     public Citation? Citation { get; init; }
 }
