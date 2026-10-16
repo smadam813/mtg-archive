@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Factory Board</title>
+<style>
+  :root {
+    --bg: #f6f6f4; --panel: #ffffff; --line: #e3e3de; --text: #1d1d1b; --muted: #6d6d66;
+    --accent: #3a5ccc; --pass: #1f7a4a; --pass-bg: #e3f3ea; --chg: #a8580c; --chg-bg: #fbeedd;
+    --pend: #8a8a83; --human: #b4410f; --human-bg: #fdf1e9; --human-line: #f0c4a6;
+    --merged: #1f7a4a; --shadow: 0 1px 2px rgba(0,0,0,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161615; --panel: #1f1f1d; --line: #33332f; --text: #ecece7; --muted: #9a9a92;
+      --accent: #8ea6ff; --pass: #6fd39b; --pass-bg: #18301f; --chg: #f2b16b; --chg-bg: #35260f;
+      --pend: #85857d; --human: #ff9a66; --human-bg: #2e1d14; --human-line: #6b3a20;
+      --merged: #6fd39b; --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161615; --panel: #1f1f1d; --line: #33332f; --text: #ecece7; --muted: #9a9a92;
+    --accent: #8ea6ff; --pass: #6fd39b; --pass-bg: #18301f; --chg: #f2b16b; --chg-bg: #35260f;
+    --pend: #85857d; --human: #ff9a66; --human-bg: #2e1d14; --human-line: #6b3a20;
+    --merged: #6fd39b; --shadow: none;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  code, .mono { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 12.5px; }
+  header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    padding: 16px 20px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { font-size: 16px; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+  .flow { color: var(--muted); font-size: 12.5px; }
+  .status { margin-left: auto; display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12.5px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--pend); }
+  .dot.live { background: var(--pass); }
+  .dot.down { background: var(--human); }
+  main { padding: 16px 20px 40px; }
+  .lane-human { background: var(--human-bg); border: 1px solid var(--human-line); border-radius: 10px;
+    padding: 12px; margin-bottom: 16px; }
+  .lane-human h2 { color: var(--human); }
+  .lane-human .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+  .board { display: grid; grid-template-columns: repeat(6, minmax(200px, 1fr)); gap: 12px; overflow-x: auto; padding-bottom: 4px; }
+  .col { min-width: 0; }
+  h2 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+    margin: 0 0 8px; font-weight: 600; display: flex; gap: 6px; align-items: baseline; }
+  h2 .n { font-weight: 500; opacity: .8; }
+  .col .cards { display: flex; flex-direction: column; gap: 8px; min-height: 60px;
+    border-radius: 10px; padding: 6px; background: color-mix(in srgb, var(--line) 35%, transparent); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 11px;
+    box-shadow: var(--shadow); cursor: pointer; text-align: left; color: inherit; font: inherit; width: 100%; }
+  .card:hover { border-color: var(--accent); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .card.human { border-left: 3px solid var(--human); }
+  .card.merged { opacity: .72; }
+  .card .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .card .id { color: var(--muted); }
+  .card .round { font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .card .title { margin: 3px 0 6px; font-weight: 550; overflow-wrap: anywhere; }
+  .card .reason { color: var(--human); font-size: 12.5px; margin: 0 0 6px; overflow-wrap: anywhere; }
+  .card .meta { color: var(--muted); font-size: 11.5px; margin-top: 6px; }
+  .chips { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; align-items: center; }
+  .chips .r { font-size: 10.5px; color: var(--muted); width: 20px; }
+  .chip { font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px dashed var(--pend);
+    color: var(--pend); white-space: nowrap; }
+  .chip.PASS { border: 1px solid transparent; background: var(--pass-bg); color: var(--pass); }
+  .chip.CHANGES { border: 1px solid transparent; background: var(--chg-bg); color: var(--chg); }
+  .chip.pending { animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .45; } }
+  @media (prefers-reduced-motion: reduce) { .chip.pending { animation: none; } }
+  .empty { color: var(--muted); font-size: 12.5px; padding: 8px 4px; }
+  .notice { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 24px; color: var(--muted); }
+  /* drawer */
+  .scrim { position: fixed; inset: 0; background: rgba(0,0,0,.25); display: none; }
+  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(760px, 100vw); background: var(--panel);
+    border-left: 1px solid var(--line); display: none; flex-direction: column; }
+  .open .scrim { display: block; }
+  .open .drawer { display: flex; }
+  .drawer-head { padding: 14px 18px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: start; }
+  .drawer-head h3 { margin: 0; font-size: 15px; overflow-wrap: anywhere; }
+  .drawer-head .sub { color: var(--muted); font-size: 12.5px; }
+  .close { margin-left: auto; background: none; border: 1px solid var(--line); color: var(--text);
+    border-radius: 6px; padding: 3px 10px; cursor: pointer; font: inherit; }
+  .drawer-body { display: grid; grid-template-columns: 220px 1fr; min-height: 0; flex: 1; }
+  .files button span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .files { border-right: 1px solid var(--line); overflow-y: auto; padding: 10px 8px; }
+  .files .grp { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 10px 6px 4px; }
+  .files button { display: flex; justify-content: space-between; gap: 6px; width: 100%; text-align: left;
+    background: none; border: 0; color: var(--text); font: inherit; font-size: 13px; padding: 4px 6px; border-radius: 6px; cursor: pointer; }
+  .files button:hover { background: var(--bg); }
+  .files button.on { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+  .files button:disabled { color: var(--muted); opacity: .55; cursor: default; background: none; }
+  .v { font-size: 10.5px; font-weight: 600; }
+  .v.PASS, .v.APPROVE { color: var(--pass); }
+  .v.CHANGES { color: var(--chg); }
+  .v.ESCALATE { color: var(--human); }
+  .doc { overflow-y: auto; padding: 6px 22px 30px; min-width: 0; }
+  .doc h1, .doc h2, .doc h3, .doc h4 { text-transform: none; letter-spacing: 0; color: var(--text); display: block; }
+  .doc h1 { font-size: 19px; margin: 18px 0 8px; }
+  .doc h2 { font-size: 15px; margin: 18px 0 6px; }
+  .doc h3, .doc h4 { font-size: 14px; margin: 14px 0 4px; }
+  .doc pre { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px; overflow-x: auto; }
+  .doc :not(pre) > code { background: var(--bg); padding: 1px 4px; border-radius: 4px; }
+  .doc table { border-collapse: collapse; margin: 8px 0; display: block; overflow-x: auto; }
+  .doc th, .doc td { border: 1px solid var(--line); padding: 4px 8px; text-align: left; vertical-align: top; }
+  .doc blockquote { margin: 8px 0; padding-left: 12px; border-left: 3px solid var(--line); color: var(--muted); }
+  .doc .verdict { display: inline-block; margin-top: 14px; padding: 3px 10px; border-radius: 999px; font-weight: 650; font-size: 12px; }
+  .doc .verdict.PASS, .doc .verdict.APPROVE { background: var(--pass-bg); color: var(--pass); }
+  .doc .verdict.CHANGES { background: var(--chg-bg); color: var(--chg); }
+  .doc .verdict.ESCALATE { background: var(--human-bg); color: var(--human); }
+  @media (max-width: 720px) {
+    header, main { padding-left: 16px; padding-right: 16px; }
+    .board { grid-template-columns: 1fr; overflow-x: visible; }
+    .drawer-body { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+    .files { border-right: 0; border-bottom: 1px solid var(--line); max-height: 34vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Factory</h1>
+  <span class="flow">spec → build → 4 reviews → approval → merge</span>
+  <span class="status"><span class="dot" id="dot"></span><span id="stamp">connecting…</span></span>
+</header>
+<main id="main"></main>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Job files">
+  <div class="drawer-head">
+    <div><h3 id="d-title"></h3><div class="sub mono" id="d-sub"></div></div>
+    <button class="close" id="d-close">Close</button>
+  </div>
+  <div class="drawer-body">
+    <nav class="files" id="d-files"></nav>
+    <article class="doc" id="d-doc"></article>
+  </div>
+</aside>
+<script>
+const STAGES = [
+  ["spec", "Spec"], ["build", "Build"], ["review", "Review"],
+  ["approval", "Approval"], ["merging", "Merging"], ["merged", "Merged"],
+];
+const REVIEWERS = [["security", "security"], ["ux", "ux"], ["ui", "ui"], ["code", "code"]];
+const MARK = { PASS: "✓", CHANGES: "✕", pending: "…" };
+const POLL_MS = 2000;
+
+let board = null, lastText = "", lastOk = 0, openJob = null, openFile = null;
+const reasons = {}; // job id + updated -> first reason line of decision.md
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+async function get(path) {
+  try {
+    const r = await fetch(path, { cache: "no-store" });
+    return r.ok ? await r.text() : null;
+  } catch { return null; }
+}
+
+async function poll() {
+  const text = await get("board.json");
+  if (text === null) {
+    $("dot").className = "dot down";
+    $("stamp").textContent = lastOk ? "board unreachable" : "no board.json yet";
+    if (!board) $("main").innerHTML = `<div class="notice">No <code>board.json</code> yet. Run <code>/factory &lt;feature&gt;</code> in Claude Code, and serve this folder with <code>python -m http.server 8000 -d factory</code>.</div>`;
+    return;
+  }
+  lastOk = Date.now();
+  $("dot").className = "dot live";
+  if (text !== lastText) {
+    try { board = JSON.parse(text); } catch { return; } // mid-write: keep the last good board
+    lastText = text;
+    render();
+    if (openJob) refreshDrawer();
+  }
+  stamp();
+}
+
+function stamp() {
+  const jobs = board?.jobs ?? [];
+  const latest = jobs.map(j => Date.parse(j.updated || 0)).filter(n => n > 0).sort((a, b) => b - a)[0];
+  $("stamp").textContent = `${jobs.length} job${jobs.length === 1 ? "" : "s"}` + (latest ? ` · last change ${ago(latest)}` : "");
+}
+
+function ago(t) {
+  const s = Math.max(0, Math.round((Date.now() - t) / 1000));
+  if (s < 60) return `${s}s ago`;
+  if (s < 3600) return `${Math.round(s / 60)}m ago`;
+  if (s < 86400) return `${Math.round(s / 3600)}h ago`;
+  return `${Math.round(s / 86400)}d ago`;
+}
+
+function chips(job) {
+  return (job.reviews || []).map((r, i) => `
+    <div class="chips"><span class="r mono">R${i + 1}</span>${REVIEWERS.map(([k, label]) => {
+      const v = r[k] || "pending";
+      return `<span class="chip ${esc(v)}" title="${label}: ${esc(v)}">${MARK[v] || ""} ${label}</span>`;
+    }).join("")}</div>`).join("");
+}
+
+function card(job) {
+  const human = job.stage === "needs-human";
+  const reason = human ? reasons[job.id + job.updated] : null;
+  return `<button class="card ${human ? "human" : ""} ${job.stage === "merged" ? "merged" : ""}" data-id="${esc(job.id)}">
+    <div class="top"><span class="id mono">${esc(job.id)}</span>${job.round ? `<span class="round">round ${job.round}</span>` : ""}</div>
+    <div class="title">${esc(job.title || job.feature || job.id)}</div>
+    ${reason ? `<p class="reason">${esc(reason)}</p>` : ""}
+    ${chips(job)}
+    <div class="meta">${job.updated ? ago(Date.parse(job.updated)) : ""}</div>
+  </button>`;
+}
+
+function render() {
+  const jobs = board?.jobs ?? [];
+  const human = jobs.filter(j => j.stage === "needs-human");
+  let html = "";
+  if (human.length) {
+    html += `<section class="lane-human"><h2>Needs human <span class="n">${human.length}</span></h2>
+      <div class="cards">${human.map(card).join("")}</div></section>`;
+    human.forEach(loadReason);
+  }
+  html += `<section class="board">${STAGES.map(([key, label]) => {
+    const here = jobs.filter(j => j.stage === key);
+    return `<div class="col"><h2>${label} <span class="n">${here.length || ""}</span></h2>
+      <div class="cards">${here.length ? here.map(card).join("") : `<div class="empty">—</div>`}</div></div>`;
+  }).join("")}</section>`;
+  if (!jobs.length) html = `<div class="notice">The board is empty. Run <code>/factory &lt;feature&gt;</code> or <code>/factory next</code>.</div>`;
+  $("main").innerHTML = html;
+  document.querySelectorAll(".card").forEach(el => el.onclick = () => openDrawer(el.dataset.id));
+}
+
+async function loadReason(job) {
+  const key = job.id + job.updated;
+  if (key in reasons) return;
+  reasons[key] = null;
+  const md = await get(`jobs/${job.id}/decision.md`);
+  const line = md?.split(/\r?\n/).slice(1).map(s => s.trim()).find(s => s && !s.startsWith("#"));
+  if (line) { reasons[key] = line.replace(/[*_`]/g, ""); render(); }
+}
+
+/* ---------- drawer ---------- */
+
+function filesFor(job) {
+  const groups = [["Job", ["spec.md"]]];
+  for (let r = 1; r <= (job.round || 0); r++) {
+    groups.push([`Round ${r}`, ["rework.md", "build.md", ...REVIEWERS.map(([k]) => `review-${k}.md`)].map(f => `round-${r}/${f}`)]);
+  }
+  groups.push(["Decision", ["decision.md"]]);
+  return groups;
+}
+
+function verdictOf(text) {
+  const m = text?.match(/^\s*VERDICT:\s*(PASS|CHANGES|APPROVE|ESCALATE)/);
+  return m ? m[1] : "";
+}
+
+async function openDrawer(id) {
+  openJob = id;
+  openFile = null;
+  document.body.classList.add("open");
+  await refreshDrawer();
+}
+
+async function refreshDrawer() {
+  const job = board?.jobs?.find(j => j.id === openJob);
+  if (!job) return closeDrawer();
+  $("d-title").textContent = job.title || job.id;
+  $("d-sub").textContent = `${job.id} · ${job.branch || ""} · ${job.stage}`;
+  const groups = filesFor(job);
+  const all = groups.flatMap(([, fs]) => fs);
+  const texts = await Promise.all(all.map(f => get(`jobs/${job.id}/${f}`)));
+  const found = Object.fromEntries(all.map((f, i) => [f, texts[i]]));
+  $("d-files").innerHTML = groups.map(([g, fs]) => {
+    const rows = fs.filter(f => found[f] !== null || !f.endsWith("rework.md")).map(f => {
+      const t = found[f], v = verdictOf(t), name = f.split("/").pop();
+      return `<button data-f="${esc(f)}" ${t === null ? "disabled" : ""} class="${f === openFile ? "on" : ""}">
+        <span>${esc(name)}</span><span class="v ${v}">${v || (t === null ? "—" : "")}</span></button>`;
+    }).join("");
+    return `<div class="grp">${esc(g)}</div>${rows}`;
+  }).join("");
+  $("d-files").querySelectorAll("button[data-f]").forEach(b => b.onclick = () => { openFile = b.dataset.f; showFile(found); });
+  if (!openFile || found[openFile] === null) openFile = [...all].reverse().find(f => found[f] !== null) || null;
+  showFile(found);
+}
+
+function showFile(found) {
+  $("d-files").querySelectorAll("button[data-f]").forEach(b => b.classList.toggle("on", b.dataset.f === openFile));
+  const text = openFile ? found[openFile] : null;
+  $("d-doc").innerHTML = text === null ? `<p class="empty">No files yet.</p>` : md(text);
+}
+
+function closeDrawer() {
+  openJob = null;
+  document.body.classList.remove("open");
+}
+
+/* ---------- tiny markdown ---------- */
+
+function inline(s) {
+  return esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[\s(])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>")
+    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+}
+
+function md(src) {
+  const lines = src.replace(/\r/g, "").split("\n");
+  let out = "", i = 0;
+  const v = verdictOf(src);
+  if (v) { out += `<span class="verdict ${v}">${v}</span>`; i = 1; }
+  while (i < lines.length) {
+    const l = lines[i];
+    if (/^```/.test(l)) {
+      const buf = [];
+      for (i++; i < lines.length && !/^```/.test(lines[i]); i++) buf.push(lines[i]);
+      out += `<pre><code>${esc(buf.join("\n"))}</code></pre>`; i++; continue;
+    }
+    const h = l.match(/^(#{1,4})\s+(.*)/);
+    if (h) { out += `<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`; i++; continue; }
+    if (/^\s*\|/.test(l)) {
+      const rows = [];
+      for (; i < lines.length && /^\s*\|/.test(lines[i]); i++) rows.push(lines[i]);
+      const cells = r => r.trim().replace(/^\||\|$/g, "").split("|").map(c => inline(c.trim()));
+      const body = rows.filter((r, k) => !(k === 1 && /^[\s|:-]+$/.test(r)));
+      out += `<table>${body.map((r, k) => `<tr>${cells(r).map(c => k === 0 ? `<th>${c}</th>` : `<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
+      continue;
+    }
+    if (/^\s*([-*]|\d+\.)\s+/.test(l)) {
+      const ordered = /^\s*\d+\./.test(l), items = [];
+      for (; i < lines.length && /^\s*([-*]|\d+\.)\s+/.test(lines[i]); i++) {
+        items.push(lines[i].replace(/^\s*([-*]|\d+\.)\s+/, "").replace(/^\[ \]\s*/, "☐ ").replace(/^\[x\]\s*/i, "☑ "));
+        while (i + 1 < lines.length && /^\s{2,}\S/.test(lines[i + 1]) && !/^\s*([-*]|\d+\.)\s+/.test(lines[i + 1])) items[items.length - 1] += " " + lines[++i].trim();
+      }
+      const tag = ordered ? "ol" : "ul";
+      out += `<${tag}>${items.map(t => `<li>${inline(t)}</li>`).join("")}</${tag}>`; continue;
+    }
+    if (/^>\s?/.test(l)) {
+      const buf = [];
+      for (; i < lines.length && /^>\s?/.test(lines[i]); i++) buf.push(lines[i].replace(/^>\s?/, ""));
+      out += `<blockquote>${inline(buf.join(" "))}</blockquote>`; continue;
+    }
+    if (!l.trim() || /^<!--/.test(l.trim())) { i++; continue; }
+    const buf = [l];
+    for (i++; i < lines.length && lines[i].trim() && !/^(#{1,4}\s|```|\s*\||\s*([-*]|\d+\.)\s|>)/.test(lines[i]); i++) buf.push(lines[i]);
+    out += `<p>${inline(buf.join(" "))}</p>`;
+  }
+  return out;
+}
+
+$("d-close").onclick = closeDrawer;
+$("scrim").onclick = closeDrawer;
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+poll();
+setInterval(poll, POLL_MS);
+setInterval(() => board && stamp(), 15000);
+</script>
+</body>
+</html>

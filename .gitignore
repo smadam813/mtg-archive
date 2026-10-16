@@ -10,3 +10,9 @@ plugin/mtg-archive/evals/results/
 # Local Untapped.gg exports and raw downloads; git does not hold them (data/README.md)
 data/popularity/
 data/brawl-stats/
+
+# Software factory state and worktrees (.claude/skills/factory/SKILL.md)
+.worktrees/
+factory/board.json
+factory/board.json.tmp
+factory/jobs/
