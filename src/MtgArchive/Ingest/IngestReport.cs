@@ -11,8 +11,9 @@ namespace MtgArchive.Ingest;
 /// report. Fourteen items: new/changed card counts, drift detections,
 /// CR version found, stale cards, collection rows pointing at stale cards,
 /// unmatched search-lands, unmatched enters-tapped lands, unmatched opponent
-/// or combat sources, unprofiled card faces, response card faces, each Brawl format's legality
-/// counts and status changes, skipped popularity export rows, errors. The run carries the
+/// or combat sources, unprofiled card faces, response card faces, the legality counts and
+/// status changes of each Brawl format (Brawl, Competitive Brawl, Standard Brawl) and Standard,
+/// skipped popularity export rows, errors. The list keeps its wire name, <c>brawl_legality</c>. The run carries the
 /// report and never drops an item. Drift detections carry every detector's entries; <c>kind</c>
 /// tells them apart (<see cref="Banlist.BanlistDriftDetection"/>,
 /// <see cref="Bracket.GameChangersDriftDetection"/>); collection rows pointing at stale
@@ -30,7 +31,7 @@ public sealed record IngestReport(
     IReadOnlyList<UnmatchedOpponentSource> UnmatchedOpponentSources,
     IReadOnlyList<UnprofiledCard> UnprofiledCards,
     IReadOnlyList<ResponseCard> ResponseCards,
-    IReadOnlyList<BrawlLegalityReport> BrawlLegality,
+    [property: JsonPropertyName("brawl_legality")] IReadOnlyList<FormatLegalityReport> FormatLegality,
     IReadOnlyList<SkippedPopularityRow> SkippedPopularityRows,
     IReadOnlyList<string> Errors)
 {
@@ -77,13 +78,13 @@ public sealed record ResponseCard(Guid OracleId, string Name, string Face, bool 
 /// ban, an unban, or a rotation. A card with no prior row is not a change.
 /// Drift stays a Commander term, so an unversioned format has no drift entry.
 /// </summary>
-public sealed record BrawlLegalityReport(
+public sealed record FormatLegalityReport(
     Format Format,
     DateTimeOffset LegalityAsOf,
     int Legal,
     int Banned,
     int NotLegal,
-    IReadOnlyList<BrawlStatusChange> StatusChanges);
+    IReadOnlyList<LegalityStatusChange> StatusChanges);
 
 /// <summary>
 /// A popularity export row with stats that the popularity load phase did
@@ -103,9 +104,10 @@ public enum SkippedPopularityReason
     Duplicate,
 }
 
-/// <summary>A card whose main-role status in one Brawl format changed since
-/// the prior ingest.</summary>
-public sealed record BrawlStatusChange(Guid OracleId, string Name, LegalityStatus From, LegalityStatus To);
+/// <summary>A card whose main-role status changed since the prior ingest in
+/// one unversioned format: Brawl, Competitive Brawl, Standard Brawl, or
+/// Standard.</summary>
+public sealed record LegalityStatusChange(Guid OracleId, string Name, LegalityStatus From, LegalityStatus To);
 
 /// <summary>
 /// Collection rows whose <c>oracle_id</c> points at a stale card. The rows
@@ -141,7 +143,7 @@ public sealed class IngestReportBuilder
 
     public List<ResponseCard> ResponseCards { get; } = [];
 
-    public List<BrawlLegalityReport> BrawlLegality { get; } = [];
+    public List<FormatLegalityReport> FormatLegality { get; } = [];
 
     public List<SkippedPopularityRow> SkippedPopularityRows { get; } = [];
 
@@ -161,7 +163,7 @@ public sealed class IngestReportBuilder
         UnmatchedOpponentSources,
         UnprofiledCards,
         ResponseCards,
-        BrawlLegality,
+        FormatLegality,
         SkippedPopularityRows,
         Errors);
 }

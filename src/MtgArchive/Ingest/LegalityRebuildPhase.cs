@@ -124,7 +124,7 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
                 }
             }
 
-            var tallies = ScryfallKeys.ToDictionary(k => k.Format, k => new BrawlTally(k.Format));
+            var tallies = ScryfallKeys.ToDictionary(k => k.Format, k => new FormatLegalityTally(k.Format));
             foreach (var card in cards)
             {
                 foreach (var (format, key) in ScryfallKeys)
@@ -159,8 +159,8 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
             }
 
             await importer.CompleteAsync(cancellationToken);
-            context.Report.BrawlLegality.Clear();
-            context.Report.BrawlLegality.AddRange(ScryfallKeys.Select(k => tallies[k.Format].ToReport(asOf)));
+            context.Report.FormatLegality.Clear();
+            context.Report.FormatLegality.AddRange(ScryfallKeys.Select(k => tallies[k.Format].ToReport(asOf)));
         }
         finally
         {
@@ -172,13 +172,13 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
 
     /// <summary>One unversioned format's main-role counts and status changes,
     /// gathered as the rows stream.</summary>
-    private sealed class BrawlTally(Format format)
+    private sealed class FormatLegalityTally(Format format)
     {
         private int _legal;
         private int _banned;
         private int _notLegal;
 
-        public List<BrawlStatusChange> Changes { get; } = [];
+        public List<LegalityStatusChange> Changes { get; } = [];
 
         public void Count(LegalityStatus status)
         {
@@ -190,7 +190,7 @@ public sealed class LegalityRebuildPhase(ArchiveDbContext db) : IIngestPhase
             }
         }
 
-        public BrawlLegalityReport ToReport(DateTimeOffset asOf)
+        public FormatLegalityReport ToReport(DateTimeOffset asOf)
             => new(format, asOf, _legal, _banned, _notLegal,
                 [.. Changes.OrderBy(c => c.Name, StringComparer.Ordinal).ThenBy(c => c.OracleId)]);
     }
