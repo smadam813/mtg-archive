@@ -130,6 +130,12 @@ verbatim, outside `WireJson`'s policy). Only "the request can't be answered"
 is an error: quarantine rows and drift are report content inside 2xx
 responses.
 
+The format problems are all 400s. `unknown-format` names a value outside the
+five formats. `unversioned-format` rejects a `banlist_version` pin outside
+Commander. `unserved-format` rejects a known format a route does not serve
+yet, such as `standard` on a deck route. `commander-only` rejects every
+non-Commander format on `/bracket-classification`.
+
 ## Token economy
 
 Lean defaults, revisited only on measured need:

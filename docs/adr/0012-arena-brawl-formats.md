@@ -1,6 +1,6 @@
-# Four formats: Commander and the three Arena Brawl formats
+# Five formats: Commander, the three Arena Brawl formats, and Standard
 
-The archive served Commander only, and the vision listed "Formats other than Commander" as a non-goal. The skills could not answer a question about an MTG Arena Brawl deck. **Format becomes a dimension of the corpus, the index, and the simulation engine.** It has four values: `commander`, `brawl`, `competitive_brawl`, and `standard_brawl`. This ADR overturns that non-goal. The model is general. It held these four formats only until Standard joined as a fifth (see the 2026-10-15 note). One collection serves every format. A request that names no format means Commander, so the Commander skills, done-queries, and evals keep working unchanged.
+The archive served Commander only, and the vision listed "Formats other than Commander" as a non-goal. The skills could not answer a question about an MTG Arena Brawl deck. **Format becomes a dimension of the corpus, the index, and the simulation engine.** It first had four values: `commander`, `brawl`, `competitive_brawl`, and `standard_brawl`. A 2026-10-15 note adds `standard` as a fifth. This ADR overturns that non-goal. The model is general, and it holds only the formats this ADR names. One collection serves every format. A request that names no format means Commander, so the Commander skills, done-queries, and evals keep working unchanged.
 
 ## Format is a dimension of legality
 
