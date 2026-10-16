@@ -73,13 +73,25 @@ public sealed class MtgLookupSkillTests
         Assert.Single(Regex.Matches(SkillText, @"(?m)^## Format\s*$"));
 
         var section = Section("Format");
-        Assert.Contains("all four formats", section);
+        Assert.Contains("all five formats", section);
         Assert.Contains("`format`", section);
         Assert.Contains("cites `legality`, not a ban event", section);
 
         var outside = SkillText.Replace(section, "");
         Assert.DoesNotMatch(@"(?i)\bif\b[^.\n]*\bbrawl\b", outside);
         Assert.DoesNotMatch(@"(?i)\bin a brawl format\b", outside);
+    }
+
+    // Card detail returns five formats; a Standard row cites
+    // legality like a Brawl row, with no ban event or version pin.
+    [Fact]
+    public void A_standard_row_lives_in_the_format_section_and_cites_legality()
+    {
+        var section = Section("Format");
+        Assert.Contains("`standard`", section);
+        Assert.Contains("A `standard` row cites `legality`", section);
+        Assert.Contains("`standard_brawl`, and `standard`", section);
+        Assert.DoesNotContain("all four formats", SkillText);
     }
 
     [Fact]

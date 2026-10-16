@@ -67,7 +67,7 @@ Card detail's `legality` lists one row per format and role. Each row names its `
 
 ## Format
 
-- Card detail shows all four formats in one call: `commander`, `brawl`, `competitive_brawl`, and `standard_brawl`. Do not call it once per format.
+- Card detail shows all five formats in one call: `commander`, `brawl`, `competitive_brawl`, `standard_brawl`, and `standard`. Do not call it once per format.
 - Card search takes `format` in the body, with `commander` as the default. Send the format you read from the user's words. A Brawl format takes no `banlist_version`; a pin with one is a `400`.
 - A Commander `banned` row carries a `ban_event` citation. Fetch it:
 
@@ -79,6 +79,8 @@ Card detail's `legality` lists one row per format and role. Each row names its `
 - To ask about a past Commander banlist, pass `banlist_version=yyyy-MM-dd` on detail or in a search body. On detail, the pin changes the Commander rows only. An unknown version is a `400`, not a fallback. Report it.
 - A Brawl legality fact cites `legality`, not a ban event. A Brawl row carries no `ban_event`. Its `citation` is the `legality` citation, and the row holds `scryfall_key`, `scryfall_uri`, and `legality_as_of`. Cite every Brawl status this way, `legal` and `not_legal` too.
 - A Brawl format has no banlist history. For a past Brawl state, say the archive holds the current state only, as of `legality_as_of`.
+- A `standard` row cites `legality` like a Brawl row. It carries no `ban_event`, takes no `banlist_version`, and dates from `legality_as_of`. A `standard` search with a `banlist_version` is a `400`.
+- Standard is not Standard Brawl. Read the `standard` rows for Standard and the `standard_brawl` rows for Standard Brawl.
 - Footnotes: `ban_event` comes from a Commander legality row. `legality` comes from a Brawl legality row.
 - Versions block: card detail fills `banlist_version` for the Commander rows. For Brawl rows, take the as-of date from the row's `legality_as_of`.
 
