@@ -12,18 +12,12 @@
     --merged: #1f7a4a; --shadow: 0 1px 2px rgba(0,0,0,.05);
   }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
+    :root {
       --bg: #161615; --panel: #1f1f1d; --line: #33332f; --text: #ecece7; --muted: #9a9a92;
       --accent: #8ea6ff; --pass: #6fd39b; --pass-bg: #18301f; --chg: #f2b16b; --chg-bg: #35260f;
       --pend: #85857d; --human: #ff9a66; --human-bg: #2e1d14; --human-line: #6b3a20;
       --merged: #6fd39b; --shadow: none;
     }
-  }
-  :root[data-theme="dark"] {
-    --bg: #161615; --panel: #1f1f1d; --line: #33332f; --text: #ecece7; --muted: #9a9a92;
-    --accent: #8ea6ff; --pass: #6fd39b; --pass-bg: #18301f; --chg: #f2b16b; --chg-bg: #35260f;
-    --pend: #85857d; --human: #ff9a66; --human-bg: #2e1d14; --human-line: #6b3a20;
-    --merged: #6fd39b; --shadow: none;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
@@ -126,7 +120,7 @@
 </header>
 <main id="main"></main>
 <div class="scrim" id="scrim"></div>
-<aside class="drawer" id="drawer" aria-label="Job files">
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title">
   <div class="drawer-head">
     <div><h3 id="d-title"></h3><div class="sub mono" id="d-sub"></div></div>
     <button class="close" id="d-close">Close</button>
@@ -145,7 +139,7 @@ const REVIEWERS = [["security", "security"], ["ux", "ux"], ["ui", "ui"], ["code"
 const MARK = { PASS: "✓", CHANGES: "✕", pending: "…" };
 const POLL_MS = 2000;
 
-let board = null, lastText = "", lastOk = 0, openJob = null, openFile = null, drawerSeq = 0;
+let board = null, lastText = "", lastOk = 0, openJob = null, openFile = null, drawerSeq = 0, polling = false, shown = "";
 const reasons = {}; // job id + updated -> first reason line of decision.md
 
 const $ = id => document.getElementById(id);
@@ -159,6 +153,12 @@ async function get(path) {
 }
 
 async function poll() {
+  if (polling) return; // a slow response must not land after a newer one
+  polling = true;
+  try { await pollOnce(); } finally { polling = false; }
+}
+
+async function pollOnce() {
   const text = await get("board.json");
   if (text === null) {
     $("dot").className = "dot down";
@@ -261,7 +261,10 @@ function verdictOf(text) {
 async function openDrawer(id) {
   openJob = id;
   openFile = null;
+  shown = "";
   document.body.classList.add("open");
+  document.querySelector("header").inert = $("main").inert = true;
+  $("d-close").focus();
   await refreshDrawer();
 }
 
@@ -292,12 +295,20 @@ async function refreshDrawer() {
 function showFile(found) {
   $("d-files").querySelectorAll("button[data-f]").forEach(b => b.classList.toggle("on", b.dataset.f === openFile));
   const text = openFile ? found[openFile] : null;
+  const key = `${openFile}\n${text}`;
+  if (key === shown) return; // unchanged: keep the reader's scroll position
+  shown = key;
   $("d-doc").innerHTML = text === null ? `<p class="empty">No files yet.</p>` : md(text);
+  $("d-doc").scrollTop = 0;
 }
 
 function closeDrawer() {
+  if (!openJob) return;
+  const id = openJob;
   openJob = null;
   document.body.classList.remove("open");
+  document.querySelector("header").inert = $("main").inert = false;
+  document.querySelector(`.card[data-id="${CSS.escape(id)}"]`)?.focus();
 }
 
 /* ---------- tiny markdown ---------- */

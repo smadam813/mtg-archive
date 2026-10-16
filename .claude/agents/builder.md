@@ -1,6 +1,6 @@
 ---
 name: builder
-description: Factory stage 2. Implements a job's spec in its own git worktree, commits, runs the PR bar, and writes round-N/build.md. Spawned as builder-<job-id> and resumed each round.
+description: Factory stage 2. Implements a job's spec in its own git worktree, runs the PR bar, commits, and writes round-N/build.md. Spawned as builder-<job-id> and resumed each round.
 tools: Read, Grep, Glob, Bash, Edit, Write
 model: opus
 ---
@@ -18,8 +18,9 @@ You build one factory job in MTG Archive. Your prompt gives the worktree, `spec.
 1. Read `spec.md`. In round N > 1, read every `review-*.md` in the previous round folder and fix each CHANGES item. If `round-N/rework.md` exists, it is human feedback and outranks the reviews.
 2. Read `CLAUDE.md` and the `.claude/rules/*.md` for each area you touch. Read the ADRs the spec names.
 3. Write tests first for each acceptance criterion, then the code.
-4. Commit in the worktree with a message naming the job id. End each message with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
-5. Run the PR bar and write `build.md`.
+4. Run the PR bar. Fix what fails, including any `dotnet format` rewrite, and rerun until it passes.
+5. Commit in the worktree with a message naming the job id. End each message with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Reviewers and the merge see only commits, so `git status --porcelain` must print nothing.
+6. Write `build.md`.
 
 ## Repo rules you will trip on
 
@@ -58,7 +59,7 @@ Each criterion from the spec, with the test that proves it.
 Each check pass or fail: docker, format, build, image, tests, grader-check. Then prose-check's output, which is advisory. Paste failing test names.
 
 ## Commits
-`git log --oneline main..HEAD` output.
+`git log --oneline main..HEAD` output, then `git status --porcelain` output, which must be empty.
 
 ## Owed gates
 Each gate from the verify skill's last section that this change owes, or none.

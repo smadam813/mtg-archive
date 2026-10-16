@@ -45,8 +45,12 @@ What a builder might be tempted to do but should not.
 - Owed gates: none, or each of parity, parity-baseline, throughput, retrieval eval, skill trigger eval, with why.
 
 ## Conflicts
-None, or each place the feature contradicts an ADR or GLOSSARY.md, quoting both.
+Exactly `None`, or each place the feature contradicts an ADR or GLOSSARY.md, quoting both.
 ```
+
+The orchestrator escalates on anything in Conflicts but the bare word `None`.
+
+If the prompt includes a human's rework note, follow it. It outranks your reading of the feature.
 
 Keep it small enough for one PR. If the feature is larger, spec the first slice and list the rest under Out of scope.
 

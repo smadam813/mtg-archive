@@ -34,9 +34,9 @@ The shell's working directory persists between commands. So run git as `git -C "
 
 ## The PR bar
 
-The PR bar is `ROOT/.worktrees/<id>/.claude/skills/verify/SKILL.md` run from the worktree root. It covers the skill's five stages with no filter, then `grader-check.py`.
+The PR bar is defined once, under "The PR bar" in `ROOT/.claude/agents/builder.md`. Merge runs the same checks in the worktree.
 
-prose-check is advisory. Run it as `bash .claude/skills/verify/prose-check.sh main`. Factory merges never push, so `origin/main` lags local `main`.
+At merge the bar is check-only. If `dotnet format` would change a file, that is a failure; never fix it there. A worktree the bar leaves dirty is a failure too.
 
 ## Arguments
 
@@ -44,7 +44,7 @@ prose-check is advisory. Run it as `bash .claude/skills/verify/prose-check.sh ma
 |---|---|
 | empty | Resume every job whose stage is not `merged` or `needs-human`, in board order. |
 | `next` | Take the first line of backlog.md that starts with `- [ ]`. Create the job. Once its job folder exists, change that line to `- [x]` with ` → <id>` appended. Run it. Empty backlog: say so and stop. |
-| `approve <id>` | The job must be `needs-human` and have a build: `round` ≥ 1 and branch `factory/<id>` exists. Otherwise say so and suggest `/factory rework`. Append `Approved by a human via /factory approve on <date>.` to decision.md. Go to **Merge**. |
+| `approve <id>` | The job must be `needs-human` and have a build: `git -C "ROOT" rev-list --count main..factory/<id>` prints 1 or more. Otherwise say so and suggest `/factory rework`. Record the approval in decision.md (see **Decision history**). Go to **Merge**. |
 | `rework <id> <note>` | The job must be `needs-human`. Run the **Rework** step. |
 | anything else | It is a feature. Create the job and run it. |
 
@@ -56,6 +56,7 @@ prose-check is advisory. Run it as `bash .claude/skills/verify/prose-check.sh ma
 { "jobs": [ { "id": "003-rate-limiting", "title": "Rate-limit the search endpoints",
   "feature": "<the feature text, verbatim>", "branch": "factory/003-rate-limiting",
   "stage": "review", "round": 2, "updated": "2026-10-15T14:02:00Z",
+  "builder_agent": "<agent id or name>", "head": null,
   "reviews": [
     { "security": "CHANGES", "ux": "PASS", "ui": "PASS", "code": "PASS" },
     { "security": "pending", "ux": "PASS", "ui": "pending", "code": "PASS" } ] } ] }
@@ -63,6 +64,7 @@ prose-check is advisory. Run it as `bash .claude/skills/verify/prose-check.sh ma
 
 - `stage` is one of `spec`, `build`, `review`, `approval`, `merging`, `needs-human`, `merged`.
 - `reviews` has one entry per round. Each verdict is `pending`, `PASS`, or `CHANGES`.
+- `builder_agent` is how SendMessage reaches this job's builder. `head` is the commit Merge fast-forwards main to.
 - Write it atomically on every change. Write `ROOT/factory/board.json.tmp`, then run `mv -f "ROOT/factory/board.json.tmp" "ROOT/factory/board.json"`.
 - On Windows the rename fails while the dashboard server is reading board.json. It holds the file for milliseconds, so rerun the `mv` until it succeeds, up to five tries.
 - Update it on each stage change and as each reviewer's verdict lands, so the dashboard fills in live. Set `updated` each time.
@@ -86,13 +88,13 @@ If `jobs/<id>/spec.md` is missing, spawn `spec-writer` with the feature text, `R
 
 Then read the spec's `## Conflicts` section, whether you just wrote it or found it on disk. Anything but `None` sends the job to needs-human, with the conflict as the reason. CLAUDE.md says a human picks the side when a criterion contradicts an ADR or the glossary.
 
-Skip that check when `round-1/rework.md` exists. That note is the human's ruling on the conflict.
+Skip that check when `round-1/rework.md` exists. **Rework** writes it only after a spec exists, so it is the human's ruling on that spec's conflict.
 
 ### 2. Build (stage `build`)
 
 1. Start round N = `round + 1` in one board write: `stage: "build"`, `round: N`, and `{ "security": "pending", "ux": "pending", "ui": "pending", "code": "pending" }` appended to `reviews`. Then `mkdir -p` the round folder.
 2. Ensure the worktree. If `ROOT/.worktrees/<id>` is missing and branch `factory/<id>` exists, run `git -C "ROOT" worktree add .worktrees/<id> factory/<id>`. If neither exists, run `git -C "ROOT" worktree add -b factory/<id> .worktrees/<id> main`.
-3. Round 1: spawn `builder` with name `builder-<id>`. Later rounds: SendMessage to `builder-<id>`. If that builder no longer exists, spawn a fresh one with the same name; it picks up from the files and the worktree.
+3. Round 1: spawn `builder`. If the Agent tool takes a name, name it `builder-<id>`. Store that name, or else the returned agent id, as `builder_agent`. Later rounds: SendMessage to `builder_agent`. If that builder no longer exists, spawn a fresh one the same way; it picks up from the files and the worktree.
 4. The prompt gives the job id, the worktree path, the spec path, and the round folder. It also gives the previous round folder if N > 1, and the output path `round-N/build.md`. Say whether `round-N/rework.md` exists.
 
 ### 3. Review (stage `review`)
@@ -116,26 +118,34 @@ Spawn `approver` with the job folder, the worktree path, and the output path `RO
 
 Set `MSYS_NO_PATHCONV=1` in Git Bash. A failing command sends the job to needs-human with its output, unless the step says otherwise.
 
-0. If branch `factory/<id>` is gone, or `git -C "ROOT" merge-base --is-ancestor factory/<id> main` succeeds, the merge already happened. Skip to step 5.
+0. If the job's `head` is set and `git -C "ROOT" merge-base --is-ancestor <head> main` succeeds, the merge already happened. Skip to step 6.
 1. `git -C "ROOT" rev-parse --abbrev-ref HEAD` must print `main`. If not, the reason is "main checkout is not on main".
-2. Run `git -C "ROOT/.worktrees/<id>" rebase main`. On a conflict, run `git -C "ROOT/.worktrees/<id>" rebase --abort`. The reason names the conflicting files.
-3. Run the PR bar in the worktree. Use a 600000 ms timeout; a cold image build can take ten minutes. On a failure, the reason gives the failing stage and test names.
-4. Run `git -C "ROOT" merge --ff-only factory/<id>`. It fails when main moved or uncommitted edits in the main checkout block it. Either way, the reason is git's message.
-5. Set stage `merged`. Then clean up, skipping what is already gone: `git -C "ROOT" worktree remove --force .worktrees/<id>`, then `git -C "ROOT" branch -d factory/<id>`.
+2. `git -C "ROOT/.worktrees/<id>" status --porcelain` must print nothing. If not, the reason is "uncommitted changes in the worktree", with the list.
+3. Run `git -C "ROOT/.worktrees/<id>" rebase main`. On a conflict, run `git -C "ROOT/.worktrees/<id>" rebase --abort`. The reason names the conflicting files.
+4. Run the PR bar in the worktree, check-only. Use a 600000 ms timeout; a cold image build can take ten minutes. On a failure, the reason gives the failing stage and test names. Then check `status --porcelain` again, as in step 2.
+5. Store `git -C "ROOT/.worktrees/<id>" rev-parse HEAD` as the job's `head`. Run `git -C "ROOT" merge --ff-only <head>`. It fails when main moved or uncommitted edits in the main checkout block it. Either way, the reason is git's message.
+6. Set stage `merged`. Then clean up, skipping what is already gone: `git -C "ROOT" worktree remove --force .worktrees/<id>`, then `git -C "ROOT" branch -d factory/<id>`.
 
 The merge is local. Never push. A cleanup failure, often a Windows file lock, does not undo the merge. Report it with the command to rerun.
 
 ### Needs-human
 
-When you move a job to `needs-human` yourself, write `jobs/<id>/decision.md` first. It is `VERDICT: ESCALATE`, a blank line, then the reason. Then update the board, so the dashboard finds the reason. Report the job id and reason to the user, and go on to the next job.
+When you move a job to `needs-human` yourself, write `jobs/<id>/decision.md` first: `VERDICT: ESCALATE`, a blank line, then the reason. Then update the board, so the dashboard finds the reason. Report the job id and reason to the user, and go on to the next job.
+
+### Decision history
+
+decision.md's first line is always the newest verdict. Whenever you rewrite it, keep the old contents below, under `## Earlier`.
+
+For `/factory approve`, the new head is `VERDICT: APPROVE`, a blank line, then `Approved by a human via /factory approve on <date>.`
 
 ### Rework
 
 For `/factory rework <id> <note>` on a needs-human job:
 
-1. Let N be `round + 1`. Write `<note>` to `round-N/rework.md` under a `# Rework` heading.
-2. If spec.md is missing, run **Spec** first.
-3. Run **Build** for round N, then **Review**.
+1. Let N be `round + 1`.
+2. If spec.md is missing, run **Spec** first, and give the spec-writer the note with the feature text. The Conflicts check applies; a conflict escalates again.
+3. Write `<note>` to `round-N/rework.md` under a `# Rework` heading.
+4. Run **Build** for round N, then **Review**.
 
 A rework at round 0 follows a spec conflict. Round 1 is then an ordinary round: the builder reads the note, and a CHANGES earns round 2.
 
@@ -152,6 +162,8 @@ For `/factory` with no argument, continue each unfinished job from what is on di
 | `review` | Read each existing review file into the board. Spawn only the reviewers whose file is missing, then wait for all. |
 | `approval` | If decision.md was written after the last build.md, act on it. Else spawn approver. |
 | `merging` | Run **Merge**. Step 0 skips a merge that already happened. |
+
+On resume, use `builder_agent` from the board to reach the builder.
 
 ## Report
 

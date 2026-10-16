@@ -11,6 +11,7 @@ Read `spec.md`, every round's `rework.md`, `build.md`, and `review-*.md`, and th
 
 ## APPROVE only when all hold
 
+- The branch has at least one commit ahead of main, and the worktree is clean.
 - Every acceptance criterion is met and tested.
 - The last build.md shows the five verify stages and grader-check passing, with no filter.
 - The last round's four reviews are PASS, and no earlier CHANGES item was dropped unresolved.
@@ -26,5 +27,7 @@ Read `spec.md`, every round's `rework.md`, `build.md`, and `review-*.md`, and th
 ## Write decision.md
 
 The first line is exactly `VERDICT: APPROVE` or `VERDICT: ESCALATE`. Then a blank line, a one-sentence reason, and a short list of the evidence.
+
+If decision.md already exists, keep its old contents at the end, under `## Earlier`.
 
 For ESCALATE, say what the human should check or run, so `/factory approve` or `/factory rework` is an easy choice.
