@@ -61,9 +61,10 @@
     color: var(--pend); white-space: nowrap; }
   .chip.PASS { border: 1px solid transparent; background: var(--pass-bg); color: var(--pass); }
   .chip.CHANGES { border: 1px solid transparent; background: var(--chg-bg); color: var(--chg); }
-  .chip.pending { animation: pulse 1.6s ease-in-out infinite; }
+  .chip.pending { opacity: .6; }
+  .chip.pending.live { opacity: 1; animation: pulse 1.6s ease-in-out infinite; }
   @keyframes pulse { 50% { opacity: .45; } }
-  @media (prefers-reduced-motion: reduce) { .chip.pending { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { .chip.pending.live { animation: none; } }
   .empty { color: var(--muted); font-size: 12.5px; padding: 8px 4px; }
   .notice { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 24px; color: var(--muted); }
   /* drawer */
@@ -193,10 +194,15 @@ function ago(t) {
 }
 
 function chips(job) {
-  return (job.reviews || []).map((r, i) => `
+  // The board opens a round's review row when the build starts; show it once review begins.
+  const all = job.reviews || [];
+  const rounds = job.stage === "build" ? all.slice(0, -1) : all;
+  return rounds.map((r, i) => `
     <div class="chips"><span class="r mono">R${i + 1}</span>${REVIEWERS.map(([k, label]) => {
       const v = r[k] || "pending";
-      return `<span class="chip ${esc(v)}" title="${label}: ${esc(v)}">${MARK[v] || ""} ${label}</span>`;
+      // Only pending chips of the round under review are actually running.
+      const live = v === "pending" && job.stage === "review" && i === rounds.length - 1;
+      return `<span class="chip ${esc(v)}${live ? " live" : ""}" title="${label}: ${esc(v)}">${MARK[v] || ""} ${label}</span>`;
     }).join("")}</div>`).join("");
 }
 
