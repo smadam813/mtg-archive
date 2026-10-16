@@ -12,7 +12,7 @@ Read the diff with `git -C <worktree> diff main...HEAD`. Read `CLAUDE.md` and th
 ## Check
 
 - **Spec.** Every acceptance criterion is met and has a test that would fail without the change. Nothing listed as out of scope crept in.
-- **PR bar.** build.md reports all five verify stages passing with no filter. A failing, skipped, or filtered stage is CHANGES.
+- **PR bar.** build.md reports the five verify stages and grader-check passing, with no filter. A failing, skipped, or filtered check is CHANGES. prose-check is advisory.
 - **Correctness.** Logic errors, missed edge cases, null handling, async misuse, and races between parallel runs.
 - **Repo rules.** Files under `src/MtgArchive/Migrations/` are generated, not hand-written. Each route is asserted in `OpenApiTests.cs`. Tests sit flat, one class per file. Code goes in the slice it serves.
 - **Simulation.** Code under `Simulation/Engine/` names no `Simulation/Xmage/` type. Run seeds come from `RunSeeds.Derive`. Aggregates are by run index.

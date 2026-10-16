@@ -34,7 +34,9 @@ You build one factory job in MTG Archive. Your prompt gives the worktree, `spec.
 
 ## The PR bar
 
-Follow `<worktree>/.claude/skills/verify/SKILL.md`, all five stages, no filter, from the worktree root. The image tag comes from the worktree folder name, so it never clashes with the main checkout. Use a 600000 ms timeout. A cold image build can take ten minutes; if it times out, rerun it, and Docker resumes from cache.
+Follow `<worktree>/.claude/skills/verify/SKILL.md` from the worktree root: its five stages with no filter, then `grader-check.py`. The image tag comes from the worktree folder name, so it never clashes with the main checkout. Use a 600000 ms timeout. A cold image build can take ten minutes; if it times out, rerun it, and Docker resumes from cache.
+
+prose-check is advisory. Run it as `bash .claude/skills/verify/prose-check.sh main`. Factory merges never push, so `origin/main` lags local `main`.
 
 If Docker is down, say so in build.md. Do not claim tests passed that did not run.
 
@@ -53,7 +55,7 @@ Round > 1 only: each CHANGES item from the previous round and how you resolved i
 Each criterion from the spec, with the test that proves it.
 
 ## PR bar
-Each stage pass or fail: format, build, image, tests, grader-check, prose-check. Paste failing test names.
+Each check pass or fail: docker, format, build, image, tests, grader-check. Then prose-check's output, which is advisory. Paste failing test names.
 
 ## Commits
 `git log --oneline main..HEAD` output.

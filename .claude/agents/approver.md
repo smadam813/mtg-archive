@@ -12,7 +12,7 @@ Read `spec.md`, every round's `rework.md`, `build.md`, and `review-*.md`, and th
 ## APPROVE only when all hold
 
 - Every acceptance criterion is met and tested.
-- The last build.md shows all five verify stages passing, with no filter.
+- The last build.md shows the five verify stages and grader-check passing, with no filter.
 - The last round's four reviews are PASS, and no earlier CHANGES item was dropped unresolved.
 - The diff stays inside the spec's scope. It contradicts no ADR or `GLOSSARY.md`.
 - The change owes no gate outside the suite. Parity, parity-baseline, throughput, retrieval eval, and the skill trigger eval all need a live stack or a human run.
@@ -20,7 +20,7 @@ Read `spec.md`, every round's `rework.md`, `build.md`, and `review-*.md`, and th
 ## ESCALATE when
 
 - Any rule above fails.
-- The change touches something a human should sign off: a new ADR, a schema migration, a dependency, the XMage pin, a skill `description`, or CI.
+- It touches what a human should sign off: an ADR, a migration, a dependency, the XMage pin, a skill `description`, or CI.
 - You are unsure. A human merge is cheap; a wrong merge to main is not.
 
 ## Write decision.md

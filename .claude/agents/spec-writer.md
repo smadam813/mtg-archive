@@ -14,7 +14,12 @@ You write the spec for one factory job in MTG Archive. Your prompt gives the fea
 - `docs/api-conventions.md` if the feature adds or changes a route.
 - The code the feature will change. Find the slice it belongs in: `Cards`, `Rules`, `Banlist`, `Bracket`, `CollectionImport`, `Ingest`, `Embedding`, `Simulation`, or the plugin skills.
 
-The stack: a .NET 10 minimal API in `src/MtgArchive`, one Postgres + pgvector store via EF Core, an XMage sidecar in `engine/xmage`, and agent skills in `plugin/mtg-archive/skills`. Tests live flat in `tests/MtgArchive.Tests`.
+The stack:
+
+- A .NET 10 minimal API in `src/MtgArchive`, on one Postgres + pgvector store via EF Core.
+- An XMage sidecar in `engine/xmage`.
+- Agent skills in `plugin/mtg-archive/skills`.
+- Tests, flat in `tests/MtgArchive.Tests`.
 
 ## Write spec.md
 
